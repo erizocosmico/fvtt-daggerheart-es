@@ -475,18 +475,21 @@
                 },
                 "takeLevelUp": "Finish Level Up",
                 "tier2": {
+                    "name": "Tier 2",
                     "label": "Levels 2-4",
                     "infoLabel": "At Level 2, gain an additional Experience at +2 and gain a +1 bonus to your Proficiency.",
                     "pretext": "Choose two options from the list below",
                     "posttext": "Take an additional domain card of your level or lower from a domain you have access to."
                 },
                 "tier3": {
+                    "name": "Tier 3",
                     "label": "Levels 5-7",
                     "infoLabel": "At Level 5, take an additional Experience and clear all marks on Character Traits.",
                     "pretext": "When you level up, record it on your character sheet, then choose two from the list below or any unmarked from the previous tier.",
                     "posttext": "Take an additional domain card of your level or lower from a domain you have access to."
                 },
                 "tier4": {
+                    "name": "Tier 4",
                     "label": "Levels 8-10",
                     "infoLabel": "At Level 8, take an additional Experience and clear all marks on Character Traits.",
                     "pretext": "When you level up, record it on your character sheet, then choose two from the list below or any unmarked from the previous tier.",
@@ -1894,6 +1897,7 @@
             "amount": "Amount",
             "any": "Any",
             "armor": "Armor",
+            "armors": "Armors",
             "armorScore": "Armor Score",
             "activeEffects": "Active Effects",
             "armorSlots": "Armor Slots",
@@ -1944,6 +1948,7 @@
             "inactiveEffects": "Inactive Effects",
             "inventory": "Inventory",
             "itemResource": "Item Resource",
+            "items": "Items",
             "label": "Label",
             "level": "Level",
             "levelShort": "Lv",
@@ -1955,6 +1960,7 @@
                 "plural": "Miss"
             },
             "maxWithThing": "Max {thing}",
+            "missingDragDropThing": "Drop {thing} here",
             "multiclass": "Multiclass",
             "newCategory": "New Category",
             "none": "None",
@@ -1976,6 +1982,7 @@
             "scalable": "Scalable",
             "situationalBonus": "Situational Bonus",
             "stress": "Stress",
+            "subclasses": "Subclasses",
             "success": "Success",
             "take": "Take",
             "Target": {
@@ -1993,6 +2000,7 @@
             "used": "Used",
             "uses": "Uses",
             "value": "Value",
+            "weapons": "Weapons",
             "withThing": "With {thing}"
         },
         "ITEMS": {
@@ -2371,7 +2379,8 @@
                 "insufficientResources": "You have insufficient resources",
                 "multiclassAlreadyPresent": "You already have a class and multiclass",
                 "subclassesAlreadyPresent": "You already have a class and multiclass subclass",
-                "noDiceSystem": "Your selected dice {system} does not have a {faces} dice"
+                "noDiceSystem": "Your selected dice {system} does not have a {faces} dice",
+                "subclassAlreadyLinked": "{name} is already a subclass in the class {class}. Remove it from there if you want it to be a subclass to this class."
             },
             "Tooltip": {
                 "disableEffect": "Disable Effect",
