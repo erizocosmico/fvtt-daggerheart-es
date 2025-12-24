@@ -36,6 +36,7 @@
     },
 
     "DAGGERHEART": {
+        "CharacterSheet": "Character Sheet",
         "ACTIONS": {
             "TYPES": {
                 "attack": {
@@ -45,6 +46,10 @@
                 "beastform": {
                     "name": "Beastform",
                     "tooltip": "Shapeshift the user into another form."
+                },
+                "countdown": {
+                    "name": "Countdown",
+                    "tooltip": "Start a countdown"
                 },
                 "damage": {
                     "name": "Damage",
@@ -73,6 +78,10 @@
                     "exactHint": "The Character's Tier is used if empty",
                     "label": "Beastform"
                 },
+                "countdown": {
+                    "defaultOwnership": "Default Ownership",
+                    "startCountdown": "Start Countdown"
+                },
                 "damage": {
                     "multiplier": "Multiplier",
                     "flatMultiplier": "Flat Multiplier"
@@ -95,6 +104,7 @@
             "Settings": {
                 "attackBonus": "Attack Bonus",
                 "attackName": "Attack Name",
+                "criticalThreshold": "Critical Threshold",
                 "includeBase": { "label": "Include Item Damage" },
                 "multiplier": "Multiplier",
                 "saveHint": "Set a default Trait to enable Reaction Roll. It can be changed later in Reaction Roll Dialog.",
@@ -122,7 +132,8 @@
             "RangeDependance": {
                 "hint": "Settings for an optional distance at which this effect should activate",
                 "title": "Range Dependant"
-            }
+            },
+            "immuneStatusText": "Immunity: {status}"
         },
         "ACTORS": {
             "Adversary": {
@@ -216,7 +227,8 @@
                 },
                 "viewLevelups": "View Levelups",
                 "InvalidOldCharacterImportTitle": "Old Character Import",
-                "InvalidOldCharacterImportText": "Character data exported prior to system version 1.1 will not generate a complete character. Do you wish to continue?"
+                "InvalidOldCharacterImportText": "Character data exported prior to system version 1.1 will not generate a complete character. Do you wish to continue?",
+                "cancelBeastform": "Cancel Beastform"
             },
             "Companion": {
                 "FIELDS": {
@@ -316,24 +328,31 @@
                 "toLoadout": "Send to Loadout",
                 "toVault": "Send to Vault",
                 "unequip": "Unequip",
-                "useItem": "Use Item",
-                "cancelBeastform": "Cancel Beastform"
+                "useItem": "Use Item"
             },
             "Countdown": {
                 "addCountdown": "Add Countdown",
+                "loopingTypes": {
+                    "noLooping": "No Looping",
+                    "looping": "Looping",
+                    "increasing": "Increasing",
+                    "decreasing": "Decreasing"
+                },
                 "FIELDS": {
                     "countdowns": {
                         "element": {
                             "name": { "label": "Name" },
                             "progress": {
                                 "current": { "label": "Current" },
-                                "max": { "label": "Max" },
+                                "looping": { "label": "Looping" },
+                                "start": { "label": "Start" },
+                                "startFormula": { "label": "Start Formula" },
                                 "type": {
                                     "label": { "label": "Label", "hint": "Used for custom" },
                                     "value": { "label": "Value" }
                                 }
                             },
-                            "type": { "label": "Countdown Type" }
+                            "type": { "label": "Progression Type" }
                         }
                     }
                 },
@@ -355,17 +374,21 @@
                 "newCountdown": "New Countdown",
                 "removeCountdownTitle": "Remove Countdown",
                 "removeCountdownText": "Are you sure you want to remove the countdown: {name}?",
-                "current": "Current",
-                "max": "Max",
-                "currentCountdownValue": "Current: {value}",
-                "currentCountdownMax": "Max: {value}",
+                "current": "Current Value",
+                "start": "Start Value",
+                "startFormula": "Randomized Start Value Formula",
+                "currentCountdownCurrent": "Current: {value}",
+                "currentCountdownStart": "Start: {value}",
                 "category": "Category",
-                "type": "Type",
+                "progressionType": "Progression",
+                "decreasing": "Decreasing",
+                "looping": "Looping",
                 "defaultOwnershipTooltip": "The default player ownership of countdowns",
                 "hideNewCountdowns": "Hide New Countdowns"
             },
             "DaggerheartMenu": {
-                "title": "GM Tools"
+                "title": "GM Tools",
+                "refreshFeatures": "Refresh Features"
             },
             "DeleteConfirmation": {
                 "title": "Delete {type} - {name}",
@@ -379,7 +402,8 @@
                 "stressReduction": "Reduce By Stress",
                 "title": "Damage Reduction",
                 "unncessaryStress": "You don't need to expend stress",
-                "usedMarks": "Used Marks"
+                "usedMarks": "Used Marks",
+                "reduceSeverity": "Severity Reduced By {nr}"
             },
             "DeathMove": {
                 "selectMove": "Select Move",
@@ -447,6 +471,9 @@
                 "title": "Select Image",
                 "selectImage": "Select Image"
             },
+            "ItemTransfer": {
+                "transfer": "Transfer"
+            },
             "Levelup": {
                 "actions": {
                     "creatureComfort": {
@@ -479,6 +506,7 @@
                 },
                 "navigateLevel": "To Level {level}",
                 "navigateToLevelup": "Return To Levelup",
+                "finishLevelup": "Finish Levelup",
                 "navigateToSummary": "To Summary",
                 "options": {
                     "trait": "Gain a +1 bonus to two unmarked character traits and mark them.",
@@ -558,6 +586,7 @@
             },
             "OwnershipSelection": {
                 "title": "Ownership Selection - {name}",
+                "noPlayers": "No players to assign ownership to",
                 "default": "Default Ownership"
             },
             "ReactionRoll": {
@@ -584,6 +613,9 @@
                 "insufficientHope": "The initiating character doesn't have enough hope",
                 "createTagTeam": "Create TagTeam Roll",
                 "chatMessageRollTitle": "Roll"
+            },
+            "TokenConfig": {
+                "actorSizeUsed": "Actor size is set, determining the dimensions"
             }
         },
         "CLASS": {
@@ -593,11 +625,6 @@
             }
         },
         "CONFIG": {
-            "ActionType": {
-                "passive": "Passive",
-                "action": "Action",
-                "reaction": "Reaction"
-            },
             "AdversaryTrait": {
                 "relentless": {
                     "name": "Relentless",
@@ -656,6 +683,14 @@
                     "label": "Support",
                     "description": "Enemies that enhance their allies and/or disrupt their opponents."
                 }
+            },
+            "AdversaryTypeCost": {
+                "minion": "for each group of Minions equal to the size of the party.",
+                "support": "for each Social or Support adversary.",
+                "standard": "for each Horde, Ranged, Skulk, or Standard adversary.",
+                "leader": "for each Leader adversary.",
+                "bruiser": "for each Bruiser adversary.",
+                "solo": "for each Solo adversary."
             },
             "ArmorFeature": {
                 "burning": {
@@ -880,6 +915,30 @@
                 "evolved": "Evolved",
                 "hybrid": "Hybrid"
             },
+            "BPModifiers": {
+                "increaseDamage": {
+                    "description": "if you add +1d4 (or a static +2) to all adversaries' damage rolls (to increase the challenge without lengthening the battle)",
+                    "effect": {
+                        "name": "Increase Damage",
+                        "description": "Add 1d4 to damage"
+                    }
+                },
+                "lessDifficult": {
+                    "description": "if the fight should be less difficult or shorter."
+                },
+                "lowerTier": {
+                    "description": "if you choose an adversary from a lower tier."
+                },
+                "manySolos": {
+                    "description": "if you're using 2 or more Solo adversaries."
+                },
+                "moreDangerous": {
+                    "description": "if the fight should be more dangerous or last longer"
+                },
+                "noToughies": {
+                    "description": "if you don't include any Bruisers, Hordes, Leaders, or Solos"
+                }
+            },
             "Burden": {
                 "oneHanded": "One-Handed",
                 "twoHanded": "Two-Handed"
@@ -915,9 +974,12 @@
                 }
             },
             "CountdownType": {
-                "spotlight": "Spotlight",
+                "actionRoll": "Action Roll",
+                "characterAttack": "Character Attack",
+                "characterSpotlight": "Character Spotlight",
                 "custom": "Custom",
-                "characterAttack": "Character Attack"
+                "fear": "Fear",
+                "spotlight": "Spotlight"
             },
             "DamageType": {
                 "physical": {
@@ -971,6 +1033,12 @@
                     "description": ""
                 }
             },
+            "FeatureForm": {
+                "label": "Feature Form",
+                "passive": "Passive",
+                "action": "Action",
+                "reaction": "Reaction"
+            },
             "Gold": {
                 "title": "Gold",
                 "coins": "Coins",
@@ -1011,7 +1079,8 @@
             },
             "ItemResourceType": {
                 "simple": "Simple",
-                "diceValue": "Dice Value"
+                "diceValue": "Dice Value",
+                "die": "Die"
             },
             "Range": {
                 "self": {
@@ -1082,6 +1151,14 @@
                 "inFront": "In Front",
                 "rect": "Rectangle",
                 "ray": "Ray"
+            },
+            "TokenSize": {
+                "tiny": "Tiny",
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large",
+                "huge": "Huge",
+                "gargantuan": "Gargantuan"
             },
             "Traits": {
                 "agility": {
@@ -1192,7 +1269,7 @@
                 },
                 "burning": {
                     "name": "Burning",
-                    "description": "When you roll the maximum value on a damage die, roll an additional damage die.",
+                    "description": "When you roll a 6 on a damage die, the target must mark a Stress.",
                     "actions": {
                         "burn": {
                             "name": "Burn",
@@ -1738,6 +1815,7 @@
                 "plural": "Costs"
             },
             "Damage": {
+                "massive": "Massive",
                 "severe": "Severe",
                 "major": "Major",
                 "minor": "Minor",
@@ -2003,6 +2081,7 @@
             "basics": "Basics",
             "bonus": "Bonus",
             "burden": "Burden",
+            "condition": "Condition",
             "continue": "Continue",
             "criticalSuccess": "Critical Success",
             "criticalShort": "Critical",
@@ -2029,6 +2108,7 @@
             "fear": "Fear",
             "features": "Features",
             "formula": "Formula",
+            "general": "General",
             "gm": "GM",
             "healing": "Healing",
             "healingRoll": "Healing Roll",
@@ -2043,6 +2123,7 @@
             },
             "hope": "Hope",
             "hordeHp": "Horde HP",
+            "icon": "Icon",
             "identify": "Identity",
             "imagePath": "Image Path",
             "inactiveEffects": "Inactive Effects",
@@ -2064,6 +2145,7 @@
             "missingDragDropThing": "Drop {thing} here",
             "multiclass": "Multiclass",
             "newCategory": "New Category",
+            "newThing": "New {thing}",
             "none": "None",
             "noTarget": "No current target",
             "partner": "Partner",
@@ -2078,6 +2160,7 @@
             "recovery": "Recovery",
             "refresh": "Refresh",
             "reroll": "Reroll",
+            "rerolled": "Rerolled",
             "rerollThing": "Reroll {thing}",
             "resource": "Resource",
             "roll": "Roll",
@@ -2098,10 +2181,12 @@
                 "plural": "Targets"
             },
             "title": "Title",
+            "tokenSize": "Token Size",
             "total": "Total",
             "traitModifier": "Trait Modifier",
             "true": "True",
             "type": "Type",
+            "typeSheet": "System {type} Sheet",
             "unarmed": "Unarmed",
             "unarmedAttack": "Unarmed Attack",
             "unarmored": "Unarmored",
@@ -2154,6 +2239,7 @@
                     "tokenRingImg": { "label": "Subject Texture" },
                     "tokenSize": {
                         "placeholder": "Using character dimensions",
+                        "disabledPlaceholder": "Set by character size",
                         "height": { "label": "Height" },
                         "width": { "label": "Width" }
                     },
@@ -2177,7 +2263,11 @@
                 "evolvedDrag": "Drag a form here to evolve it.",
                 "hybridize": "Hybridize",
                 "hybridizeFeatureTitle": "Hybrid Features",
-                "hybridizeDrag": "Drag a form here to hybridize it."
+                "hybridizeDrag": "Drag a form here to hybridize it.",
+                "mainTrait": "Main Trait",
+                "traitBonus": "Trait Bonus",
+                "evolvedTokenHint": "An evolved beastform's token is based on that of the form you evolve",
+                "evolvedImagePlaceholder": "The image for the form selected for evolution will be used"
             },
             "Class": {
                 "hopeFeatures": "Hope Features",
@@ -2286,6 +2376,10 @@
                         "gm": { "label": "GM" },
                         "players": { "label": "Players" }
                     },
+                    "countdownAutomation": {
+                        "label": "Countdown Automation",
+                        "hint": "Automatically progress countdowns based on their progression settings"
+                    },
                     "levelupAuto": {
                         "label": "Levelup Automation",
                         "hint": "When you've made your choices and finish levelup, the numerical changes are automatically applied to your character."
@@ -2349,8 +2443,8 @@
                 "newDowntimeMove": "Downtime Move",
                 "downtimeMove": "Downtime Move",
                 "armorFeature": "Armor Feature",
-                "weaponFeature": "Weapon Feaure",
-                "newFeature": "New ItemFeature",
+                "weaponFeature": "Weapon Feature",
+                "newFeature": "New Item Feature",
                 "downtimeMoves": "Downtime Moves",
                 "itemFeatures": "Item Features",
                 "nrChoices": "# Moves Per Rest",
@@ -2366,11 +2460,13 @@
                     "maxDomains": { "label": "Max Class Domains", "hint": "Max domains you can set on a class" }
                 },
                 "currency": {
-                    "enabled": "Enable Overrides",
                     "title": "Currency Overrides",
+                    "changeIcon": "Change Currency Icon",
                     "currencyName": "Currency Name",
                     "coinName": "Coin Name",
                     "handfulName": "Handful Name",
+                    "iconName": "Icon Name",
+                    "iconNameHint": "Icons are from fontawesome",
                     "bagName": "Bag Name",
                     "chestName": "Chest Name"
                 },
@@ -2422,7 +2518,8 @@
                         "texture": "Texture",
                         "colorset": "Theme",
                         "material": "Material",
-                        "system": "Dice Preset"
+                        "system": "Dice Preset",
+                        "font": "Font"
                     }
                 },
                 "variantRules": {
@@ -2431,6 +2528,11 @@
                     "hint": "Apply variant rules from the Daggerheart system",
                     "name": "Variant Rules",
                     "actionTokens": "Action Tokens"
+                },
+                "SpotlightRequestQueue": {
+                    "name": "Spotlight Request Queue",
+                    "label": "Spotlight Request Queue",
+                    "hint": "Adds more structure to spotlight requests by ordering them from oldest to newest"
                 }
             },
             "Resources": {
@@ -2444,6 +2546,10 @@
                     "actionTokens": {
                         "enabled": { "label": "Enabled" },
                         "tokens": { "label": "Tokens" }
+                    },
+                    "massiveDamage": {
+                        "title": "Massive Damage",
+                        "enabled": { "label": "Enabled" }
                     }
                 }
             },
@@ -2503,7 +2609,8 @@
                     "abilityCheckTitle": "{ability} Check"
                 },
                 "effectSummary": {
-                    "title": "Effects Applied"
+                    "title": "Effects Applied",
+                    "immunityTo": "Immunity: {immunities}"
                 },
                 "featureTitle": "Class Feature",
                 "groupRoll": {
@@ -2515,7 +2622,8 @@
                     "selectMember": "Select a Member",
                     "rerollTitle": "Reroll Group Roll",
                     "rerollContent": "Are you sure you want to reroll your {trait} check?",
-                    "rerollTooltip": "Reroll"
+                    "rerollTooltip": "Reroll",
+                    "wholePartySelected": "The whole party is selected"
                 },
                 "healingRoll": {
                     "title": "Heal - {damage}",
@@ -2546,7 +2654,14 @@
             "Countdowns": {
                 "title": "Countdowns",
                 "toggleIconMode": "Toggle Icon Only",
-                "noPlayerAccess": "This countdown isn't visible to any players"
+                "noPlayerAccess": "This countdown isn't visible to any players",
+                "loop": "Looping",
+                "decreasingLoop": "Decreasing Looping",
+                "increasingLoop": "Increasing Looping"
+            },
+            "EffectsDisplay": {
+                "removeThing": "[Right Click] Remove {thing}",
+                "appliedBy": "Applied By: {by}"
             },
             "ItemBrowser": {
                 "title": "Daggerheart Compendium Browser",
@@ -2570,6 +2685,7 @@
                 "evasionMin": "Evasion (Min)",
                 "evasionMax": "Evasion (Max)",
                 "subtype": "Subtype",
+                "missing": "<i>Missing</i>",
                 "folders": {
                     "characters": "Characters",
                     "adversaries": "Adversaries",
@@ -2623,7 +2739,7 @@
                 "cardTooHighLevel": "The card is too high level!",
                 "duplicateCard": "You cannot select the same card more than once.",
                 "duplicateCharacter": "This actor is already registered in the party members list.",
-                "onlyCharactersInPartySheet": "You can drag only characters to a party sheet.",
+                "onlyCharactersInPartySheet": "You can only drag characters, companions and adversaries to the party sheet.",
                 "notPrimary": "The weapon is not a primary weapon!",
                 "notSecondary": "The weapon is not a secondary weapon!",
                 "itemTooHighTier": "The item must be from Tier1",
@@ -2660,9 +2776,16 @@
                 "subclassAlreadyLinked": "{name} is already a subclass in the class {class}. Remove it from there if you want it to be a subclass to this class.",
                 "gmRequired": "This action requires an online GM",
                 "gmOnly": "This can only be accessed by the GM",
-                "noActorOwnership": "You do not have permissions for this character"
+                "noActorOwnership": "You do not have permissions for this character",
+                "documentIsMissing": "The {documentType} is missing from the world."
             },
             "Sidebar": {
+                "actorDirectory": {
+                    "tier": "Tier {tier} {type}",
+                    "character": "Level {level} Character",
+                    "companion": "Level {level} - {partner}",
+                    "companionNoPartner": "No Partner"
+                },
                 "daggerheartMenu": {
                     "title": "Daggerheart Menu",
                     "startSession": "Start Session",
@@ -2696,7 +2819,10 @@
                 "rightClickExtand": "Right-Click to extand",
                 "companionPartnerLevelBlock": "The companion needs an assigned partner to level up.",
                 "configureAttribution": "Configure Attribution",
-                "deleteItem": "Delete Item"
+                "deleteItem": "Delete Item",
+                "immune": "Immune",
+                "middleClick": "[Middle Click] Keep tooltip view",
+                "tokenSize": "The token size used on the canvas"
             }
         }
     }

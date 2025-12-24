@@ -57,6 +57,10 @@
                 "summon": {
                     "name": "Invocar",
                     "tooltip": "Crear tokens en la escena."
+                },
+                "countdown": {
+                    "name": "Cuenta atrásd",
+                    "tooltip": "Empezar una cuenta atrás"
                 }
             },
             "Config": {
@@ -73,6 +77,10 @@
                 "general": {
                     "customFormula": "Fórmula personalizada",
                     "formula": "Fórmula"
+                },
+                "countdown": {
+                    "defaultOwnership": "Permisos por defecto",
+                    "startCountdown": "Empezar cuenta atrás"
                 }
             },
             "RollField": {
@@ -104,7 +112,8 @@
                 "cost": {
                     "stepTooltip": "+{step} por avance"
                 },
-                "_saveHint": "Set a default Trait to enable Reaction Roll. It can be changed later in Reaction Roll Dialog."
+                "_saveHint": "Set a default Trait to enable Reaction Roll. It can be changed later in Reaction Roll Dialog.",
+                "_criticalThreshold": "Critical Threshold"
             }
         },
         "ACTIVEEFFECT": {
@@ -116,7 +125,8 @@
             "RangeDependance": {
                 "hint": "Configuración de una distancia opcional a la que este efecto debería activarse",
                 "title": "Dependiente de distancia"
-            }
+            },
+            "_immuneStatusText": "Immunity: {status}"
         },
         "ACTORS": {
             "Adversary": {
@@ -246,7 +256,8 @@
                 "InvalidOldCharacterImportText": "Los datos de personaje exportados antes de la versión 1.1 no generarán un personaje completo. ¿Quieres continuar?",
                 "backgroundQuestions": "Trasfondos",
                 "connections": "Conexiones",
-                "viewLevelups": "Ver subidas de nivel"
+                "viewLevelups": "Ver subidas de nivel",
+                "cancelBeastform": "Cancelar Forma Bestial"
             },
             "Companion": {
                 "FIELDS": {
@@ -381,6 +392,15 @@
                                     "value": {
                                         "label": "Valor"
                                     }
+                                },
+                                "looping": {
+                                    "label": "Repetición"
+                                },
+                                "start": {
+                                    "label": "Empezar"
+                                },
+                                "startFormula": {
+                                    "label": "Empezar fórmula"
                                 }
                             },
                             "type": {
@@ -398,6 +418,12 @@
                 "types": {
                     "narrative": "Narrativa",
                     "encounter": "Encuentro"
+                },
+                "loopingTypes": {
+                    "noLooping": "No repetir",
+                    "looping": "Repetir",
+                    "increasing": "Creciente",
+                    "decreasing": "Decreciente"
                 }
             },
             "DeleteConfirmation": {
@@ -412,7 +438,8 @@
                 "stressReduction": "Reducir con Estrés",
                 "title": "Reducción del daño",
                 "unncessaryStress": "No necesitas gastar Estrés",
-                "usedMarks": "Marcas usadas"
+                "usedMarks": "Marcas usadas",
+                "_reduceSeverity": "Severity Reduced By {nr}"
             },
             "DeathMove": {
                 "selectMove": "Seleccionar movimiento",
@@ -578,7 +605,8 @@
                     "name": "Rango 4"
                 },
                 "title": "Subida de nivel de {actor}",
-                "_viewModeTitle": "{actor} Level Up (View Mode)"
+                "viewModeTitle": "Subida de nivel de {actor} (Ver)",
+                "finishLevelup": "Finalizar subida"
             },
             "MulticlassChoice": {
                 "title": "Multiclase - {actor}",
@@ -587,7 +615,8 @@
             },
             "OwnershipSelection": {
                 "title": "Selección de permisos - {name}",
-                "default": "Permisos por defecto"
+                "default": "Permisos por defecto",
+                "noPlayers": "No hay jugadores a los que asignar permisos"
             },
             "ReactionRoll": {
                 "title": "Tirada de Reacción: {trait}"
@@ -618,10 +647,18 @@
                 "category": "Categoría",
                 "type": "Tipo",
                 "defaultOwnershipTooltip": "Los permisos por defecto de los contadores para los jugadores",
-                "hideNewCountdowns": "Ocultar nuevos contadores"
+                "hideNewCountdowns": "Ocultar nuevos contadores",
+                "start": "Valor inicial",
+                "startFormula": "Fórmula de valor inicial aleatorio",
+                "currentCountdownCurrent": "Actual: {value}",
+                "currentCountdownStart": "Inicial: {value}",
+                "progressionType": "Progresión",
+                "decreasing": "Decreciente",
+                "looping": "Repetición"
             },
             "DaggerheartMenu": {
-                "title": "Herramientas de DJ"
+                "title": "Herramientas de DJ",
+                "_refreshFeatures": "Refresh Features"
             },
             "ImageSelect": {
                 "title": "Seleccionar imagen",
@@ -639,6 +676,12 @@
                 "insufficientHope": "El personaje iniciante no tiene suficiente esperanza",
                 "createTagTeam": "Crear tirada de relevos",
                 "chatMessageRollTitle": "Tirada"
+            },
+            "ItemTransfer": {
+                "transfer": "Transferir"
+            },
+            "TokenConfig": {
+                "actorSizeUsed": "Tamaño del actor especificado, determinando las dimensiones"
             }
         },
         "CLASS": {
@@ -972,7 +1015,10 @@
             "CountdownType": {
                 "spotlight": "Foco",
                 "custom": "Personalizado",
-                "characterAttack": "Ataque de personaje"
+                "characterAttack": "Ataque de personaje",
+                "actionRoll": "Tirada de acción",
+                "characterSpotlight": "Foco del personaje",
+                "fear": "Miedo"
             },
             "DamageType": {
                 "physical": {
@@ -1066,7 +1112,8 @@
             },
             "ItemResourceType": {
                 "simple": "Simple",
-                "diceValue": "Valor de dado"
+                "diceValue": "Valor de dado",
+                "die": "Dado"
             },
             "Range": {
                 "self": {
@@ -1705,6 +1752,52 @@
                 "friendly": "Amistoso",
                 "hostile": "Hostil",
                 "self": "Personal"
+            },
+            "AdversaryTypeCost": {
+                "minion": "por cada grupo de Esbirros igual al tamaño del grupo.",
+                "support": "por cada adversario Social o Soporte.",
+                "standard": "por cada adversario Horda, Tirador, Acechador o Estándar.",
+                "leader": "por cada adversario Líder.",
+                "bruiser": "por cada adversario Matón.",
+                "solo": "por cada adversario Individual."
+            },
+            "BPModifiers": {
+                "increaseDamage": {
+                    "description": "si añades +1d4 (o +2 fijo) a las tiradas de daño de los adversarios (para incrementar el desafío sin alargar la batalla)",
+                    "effect": {
+                        "name": "Incrementar el daño",
+                        "description": "Añadir 1d4 al daño"
+                    }
+                },
+                "lessDifficult": {
+                    "description": "si la pelea debería ser más sencilla o corta."
+                },
+                "lowerTier": {
+                    "description": "si escoges un adversario de un rango menor."
+                },
+                "manySolos": {
+                    "description": "si estás usando 2 o más adversarios Individuales."
+                },
+                "moreDangerous": {
+                    "description": "si la lucha debería ser más peligrosa o más larga"
+                },
+                "noToughies": {
+                    "description": "si no incluyes Matones, Hordas, Líderes o Individuales"
+                }
+            },
+            "FeatureForm": {
+                "label": "Forma de rasgo",
+                "passive": "Pasiva",
+                "action": "Acción",
+                "reaction": "Reacción"
+            },
+            "TokenSize": {
+                "tiny": "Diminuto",
+                "small": "Pequeño",
+                "medium": "Mediano",
+                "large": "Grande",
+                "huge": "Enorme",
+                "gargantuan": "Gargantuesco"
             }
         },
         "EFFECTS": {
@@ -1801,7 +1894,8 @@
                 "physicalDamage": "Daño Físico",
                 "magicalDamage": "Daño Mágico",
                 "primaryWeapon": "Daño del arma principal",
-                "secondaryWeapon": "Daño del arma secundaria"
+                "secondaryWeapon": "Daño del arma secundaria",
+                "massive": "Masivo"
             },
             "DamageResistance": {
                 "none": "Ninguna",
@@ -2171,7 +2265,14 @@
             "spent": "Gastar",
             "step": "Paso",
             "traitModifier": "Modificador de rasgo",
-            "weaponFeatures": "Rasgos del arma"
+            "weaponFeatures": "Rasgos del arma",
+            "condition": "Condición",
+            "general": "General",
+            "icon": "Icono",
+            "newThing": "Nuevo/a {thing}",
+            "rerolled": "Tirado de nuevo",
+            "tokenSize": "Tamaño de la ficha",
+            "typeSheet": "Hoja de {type} del sistema"
         },
         "ITEMS": {
             "FIELDS": {
@@ -2255,7 +2356,8 @@
                         },
                         "width": {
                             "_label": "Width"
-                        }
+                        },
+                        "_disabledPlaceholder": "Set by character size"
                     },
                     "evolved": {
                         "maximumTier": {
@@ -2287,7 +2389,11 @@
                 "_evolvedDrag": "Drag a form here to evolve it.",
                 "_hybridize": "Hybridize",
                 "_hybridizeFeatureTitle": "Hybrid Features",
-                "_hybridizeDrag": "Drag a form here to hybridize it."
+                "_hybridizeDrag": "Drag a form here to hybridize it.",
+                "_mainTrait": "Main Trait",
+                "_traitBonus": "Trait Bonus",
+                "_evolvedTokenHint": "An evolved beastform's token is based on that of the form you evolve",
+                "_evolvedImagePlaceholder": "The image for the form selected for evolution will be used"
             },
             "Class": {
                 "hopeFeatures": "Rasgos de Esperanza",
@@ -2465,35 +2571,39 @@
                     },
                     "summaryMessages": {
                         "_label": "Summary Messages"
+                    },
+                    "countdownAutomation": {
+                        "label": "Automatización de contadores",
+                        "hint": "Avanzar contadores automáticamente en base a su configuración de progreso"
                     }
                 },
                 "defeated": {
                     "_title": "Defeated Handling"
                 },
                 "roll": {
-                    "_title": "Actions"
+                    "title": "Acciones"
                 }
             },
             "Homebrew": {
-                "_newDowntimeMove": "Downtime Move",
-                "_downtimeMoves": "Downtime Moves",
-                "_nrChoices": "# Moves Per Rest",
-                "_resetMovesTitle": "Reset {type} Downtime Moves",
-                "_resetMovesText": "Are you sure you want to reset?",
+                "newDowntimeMove": "Movimiento de descanso",
+                "downtimeMoves": "Movimientos de descanso",
+                "nrChoices": "# Movimientos por descanso",
+                "resetMovesTitle": "Restablecer {type} movimientos de descanso",
+                "resetMovesText": "¿Seguro que quieres restablecer los movimientos de descanso?",
                 "FIELDS": {
                     "maxFear": {
-                        "_label": "Max Fear"
+                        "label": "Miedo máximo"
                     },
                     "traitArray": {
-                        "_label": "Initial Trait Modifiers"
+                        "label": "Modificadores de atributos iniciales"
                     },
                     "maxLoadout": {
-                        "_label": "Max Cards in Loadout",
-                        "_hint": "Set to blank or 0 for unlimited maximum"
+                        "label": "Máximo de cartas en la mano",
+                        "hint": "Déjalo vacío o a 0 para ilimitado"
                     },
                     "maxDomains": {
-                        "_label": "Max Class Domains",
-                        "_hint": "Max domains you can set on a class"
+                        "label": "Máximo número de dominios",
+                        "hint": "El número máximo de dominios que puedes establecer en una clase"
                     }
                 },
                 "currency": {
@@ -2503,7 +2613,10 @@
                     "_coinName": "Coin Name",
                     "_handfulName": "Handful Name",
                     "_bagName": "Bag Name",
-                    "_chestName": "Chest Name"
+                    "_chestName": "Chest Name",
+                    "_changeIcon": "Change Currency Icon",
+                    "_iconName": "Icon Name",
+                    "_iconNameHint": "Icons are from fontawesome"
                 },
                 "domains": {
                     "_domainsTitle": "Base Domains",
@@ -2519,8 +2632,8 @@
                 },
                 "_downtimeMove": "Downtime Move",
                 "_armorFeature": "Armor Feature",
-                "_weaponFeature": "Weapon Feaure",
-                "_newFeature": "New ItemFeature",
+                "_weaponFeature": "Weapon Feature",
+                "_newFeature": "New Item Feature",
                 "_itemFeatures": "Item Features",
                 "adversaryType": {
                     "_title": "Custom Adversary Types",
@@ -2528,7 +2641,7 @@
                 }
             },
             "Menu": {
-                "_title": "Daggerheart Game Settings",
+                "title": "Configuración de Daggerheart",
                 "automation": {
                     "_name": "Automation Settings",
                     "_label": "Configure Automation",
@@ -2560,7 +2673,8 @@
                         "_texture": "Texture",
                         "_colorset": "Theme",
                         "_material": "Material",
-                        "_system": "Dice Preset"
+                        "_system": "Dice Preset",
+                        "_font": "Font"
                     }
                 },
                 "variantRules": {
@@ -2569,22 +2683,33 @@
                     "_hint": "Apply variant rules from the Daggerheart system",
                     "_name": "Variant Rules",
                     "_actionTokens": "Action Tokens"
+                },
+                "SpotlightRequestQueue": {
+                    "_name": "Spotlight Request Queue",
+                    "_label": "Spotlight Request Queue",
+                    "_hint": "Adds more structure to spotlight requests by ordering them from oldest to newest"
                 }
             },
             "Resources": {
                 "fear": {
-                    "_name": "Fear",
-                    "_hint": "The Fear pool of the GM."
+                    "name": "Miedo",
+                    "hint": "La reserva del Miedo del DJ."
                 }
             },
             "VariantRules": {
                 "FIELDS": {
                     "actionTokens": {
                         "enabled": {
-                            "_label": "Enabled"
+                            "label": "Habilitado"
                         },
                         "tokens": {
-                            "_label": "Tokens"
+                            "label": "Fichas"
+                        }
+                    },
+                    "massiveDamage": {
+                        "title": "Daño Masivo",
+                        "enabled": {
+                            "label": "Habilitado"
                         }
                     }
                 }
@@ -2597,7 +2722,7 @@
                 "FIELDS": {
                     "rangeMeasurement": {
                         "setting": {
-                            "_label": "Setting"
+                            "label": "Configuración"
                         }
                     }
                 },
@@ -2660,7 +2785,8 @@
                     "healingTitle": "Curación aplicada"
                 },
                 "effectSummary": {
-                    "title": "Efectos aplicados"
+                    "title": "Efectos aplicados",
+                    "immunityTo": "Inmunidad: {immunities}"
                 },
                 "groupRoll": {
                     "title": "Tirada de grupo",
@@ -2671,7 +2797,8 @@
                     "selectMember": "Seleccionar miembro",
                     "rerollTitle": "Volver a tirar",
                     "rerollContent": "¿Seguro que quieres volver a tirar {trait}?",
-                    "rerollTooltip": "Volver a tirar"
+                    "rerollTooltip": "Volver a tirar",
+                    "wholePartySelected": "Todo el grupo está seleccionado"
                 },
                 "markResource": "Marcar {quantity} {resource}",
                 "refreshMessage": {
@@ -2749,12 +2876,13 @@
                 "_subclassAlreadyLinked": "{name} is already a subclass in the class {class}. Remove it from there if you want it to be a subclass to this class.",
                 "_noTargetsSelectedOrPerm": "No targets are selected or with the update permission.",
                 "_duplicateCharacter": "This actor is already registered in the party members list.",
-                "_onlyCharactersInPartySheet": "You can drag only characters to a party sheet.",
+                "_onlyCharactersInPartySheet": "You can only drag characters, companions and adversaries to the party sheet.",
                 "_actionNoUsesRemaining": "That action doesn't have remaining uses.",
                 "_gmMenuRefresh": "You refreshed all actions and resources {types}",
                 "_gmRequired": "This action requires an online GM",
                 "_gmOnly": "This can only be accessed by the GM",
-                "_noActorOwnership": "You do not have permissions for this character"
+                "_noActorOwnership": "You do not have permissions for this character",
+                "_documentIsMissing": "The {documentType} is missing from the world."
             },
             "Tooltip": {
                 "disableEffect": "Deshabilitar Efecto",
@@ -2783,7 +2911,10 @@
                 "rightClickExtand": "Click derecho para expandir",
                 "companionPartnerLevelBlock": "El compañero necesita que el personaje asociado suba de nivel.",
                 "_configureAttribution": "Configure Attribution",
-                "_deleteItem": "Delete Item"
+                "deleteItem": "Borrar Ítem",
+                "immune": "Inmune",
+                "_middleClick": "[Middle Click] Keep tooltip view",
+                "_tokenSize": "The token size used on the canvas"
             },
             "ChatLog": {
                 "rerollDamage": "Volver a tirar el daño",
@@ -2792,7 +2923,10 @@
             "Countdowns": {
                 "title": "Contadores",
                 "_toggleIconMode": "Toggle Icon Only",
-                "_noPlayerAccess": "This countdown isn't visible to any players"
+                "noPlayerAccess": "Este contador no es visible para ningún jugador",
+                "loop": "Repetición",
+                "decreasingLoop": "Repetición decreciente",
+                "increasingLoop": "Repetición creciente"
             },
             "ItemBrowser": {
                 "_title": "Daggerheart Compendium Browser",
@@ -2833,16 +2967,28 @@
                     "_armors": "Armors",
                     "_consumables": "Consumables",
                     "_loots": "Loots"
-                }
+                },
+                "_missing": "<i>Missing</i>"
             },
             "Sidebar": {
                 "daggerheartMenu": {
                     "title": "Menú de Daggerheart",
                     "startSession": "Empezar sesión",
                     "startScene": "Empezar escena"
+                },
+                "actorDirectory": {
+                    "tier": "{type} de rango {tier}",
+                    "character": "Personaje de nivel {level}",
+                    "companion": "Nivel {level} - {partner}",
+                    "companionNoPartner": "Sin compañero"
                 }
+            },
+            "EffectsDisplay": {
+                "removeThing": "[Click derecho] Eliminar {thing}",
+                "appliedBy": "Aplicado por: {by}"
             }
-        }
+        },
+        "CharacterSheet": "Hoja de personaje"
     },
     "SCENE": {
         "TABS": {
