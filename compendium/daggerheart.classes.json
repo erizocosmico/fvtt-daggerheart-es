@@ -1,45 +1,378 @@
 {
-	"label": "Clases",
-	"folders": {
-		"Class Features": "Rasgos de clase",
-		"Class Items": "Objetos de clase",
-		"Seraph": "Serafín",
-		"Bard": "Bardo",
-		"Druid": "Druida",
-		"Guardian": "Guardián",
-		"Ranger": "Explorador",
-		"Rogue": "Pícaro",
-		"Warrior": "Guerrero",
-		"Wizard": "Mago",
-		"Sorcerer": "Hechicero"
+	"label":"Clases",
+	"folders":{
+		"Class Features":"Rasgos de clase",
+		"Class Items":"Objetos de clase",
+		"Seraph":"Serafín",
+		"Bard":"Bardo",
+		"Druid":"Druida",
+		"Guardian":"Guardián",
+		"Ranger":"Explorador",
+		"Rogue":"Pícaro",
+		"Warrior":"Guerrero",
+		"Wizard":"Mago",
+		"Sorcerer":"Hechicero",
+		"Standard Take":"Equipo Estándar"
 	},
-	"entries": {
-		"Seraph": {
-			"name": "Serafín"
+	"mapping":{
+		"description":"system.description",
+		"backgroundQuestions":"system.backgroundQuestions",
+		"connections":"system.connections"
+	},
+	"entries":{
+		"vegl3bFOq3pcFTWT":{
+			"name":"Bardo",
+			"description":"<p><strong>Nota: En nivel 5 usa Inspirar (Nivel 5) en lugar de Inspirar bajo rasgo de clase. (La automatización se implementará en una versión posterior)</strong></p><p><br />Los bardos son las personas más carismáticas de todos los reinos. Los miembros de esta clase son maestros de la cautivación y se especializan en una variedad de tipos de actuación, incluyendo cantar, tocar instrumentos musicales, tejer historias o contar chistes. Ya sea actuando para una audiencia o hablando con un individuo, los bardos prosperan en situaciones sociales. Los miembros de esta profesión se vinculan y entrenan en escuelas o gremios, pero una corriente de egotismo atraviesa a aquellos de persuasión bárdica. Si bien pueden ser la clase más propensa a unir a la gente, un bardo de mal temperamento puede destrozar fácilmente a un grupo.</p><p></p><h4>OBJETOS DE CLASE</h4><p>Una novela romántica o una carta nunca abierta</p><p></p><h4>RASGO DE ESPERANZA DEL BARDO</h4><p><em><strong>Montar una Escena:</strong></em> <strong>Gasta 3 de Esperanza</strong> para Distraer temporalmente a un objetivo dentro del alcance Cerca, dándole una penalización de -2 a su Dificultad.</p><p></p><h4>RASGO DE CLASE</h4><p><em><strong>Inspirar</strong></em></p><p>Una vez por sesión, describe cómo inspiras al grupo y date a ti mismo y a cada uno de tus aliados un Dado de Inspiración. En nivel 1, tu Dado de Inspiración es un <strong>d6</strong>. Un PJ puede gastar su Dado de Inspiración para tirarlo, añadiendo el resultado a su tirada de acción, tirada de reacción, tirada de daño o para eliminar un número de Estrés igual al resultado. Al final de cada sesión, elimina todos los Dados de Inspiración no gastados.</p><p>En nivel 5, tu Dado de Inspiración aumenta a un <strong>d8</strong>.</p>",
+			"backgroundQuestions":[
+				"¿Quién de tu comunidad te enseñó a tener tanta confianza en ti mismo?",
+				"Estuviste enamorado una vez. ¿A quién adorabas y cómo te lastimaron?",
+				"Siempre has admirado a otro bardo. ¿Quién es y por qué lo idolatras?"
+			],
+			"connections":[
+				"¿Qué te hizo darte cuenta de que íbamos a ser tan buenos amigos?",
+				"¿Qué hago que te molesta?",
+				"¿Por qué me agarras la mano por la noche?"
+			]
 		},
-		"Bard": {
-			"name": "Bardo"
+		"ZNwUTCyGCEcidZFv":{
+			"name":"Druida",
+			"description":"<p>Convertirse en un druida es más que una ocupación; es un llamado para aquellos que desean aprender y proteger la magia de la naturaleza salvaje. Si bien uno podría subestimar a un druida gentil que practica el trabajo a menudo silencioso de cultivar flora, los druidas que canalizan las fuerzas indómitas de la naturaleza son aterradores de contemplar. Los druidas cultivan sus habilidades en pequeños grupos, a menudo conectados por una ética o localidad específica, pero algunos eligen trabajar solos. A través de años de estudio y dedicación, los druidas pueden aprender a transformarse en bestias y dar forma a la naturaleza misma.</p><p></p><h4>OBJETOS DE CLASE</h4><p>Una pequeña bolsa de piedras y huesos o un colgante extraño encontrado en la tierra</p><p></p><h4>RASGO DE ESPERANZA DEL DRUIDA</h4><p><em><strong>Evolución:</strong></em> <strong>Gasta 3 de Esperanza</strong> para transformarte en una Forma Bestial sin marcar Estrés. Cuando lo hagas, elige un atributo para aumentar en +1 hasta que salgas de esa Forma Bestial.</p><p></p><h4>RASGOS DE CLASE</h4><p><em><strong>Forma Bestial: </strong></em><strong>Marca un Estrés</strong> para transformarte mágicamente en una criatura de tu rango o inferior de la lista de Formas Bestiales. Puedes salir de esta forma en cualquier momento. Mientras estés transformado, no puedes usar armas ni lanzar conjuros de cartas de dominio, pero aún puedes usar otros rasgos o habilidades a los que tengas acceso. Los conjuros que lances antes de transformarte permanecen activos y duran su duración normal, y puedes hablar y comunicarte normalmente. Además, obtienes los rasgos de la Forma Bestial, añades su bonificador de Evasión a tu Evasión y usas el atributo especificado en sus estadísticas para tu ataque. Mientras estés en una Forma Bestial, tu armadura se convierte en parte de tu cuerpo y marcas Espacios de Armadura como de costumbre; cuando salgas de una Forma Bestial, esos Espacios de Armadura marcados permanecen marcados. Si marcas tu último Punto de Golpe, automáticamente sales de esta forma.</p><p><em><strong>Toque Salvaje: </strong></em>Puedes realizar efectos inofensivos y sutiles que involucren la naturaleza—como hacer crecer rápidamente una flor, invocar una ligera ráfaga de viento o encender una fogata—a voluntad.</p>",
+			"backgroundQuestions":[
+				"¿Cómo se manifestó por primera vez tu vínculo con la naturaleza?",
+				"¿Cuál es la historia detrás de la cicatriz que llevas?",
+				"Háblame del mentor que te enseñó a transformarte."
+			],
+			"connections":[
+				"¿Qué me enseñaste sobre el mundo natural?",
+				"¿Cuándo me viste transformarme por primera vez?",
+				"¿Por qué te reíste cuando salí del bosque cubierto de enredaderas?"
+			]
 		},
-		"Druid": {
-			"name": "Druida"
+		"nRAyoC0fOzXPDa4z":{
+			"name":"Guardián",
+			"description":"<p>El título de guardián representa una variedad de profesiones marciales, hablando más de su brújula moral y fortaleza inquebrantable que de los medios por los cuales luchan. Si bien muchos guardianes se unen a grupos de militantes por un país o causa, es más probable que sigan a los pocos que realmente les importan, sin importarles la mayoría. Los guardianes son conocidos por luchar con una ferocidad notable incluso contra probabilidades abrumadoras, defendiendo a su cohorte por encima de todo. Ay de aquellos que dañen al aliado de un guardián, pues el guardián responderá a esta afrenta de la misma manera.</p><p></p><h4>OBJETOS DE CLASE</h4><p>Un tótem de tu mentor o una llave secreta</p><p></p><h4>RASGO DE ESPERANZA DEL GUARDIÁN</h4><p><em><strong>Tanque de Primera Línea:</strong></em> <strong>Gasta 3 de Esperanza</strong> para eliminar 2 Espacios de Armadura.</p><p></p><h4>RASGO DE CLASE</h4><p><em><strong>Imparable:</strong></em> Una vez por descanso largo, puedes volverte Imparable. Obtienes un Dado Imparable. En nivel 1, tu Dado Imparable es un <strong>d4</strong>. Colócalo en tu hoja de personaje en el espacio provisto, comenzando con el valor 1 hacia arriba. Después de hacer una tirada de daño que cause 1 o más Puntos de Golpe a un objetivo, aumenta el valor del Dado Imparable en uno. Cuando el valor del dado exceda su valor máximo o cuando termine la escena, retira el dado y deja de ser Imparable. En nivel 5, tu Dado Imparable aumenta a un <strong>d6</strong>.</p><p>Mientras eres Imparable, obtienes los siguientes beneficios:</p><p>• Reduces la severidad del daño físico en un umbral (Severo a Mayor, Mayor a Menor, Menor a Ninguno).</p><p>• Añades el valor actual del Dado Imparable a tu tirada de daño.</p><p>• No puedes ser Apresado ni Vulnerable.</p>",
+			"backgroundQuestions":[
+				"¿Cómo decidiste por primera vez dedicar tu vida a un poder superior?",
+				"¿Cuál es la decisión más difícil que has tenido que tomar?",
+				"¿A quién no pudiste proteger?"
+			],
+			"connections":[
+				"¿Por qué te arrodillaste cuando nos conocimos por primera vez?",
+				"¿Qué promesa te hice?",
+				"¿Qué secreto confié en ti?"
+			]
 		},
-		"Guardian": {
-			"name": "Guardián"
+		"BTyfve69LKqoOi9S":{
+			"name":"Explorador",
+			"description":"<p>Los exploradores son cazadores altamente hábiles que, a pesar de sus habilidades marciales, rara vez prestan sus habilidades a un ejército. A través del dominio del cuerpo y una profunda comprensión de la naturaleza salvaje, los exploradores se convierten en tácticos astutos, persiguiendo a su presa con astucia y paciencia. Muchos exploradores rastrean y luchan junto a un compañero animal con el que han forjado un poderoso vínculo espiritual. Al perfeccionar sus habilidades en la naturaleza, los exploradores se convierten en rastreadores expertos, tan propensos a atrapar a sus enemigos en una trampa como a asaltarlos de frente.</p><p></p><h4>OBJETOS DE CLASE</h4><p>Un trofeo de tu primera muerte o una brújula aparentemente rota</p><p></p><h4>RASGO DE ESPERANZA DEL EXPLORADOR</h4><p><em><strong>Contenerlos:</strong></em> <strong>Gasta 3 de Esperanza</strong> cuando tengas éxito en un ataque con un arma para usar esa misma tirada contra dos adversarios adicionales dentro del alcance del ataque.</p><p></p><h4>RASGO DE CLASE</h4><p><em><strong>Concentración del Explorador:</strong></em> <strong>Gasta 1 de Esperanza</strong> y haz un ataque contra un objetivo. En caso de éxito, causa el daño normal de tu ataque y haz temporalmente del objetivo del ataque tu Concentración. Hasta que termine este rasgo o hagas de una criatura diferente tu Concentración, obtienes los siguientes beneficios contra tu Concentración:</p><p>• Sabes exactamente en qué dirección están.</p><p>• Cuando les causes daño, deben marcar un Estrés.</p><p>• Cuando falles un ataque contra ellos, puedes terminar tu rasgo de Concentración del Explorador para volver a tirar tus Dados de Dualidad.</p>",
+			"backgroundQuestions":[
+				"¿Qué evento te hizo jurar que nunca volverías a estar indefenso?",
+				"¿Quién te enseñó a sobrevivir en la naturaleza?",
+				"Describe al compañero que perdiste."
+			],
+			"connections":[
+				"¿Por qué crees que soy tan imprudente?",
+				"¿Cuándo te diste cuenta de que podías confiar en mí?",
+				"¿De qué te salvé la vida una vez?"
+			]
 		},
-		"Ranger": {
-			"name": "Explorador"
+		"CvHlkHZfpMiCz5uT":{
+			"name":"Pícaro",
+			"description":"<p>Los pícaros son sinvergüenzas, a menudo tanto en actitud como en práctica. Ampliamente conocidos como mentirosos y ladrones, los mejores entre esta clase se mueven por el mundo de forma anónima. Utilizando su ingenio agudo y Destreza, los pícaros engañan a sus enemigos a través de manipulación social tan fácilmente como forzando cerraduras, trepando por ventanas o dando golpes sucios. Estos maestros del oficio mágico manipulan las sombras y el movimiento, agregando una variedad de herramientas útiles y mortales a su repertorio. Los pícaros frecuentemente establecen gremios para conocer futuros cómplices, contratar trabajos y perfeccionar habilidades secretas, demostrando que hay honor entre ladrones para aquellos que saben dónde buscar.</p><p></p><h4>OBJETOS DE CLASE</h4><p>Un juego de herramientas de falsificación o un gancho de agarre</p><p></p><h4>RASGO DE ESPERANZA DEL PÍCARO</h4><p><em><strong>Esquiva del Pícaro:</strong></em> <strong>Gasta 3 de Esperanza</strong> para ganar un bonificador de +2 a tu Evasión hasta la próxima vez que un ataque tenga éxito contra ti. De lo contrario, este bonificador dura hasta tu próximo descanso.</p><p></p><h4>RASGOS DE CLASE</h4><p><em><strong>Encapuchado:</strong></em> Cada vez que estarías <em>Oculto</em>, en su lugar estás <em>Encapuchado</em>. Además de los beneficios de la condición <em>Oculto</em>, mientras estés <em>Encapuchado</em> permaneces invisible si estás inmóvil cuando un adversario se mueve a donde normalmente te vería.</p><p>Después de hacer un ataque o terminar un movimiento dentro de la línea de visión de un adversario, ya no estás Encapuchado.</p><p><em><strong>Ataque Furtivo:</strong></em> Cuando tengas éxito en un ataque mientras estés Encapuchado o mientras un aliado esté dentro del alcance de Melee de tu objetivo, añade un número de <strong>d6s</strong> igual a tu rango a tu tirada de daño.</p><p></p>",
+			"backgroundQuestions":[
+				"¿A quién le hiciste mal y con quien nunca podrás hacer las paces?",
+				"¿Qué secreto guardas del resto del grupo?",
+				"Hay una persona poderosa que quiere verte muerto. ¿Quién es?"
+			],
+			"connections":[
+				"¿Cómo te saqué del problema?",
+				"¿Qué robé para ti?",
+				"¿Por qué finges que no sabes sobre mi pasado?"
+			]
 		},
-		"Rogue": {
-			"name": "Pícaro"
+		"5ZnlJ5bEoyOTkUJv":{
+			"name":"Serafín",
+			"description":"<p>Los serafines son curanderos dedicados, generalmente sirviendo como líderes morales y espirituales. Los miembros de esta clase se comprometen a salvar vidas, poniendo en riesgo las suyas para proteger a los demás. A través de su fe en un poder superior, ya sea un dios del panteón o algo completamente único, los serafines canalizan magia regenerativa y crean escudos protectores para sus aliados. Aunque a menudo encuentran significado en sus comunidades de fe, el conocimiento de un serafín puede venir de cualquier lugar, desde el sacerdocio organizado hasta los viejos cuentos de hadas. Sea cual sea su fuente de poder, los serafines no son pacifistas y a menudo llevan tanta ira como compasión.</p><p></p><h4>OBJETOS DE CLASE</h4><p>Un símbolo de tu dios o un paquete de ofrendas</p><p></p><h4>RASGO DE ESPERANZA DEL SERAFÍN</h4><p><em><strong>Soporte Vital:</strong></em> <strong>Gasta 3 de Esperanza</strong> para restaurar un Punto de Golpe a un aliado dentro del alcance Muy Cerca o aumentar el límite de daño Mayor de un aliado en +3 hasta su próximo descanso.</p><p></p><h4>RASGO DE CLASE</h4><p><em><strong>Dados de Oración:</strong></em> Obtienes un número de Dados de Oración igual a tu nivel +1. En nivel 1, tus Dados de Oración son <strong>d4s</strong>. Cuando tú o un aliado que puedas ver realice cualquier tirada, puedes gastar un Dado de Oración y añadir el resultado de ese dado a la tirada. Al final de cada sesión, recuperas tus Dados de Oración. En nivel 5, tus Dados de Oración aumentan a <strong>d6s</strong>.</p>",
+			"backgroundQuestions":[
+				"¿Cómo decidiste por primera vez dedicar tu vida a un poder superior?",
+				"¿Cuál es la decisión más difícil que has tenido que tomar?",
+				"¿A quién no pudiste proteger?"
+			],
+			"connections":[
+				"¿Qué fue lo que sentiste en mí la primera vez que nos tocamos?",
+				"¿Cómo te ayudó mi magia cuando más la necesitabas?",
+				"¿Por qué siempre intentas que me detenga y piense?"
+			]
 		},
-		"Warrior": {
-			"name": "Guerrero"
+		"DchOzHcWIJE9FKcR":{
+			"name":"Hechicero",
+			"description":"<p>Los hechiceros nacen con una conexión innata con la magia del mundo que los rodea, aunque la mayoría no lo sabe hasta que su poder se manifiesta repentinamente. Los miembros de esta clase no aprenden la magia a través del estudio; en su lugar canalizan energía cruda y elemental que arde a través de sus propios cuerpos, haciendo que el lanzamiento de conjuros sea salvaje y peligroso. Este uso directo de la magia puede resultar en hechiceros que sufren terribles cicatrices, físicas y de otro tipo. Muchos hechiceros viajan en solitario, temiendo que su poder pueda dañar a otros, pero aquellos que encuentran comunidad a menudo lo hacen con otros hechiceros que pueden comprender sus luchas únicas.</p><p></p><h4>OBJETOS DE CLASE</h4><p>Un orbe susurrante o un libro sin traducir</p><p></p><h4>RASGO DE ESPERANZA DEL HECHICERO</h4><p><em><strong>Canalizar Poder Puro:</strong></em> <strong>Gasta 3 de Esperanza</strong> y haz un ataque con conjuro contra un objetivo usando tu atributo principal. En caso de éxito, causa <strong>2d12 + tu nivel</strong> de daño mágico.</p><p></p><h4>RASGOS DE CLASE</h4><p><em><strong>Magia Volátil:</strong></em> Después de lanzar un conjuro y determinar su éxito o fracaso, puedes marcar Estrés para aumentar o disminuir el resultado de tu dado de Esperanza o Miedo en 1. Siempre que marques Estrés mientras seas lanzador principal de un conjuro de Equipo, todos tus aliados que estén lanzando contigo también marcan Estrés.</p><p><em><strong>Sentido Arcano:</strong></em> Puedes sentir la presencia de magia dentro del alcance Cerca.</p>",
+			"backgroundQuestions":[
+				"¿Cómo te diste cuenta por primera vez de que podías sentir la magia en el mundo que te rodea?",
+				"¿Qué emoción te abruma cuando lanzas un conjuro?",
+				"Tu magia se intensifica en momentos de alta emoción. ¿Cómo has aprendido a controlarla?"
+			],
+			"connections":[
+				"¿Qué fue lo que sentiste en mí la primera vez que nos tocamos?",
+				"¿Cómo te ayudó mi magia salvaje cuando más la necesitabas?",
+				"¿Por qué siempre intentas que me detenga y piense?"
+			]
 		},
-		"Wizard": {
-			"name": "Mago"
+		"xCUWwJz4WSthvLfy":{
+			"name":"Guerrero",
+			"description":"<p>Los guerreros son maestros de combate, entrenando incansablemente en el arte de la lucha. No importa si toman el campo de batalla para defender a su comunidad, servir a su señor o alimentar su sed de sangre, los guerreros se dedican a perfeccionar sus técnicas de combate. Los guerreros son expertos en usar casi cualquier arma o armadura que puedan conseguir, pero generalmente tienen sus favoritos, utilizándolos para desatar una masacre ante sus ojos. Mientras que la mayoría de los guerreros se entrenan en la tradición militar, muchos son mercenarios sin ninguna causa más allá de su próxima pelea.</p><p></p><h4>OBJETOS DE CLASE</h4><p>Una piedra de afilar o un dibujo de un amante</p><p></p><h4>RASGO DE ESPERANZA DEL GUERRERO</h4><p><em><strong>Sin Piedad:</strong></em> <strong>Gasta 3 de Esperanza</strong> para volver a tirar todos los dados de daño en una tirada de daño. Debes quedarte con los nuevos resultados.</p><p></p><h4>RASGOS DE CLASE</h4><p><em><strong>Entrenamiento de Combate:</strong></em> Cuando hagas una tirada con Agilidad o Fuerza puedes gastar un punto de Esperanza para rehacer la tirada. Debes quedarte con el nuevo resultado.</p><p><em><strong>Ataque de Oportunidad:</strong></em> Una vez por ronda, cuando un adversario dentro del alcance de Melee se mueva fuera del alcance de Melee, puedes hacer un ataque contra ellos con tu arma principal. En caso de éxito, reduce el resultado de su dado de Esperanza en 3. Esto puede cambiar el resultado a un fallo. En caso de éxito con Esperanza, causa el daño de tu arma principal al objetivo.</p>",
+			"backgroundQuestions":[
+				"¿Quién es el dios al que has jurado matar?",
+				"¿Qué es lo único en lo que te niegas a ceder?",
+				"Una vez mostraste misericordia a alguien y te arrepientes de haberlo perdonado. ¿Quién era?"
+			],
+			"connections":[
+				"¿Qué dije que te mostró que lo entiendo?",
+				"Una vez me viste romper mi propia regla. ¿Qué hice?",
+				"¿Cómo hago que te sientas seguro?"
+			]
 		},
-		"Sorcerer": {
-			"name": "Hechicero"
+		"5LwX4m8ziY3F1ZGC":{
+			"name":"Mago",
+			"description":"<p>Los magos son eruditos de la magia que pasan incontables horas estudiando hechizos antiguos y técnicas arcanas. Los miembros de esta clase a menudo provienen de la academia o son aprendices de un mago anterior. A través de la experiencia y el estudio, los magos pueden llegar a comandar una amplia variedad de disciplinas mágicas. Mientras que muchos magos dedican sus vidas a descifrar manuscritos antiguos y descubrir nuevos métodos de lanzamiento de conjuros, otros llevan su búsqueda de conocimiento a terrenos más peligrosos, buscando magia perdida o prohibida.</p><p></p><h4>OBJETOS DE CLASE</h4><p>Una antorcha o suministros básicos</p><p></p><h4>RASGO DE ESPERANZA DEL MAGO</h4><p><em><strong>Patrones Extraños:</strong></em> <strong>Gasta 3 de Esperanza</strong> para lanzar un conjuro como una reacción después de que otro aliado lance un conjuro.</p><p></p><h4>RASGOS DE CLASE</h4><p><em><strong>Prestidigitación:</strong></em> Puedes realizar efectos sutiles y menores a voluntad, como invocar una llama de vela, producir un olor extraño o limpiar un objeto pequeño.</p><p><em><strong>Ilusión Menor:</strong></em> Puedes conjurar un holograma inmóvil del tamaño de tu puño, que dura hasta que lo tocan, hasta tu próximo descanso o hasta que conjures otro. Aunque la ilusión puede emitir sonidos, no puede moverse ni cambiar de forma una vez conjurada. Otros pueden intentar ver a través de la ilusión haciendo una tirada de Instinto contra tu Dificultad de lanzamiento de conjuros.</p>",
+			"backgroundQuestions":[
+				"¿Qué te atrajo a estudiar magia?",
+				"¿Dónde recibiste tu entrenamiento?",
+				"Háblame del libro que cambió tu vida."
+			],
+			"connections":[
+				"¿Qué deseas que te enseñe?",
+				"Me viste en un estado vulnerable. ¿Qué pasó?",
+				"¿Cómo te he ayudado a ver las cosas de manera diferente?"
+			]
 		},
+		"CHK32dfCTTyuxV1A":{
+			"name":"Sentido Arcano",
+			"description":"<p>Puedes sentir la presencia de magia dentro del alcance Cerca.</p>"
+		},
+		"3hNVqD1c0VIw2Nj5":{
+			"name":"Ataque de Oportunidad",
+			"description":"<p>Una vez por ronda, cuando un adversario dentro del alcance de Melee se mueva fuera del alcance de Melee, puedes hacer un ataque contra ellos con tu arma principal. En caso de éxito, reduce el resultado de su dado de Esperanza en 3. Esto puede cambiar el resultado a un fallo. En caso de éxito con Esperanza, causa el daño de tu arma principal al objetivo.</p>"
+		},
+		"P1K0jcnH2RiS6TLd":{
+			"name":"Forma Bestial",
+			"description":"<p><strong>Marca un Estrés</strong> para transformarte mágicamente en una criatura de tu rango o inferior de la lista de Formas Bestiales. Puedes salir de esta forma en cualquier momento. Mientras estés transformado, no puedes usar armas ni lanzar conjuros de cartas de dominio, pero aún puedes usar otros rasgos o habilidades a los que tengas acceso. Los conjuros que lances antes de transformarte permanecen activos y duran su duración normal, y puedes hablar y comunicarte normalmente. Además, obtienes los rasgos de la Forma Bestial, añades su bonificador de Evasión a tu Evasión y usas el atributo especificado en sus estadísticas para tu ataque. Mientras estés en una Forma Bestial, tu armadura se convierte en parte de tu cuerpo y marcas Espacios de Armadura como de costumbre; cuando salgas de una Forma Bestial, esos Espacios de Armadura marcados permanecen marcados. Si marcas tu último Punto de Golpe, automáticamente sales de esta forma.</p>"
+		},
+		"P02cbN50LIoD662z":{
+			"name":"Canalizar Poder Puro",
+			"description":"<p><strong>Gasta 3 de Esperanza</strong> y haz un ataque con conjuro contra un objetivo usando tu atributo principal. En caso de éxito, causa 2d12 + tu nivel de daño mágico.</p>"
+		},
+		"5IT8wYa0m1EFw8Zp":{
+			"name":"Encapuchado",
+			"description":"<p>Cada vez que estarías Oculto, en su lugar estás Encapuchado. Además de los beneficios de la condición Oculto, mientras estés Encapuchado permaneces invisible si estás inmóvil cuando un adversario se mueve a donde normalmente te vería. Después de hacer un ataque o terminar un movimiento dentro de la línea de visión de un adversario, ya no estás Encapuchado.</p>"
+		},
+		"eoSmuAJmgHUyULtp":{
+			"name":"Entrenamiento de Combate",
+			"description":"<p>Cuando hagas una tirada con Agilidad o Fuerza puedes gastar un punto de Esperanza para rehacer la tirada. Debes quedarte con el nuevo resultado.</p>",
+			"effects":[
+				{
+					"name":"Entrenamiento de Combate"
+				}
+			]
+		},
+		"6rlxhrRwFaVgq9fe":{
+			"name":"Evolución",
+			"description":"<p><strong>Gasta 3 de Esperanza</strong> para transformarte en una Forma Bestial sin marcar Estrés. Cuando lo hagas, elige un atributo para aumentar en +1 hasta que salgas de esa Forma Bestial.</p>",
+			"effects":[
+				{
+					"name":"Evolution: Agility"
+				},
+				{
+					"name":"Evolution: Strength"
+				},
+				{
+					"name":"Evolution: Finesse"
+				},
+				{
+					"name":"Evolution: Instinct"
+				},
+				{
+					"name":"Evolution: Presence"
+				},
+				{
+					"name":"Evolution: Knowledge"
+				}
+			]
+		},
+		"YS1g7YdWwOaS629x":{
+			"name":"Tanque de Primera Línea",
+			"description":"<p><strong>Gasta 3 de Esperanza</strong> para eliminar 2 Espacios de Armadura.</p>"
+		},
+		"2Cyb9ZeuAesf5Sb3":{
+			"name":"Contenerlos",
+			"description":"<p><strong>Gasta 3 de Esperanza</strong> cuando tengas éxito en un ataque con un arma para usar esa misma tirada contra dos adversarios adicionales dentro del alcance del ataque.</p>"
+		},
+		"lSlvSUHbOoX36q2j":{
+			"name":"Soporte Vital",
+			"description":"<p><strong>Gasta 3 de Esperanza</strong> para restaurar un Punto de Golpe a un aliado dentro del alcance Muy Cerca o aumentar el límite de daño Mayor de un aliado en +3 hasta su próximo descanso.</p>"
+		},
+		"N9E5skDDK2VgvohR":{
+			"name":"Montar una Escena",
+			"description":"<p><strong>Gasta 3 de Esperanza</strong> para Distraer temporalmente a un objetivo dentro del alcance Cerca, dándole una penalización de -2 a su Dificultad.</p>",
+			"effects":[
+				{
+					"name":"Montar una Escena"
+				}
+			]
+		},
+		"cshTYdtz9yoXYYB3":{
+			"name":"Ilusión Menor",
+			"description":"<p>Puedes conjurar un holograma inmóvil del tamaño de tu puño, que dura hasta que lo tocan, hasta tu próximo descanso o hasta que conjures otro. Aunque la ilusión puede emitir sonidos, no puede moverse ni cambiar de forma una vez conjurada. Otros pueden intentar ver a través de la ilusión haciendo una tirada de Instinto contra tu Dificultad de lanzamiento de conjuros.</p>"
+		},
+		"njj2C3tMDeCHHOoh":{
+			"name":"Sin Piedad",
+			"description":"<p><strong>Gasta 3 de Esperanza</strong> para volver a tirar todos los dados de daño en una tirada de daño. Debes quedarte con los nuevos resultados.</p>",
+			"effects":[
+				{
+					"name":"Sin Piedad"
+				}
+			]
+		},
+		"h3VE0jhcM5xHKBs4":{
+			"name":"Esta Vez No",
+			"description":"<p><strong>Gasta 2 de Esperanza</strong> cuando un aliado dentro del alcance Cerca haría una tirada de reacción de Agilidad. Haz la tirada de reacción en su lugar.</p>"
+		},
+		"Xd7RYhfTxIj9aWI2":{
+			"name":"Dados de Oración",
+			"description":"<p>Obtienes un número de Dados de Oración igual a tu nivel +1. En nivel 1, tus Dados de Oración son d4s. Cuando tú o un aliado que puedas ver realice cualquier tirada, puedes gastar un Dado de Oración y añadir el resultado de ese dado a la tirada. Al final de cada sesión, recuperas tus Dados de Oración. En nivel 5, tus Dados de Oración aumentan a d6s.</p>"
+		},
+		"SG2uw8h5YuwDviCn":{
+			"name":"Prestidigitación",
+			"description":"<p>Puedes realizar efectos sutiles y menores a voluntad, como invocar una llama de vela, producir un olor extraño o limpiar un objeto pequeño.</p>"
+		},
+		"PydiMnNCKpd44SGS":{
+			"name":"Inspirar",
+			"description":"<p>Una vez por sesión, describe cómo inspiras al grupo y date a ti mismo y a cada uno de tus aliados un Dado de Inspiración. En nivel 1, tu Dado de Inspiración es un d6. Un PJ puede gastar su Dado de Inspiración para tirarlo, añadiendo el resultado a su tirada de acción, tirada de reacción, tirada de daño o para eliminar un número de Estrés igual al resultado. Al final de cada sesión, elimina todos los Dados de Inspiración no gastados. En nivel 5, tu Dado de Inspiración aumenta a un d8.</p>",
+			"effects":[
+				{
+					"name":"Inspirar"
+				}
+			]
+		},
+		"TVeEyqmPPiRa2r3i":{
+			"name":"Inspirar (Nivel 5)",
+			"description":"<p>Una vez por sesión, describe cómo inspiras al grupo y date a ti mismo y a cada uno de tus aliados un Dado de Inspiración. Tu Dado de Inspiración es un d8. Un PJ puede gastar su Dado de Inspiración para tirarlo, añadiendo el resultado a su tirada de acción, tirada de reacción, tirada de daño o para eliminar un número de Estrés igual al resultado. Al final de cada sesión, elimina todos los Dados de Inspiración no gastados.</p>",
+			"effects":[
+				{
+					"name":"Inspirar (Nivel 5)"
+				}
+			]
+		},
+		"ncLx2P8BOUtrAD38":{
+			"name":"Concentración del Explorador",
+			"description":"<p><strong>Gasta 1 de Esperanza</strong> y haz un ataque contra un objetivo. En caso de éxito, causa el daño normal de tu ataque y haz temporalmente del objetivo del ataque tu Concentración. Hasta que termine este rasgo o hagas de una criatura diferente tu Concentración, obtienes los siguientes beneficios contra tu Concentración:</p><ul><li>Sabes exactamente en qué dirección están.</li><li>Cuando les causes daño, deben marcar un Estrés.</li><li>Cuando falles un ataque contra ellos, puedes terminar tu rasgo de Concentración del Explorador para volver a tirar tus Dados de Dualidad.</li></ul>",
+			"effects":[
+				{
+					"name":"Concentración del Explorador"
+				}
+			]
+		},
+		"hVaaPIjxoextIgSL":{
+			"name":"Esquiva del Pícaro",
+			"description":"<p><strong>Gasta 3 de Esperanza</strong> para ganar un bonificador de +2 a tu Evasión hasta la próxima vez que un ataque tenga éxito contra ti. De lo contrario, este bonificador dura hasta tu próximo descanso.</p>",
+			"effects":[
+				{
+					"name":"Esquiva del Pícaro"
+				}
+			]
+		},
+		"5QqpEwmwkPfZHpMW":{
+			"name":"Ataque Furtivo",
+			"description":"<p>Cuando tengas éxito en un ataque mientras estés Encapuchado o mientras un aliado esté dentro del alcance de Melee de tu objetivo, añade un número de d6s igual a tu rango a tu tirada de daño.</p>",
+			"effects":[
+				{
+					"name":"Ataque Furtivo"
+				}
+			]
+		},
+		"6YsfFjmCGuFYVhT4":{
+			"name":"Patrones Extraños",
+			"description":"<p><strong>Gasta 3 de Esperanza</strong> para lanzar un conjuro como una reacción después de que otro aliado lance un conjuro.</p>"
+		},
+		"PnD2UCgzIlwX6cY3":{
+			"name":"Imparable",
+			"description":"<p>Una vez por descanso largo, puedes volverte Imparable. Obtienes un Dado Imparable. En nivel 1, tu Dado Imparable es un d4. Colócalo en tu hoja de personaje en el espacio provisto, comenzando con el valor 1 hacia arriba. Después de hacer una tirada de daño que cause 1 o más Puntos de Golpe a un objetivo, aumenta el valor del Dado Imparable en uno. Cuando el valor del dado exceda su valor máximo o cuando termine la escena, retira el dado y deja de ser Imparable. En nivel 5, tu Dado Imparable aumenta a un d6.</p><p>Mientras eres Imparable, obtienes los siguientes beneficios:</p><ul><li>Reduces la severidad del daño físico en un umbral (Severo a Mayor, Mayor a Menor, Menor a Ninguno).</li><li>Añades el valor actual del Dado Imparable a tu tirada de daño.</li><li>No puedes ser Apresado ni Vulnerable.</li></ul>",
+			"effects":[
+				{
+					"name":"Imparable"
+				}
+			]
+		},
+		"ieiQlD0joWSqt53D":{
+			"name":"Magia Volátil",
+			"description":"<p>Después de lanzar un conjuro y determinar su éxito o fracaso, puedes marcar Estrés para aumentar o disminuir el resultado de tu dado de Esperanza o Miedo en 1. Siempre que marques Estrés mientras seas lanzador principal de un conjuro de Equipo, todos tus aliados que estén lanzando contigo también marcan Estrés.</p>"
+		},
+		"fqSdfUYUK9QUcVE4":{
+			"name":"Toque Salvaje",
+			"description":"<p>Puedes realizar efectos inofensivos y sutiles que involucren la naturaleza—como hacer crecer rápidamente una flor, invocar una ligera ráfaga de viento o encender una fogata—a voluntad.</p>"
+		},
+		"hMST9iizQP1yz0MG":{
+			"name":"15 metros de Cuerda"
+		},
+		"Bvr6wjf44EvCdidC":{
+			"name":"Una Novela Romántica"
+		},
+		"LoQH7wpfyKsuMJ5l":{
+			"name":"Una Piedra de Afilar"
+		},
+		"uoG5iq09mxJPXfmk":{
+			"name":"Suministros Básicos"
+		},
+		"8k76EgktQXFWHf8r":{
+			"name":"Brújula Rota"
+		},
+		"aLvek22hb5kNg9MF":{
+			"name":"Paquete de Ofrendas"
+		},
+		"KuPuEAbUK4VKpS2O":{
+			"name":"Dibujo de un Amante"
+		},
+		"Yum0uBtnEtTBcpax":{
+			"name":"Reliquia Familiar"
+		},
+		"J1c708r5L9TYckER":{
+			"name":"Gancho de Agarre"
+		},
+		"XGWVVkHlVrF5fGm6":{
+			"name":"Carta (Sin abrir)"
+		},
+		"VVvIPx1cduyAb8jr":{
+			"name":"Llave Secreta"
+		},
+		"yqoO5aqDd4aD13pc":{
+			"name":"Juego de Herramientas de Falsificación"
+		},
+		"o3G6szWvPoz7fo6T":{
+			"name":"Símbolo de tu Dios"
+		},
+		"todlyATSZzLPTqnU":{
+			"name":"Pequeña Bolsa (Piedras y Huesos)"
+		},
+		"LriTeh9hkwzEaCr1":{
+			"name":"Colgante Extraño y Sucio"
+		},
+		"UUp0YGFj7E4x7Z6Z":{
+			"name":"Pequeña Mascota Elemental"
+		},
+		"zqeXrJTd1geX73Pw":{
+			"name":"Antorcha"
+		},
+		"d3VdAtW65oO8j14Y":{
+			"name":"Tótem del Mentor"
+		},
+		"eslejbiZRH6ODh9U":{
+			"name":"Trofeo de tu Primera Presa"
+		},
+		"fhg3NK99tcgYQxdY":{
+			"name":"Libro sin Traducir"
+		},
+		"9AM1YsPeuWSysdDo":{
+			"name":"Orbe Susurrante"
+		}
 	}
 }

@@ -1,5 +1,5 @@
 {
-	"label": "Weapons",
+	"label": "Armas",
 	"folders": {
 		"Combat Wheelchairs": "Sillas de ruedas de combate",
 		"Primary Weapons": "Armas principales",
@@ -11,5 +11,618 @@
 		"Tier 3": "Rango 3",
 		"Tier 4": "Rango 4"
 	},
-	"entries": {}
+	"entries": {
+		"IZ4CWNxfuM46JeCN": {
+			"name": "Cetro legendario"
+		},
+		"6bkbw4Ap644KZGvJ": {
+			"name": "Alabarda forjada en acero"
+		},
+		"JdWcn9W1edhAEInL": {
+			"name": "Arco anciano"
+		},
+		"Xt8tVSn5Fu6ly6LF": {
+			"name": "Silla de ruedas de marco ligero legendaria"
+		},
+		"TMrUzVC3KvcHmdt8": {
+			"name": "Rifle de Ilmari"
+		},
+		"6ZWl6ARfvYBaAMwY": {
+			"name": "Arco corto mejorado"
+		},
+		"8Lipw3RRKDgBVP0p": {
+			"name": "Martillo de guerra avanzado"
+		},
+		"acPGwIaUhx3R0mTq": {
+			"name": "Cetro de Elías"
+		},
+		"o3rsLvImcLAx5TvD": {
+			"name": "Bastón dual legendario"
+		},
+		"uK1RhtYAsDeoPNGx": {
+			"name": "Guantes de fusión"
+		},
+		"BuMfupnCzHbziQ8o": {
+			"name": "Silla de ruedas de marco ligero avanzada"
+		},
+		"EG6mZhr3ib56r974": {
+			"name": "Runas de ruina"
+		},
+		"MyGz8nd5sieRQ7zl": {
+			"name": "Cañón de mano"
+		},
+		"TVPCWnSELOVBv6G1": {
+			"name": "Espada de luz y llama"
+		},
+		"Zg6IutksQVOqAg8K": {
+			"name": "Guantelete de impacto"
+		},
+		"VwcOgqnzjf9LBj2S": {
+			"name": "Falcata dorada"
+		},
+		"0thN0BpN05KT8Avx": {
+			"name": "Daga pequeña avanzada"
+		},
+		"j5Pt1thLfcvopBij": {
+			"name": "Lanza mejorada"
+		},
+		"YfVs6Se903az4Yet": {
+			"name": "Arco largo"
+		},
+		"CmtWqw6DwoePnX7W": {
+			"name": "Látigo"
+		},
+		"PReWrfuPjoNQuieo": {
+			"name": "Anillos brillantes legendarios"
+		},
+		"zGm6Wa1fGF6cECY5": {
+			"name": "Espadón urok"
+		},
+		"Px3Rh3kIvAqyISxJ": {
+			"name": "Daga pequeña legendaria"
+		},
+		"JpSlJvDR0X8VFDns": {
+			"name": "Arco corto avanzado"
+		},
+		"tj26lbNkwy8bORF4": {
+			"name": "Cetro mejorado"
+		},
+		"XjPQjhRCH08VUIbr": {
+			"name": "Silla de ruedas de marco pesado"
+		},
+		"01izMUSJcAUo79IX": {
+			"name": "Látigo avanzado"
+		},
+		"DlinEBGZfIlvreO3": {
+			"name": "Escudo redondo mejorado"
+		},
+		"iStO0BbeMTTR0rQi": {
+			"name": "Daga"
+		},
+		"bW3xw5S9DbaLCN3E": {
+			"name": "Guantelete potenciado"
+		},
+		"cw7HG1Z7hp7OOLD0": {
+			"name": "Ballesta"
+		},
+		"jlLtgK468rO5IssR": {
+			"name": "Hojas de garra"
+		},
+		"1cwWNt4sqlgA8gCT": {
+			"name": "Espadón"
+		},
+		"X5x3sC7v2f3L9sjL": {
+			"name": "Bastón dual avanzado"
+		},
+		"O1w8KPYH85ZS8X64": {
+			"name": "Arco con púas"
+		},
+		"ScjTkb9qrndhlk9S": {
+			"name": "Daga mejorada"
+		},
+		"jU9jWIardjtdAQcs": {
+			"name": "Varita avanzada"
+		},
+		"N9P695V5KKlJbAY5": {
+			"name": "Silla de ruedas de marco arcano mejorada"
+		},
+		"z6yEdFYQJ5IzgTX3": {
+			"name": "Guadaña de guerra"
+		},
+		"BdLfy5i488VZgkjP": {
+			"name": "Guadaña de Midas"
+		},
+		"Yk8pTEmyLLi4095S": {
+			"name": "Gran bastón"
+		},
+		"wPjg0LufJH9vUfVM": {
+			"name": "Varita legendaria"
+		},
+		"ZXh1GQahBiODfSTC": {
+			"name": "Martillo de guerra"
+		},
+		"6d9B2b5X2d2U56jt": {
+			"name": "Varita mejorada"
+		},
+		"zxKt6qXe7uZB6ljm": {
+			"name": "Ballesta de mano"
+		},
+		"p3nz5CaGUoyuGVg0": {
+			"name": "Espada corta avanzada"
+		},
+		"NacNonjbzyoVMNhI": {
+			"name": "Arco largo mejorado"
+		},
+		"C8gQn7onAc9wsrCs": {
+			"name": "Alabarda avanzada"
+		},
+		"OcKeLJxvmdT81VBc": {
+			"name": "Espadón mejorado"
+		},
+		"Fk69R40svV0kanZD": {
+			"name": "Daga curva"
+		},
+		"0lAkBEUvbM9Osmqb": {
+			"name": "Martillo de Exota"
+		},
+		"RAIaoMi6iO1PKIlK": {
+			"name": "Honda de mano"
+		},
+		"dEumq3BIZBk5xYTk": {
+			"name": "Espada corta legendaria"
+		},
+		"j8cdNeIUYxxzFVji": {
+			"name": "Bastón dual"
+		},
+		"G7rH31KQ5eEZXcv0": {
+			"name": "Hoja del ego"
+		},
+		"C9aWpK1shVMWP4m5": {
+			"name": "Escudo torre"
+		},
+		"WreMYiH5uhVDaoVw": {
+			"name": "Maza avanzada"
+		},
+		"XEDRkuw3BhMoVBn9": {
+			"name": "Ballesta de mano mejorada"
+		},
+		"Vayg7CnRTFBrunjM": {
+			"name": "Hacha sagrada"
+		},
+		"QEvgVoz9xKBSKsGi": {
+			"name": "Escudo valiente"
+		},
+		"bxt3NsbMqTSdI5ab": {
+			"name": "Escudo torre mejorado"
+		},
+		"QZrWAkprA2tL2MOI": {
+			"name": "Espada valiente"
+		},
+		"9xkB3MWXahrsVP4N": {
+			"name": "Espada larga avanzada"
+		},
+		"IoMVDz92WVvfGGdc": {
+			"name": "Bastón de sangre"
+		},
+		"i8CqVTzqoRoCewNe": {
+			"name": "Sable retráctil"
+		},
+		"GmTg3Fdne1UPNs8t": {
+			"name": "Daga legendaria"
+		},
+		"OfOzQbs4hg6QbfTG": {
+			"name": "Escudo torre avanzado"
+		},
+		"A28WL9E2lJ3iLZHW": {
+			"name": "Escudo redondo legendario"
+		},
+		"xLJ5RRpUoTRmAC3G": {
+			"name": "Hoja titilante"
+		},
+		"3T3o9zfe61t22L1H": {
+			"name": "Agarrador mejorado"
+		},
+		"PC5EyEIq7NWBV0n5": {
+			"name": "Guanteletes arcanos"
+		},
+		"F9PETfCQGwczBPif": {
+			"name": "Alabarda mejorada"
+		},
+		"zSLx52U4Yltqx8F1": {
+			"name": "Maza mejorada"
+		},
+		"KxFne76d7cak15dO": {
+			"name": "Estoque avanzado"
+		},
+		"6gFvOFTE97QZ74Zr": {
+			"name": "Hoja fantasma"
+		},
+		"mlIj88p1wcQNjEDG": {
+			"name": "Bastón"
+		},
+		"EmFTp9wzT6MHSaNz": {
+			"name": "Broquel"
+		},
+		"zMZ46F9VR7zdTxb9": {
+			"name": "Mandoble legendario"
+		},
+		"RsDsy7tIhrhaAQQc": {
+			"name": "Maza legendaria"
+		},
+		"1ZciqG7vIKLYpKsP": {
+			"name": "Bastón legendario"
+		},
+		"Iv8BZM1R24QMT72M": {
+			"name": "Espada larga"
+		},
+		"2Fbf2cxLfbdGkU4I": {
+			"name": "Espada de lanzamiento"
+		},
+		"1R4uzOpWD8bkYRUm": {
+			"name": "Martillo de la ira"
+		},
+		"p9tdjQr2AZP19RYm": {
+			"name": "Arco corto"
+		},
+		"mxwWKDujgsRcZWPT": {
+			"name": "Escudo redondo"
+		},
+		"ZJsetdHKV77ygtCE": {
+			"name": "Silla de ruedas de marco ligero mejorada"
+		},
+		"70ysaFJDREwTgvZa": {
+			"name": "Mandoble"
+		},
+		"umADDPYCaykXDc1v": {
+			"name": "Guanteletes arcanos legendarios"
+		},
+		"Lsvocst8aGqkBj7g": {
+			"name": "Ballesta de mano avanzada"
+		},
+		"pxaN4ZK4eqKrjtWj": {
+			"name": "Martillo de guerra mejorado"
+		},
+		"MXBpbqQsZFln4rZk": {
+			"name": "Gran arco"
+		},
+		"1AuMNiJz96Ez9fur": {
+			"name": "Alabarda legendaria"
+		},
+		"mrioysDjNQEIE8hN": {
+			"name": "Daga avanzada"
+		},
+		"DWLkswhluXuMy3bB": {
+			"name": "Runas de mano legendarias"
+		},
+		"5faflfNz20cFW1EM": {
+			"name": "Látigo con hojas"
+		},
+		"Utt1GpoH1fhaTOtN": {
+			"name": "Arco largo legendario"
+		},
+		"3HGs0AgVrdIBTaKG": {
+			"name": "Ballesta avanzada"
+		},
+		"FcbvY1ydbNVMjKvk": {
+			"name": "Hacha de batalla avanzada"
+		},
+		"1G6xX2QL9O0Rsgz7": {
+			"name": "Ballesta legendaria"
+		},
+		"f7hhHlZ5nL3AhYEM": {
+			"name": "Bastón dual mejorado"
+		},
+		"FPX4ouDrxXiQ5MDf": {
+			"name": "Mandoble mejorado"
+		},
+		"YcS1rHgfnSlla8Xf": {
+			"name": "Hacha de Fortunis"
+		},
+		"nMuF8ZDZ2aXZVTg6": {
+			"name": "Daga pequeña mejorada"
+		},
+		"IrtUj0UntBMNn49G": {
+			"name": "Agarrador legendario"
+		},
+		"jGykNGQiKm63tCiE": {
+			"name": "Revólver del mago"
+		},
+		"7vvhVl4TDJHtjpFK": {
+			"name": "Agarrador avanzado"
+		},
+		"cKQCDyM2UopDL9zF": {
+			"name": "Maza"
+		},
+		"ijodu5yNBoMxpkHV": {
+			"name": "Arco aantari"
+		},
+		"fbDYUja3ll9vCtrB": {
+			"name": "Hacha de batalla"
+		},
+		"SxcblanBvqaest3A": {
+			"name": "Fragmento de cebador"
+		},
+		"4UzxqfkwF8gDSdu7": {
+			"name": "Gran bastón avanzado"
+		},
+		"zkAgEW6zMkRZalEm": {
+			"name": "Estoque"
+		},
+		"ykF3jouxHZ6YR8Bg": {
+			"name": "Arco de pelo fino"
+		},
+		"BEmAR60PM3ZaiNXa": {
+			"name": "Bastón mejorado"
+		},
+		"E9QDh5o9eQ1Qx0kH": {
+			"name": "Hachas de rebote"
+		},
+		"MaJIROht7A9LxIZx": {
+			"name": "Escudo torre legendario"
+		},
+		"WtQAGz0TUgz8Xg70": {
+			"name": "Espadón avanzado"
+		},
+		"GZh345N8fmuS4Jeh": {
+			"name": "Cetro"
+		},
+		"eT2Qwb0RdrLX2hH1": {
+			"name": "Silla de ruedas de marco pesado avanzada"
+		},
+		"fJHKMxZokVP34MCi": {
+			"name": "Arma de asta extendida"
+		},
+		"wFOXMN2uiX4j6Gd9": {
+			"name": "Hacha sagrada mejorada"
+		},
+		"j7kp36jaetfn5jb3": {
+			"name": "Arco corto legendario"
+		},
+		"0XpSBYXxtywvBFQi": {
+			"name": "Arco de sangre yutari"
+		},
+		"jDtvEabkHY1GFgfc": {
+			"name": "Gran bastón legendario"
+		},
+		"4e5pWxi2qohuGsWh": {
+			"name": "Lanza legendaria"
+		},
+		"I1nDGpulg29GpWOW": {
+			"name": "Arco de cardos"
+		},
+		"LCuTrYXi4lhg6LqW": {
+			"name": "Gran bastón mejorado"
+		},
+		"XKBmBUEoGLdLcuqQ": {
+			"name": "Orbe del mago"
+		},
+		"wKklDxs5nkzILNp4": {
+			"name": "Daga pequeña"
+		},
+		"MAC6YWTo4lzSotQc": {
+			"name": "Mandoble avanzado"
+		},
+		"pK6dsNABKKp1CIGN": {
+			"name": "Lanza avanzada"
+		},
+		"cjGZpXCoshEqi1FI": {
+			"name": "Espada corta"
+		},
+		"vHDHG3STcxTEfYAM": {
+			"name": "Bastón corto"
+		},
+		"2Khzuj768yoWN9QK": {
+			"name": "Cetro avanzado"
+		},
+		"ddRjXnp2vbohu7rJ": {
+			"name": "Alfanje mejorado"
+		},
+		"D3SbNvNJZAFuzfhg": {
+			"name": "Bastón corto legendario"
+		},
+		"Wcdbf6yS3LEt7nsg": {
+			"name": "Látigo legendario"
+		},
+		"14abPqQcROJfDChR": {
+			"name": "Espada larga legendaria"
+		},
+		"InQoh8mZPnwarQkX": {
+			"name": "Anillos brillantes avanzados"
+		},
+		"1jOJHHKdtk3s2jaY": {
+			"name": "Hoja de cuerda oscilante"
+		},
+		"tP6vmnrmTq2h5sj7": {
+			"name": "Varita de sometimiento"
+		},
+		"CWrbnethuILXrEpA": {
+			"name": "Alfanje"
+		},
+		"zJtm2f9ZFKZRtCRg": {
+			"name": "Bastón avanzado"
+		},
+		"Rpyz0jbFJ1SwqfyD": {
+			"name": "Alfanje legendario"
+		},
+		"N5amhkxR1xn3B7r2": {
+			"name": "Anillos brillantes mejorados"
+		},
+		"jMEukC3VpNDz5AOD": {
+			"name": "Runas de mano mejoradas"
+		},
+		"rSyBNRwemBVuTo3H": {
+			"name": "Espada corta mejorada"
+		},
+		"nxGUpuHLmuKdKsDC": {
+			"name": "Hacha de batalla mejorada"
+		},
+		"qT7FfmauAumOjJoq": {
+			"name": "Alabarda"
+		},
+		"32nYyMaeDWaakSxz": {
+			"name": "Ballesta de mano legendaria"
+		},
+		"bw9WO9lxkM9bWZxQ": {
+			"name": "Alfanje avanzado"
+		},
+		"S6nB0CNlzdU05o5U": {
+			"name": "Silla de ruedas de marco pesado legendaria"
+		},
+		"C5wSGglR8e0euQnY": {
+			"name": "Daga devoradora"
+		},
+		"iEzPscUc18GuFoB6": {
+			"name": "Agarrador"
+		},
+		"ZrRGNjGCgZTTfgDG": {
+			"name": "Varita de Essek"
+		},
+		"vzyzFwLUniWZV1rt": {
+			"name": "Escudo con púas"
+		},
+		"hXR56fTKwZ6s1obs": {
+			"name": "Guanteletes arcanos avanzados"
+		},
+		"1N1jggda5DfdzdMj": {
+			"name": "Guanteletes de sifón"
+		},
+		"Gi26Zk9VqlAAgx3E": {
+			"name": "Alfanje meridiano"
+		},
+		"SFqganS8Du4aEKjQ": {
+			"name": "Garras de nudillos"
+		},
+		"BtCm2RhWEfs00g38": {
+			"name": "Bastón de fuego"
+		},
+		"FtsQGwOg3r8uUCST": {
+			"name": "Hacha retornante"
+		},
+		"ItWisJFNGMNWeaCV": {
+			"name": "Varita"
+		},
+		"iaGnlUkShBgdeMo0": {
+			"name": "Silla de ruedas de marco ligero"
+		},
+		"kENTDpa1hr5LDhIT": {
+			"name": "Guanteletes arcanos mejorados"
+		},
+		"LFPH8nD2f4Blv3AM": {
+			"name": "Estoque mejorado"
+		},
+		"PQACczSghZIVTdgZ": {
+			"name": "Runas de mano avanzadas"
+		},
+		"la3sAWgnvadc4NvP": {
+			"name": "Silla de ruedas de marco arcano avanzada"
+		},
+		"L5KeCtrs768PmYWW": {
+			"name": "Silla de ruedas de marco pesado mejorada"
+		},
+		"y3hfTPfZhMognyaJ": {
+			"name": "Espadón legendario"
+		},
+		"BakN97v4jTePcXiZ": {
+			"name": "Estoque legendario"
+		},
+		"nXjuBa215H1sTUK3": {
+			"name": "Espada de doble filo"
+		},
+		"TF85tKJetUjLwh54": {
+			"name": "Lanza"
+		},
+		"SLFrK0WmldPo0shz": {
+			"name": "Trabuco"
+		},
+		"ctTgFfMbM3YtmsYU": {
+			"name": "Arco dorado"
+		},
+		"55NwHIIZHUeKSE3M": {
+			"name": "Ballesta mejorada"
+		},
+		"4fQpVfQ3NVwTHStA": {
+			"name": "Hoja retornante"
+		},
+		"3vti3xfo0wJND7ew": {
+			"name": "Fragmentos de hoja flotante"
+		},
+		"U8gfyvxoHm024inM": {
+			"name": "Hojas de nudillos"
+		},
+		"0HmhnZnv1I6uX69c": {
+			"name": "Hacha sagrada legendaria"
+		},
+		"SKNwkW23eVQjN4Zy": {
+			"name": "Hoja retornante mejorada"
+		},
+		"OxsEmffWriiQmqJK": {
+			"name": "Hacha trineo"
+		},
+		"8Z5QrThfwkYPXNco": {
+			"name": "Pendiente de Widogast"
+		},
+		"M5CywMAyPKGgebsJ": {
+			"name": "Arco largo avanzado"
+		},
+		"taAZDkDCpeNgxhnn": {
+			"name": "Daga de parada"
+		},
+		"XRChepscgr75Uug7": {
+			"name": "Silla de ruedas de marco arcano"
+		},
+		"n1oPTk5czTIGTkVj": {
+			"name": "Daga bendita"
+		},
+		"AokqTusPzn0hghkE": {
+			"name": "Revólver de pólvora negra"
+		},
+		"QyBZ5NxM8F9nCL9s": {
+			"name": "Espada larga mejorada"
+		},
+		"wG9f5NpCwSbaLy8t": {
+			"name": "Anillos brillantes"
+		},
+		"hiEOGF2reabGLUoi": {
+			"name": "Escudo redondo avanzado"
+		},
+		"W9ymfEDck2icfvla": {
+			"name": "Martillo de guerra legendario"
+		},
+		"xm1yU7k58fMgXxRR": {
+			"name": "Mangual doble"
+		},
+		"ftTp8VlsBQ1r4LFD": {
+			"name": "Látigo mejorado"
+		},
+		"mcj3CPkcSSDdAcBB": {
+			"name": "Hoja retornante legendaria"
+		},
+		"1nztpLzoHGfbKf5x": {
+			"name": "Hacha de batalla legendaria"
+		},
+		"q382JqMkqLaaFLIr": {
+			"name": "Bastón del guardián"
+		},
+		"sIGXA4KMeYBUjcEO": {
+			"name": "Hoja retornante avanzada"
+		},
+		"ijWppQzSOqVCb3rE": {
+			"name": "Hacha labrys"
+		},
+		"BiyXKX2Mo1TQbKgk": {
+			"name": "Hacha sagrada avanzada"
+		},
+		"gA2tiET9VHGhwMoO": {
+			"name": "Silla de ruedas de marco arcano legendaria"
+		},
+		"T5exRCqOXhrjSYnI": {
+			"name": "Bastón corto avanzado"
+		},
+		"Mn8ja5Oi1sXvvPSk": {
+			"name": "Bastón corto mejorado"
+		},
+		"3whiedn0jBMNRdIb": {
+			"name": "Runas de mano"
+		}
+	}
 }

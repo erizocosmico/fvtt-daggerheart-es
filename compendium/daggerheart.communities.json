@@ -1,35 +1,83 @@
 {
-	"label": "Comunidades",
-	"folders": {
-		"Community Features": "Rasgos de comunidad"
+	"label":"Comunidades",
+	"folders":{
+		"Community Features":"Rasgos de comunidad"
 	},
-	"entries": {
-		"Highborne": {
-			"name": "Noble"
+	"mapping":{
+		"description":"system.description"
+	},
+	"entries":{
+		"Highborne":{
+			"name":"Noble",
+			"description":"<p>Ser parte de una comunidad noble significa que estás acostumbrado a una vida de elegancia, opulencia y prestigio dentro de los escalones superiores de la sociedad. Tradicionalmente, los miembros de una comunidad noble poseen una riqueza material increíble. Aunque esto puede tomar varias formas dependiendo de la comunidad—incluyendo oro y otros minerales, tierras, o el control de los medios de producción—este estatus siempre viene con poder e influencia. Los nobles valoran mucho los títulos y las posesiones, y hay poca movilidad social dentro de sus filas. Los miembros de una comunidad noble a menudo controlan el estatus político y económico de las áreas en las que viven debido a su capacidad para influir en las personas y la economía con su riqueza sustancial. La salud y seguridad de las personas menos pudientes que viven en estos lugares a menudo depende de la capacidad de esta clase noble gobernante para priorizar el bienestar de sus súbditos sobre el beneficio.</p><p class=\"green Body-Styles_Body\"><em>Los nobles suelen ser amables, sinceros, intrigantes, emprendedores, ostentosos e imperturbables.</em></p><p></p><h4>RASGO DE COMUNIDAD</h4><p><em><strong>Privilegio:</strong></em> Tienes ventaja en tiradas para alternar con nobles, negociar precios o aprovechar tu reputación para conseguir lo que quieres.</p>"
 		},
-		"Loreborne": {
-			"name": "Erudita"
+		"Loreborne":{
+			"name":"Erudita",
+			"description":"<p>Ser parte de una comunidad erudita significa que vienes de una sociedad que favorece una fuerte destreza académica o política. Las comunidades eruditas valoran mucho el conocimiento, frecuentemente en forma de preservación histórica, avance político, estudio científico, desarrollo de habilidades, o compilación de tradiciones y mitología. La mayoría de los miembros de estas comunidades investigan en instituciones construidas en bastiones de civilización, mientras que algunos pocos eclécticos prosperan reuniendo información del mundo natural. Algunos pueden ser aislacionistas, operando en enclaves más pequeños, escuelas o gremios y siguiendo su propio ethos único. Otros aún ejercen su conocimiento a mayor escala, haciendo hábiles maniobras políticas a través de paisajes gubernamentales.</p><p class=\"green Body-Styles_Body\"><em>Los eruditos suelen ser directos, elocuentes, inquisitivos, pacientes, rapsódicos e ingeniosos.</em></p><p></p><h4>RASGO DE COMUNIDAD</h4><p><em><strong>Bien Leído:</strong></em> Tienes ventaja en tiradas que involucren la historia, cultura o política de una persona o lugar prominente.</p>"
 		},
-		"Orderborne": {
-			"name": "Disciplinada"
+		"Orderborne":{
+			"name":"Disciplinada",
+			"description":"<p>Ser parte de una comunidad disciplinada significa que vienes de un colectivo que se centra en la disciplina o la fe, y mantienes un conjunto de principios que reflejan tu experiencia allí. Los disciplinados son frecuentemente algunos de los más poderosos entre las comunidades circundantes. Al alinear a los miembros de su sociedad alrededor de un valor u objetivo común, como un dios, doctrina, ethos, o incluso un negocio o comercio compartido, los órganos gobernantes de estos enclaves pueden movilizar poblaciones más grandes con menos esfuerzo. Mientras que las comunidades disciplinadas toman diversas formas—algunas incluso profundamente pacifistas—quizás las más temidas son aquellas que se estructuran alrededor de la destreza militar. En tal caso, no es raro que los disciplinados proporcionen soldados de alquiler a otras ciudades o países.</p><p class=\"green Body-Styles_Body\"><em>Los disciplinados suelen ser ambiciosos, benevolentes, pensativos, prudentes, sardónicos y estoicos.</em></p><p></p><h4>RASGO DE COMUNIDAD</h4><p><em><strong>Dedicado:</strong></em> Registra tres dichos o valores que tu educación te inculcó. Una vez por descanso, cuando describas cómo estás encarnando uno de estos principios a través de tu acción actual, puedes tirar un <strong>d20</strong> como tu Dado de Esperanza.</p>"
 		},
-		"Ridgeborne": {
-			"name": "Montañesa"
+		"Ridgeborne":{
+			"name":"Montañesa",
+			"description":"<p>Ser parte de una comunidad montañesa significa que has llamado hogar a los picos rocosos y acantilados escarpados de la ladera de la montaña. Aquellos que han vivido en las montañas a menudo se consideran más resistentes que la mayoría porque han prosperado entre el terreno más peligroso que muchos continentes tienen para ofrecer. Estos grupos son expertos en adaptación, desarrollando tecnologías y equipamiento únicos para mover tanto personas como productos a través de terreno difícil. Como tal, los montañeses crecen escalando y trepando, haciéndolos resistentes y de voluntad fuerte. Las localidades montañesas aparecen en diversas formas—algunas ciudades tallan caras enteras de acantilados, otras construyen castillos de piedra, y otras más viven en pequeñas casas en picos azotados por el viento. Las fuerzas externas a menudo luchan por atacar a los grupos montañeses, ya que las pequeñas milicias y grandes fuerzas militares de las montañas son expertas en utilizar su ventaja de altura.</p><p class=\"green Body-Styles_Body\"><em>Los montañeses suelen ser audaces, resistentes, indomables, leales, reservados y tercos.</em></p><p></p><h4>RASGO DE COMUNIDAD</h4><p><em><strong>Firme:</strong></em> Tienes ventaja en tiradas para atravesar acantilados y salientes peligrosos, navegar entornos hostiles y usar tu conocimiento de supervivencia.</p>"
 		},
-		"Seaborne": {
-			"name": "Marítima"
+		"Seaborne":{
+			"name":"Marítima",
+			"description":"<p>Ser parte de una comunidad marítima significa que viviste en o cerca de un gran cuerpo de agua. Las comunidades marítimas están construidas, tanto física como culturalmente, alrededor de las aguas específicas que llaman hogar. Algunos de estos grupos viven a lo largo de la orilla, construyendo puertos para locales y viajeros por igual. Estos puertos funcionan como centros de comercio, atracciones turísticas, o incluso solo un lugar seguro para reposar la cabeza después de semanas de viaje. Otros marítimos viven en el agua en pequeños barcos o grandes naves, con la idea de \"hogar\" comprendiendo un barco y su tripulación, en lugar de cualquier masa de tierra. Sin importar su ubicación exacta, las comunidades marítimas están estrechamente vinculadas a las mareas del océano y las criaturas que las habitan. Los marítimos aprenden a pescar a temprana edad, y entrenan desde el nacimiento para mantener la respiración y nadar en incluso las aguas más tumultuosas. Los individuos de estos grupos son muy buscados por sus habilidades de navegación, y muchos se convierten en capitanes de embarcaciones, ya sea dentro de su propia comunidad, trabajando para otra, o incluso al timón de una poderosa operación naval.</p><p class=\"green Body-Styles_Body\"><em>Los marítimos suelen ser sinceros, cooperativos, exuberantes, feroces, decididos y curtidos.</em></p><h4>RASGO DE COMUNIDAD</h4><p><em><strong>Conocer la Marea:</strong></em> Puedes sentir el flujo y reflujo de la vida. Cuando tiras con Miedo, coloca una ficha en tu carta de comunidad. Puedes tener un número de fichas igual a tu nivel. Antes de hacer una tirada de acción, puedes gastar cualquier número de estas fichas para ganar un bonificador de +1 a la tirada por cada ficha gastada. Al final de cada sesión, limpia todas las fichas no gastadas.</p>"
 		},
-		"Slyborne": {
-			"name": "Granuja"
+		"Slyborne":{
+			"name":"Granuja",
+			"description":"<p>Ser parte de una comunidad granuja significa que vienes de un grupo que opera fuera de la ley, incluyendo todo tipo de criminales, estafadores y timadores. Los miembros de las comunidades granujas están unidos por sus objetivos de mala reputación y sus medios inteligentes de lograrlos. Muchas personas en estas comunidades tienen una variedad de habilidades sin escrúpulos: falsificación, robo, contrabando y violencia. Las personas de cualquier clase social pueden ser granujas, desde aquellos que han acumulado una vasta riqueza e influencia hasta aquellos sin una moneda a su nombre. Para el ojo externo, los granujas pueden parecer rufianes sin lealtad, pero estas comunidades poseen algunos de los códigos de honor más estrictos que, cuando se rompen, pueden resultar en un final terrorífico para el transgresor.</p><p class=\"green Body-Styles_Body\"><em>Los granujas suelen ser calculadores, astutos, formidables, perceptivos, sagaces y tenaces.</em></p><p></p><h4>RASGO DE COMUNIDAD</h4><p><em><strong>Sinvergüenza:</strong></em> Tienes ventaja en tiradas para negociar con criminales, detectar mentiras o encontrar un lugar seguro para esconderte.</p>"
 		},
-		"Underborne": {
-			"name": "Subterránea"
+		"Underborne":{
+			"name":"Subterránea",
+			"description":"<p>Ser parte de una comunidad subterránea significa que vienes de una sociedad subterránea. Muchos subterráneos viven justo debajo de las ciudades y pueblos de otros colectivos, mientras que algunos viven mucho más profundo. Estas comunidades van desde pequeños grupos familiares en madrigueras hasta metrópolis masivas en cavernas de piedra. En muchas localidades, los subterráneos son reconocidos por su increíble audacia y habilidad que permiten grandes hazañas de arquitectura e ingeniería. Los subterráneos son regularmente contratados por su valentía, ya que incluso el menos atrevido entre ellos probablemente ha encontrado formidables bestias subterráneas, y aprender a despachar tales criaturas es práctica común entre estas sociedades. Debido a los peligros de su entorno, muchas comunidades subterráneas desarrollan lenguajes no verbales únicos que resultan igualmente útiles en la superficie.</p><p class=\"green Body-Styles_Body\"><em>Los subterráneos suelen ser serenos, esquivos, indomables, innovadores, ingeniosos y sin pretensiones.</em></p><p></p><h4>RASGO DE COMUNIDAD</h4><p><em><strong>Vida con Poca Luz:</strong></em> Cuando estás en un área con poca luz o sombra densa, tienes ventaja en tiradas para esconderte, investigar o percibir detalles dentro de esa área.</p>"
 		},
-		"Wanderborne": {
-			"name": "Errante"
+		"Wanderborne":{
+			"name":"Errante",
+			"description":"<p>Ser parte de una comunidad errante significa que has vivido como nómada, renunciando a un hogar permanente y experimentando una amplia variedad de culturas. A diferencia de muchas comunidades que están definidas por su ubicación, los errantes están definidos por su estilo de vida itinerante. Debido a su frecuente migración, los errantes ponen menos valor en la acumulación de posesiones materiales en favor de adquirir información, habilidades y conexiones. Mientras que algunos errantes están aliados por un ethos común, como una religión o un conjunto de valores políticos o económicos, otros se unen después de una tragedia compartida, como la pérdida de su hogar o tierra. Sin importar la razón, los peligros que plantea la vida en el camino y la elección de continuar por ese camino juntos significan que los errantes son conocidos por su lealtad inquebrantable.</p><p class=\"green Body-Styles_Body\"><em>Los errantes suelen ser inescrutables, magnánimos, alegres, confiables, astutos y poco ortodoxos.</em></p><p></p><h4>RASGO DE COMUNIDAD</h4><p><em><strong>Mochila Nómada:</strong></em> Añade una Mochila Nómada a tu inventario. Una vez por sesión, puedes <strong>gastar una Esperanza</strong> para meter la mano en esta mochila y sacar un objeto mundano que sea útil para tu situación. Trabaja con el DJ para determinar qué objeto sacas.</p>"
 		},
-		"Wildborne": {
-			"name": "Salvaje"
+		"Wildborne":{
+			"name":"Salvaje",
+			"description":"<p>Ser parte de una comunidad salvaje significa que viviste en lo profundo del bosque. Las comunidades salvajes están definidas por su dedicación a la conservación de sus tierras natales, y muchas tienen fuertes lazos religiosos o culturales con la fauna entre la que viven. Esto resulta en avances arquitectónicos y tecnológicos únicos que favorecen la sostenibilidad sobre resultados de alto rendimiento a corto plazo. Es una característica de las sociedades salvajes integrar sus pueblos y ciudades con el entorno natural y evitar perturbar las vidas de las plantas y animales. Mientras que algunos construyen sus viviendas en lo alto de las ramas de los árboles, otros establecen sus hogares en el suelo bajo el dosel del bosque. No es raro que los salvajes permanezcan recluidos y ocultos dentro de sus hogares boscosos.</p><p class=\"green Body-Styles_Body\"><em>Los salvajes suelen ser resistentes, leales, protectores, recluidos, sabios y vibrantes.</em></p><p></p><h4>RASGO DE COMUNIDAD</h4><p><em><strong>Paso Ligero:</strong></em> Tu movimiento es naturalmente silencioso. Tienes ventaja en tiradas para moverte sin ser escuchado.</p>"
+		},
+		"Dedicated":{
+			"name":"Dedicado",
+			"description":"<p>Registra tres dichos o valores que tu educación te inculcó. Una vez por descanso, cuando describas cómo estás encarnando uno de estos principios a través de tu acción actual, puedes tirar un d20 como tu Dado de Esperanza</p>"
+		},
+		"Know the Tide":{
+			"name":"Conocer la Marea",
+			"description":"<p>Puedes sentir el flujo y reflujo de la vida. Cuando tiras con Miedo, coloca una ficha en tu carta de comunidad. Puedes tener un número de fichas igual a tu nivel. Antes de hacer una tirada de acción, puedes gastar cualquier número de estas fichas para ganar un bonificador de +1 a la tirada por cada ficha gastada. Al final de cada sesión, limpia todas las fichas no gastadas.</p>"
+		},
+		"Lightfoot":{
+			"name":"Paso Ligero",
+			"description":"<p>Tu movimiento es naturalmente silencioso. Tienes ventaja en tiradas para moverte sin ser escuchado.</p>"
+		},
+		"Low-Light Living":{
+			"name":"Vida con Poca Luz",
+			"description":"<p>Cuando estás en un área con poca luz o sombra densa, tienes ventaja en tiradas para esconderte, investigar o percibir detalles dentro de esa área.</p>"
+		},
+		"Nomadic Pack":{
+			"name":"Mochila Nómada",
+			"description":"<p>Añade una Mochila Nómada a tu inventario. Una vez por sesión, puedes gastar una Esperanza para meter la mano en esta mochila y sacar un objeto mundano que sea útil para tu situación. Trabaja con el DJ para determinar qué objeto sacas.</p>"
+		},
+		"Privilege":{
+			"name":"Privilegio",
+			"description":"<p>Tienes ventaja en tiradas para alternar con nobles, negociar precios o aprovechar tu reputación para conseguir lo que quieres.</p>"
+		},
+		"Scoundrel":{
+			"name":"Sinvergüenza",
+			"description":"<p>Tienes ventaja en tiradas para negociar con criminales, detectar mentiras o encontrar un lugar seguro para esconderte.</p>"
+		},
+		"Steady":{
+			"name":"Firme",
+			"description":"<p>Tienes ventaja en tiradas para atravesar acantilados y salientes peligrosos, navegar entornos hostiles y usar tu conocimiento de supervivencia.</p>"
+		},
+		"Well-Read":{
+			"name":"Bien Leído",
+			"description":"<p>Tienes ventaja en tiradas que involucren la historia, cultura o política de una persona o lugar prominente.</p>"
 		}
 	}
 }

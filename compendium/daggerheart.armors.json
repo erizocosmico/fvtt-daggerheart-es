@@ -7,43 +7,82 @@
 		"Tier 3": "Rango 3",
 		"Tier 4": "Rango 4"
 	},
+	"mapping": {
+		"description": "systen.description"
+	},
 	"entries": {
 		"Bare Bones": {
 			"name": "Sin armadura",
-			"description": "<p></p><p class=\"Body-Foundation\">Cuando eliges no llevar armadura tu Valor de Armadura base es 3 + tu Fuerza y usas los siguientes como tus límites de daño base:</p><ul><li class=\"vertical-card-list-found\"><em><strong>Rango 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Rango 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Rango 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Rango 4:</strong></em> 15/38</li></ul>"
-		},
-		"Chaimail Armor": {
-			"name": "Cota de malla"
+			"description": "<p></p><p class=\"Body-Foundation\">Cuando eliges no llevar armadura tu Valor de Armadura base es 3 + tu Fuerza y usas los siguientes como tus límites de daño base:</p><ul><li class=\"vertical-card-list-found\"><em><strong>Rango 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Rango 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Rango 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Rango 4:</strong></em> 15/38</li></ul>",
+			"effects": {
+				"8ze88zUwdkQSKKJq": {
+					"name": "Sin armadura",
+					"description": "<p></p><p class=\"Body-Foundation\">Cuando eliges no llevar armadura tu Valor de Armadura base es 3 + tu Fuerza y usas los siguientes como tus límites de daño base:</p><ul><li class=\"vertical-card-list-found\"><em><strong>Rango 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Rango 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Rango 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Rango 4:</strong></em> 15/38</li></ul>"
+				}
+			}
 		},
 		"Full Plate Armor": {
-			"name": "Armadura de placas"
+			"name": "Armadura de placas",
+			"effects": {
+				"mfKMW9SX3Mnos1nY": {
+					"name": "Muy pesada",
+					"description": "-2 a Evasión; -1 a Agilidad"
+				}
+			}
 		},
 		"Gambeson Armor": {
-			"name": "Gambesón"
+			"name": "Gambesón",
+			"effects": {
+				"v1FNEsypRF5W6vVc": {
+					"name": "Flexible",
+					"description": "+1 a Evasión"
+				}
+			}
 		},
 		"Leather Armor": {
 			"name": "Armadura de cuero"
-		},
-		"Elundrian Chain Mail": {
-			"name": "Cota de malla Elundriana"
 		},
 		"Harrowbone Armor": {
 			"name": "Armadura de hueso labrado"
 		},
 		"Improved Chainmail Armor": {
-			"name": "Cota de malla mejorada"
+			"name": "Cota de malla mejorada",
+			"effects": {
+				"JHupzYULxdQzFzuj": {
+					"name": "Pesada",
+					"description": "-1 a Evasión"
+				}
+			}
 		},
 		"Improved Full Plate Armor": {
-			"name": "Armadura de placas mejorada"
+			"name": "Armadura de placas mejorada",
+			"effects": {
+				"wstJ1aKKtmXgCwxB": {
+					"name": "Muy pesada",
+					"description": "-2 a Evasión; -1 a Agilidad"
+				}
+			}
 		},
 		"Improved Gambeson Armor": {
-			"name": "Gambesón mejorado"
+			"name": "Gambesón mejorado",
+			"effects": {
+				"BFwU3ErPaajUSMUz": {
+					"name": "Flexible",
+					"description": "+1 a Evasión"
+				}
+			}
 		},
 		"Improved Leather Armor": {
 			"name": "Armadura de cuero mejorada"
 		},
 		"Irontree Breastplate Armor": {
-			"name": "Coraza de Arbolférreo"
+			"name": "Coraza de Arbolférreo",
+			"effects": {
+				"P3aCN8PQgPXP4C9M": {
+					"name": "Reforzada",
+					"description": "Cuando marques tu último punto de Armadura aumenta tus límites de daño en +2 hasta que recuperes, por lo menos, 1 punto de Armadura."
+				}
+			}
 		},
 		"Rosewild Armor": {
 			"name": "Armadura Rosasalvaje"
@@ -55,61 +94,160 @@
 			"name": "Armadura suave de Tyris"
 		},
 		"Advanced Chainmail Armor": {
-			"name": "Cota de malla avanzada"
+			"name": "Cota de malla avanzada",
+			"effects": {
+				"qlzHOAnpBYzosQxK": {
+					"name": "Pesada",
+					"description": "-1 a Evasión"
+				}
+			}
 		},
 		"Advanced Full Plate Armor": {
-			"name": "Armadura de placas avanzada"
+			"name": "Armadura de placas avanzada",
+			"effects": {
+				"awdHgEaM54G3emOU": {
+					"name": "Muy pesada",
+					"description": "-2 a Evasión; -1 a Agilidad"
+				}
+			}
 		},
 		"Advanced Gambeson Armor": {
-			"name": "Gambesón Avanzado"
+			"name": "Gambesón Avanzado",
+			"effects": {
+				"Fq9Q93IHCchhfSss": {
+					"name": "Flexible",
+					"description": "+1 a Evasión"
+				}
+			}
 		},
 		"Bellamoi Fine Armor": {
-			"name": "Armadura fina de Bellamoi"
+			"name": "Armadura fina de Bellamoi",
+			"effects": {
+				"Hy0sNtFS1JAXxgwC": {
+					"name": "Dorada",
+					"description": "+1 a Presencia"
+				}
+			}
 		},
 		"Bladefare Armor": {
-			"name": "Armadura de Bladefare"
+			"name": "Armadura de Bladefare",
+			"effects": {
+				"s8KtTIngTjnOlaTP": {
+					"name": "Física",
+					"description": "No puedes marcar puntos de Armadura para reducir daño mágico."
+				}
+			}
 		},
 		"Dragonscale Armor": {
 			"name": "Armadura de escamas de dragón"
 		},
 		"Monett's Cloak": {
-			"name": "Capa de Monett"
+			"name": "Capa de Monett",
+			"effects": {
+				"3n4O7PyAWMEFdr5p": {
+					"name": "Mágica",
+					"description": "No puedes marcar un punto de Armadura para reducir daño físico."
+				}
+			}
 		},
 		"Runes of Fortification": {
 			"name": "Runas de fortificación"
 		},
 		"Spiked Plate Armor": {
-			"name": "Armadura de placas tachonada"
+			"name": "Armadura de placas tachonada",
+			"effects": {
+				"V8CcTcVAIxHq8KNd": {
+					"name": "Afilada",
+					"description": "Al atacar con éxito a un objetivo a rango de melé añade un d4 a la tirada de daño."
+				}
+			}
 		},
 		"Channeling Armor": {
-			"name": "Armadura canalizadora"
+			"name": "Armadura canalizadora",
+			"effects": {
+				"8bwf1Ri3jYkjphEv": {
+					"name": "Canalizadora",
+					"description": "+1 a las tiradas de lanzamiento de conjuros"
+				}
+			}
 		},
 		"Dunamis Silkchain": {
 			"name": "Cota de seda de dunamis"
 		},
 		"Full Fortified Armor": {
-			"name": "Armadura completa fortificada"
+			"name": "Armadura completa fortificada",
+			"effects": {
+				"QIefVb73cm9gYju8": {
+					"name": "Fortificada",
+					"description": "Cuando marcas un espacio de armadura puedes reducir la severidad del ataque en dos límites en lugar de uno."
+				}
+			}
 		},
 		"Emberwoven Armor": {
 			"name": "Armadura ascuatejida"
 		},
 		"Legendary Chainmail Armor": {
-			"name": "Cota de malla legendaria"
+			"name": "Cota de malla legendaria",
+			"effects": {
+				"8Oa6Y375X8UpcPph": {
+					"name": "Pesada",
+					"description": "-1 a Evasión"
+				}
+			}
 		},
 		"Legendary Full Plate Armor": {
-			"name": "Armadura de placas legendaria"
+			"name": "Armadura de placas legendaria",
+			"effects": {
+				"zvzkRX2Uevemmbz4": {
+					"name": "Muy pesada",
+					"description": "-2 a Evasión; -1 a Agilidad"
+				}
+			}
 		},
 		"Legendary Gambeson Armor": {
-			"name": "Gambesón legendario"
+			"name": "Gambesón legendario",
+			"effects": {
+				"3AUNxBoj7mp1ziJQ": {
+					"name": "Flexible",
+					"description": "+1 a Evasión"
+				}
+			}
 		},
 		"Legendary Leather Armor": {
 			"name": "Armadura de cuero legendaria"
 		},
 		"Savior Chainmail": {
-			"name": "Cota de malla salvadora"
+			"name": "Cota de malla salvadora",
+			"effects": {
+				"rkrqlwqtR9REgRx7": {
+					"name": "Difícil",
+					"description": "-1 a todos los atributos y Evasión"
+				}
+			}
 		},
 		"Veritas Opal Armor": {
 			"name": "Armadura de Ópalo Veritas"
+		},
+		"Advanced Leather Armor": {
+			"name": "Armadura de cuero avanzada"
+		},
+		"Chainmail Armor": {
+			"effects": {
+				"ZfO5NjpqEIzZVlPq": {
+					"name": "Pesada",
+					"description": "-1 a Evasión"
+				}
+			},
+			"name": "Cota de malla"
+		},
+		"Elundrian Chain Armor": {
+			"name": "Cota de malla Elundriana",
+			"effects": {
+				"xGxqTCO8MjNq5Cw6": {
+					"name": "Protegida",
+					"description": "Reduces el daño mágico recibido en tu Valor de Armadura antes de aplicarlo a tus límites de daño."
+				}
+			}
 		}
 	}
 }
