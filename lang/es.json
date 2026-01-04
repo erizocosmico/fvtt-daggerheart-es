@@ -367,7 +367,8 @@
                 "toVault": "Mandar al depósito",
                 "unequip": "Desequipar",
                 "useItem": "Usar Objeto",
-                "cancelBeastform": "Cancelar Forma Bestial"
+                "cancelBeastform": "Cancelar Forma Bestial",
+                "recall": "Recuperar"
             },
             "Countdown": {
                 "addCountdown": "Añadir contador",
@@ -1056,16 +1057,20 @@
             },
             "EnvironmentType": {
                 "exploration": {
-                    "label": "Exploración"
+                    "label": "Exploración",
+                    "_description": ""
                 },
                 "social": {
-                    "label": "Social"
+                    "label": "Social",
+                    "_description": ""
                 },
                 "traversal": {
-                    "label": "Travesía"
+                    "label": "Travesía",
+                    "_description": ""
                 },
                 "event": {
-                    "label": "Evento"
+                    "label": "Evento",
+                    "_description": ""
                 }
             },
             "Gold": {
@@ -1854,7 +1859,6 @@
                             "hint": "El número de Movimientos de Descanso Corto extra que el personaje puede tomar durante un Descanso Corto."
                         },
                         "longRestMoves": {
-
                             "label": "Descanso Corto: Movimientos de Descanso Largo Adicionales",
                             "hint": "El número de Movimientos de Descanso Largo extra que el personaje puede tomar durante un Descanso Corto."
                         }
@@ -1868,7 +1872,9 @@
                             "label": "Descanso Largo: Movimientos de Descanso Largo Adicionales",
                             "hint": "El número de Movimientos de Descanso Largo extra que el personaje puede tomar durante un Descanso Largo."
                         }
-                    }
+                    },
+                    "target": "Objetivo",
+                    "targetSelf": "Personal"
                 },
                 "maxLoadout": {
                     "label": "Bonificador de cartas máximas en la mano"
@@ -1946,7 +1952,7 @@
                 "single": "Dominio",
                 "plural": "Dominios",
                 "arcana": {
-                    label: "Arcano",
+                    "label": "Arcano",
                     "description": "Este es el dominio del uso innato o instintivo de la magia. Aquellos que caminan por este sendero aprovechan las fuerzas crudas y enigmáticas de los reinos para manipular tanto los elementos como su propia energía. Arcano ofrece a sus portadores un poder volátil, pero increíblemente potente cuando se canaliza correctamente."
                 },
                 "blade": {
