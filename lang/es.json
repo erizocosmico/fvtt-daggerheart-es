@@ -56,7 +56,11 @@
                 },
                 "summon": {
                     "name": "Invocar",
-                    "tooltip": "Crear tokens en la escena."
+                    "tooltip": "Crear tokens en la escena.",
+                    "_error": "You do not have permission to summon tokens or there is no active scene.",
+                    "_invalidDrop": "You can only drop Actor entities to summon.",
+                    "_chatMessageTitle": "Test2",
+                    "_chatMessageHeaderTitle": "Summoning"
                 },
                 "countdown": {
                     "name": "Cuenta atrás",
@@ -81,7 +85,9 @@
                 "countdown": {
                     "defaultOwnership": "Permisos por defecto",
                     "startCountdown": "Empezar cuenta atrás"
-                }
+                },
+                "_deleteTriggerTitle": "Delete Trigger",
+                "_deleteTriggerContent": "Are you sure you want to delete the {trigger} trigger?"
             },
             "RollField": {
                 "diceRolling": {
@@ -113,7 +119,10 @@
                     "stepTooltip": "+{step} por avance"
                 },
                 "saveHint": "Establece un Atributo por defecto para habilitar la Tirada de Reacción. Se puede cambiar después en el Diálogo de Tirada de Reacción.",
-                "criticalThreshold": "Umbral de Crítico"
+                "criticalThreshold": "Umbral de Crítico",
+                "summon": {
+                    "_dropSummonsHere": "Drop Summons Here"
+                }
             }
         },
         "ACTIVEEFFECT": {
@@ -257,7 +266,25 @@
                 "backgroundQuestions": "Trasfondos",
                 "connections": "Conexiones",
                 "viewLevelups": "Ver subidas de nivel",
-                "cancelBeastform": "Cancelar Forma Bestial"
+                "cancelBeastform": "Cancelar Forma Bestial",
+                "burden": {
+                    "ignore": {
+                        "_label": "Burden: Ignore",
+                        "_hint": "Ignore burden rules"
+                    }
+                },
+                "_defaultHopeDice": "Default Hope Dice",
+                "_defaultFearDice": "Default Fear Dice",
+                "roll": {
+                    "guaranteedCritical": {
+                        "_label": "Guaranteed Critical",
+                        "_hint": "Set to 1 to always roll a critical"
+                    }
+                },
+                "_resetCharacter": "Reset Character",
+                "_viewParty": "View Party",
+                "_resetCharacterConfirmationTitle": "Reset Character",
+                "_resetCharacterConfirmationContent": "You are reseting all character data except name and portrait. Are you sure?"
             },
             "Companion": {
                 "FIELDS": {
@@ -349,7 +376,9 @@
                 "suggestedWeapons": "Arma sugerida",
                 "title": "{actor} - Configurar personaje",
                 "traitIncreases": "Incrementos de atributos",
-                "storyExplanation": "Selecciona qué trasfondos y conexiones quieres copiar en la ficha del personaje."
+                "storyExplanation": "Selecciona qué trasfondos y conexiones quieres copiar en la ficha del personaje.",
+                "_setupSkipTitle": "Skipping Character Setup",
+                "_setupSkipContent": "You are skipping the Character Setup by adding this manually. The character setup is the blinking arrows in the top-right. Are you sure you want to continue?"
             },
             "CombatTracker": {
                 "combatStarted": "Activo",
@@ -470,6 +499,10 @@
                     "workOnAProject": {
                         "description": "Establece o continua el trabajando en un proyecto.",
                         "name": "Trabajar en un proyecto"
+                    },
+                    "prepareWithFriends": {
+                        "_description": "Describe how you are preparing for the next day's adventure, then gain a Hope. If you choose to Prepare with one or more members of your party, you may each take two Hope.",
+                        "_name": "Prepare (with Friends)"
                     }
                 },
                 "shortRest": {
@@ -490,6 +523,10 @@
                     "prepare": {
                         "name": "Preparar",
                         "description": "Describe cómo te preparas para el camino que tienes delante, luego gana 1 punto de Esperanza. Si eliges prepararte con uno o más miembros del grupo cada personaje gana 2 puntos de Esperanza."
+                    },
+                    "prepareWithFriends": {
+                        "_name": "Prepare (with Friends)",
+                        "_description": "Describe how you prepare yourself for the path ahead, then gain a Hope. If you choose to Prepare with one or more members of your party, you each gain 2 Hope."
                     }
                 },
                 "refreshable": {
@@ -501,7 +538,9 @@
                 "tokenHUD": {
                     "genericEffects": "Efectos de Foundry",
                     "depositPartyTokens": "Depositar fichas del grupo",
-                    "retrievePartyTokens": "Recuperar fichas del grupo"
+                    "retrievePartyTokens": "Recuperar fichas del grupo",
+                    "_depositCompanionTokens": "Deposit Companion Token",
+                    "_retrieveCompanionTokens": "Retrieve Companion Token"
                 }
             },
             "Levelup": {
@@ -625,7 +664,8 @@
             "RerollDialog": {
                 "title": "Volver a tirar",
                 "deselectDiceNotification": "Deselecciona primero uno de los dados seleccionados",
-                "acceptCurrentRolls": "Aceptar Tiradas Actuales"
+                "acceptCurrentRolls": "Aceptar Tiradas Actuales",
+                "_damageTitle": "Reroll Damage"
             },
             "ResourceDice": {
                 "title": "Recurso {name}",
@@ -683,6 +723,19 @@
             },
             "TokenConfig": {
                 "actorSizeUsed": "Tamaño del actor especificado, determinando las dimensiones"
+            },
+            "CharacterReset": {
+                "_title": "Reset Character",
+                "_alwaysDeleteSection": "Deleted Data",
+                "_optionalDeleteSection": "Optional Data",
+                "_headerTitle": "Select which data you'd like to keep"
+            },
+            "RiskItAllDialog": {
+                "_title": "{name} - Risk It All",
+                "_subtitle": "Clear Stress and Hit Points",
+                "_remainingTitle": "Remaining Points",
+                "_clearResource": "Clear {resource}",
+                "_finalTitle": "Final Character Resources"
             }
         },
         "CLASS": {
@@ -1011,6 +1064,10 @@
                 "vulnerable": {
                     "name": "Vulnerable",
                     "description": "Mientras una criatura es Vulnerable todas las tiradas que la tengan como objetivo tienen ventaja.\nUna criatura que ya es Vulnerable no puede volver a recibir esta condición."
+                },
+                "deathMove": {
+                    "_name": "Death Move",
+                    "_description": "The character is about to make a Death Move"
                 }
             },
             "CountdownType": {
@@ -1752,7 +1809,8 @@
                 "any": "Cualquiera",
                 "friendly": "Amistoso",
                 "hostile": "Hostil",
-                "self": "Personal"
+                "self": "Personal",
+                "_other": "Other"
             },
             "AdversaryTypeCost": {
                 "minion": "por cada grupo de Esbirros igual al tamaño del grupo.",
@@ -1799,6 +1857,29 @@
                 "large": "Grande",
                 "huge": "Enorme",
                 "gargantuan": "Gargantuesco"
+            },
+            "Triggers": {
+                "postDamageReduction": {
+                    "_label": "After Damage Reduction"
+                },
+                "preDamageReduction": {
+                    "_label": "Before Damage Reduction"
+                },
+                "dualityRoll": {
+                    "_label": "Duality Roll"
+                },
+                "fearRoll": {
+                    "_label": "Fear Roll"
+                },
+                "triggerTexts": {
+                    "_strangePatternsContentTitle": "Matched {nr} times.",
+                    "_strangePatternsContentSubTitle": "Increase hope and stress to a total of {nr}.",
+                    "_ferocityContent": "Spend 2 Hope to gain {bonus} bonus Evasion until after the next attack against you?",
+                    "_ferocityEffectDescription": "Your evasion is increased by {bonus}. This bonus lasts until after the next attack made against you."
+                },
+                "_triggerType": "Trigger Type",
+                "_triggeringActorType": "Triggering Actor Type",
+                "_triggerError": "{trigger} trigger failed for {actor}. It's probably configured wrong."
             }
         },
         "EFFECTS": {
@@ -2061,6 +2142,33 @@
                             "label": "Reducción de Daño con Estrés: Menor",
                             "hint": "El coste en estrés que puedes pagar para reducir el daño menor a ninguno."
                         }
+                    },
+                    "disabledArmor": {
+                        "_label": "Disabled Armorslots"
+                    },
+                    "magical": {
+                        "_label": "Daamge Reduction: Only Magical",
+                        "_hint": "Armor can only be used to reduce magical damage"
+                    },
+                    "reduceSeverity": {
+                        "magical": {
+                            "_label": "Reduce Damage Severity: Magical",
+                            "_hint": "Lowers any magical damage received by the set amount of severity degrees"
+                        },
+                        "physical": {
+                            "_label": "Reduce Damage Severity: Physical",
+                            "_hint": "Lowers any physical damage received by the set amount of severity degrees"
+                        }
+                    },
+                    "physical": {
+                        "_label": "Damage Reduction: Only Physical",
+                        "_hint": "Armor can only be used to reduce physical damage"
+                    },
+                    "thresholdImmunities": {
+                        "minor": {
+                            "_label": "Threshold Immunities: Minor",
+                            "_hint": "Automatically ignores minor damage"
+                        }
                     }
                 },
                 "attack": {
@@ -2078,6 +2186,11 @@
                             "label": "Ataque base: Atributo"
                         }
                     }
+                },
+                "conditionImmunities": {
+                    "_hidden": "Condition Immunity: Hidden",
+                    "_restrained": "Condition Immunity: Restrained",
+                    "_vulnerable": "Condition Immunity: Vulnerable"
                 }
             },
             "Tabs": {
@@ -2128,7 +2241,9 @@
                 "itemFeatures": "Rasgos del objeto",
                 "questions": "Preguntas",
                 "configuration": "Configuración",
-                "base": "Base"
+                "base": "Base",
+                "_triggers": "Triggers",
+                "_deathMoves": "Deathmoves"
             },
             "Tiers": {
                 "1": "Rango 1",
@@ -2275,7 +2390,29 @@
             "newThing": "Nuevo/a {thing}",
             "rerolled": "Tirado de nuevo",
             "tokenSize": "Tamaño de la ficha",
-            "typeSheet": "Hoja de {type} del sistema"
+            "typeSheet": "Hoja de {type} del sistema",
+            "Attack": {
+                "hpDamageMultiplier": {
+                    "_label": "HP Damage Multiplier",
+                    "_hint": "Multiply any damage you deal by this number"
+                },
+                "hpDamageTakenMultiplier": {
+                    "_label": "HP Damage Taken Multiplier",
+                    "_hint": "Multiply any damage dealt to you by this number"
+                }
+            },
+            "_automation": "Automation",
+            "_currentLevel": "Current Level",
+            "_dualityDice": "Duality Dice",
+            "_fate": "Fate",
+            "_fateRoll": "Fate Roll",
+            "_guaranteedCriticalSuccess": "Guaranteed Critical Success",
+            "_portrait": "Portrait",
+            "_scars": "Scars",
+            "summon": {
+                "_single": "Summon",
+                "_plural": "Summons"
+            }
         },
         "ITEMS": {
             "FIELDS": {
@@ -2360,7 +2497,10 @@
                         "width": {
                             "label": "Anchura"
                         },
-                        "disabledPlaceholder": "Establecido por tamaño del personaje"
+                        "disabledPlaceholder": "Establecido por tamaño del personaje",
+                        "scale": {
+                            "_label": "Token Scale"
+                        }
                     },
                     "evolved": {
                         "maximumTier": {
@@ -2421,7 +2561,10 @@
                 "recallCost": "Coste de Recuerdo",
                 "foundationTitle": "Base",
                 "specializationTitle": "Especialización",
-                "masteryTitle": "Maestría"
+                "masteryTitle": "Maestría",
+                "_vaultActive": "Active In Vault",
+                "_loadoutIgnore": "Ignores Loadout Limits",
+                "_domainTouched": "Domain Touched"
             },
             "Subclass": {
                 "spellcastingTrait": "Atributo de lanzamiento de conjuros"
@@ -2480,6 +2623,14 @@
                     },
                     "useResourcePips": {
                         "label": "Visualización de Puntos para Recursos"
+                    },
+                    "showTokenDistance": {
+                        "_label": "Show Token Distance on Hover",
+                        "choices": {
+                            "_always": "Always",
+                            "_encounters": "Encounters",
+                            "_never": "Never"
+                        }
                     }
                 },
                 "fearDisplay": {
@@ -2513,6 +2664,18 @@
                         },
                         "companionDefault": {
                             "label": "Estado de Derrota por Defecto de Compañero"
+                        },
+                        "deathMove": {
+                            "_label": "Death Move"
+                        },
+                        "dead": {
+                            "_label": "Dead"
+                        },
+                        "defeated": {
+                            "_label": "Defeated"
+                        },
+                        "unconscious": {
+                            "_label": "Unconscious"
                         }
                     },
                     "hopeFear": {
@@ -2578,6 +2741,12 @@
                     "countdownAutomation": {
                         "label": "Automatización de contadores",
                         "hint": "Avanzar contadores automáticamente en base a su configuración de progreso"
+                    },
+                    "triggers": {
+                        "enabled": {
+                            "_label": "Enabled",
+                            "_hint": "Advanced automation such as triggering a popup for a wizard's Strange Patterns"
+                        }
                     }
                 },
                 "defeated": {
@@ -2585,6 +2754,9 @@
                 },
                 "roll": {
                     "title": "Acciones"
+                },
+                "trigger": {
+                    "_title": "Triggers"
                 }
             },
             "Homebrew": {
@@ -2607,6 +2779,9 @@
                     "maxDomains": {
                         "label": "Máximo número de dominios",
                         "hint": "El número máximo de dominios que puedes establecer en una clase"
+                    },
+                    "maxHope": {
+                        "_label": "Max Hope"
                     }
                 },
                 "currency": {
@@ -2641,7 +2816,10 @@
                 "adversaryType": {
                     "title": "Tipos de Adversario Personalizados",
                     "newType": "Tipo de Adversario"
-                }
+                },
+                "_resetItemFeaturesTitle": "Reset {type}",
+                "_deleteItemTitle": "Delete Homebrew Item",
+                "_deleteItemText": "Are you sure you want to delete the item?"
             },
             "Menu": {
                 "title": "Configuración de Daggerheart",
@@ -2730,7 +2908,9 @@
                     }
                 },
                 "disabledText": "Las mediciones de Daggerheart están deshabilitadas en Configuración del Sistema - Reglas Variantes",
-                "rangeMeasurement": "Medición de Alcance"
+                "rangeMeasurement": "Medición de Alcance",
+                "_sceneEnvironments": "Scene Environments",
+                "_dragEnvironmentHere": "Drag environments here"
             }
         },
         "UI": {
@@ -2757,7 +2937,16 @@
                     "currentTarget": "Actual"
                 },
                 "deathMove": {
-                    "title": "Movimiento de muerte"
+                    "title": "Movimiento de muerte",
+                    "_gainScar": "You gained a scar.",
+                    "_avoidScar": "You have avoided a new scar.",
+                    "_journeysEnd": "You have {scars} Scars and have crossed out your last Hope slot. Your character's journey ends.",
+                    "_riskItAllCritical": "Critical Rolled, clearing all marked Stress and Hit Points.",
+                    "_riskItAllFailure": "The fear die rolled higher. You have crossed through the veil of death.",
+                    "_blazeOfGlory": "Blaze of Glory Effect Added!",
+                    "_riskItAllDialogButton": "Clear Stress And Hit Points.",
+                    "_riskItAllSuccessWithEnoughHope": "The Hope value is more than the marked Stress and Hit Points. Both are cleared fully.",
+                    "_riskItAllSuccess": "The hope die rolled higher, clear up to {hope} Stress And Hit Points."
                 },
                 "dicePool": {
                     "title": "Reserva de dados"
@@ -2885,7 +3074,13 @@
                 "gmRequired": "Esta acción requiere un DJ en línea",
                 "gmOnly": "Solo el DJ puede acceder a esto",
                 "noActorOwnership": "No tienes permisos para este personaje",
-                "documentIsMissing": "El {documentType} falta del mundo."
+                "documentIsMissing": "El {documentType} falta del mundo.",
+                "_fateParsing": "Fate roll not properly formatted",
+                "_fateTypeParsing": "Fate roll not properly formatted, bad fate type. Valid types are 'Hope' and 'Fear'",
+                "_tokenActorMissing": "{name} is missing an Actor",
+                "_tokenActorsMissing": "[{names}] missing Actors",
+                "_domainTouchRequirement": "This domain card requires {nr} {domain} cards in the loadout to be used",
+                "_knowTheTide": "Know The Tide gained a token"
             },
             "Tooltip": {
                 "disableEffect": "Deshabilitar Efecto",
@@ -2917,7 +3112,8 @@
                 "deleteItem": "Borrar Ítem",
                 "immune": "Inmune",
                 "middleClick": "[Click Central] Mantener vista de tooltip",
-                "tokenSize": "El tamaño del token usado en el lienzo"
+                "tokenSize": "El tamaño del token usado en el lienzo",
+                "_previewTokenHelp": "Left-click to place, right-click to cancel"
             },
             "ChatLog": {
                 "rerollDamage": "Volver a tirar el daño",
@@ -2989,9 +3185,20 @@
             "EffectsDisplay": {
                 "removeThing": "[Click derecho] Eliminar {thing}",
                 "appliedBy": "Aplicado por: {by}"
+            },
+            "ConsoleLogs": {
+                "_triggerRun": "DH TRIGGER | Item '{item}' on actor '{actor}' ran a '{trigger}' trigger."
             }
         },
-        "CharacterSheet": "Hoja de personaje"
+        "CharacterSheet": "Hoja de personaje",
+        "ROLLTABLES": {
+            "FIELDS": {
+                "formulaName": {
+                    "_label": "Formula Name"
+                }
+            },
+            "_formula": "Formula"
+        }
     },
     "SCENE": {
         "TABS": {
