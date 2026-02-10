@@ -56,7 +56,11 @@
                 },
                 "summon": {
                     "name": "Invocar",
-                    "tooltip": "Crear tokens en la escena."
+                    "tooltip": "Crear tokens en la escena.",
+                    "error": "No tienes permiso para invocar tokens o no hay escena activa.",
+                    "invalidDrop": "Solo puedes arrastrar entidades de tipo Actor para invocarlas.",
+                    "_chatMessageTitle": "Test2",
+                    "chatMessageHeaderTitle": "Invocando"
                 },
                 "countdown": {
                     "name": "Cuenta atrás",
@@ -81,7 +85,9 @@
                 "countdown": {
                     "defaultOwnership": "Permisos por defecto",
                     "startCountdown": "Empezar cuenta atrás"
-                }
+                },
+                "deleteTriggerTitle": "Borrar activador",
+                "deleteTriggerContent": "¿Está seguro de que desea eliminar el activador {trigger}?"
             },
             "RollField": {
                 "diceRolling": {
@@ -113,7 +119,10 @@
                     "stepTooltip": "+{step} por avance"
                 },
                 "saveHint": "Establece un Atributo por defecto para habilitar la Tirada de Reacción. Se puede cambiar después en el Diálogo de Tirada de Reacción.",
-                "criticalThreshold": "Umbral de Crítico"
+                "criticalThreshold": "Umbral de Crítico",
+                "summon": {
+                    "dropSummonsHere": "Arrastra invocaciones aquí"
+                }
             }
         },
         "ACTIVEEFFECT": {
@@ -257,7 +266,25 @@
                 "backgroundQuestions": "Trasfondos",
                 "connections": "Conexiones",
                 "viewLevelups": "Ver subidas de nivel",
-                "cancelBeastform": "Cancelar Forma Bestial"
+                "cancelBeastform": "Cancelar Forma Bestial",
+                "burden": {
+                    "ignore": {
+                        "label": "Carga: Ignorar",
+                        "hint": "Ignorar las reglas de carga"
+                    }
+                },
+                "defaultHopeDice": "Dados de esperanza predeterminados",
+                "defaultFearDice": "Dados de miedo predeterminados",
+                "roll": {
+                    "guaranteedCritical": {
+                        "label": "Crítico garantizado",
+                        "hint": "Establezca este valor en 1 para obtener siempre un golpe crítico."
+                    }
+                },
+                "resetCharacter": "Reiniciar personaje",
+                "viewParty": "Ver grupo",
+                "resetCharacterConfirmationTitle": "Reiniciar personaje",
+                "resetCharacterConfirmationContent": "Estás restableciendo todos los datos del personaje, excepto el nombre y la imagen. ¿Estás seguro?"
             },
             "Companion": {
                 "FIELDS": {
@@ -349,7 +376,9 @@
                 "suggestedWeapons": "Arma sugerida",
                 "title": "{actor} - Configurar personaje",
                 "traitIncreases": "Incrementos de atributos",
-                "storyExplanation": "Selecciona qué trasfondos y conexiones quieres copiar en la ficha del personaje."
+                "storyExplanation": "Selecciona qué trasfondos y conexiones quieres copiar en la ficha del personaje.",
+                "setupSkipTitle": "Omitir configuración del personaje",
+                "setupSkipContent": "Al añadir esto manualmente, te estás saltando la configuración del personaje. La configuración del personaje son las flechas parpadeantes en la esquina superior derecha. ¿Estás seguro de que quieres continuar?"
             },
             "CombatTracker": {
                 "combatStarted": "Activo",
@@ -470,6 +499,10 @@
                     "workOnAProject": {
                         "description": "Establece o continua el trabajando en un proyecto.",
                         "name": "Trabajar en un proyecto"
+                    },
+                    "prepareWithFriends": {
+                        "description": "Describe cómo te estás preparando para aventurarte el día siguiente y obtén un punto de Esperanza. Si eliges prepararte con uno o más miembros del grupo cada personaje gana 2 puntos de Esperanza.",
+                        "name": "Prepararse (con aliados)"
                     }
                 },
                 "shortRest": {
@@ -490,6 +523,10 @@
                     "prepare": {
                         "name": "Preparar",
                         "description": "Describe cómo te preparas para el camino que tienes delante, luego gana 1 punto de Esperanza. Si eliges prepararte con uno o más miembros del grupo cada personaje gana 2 puntos de Esperanza."
+                    },
+                    "prepareWithFriends": {
+                        "name": "Prepararse (con aliados)",
+                        "description": "Describe cómo te preparas para el camino que tienes por delante y luego obtén un punto de Esperanza. Si eliges prepararte con uno o más miembros del grupo cada personaje gana 2 puntos de Esperanza."
                     }
                 },
                 "refreshable": {
@@ -501,7 +538,9 @@
                 "tokenHUD": {
                     "genericEffects": "Efectos de Foundry",
                     "depositPartyTokens": "Depositar fichas del grupo",
-                    "retrievePartyTokens": "Recuperar fichas del grupo"
+                    "retrievePartyTokens": "Recuperar fichas del grupo",
+                    "depositCompanionTokens": "Depositar token de compañero",
+                    "retrieveCompanionTokens": "Recuperar token de compañero"
                 }
             },
             "Levelup": {
@@ -625,7 +664,8 @@
             "RerollDialog": {
                 "title": "Volver a tirar",
                 "deselectDiceNotification": "Deselecciona primero uno de los dados seleccionados",
-                "acceptCurrentRolls": "Aceptar Tiradas Actuales"
+                "acceptCurrentRolls": "Aceptar Tiradas Actuales",
+                "damageTitle": "Volver a tirar los dados de daño"
             },
             "ResourceDice": {
                 "title": "Recurso {name}",
@@ -683,6 +723,19 @@
             },
             "TokenConfig": {
                 "actorSizeUsed": "Tamaño del actor especificado, determinando las dimensiones"
+            },
+            "CharacterReset": {
+                "title": "Restablecer personaje",
+                "alwaysDeleteSection": "Datos eliminados",
+                "optionalDeleteSection": "Datos opcionales",
+                "headerTitle": "Selecciona los datos que deseas conservar"
+            },
+            "RiskItAllDialog": {
+                "title": "{name} - Apostarlo todo",
+                "subtitle": "Eliminar el estrés y los puntos de vida.",
+                "remainingTitle": "Puntos restantes",
+                "clearResource": "Despejar {resource}",
+                "finalTitle": "Recursos finales del personaje"
             }
         },
         "CLASS": {
@@ -1011,6 +1064,10 @@
                 "vulnerable": {
                     "name": "Vulnerable",
                     "description": "Mientras una criatura es Vulnerable todas las tiradas que la tengan como objetivo tienen ventaja.\nUna criatura que ya es Vulnerable no puede volver a recibir esta condición."
+                },
+                "deathMove": {
+                    "name": "Movimiento de muerte",
+                    "description": "El personaje está a punto de realizar un Movimiento de muerte"
                 }
             },
             "CountdownType": {
@@ -1752,7 +1809,8 @@
                 "any": "Cualquiera",
                 "friendly": "Amistoso",
                 "hostile": "Hostil",
-                "self": "Personal"
+                "self": "Personal",
+                "other": "Otro"
             },
             "AdversaryTypeCost": {
                 "minion": "por cada grupo de Esbirros igual al tamaño del grupo.",
@@ -1799,6 +1857,29 @@
                 "large": "Grande",
                 "huge": "Enorme",
                 "gargantuan": "Gargantuesco"
+            },
+            "Triggers": {
+                "postDamageReduction": {
+                    "label": "Después de la reducción de daño"
+                },
+                "preDamageReduction": {
+                    "label": "Antes de la reducción de daño"
+                },
+                "dualityRoll": {
+                    "label": "Tirada dual"
+                },
+                "fearRoll": {
+                    "label": "Tirada con miedo"
+                },
+                "triggerTexts": {
+                    "strangePatternsContentTitle": "Coincidió {nr} veces.",
+                    "strangePatternsContentSubTitle": "Aumentar la esperanza y el estrés a un total de {nr}.",
+                    "ferocityContent": "¿Gastar 2 puntos de Esperanza para obtener una bonificación de {bonus} a la Evasión hasta después del próximo ataque contra ti?",
+                    "ferocityEffectDescription": "Tu evasión aumenta en {bonus}. Esta bonificación dura hasta después del siguiente ataque que recibas."
+                },
+                "triggerType": "Tipo de activador",
+                "triggeringActorType": "Tipo de actor activador",
+                "triggerError": "El activador {trigger} falló para {actor}. Probablemente esté mal configurado."
             }
         },
         "EFFECTS": {
@@ -2037,12 +2118,12 @@
                 "damageReduction": {
                     "increasePerArmorMark": {
                         "label": "Reducción de daño por Punto de Armadura",
-                        "hint": "Un punto de armadura normalmente reduce el daño 1 grado. Este valor incrementa el número de grados reducidos por cada punto."
+                        "hint": "Un punto de armadura normalmente reduce el daño 1 grado. Este valor incrementa el número de grados reducidos por cada punto"
                     },
                     "maxArmorMarkedBonus": "Máximo de Armadura Usada",
                     "maxArmorMarkedStress": {
                         "label": "Máximo de Armadura Usada Con Estrés",
-                        "hint": "Si este valor está establecido puedes usar hasta esa cantidad de estrés para gastar Marcas de Armadura adicionales más allá de tu máximo normal."
+                        "hint": "Si este valor está establecido puedes usar hasta esa cantidad de estrés para gastar Marcas de Armadura adicionales más allá de tu máximo normal"
                     },
                     "stress": {
                         "any": {
@@ -2051,15 +2132,42 @@
                         },
                         "severe": {
                             "label": "Reducción de Daño con Estrés: Severo",
-                            "hint": "El coste en estrés que puedes pagar para reducir el daño severo a mayor."
+                            "hint": "El coste en estrés que puedes pagar para reducir el daño severo a mayor"
                         },
                         "major": {
                             "label": "Reducción de Daño con Estrés: Mayor",
-                            "hint": "El coste en estrés que puedes pagar para reducir el daño mayor a menor."
+                            "hint": "El coste en estrés que puedes pagar para reducir el daño mayor a menor"
                         },
                         "minor": {
                             "label": "Reducción de Daño con Estrés: Menor",
-                            "hint": "El coste en estrés que puedes pagar para reducir el daño menor a ninguno."
+                            "hint": "El coste en estrés que puedes pagar para reducir el daño menor a ninguno"
+                        }
+                    },
+                    "disabledArmor": {
+                        "label": "Espacios de Armadura deshabilitados"
+                    },
+                    "magical": {
+                        "label": "Reducción de daño: Solo mágico",
+                        "hint": "La armadura solo se puede utilizar para reducir el daño mágico"
+                    },
+                    "reduceSeverity": {
+                        "magical": {
+                            "label": "Reducir la gravedad del daño: Mágico",
+                            "hint": "Reduce cualquier daño mágico recibido en la cantidad de grados de severidad especificada"
+                        },
+                        "physical": {
+                            "label": "Reducir la gravedad del daño: Físico",
+                            "hint": "Reduce cualquier daño físico recibido en la cantidad de grados de gravedad especificada"
+                        }
+                    },
+                    "physical": {
+                        "label": "Reducción de daño: Solo físico",
+                        "hint": "La armadura solo se puede utilizar para reducir el daño físico."
+                    },
+                    "thresholdImmunities": {
+                        "minor": {
+                            "label": "Umbral de inmunidad: Menor",
+                            "hint": "Ignora automáticamente los daños menores"
                         }
                     }
                 },
@@ -2078,6 +2186,11 @@
                             "label": "Ataque base: Atributo"
                         }
                     }
+                },
+                "conditionImmunities": {
+                    "hidden": "Inmunidad de condición: Oculta",
+                    "restrained": "Inmunidad de condición: Restringida",
+                    "vulnerable": "Inmunidad de condición: Vulnerable"
                 }
             },
             "Tabs": {
@@ -2128,7 +2241,9 @@
                 "itemFeatures": "Rasgos del objeto",
                 "questions": "Preguntas",
                 "configuration": "Configuración",
-                "base": "Base"
+                "base": "Base",
+                "triggers": "Activadores",
+                "deathMoves": "Movimiento de muerte"
             },
             "Tiers": {
                 "1": "Rango 1",
@@ -2275,7 +2390,29 @@
             "newThing": "Nuevo/a {thing}",
             "rerolled": "Tirado de nuevo",
             "tokenSize": "Tamaño de la ficha",
-            "typeSheet": "Hoja de {type} del sistema"
+            "typeSheet": "Hoja de {type} del sistema",
+            "Attack": {
+                "hpDamageMultiplier": {
+                    "label": "Multiplicador de daño de HP",
+                    "hint": "Multiplica cualquier daño que inflijas por este número"
+                },
+                "hpDamageTakenMultiplier": {
+                    "label": "Multiplicador de daño recibido de HP",
+                    "hint": "Multiplica cualquier daño que recibas por este número"
+                }
+            },
+            "automation": "Automatización",
+            "currentLevel": "Nivel Actual",
+            "dualityDice": "Tiro Dual",
+            "fate": "Destino",
+            "fateRoll": "Tirada de destino",
+            "guaranteedCriticalSuccess": "Éxito crítico garantizado",
+            "portrait": "Retrato",
+            "scars": "Cicatrices",
+            "summon": {
+                "single": "Invocación",
+                "plural": "Invocaciones"
+            }
         },
         "ITEMS": {
             "FIELDS": {
@@ -2360,7 +2497,10 @@
                         "width": {
                             "label": "Anchura"
                         },
-                        "disabledPlaceholder": "Establecido por tamaño del personaje"
+                        "disabledPlaceholder": "Establecido por tamaño del personaje",
+                        "scale": {
+                            "label": "Escala de Token"
+                        }
                     },
                     "evolved": {
                         "maximumTier": {
@@ -2421,7 +2561,10 @@
                 "recallCost": "Coste de Recuerdo",
                 "foundationTitle": "Base",
                 "specializationTitle": "Especialización",
-                "masteryTitle": "Maestría"
+                "masteryTitle": "Maestría",
+                "vaultActive": "Activo en bóveda",
+                "loadoutIgnore": "Ignora los límites de equipamiento",
+                "domainTouched": "Tocado por el Dominio"
             },
             "Subclass": {
                 "spellcastingTrait": "Atributo de lanzamiento de conjuros"
@@ -2480,6 +2623,14 @@
                     },
                     "useResourcePips": {
                         "label": "Visualización de Puntos para Recursos"
+                    },
+                    "showTokenDistance": {
+                        "label": "Mostrar la distancia del token al pasar el cursor por encima.",
+                        "choices": {
+                            "always": "Siempre",
+                            "encounters": "Encuentros",
+                            "never": "Nunca"
+                        }
                     }
                 },
                 "fearDisplay": {
@@ -2513,6 +2664,18 @@
                         },
                         "companionDefault": {
                             "label": "Estado de Derrota por Defecto de Compañero"
+                        },
+                        "deathMove": {
+                            "label": "Movimiento de muerte"
+                        },
+                        "dead": {
+                            "label": "Muerto"
+                        },
+                        "defeated": {
+                            "label": "Derrotado"
+                        },
+                        "unconscious": {
+                            "label": "Inconsciente"
                         }
                     },
                     "hopeFear": {
@@ -2578,6 +2741,12 @@
                     "countdownAutomation": {
                         "label": "Automatización de contadores",
                         "hint": "Avanzar contadores automáticamente en base a su configuración de progreso"
+                    },
+                    "triggers": {
+                        "enabled": {
+                            "label": "Activado",
+                            "hint": "Automatización avanzada, como por ejemplo, activar una ventana emergente para los Patrones Extraños de un mago."
+                        }
                     }
                 },
                 "defeated": {
@@ -2585,6 +2754,9 @@
                 },
                 "roll": {
                     "title": "Acciones"
+                },
+                "trigger": {
+                    "title": "Activadores"
                 }
             },
             "Homebrew": {
@@ -2607,6 +2779,9 @@
                     "maxDomains": {
                         "label": "Máximo número de dominios",
                         "hint": "El número máximo de dominios que puedes establecer en una clase"
+                    },
+                    "maxHope": {
+                        "label": "Esperanza Máxima"
                     }
                 },
                 "currency": {
@@ -2641,7 +2816,10 @@
                 "adversaryType": {
                     "title": "Tipos de Adversario Personalizados",
                     "newType": "Tipo de Adversario"
-                }
+                },
+                "resetItemFeaturesTitle": "Reiniciar {type}",
+                "deleteItemTitle": "Borrar objeto Homebrew",
+                "deleteItemText": "¿Estás seguro de que quieres eliminar el objeto?"
             },
             "Menu": {
                 "title": "Configuración de Daggerheart",
@@ -2730,7 +2908,9 @@
                     }
                 },
                 "disabledText": "Las mediciones de Daggerheart están deshabilitadas en Configuración del Sistema - Reglas Variantes",
-                "rangeMeasurement": "Medición de Alcance"
+                "rangeMeasurement": "Medición de Alcance",
+                "sceneEnvironments": "Entornos de escena",
+                "dragEnvironmentHere": "Arrastra los entornos aquí"
             }
         },
         "UI": {
@@ -2757,7 +2937,16 @@
                     "currentTarget": "Actual"
                 },
                 "deathMove": {
-                    "title": "Movimiento de muerte"
+                    "title": "Movimiento de muerte",
+                    "gainScar": "Obtuviste una cicatriz.",
+                    "avoidScar": "Has evitado una nueva cicatriz.",
+                    "journeysEnd": "Tienes {scars} cicatrices y has agotado tu última oportunidad de esperanza. La aventura de tu personaje llega a su fin.",
+                    "riskItAllCritical": "Tirada crítica, eliminando todos los puntos de estrés y de vida marcados.",
+                    "riskItAllFailure": "El dado de miedo es mayor. Has cruzado el velo de la muerte.",
+                    "blazeOfGlory": "¡Se ha añadido el efecto Estallido de gloria!",
+                    "riskItAllDialogButton": "Eliminar el estrés y los puntos de vida.",
+                    "riskItAllSuccessWithEnoughHope": "El tiro de Esperanza es superior a los puntos de Estrés y de Vida indicados. Ambos se restablecen por completo.",
+                    "riskItAllSuccess": "El dado de esperanza es mayor, quita hasta {hope} puntos de estrés y puntos de vida."
                 },
                 "dicePool": {
                     "title": "Reserva de dados"
@@ -2885,7 +3074,13 @@
                 "gmRequired": "Esta acción requiere un DJ en línea",
                 "gmOnly": "Solo el DJ puede acceder a esto",
                 "noActorOwnership": "No tienes permisos para este personaje",
-                "documentIsMissing": "El {documentType} falta del mundo."
+                "documentIsMissing": "El {documentType} falta del mundo.",
+                "fateParsing": "La tirada de dados del destino no tiene el formato correcto.",
+                "fateTypeParsing": "La tirada de destino no tiene el formato correcto; el tipo de destino es inválido. Los tipos válidos son 'Esperanza' y 'Miedo'.",
+                "tokenActorMissing": "A {name} le falta un actor.",
+                "tokenActorsMissing": "[{names}] les faltan actores.",
+                "domainTouchRequirement": "Esta carta de dominio requiere {nr} cartas de {domain} equipadas para poder ser utilizada.",
+                "knowTheTide": "Know The Tide obtuvo un token"
             },
             "Tooltip": {
                 "disableEffect": "Deshabilitar Efecto",
@@ -2917,7 +3112,8 @@
                 "deleteItem": "Borrar Ítem",
                 "immune": "Inmune",
                 "middleClick": "[Click Central] Mantener vista de tooltip",
-                "tokenSize": "El tamaño del token usado en el lienzo"
+                "tokenSize": "El tamaño del token usado en el lienzo",
+                "previewTokenHelp": "Haz clic izquierdo para colocar, haz clic derecho para cancelar."
             },
             "ChatLog": {
                 "rerollDamage": "Volver a tirar el daño",
@@ -2989,9 +3185,20 @@
             "EffectsDisplay": {
                 "removeThing": "[Click derecho] Eliminar {thing}",
                 "appliedBy": "Aplicado por: {by}"
+            },
+            "ConsoleLogs": {
+                "triggerRun": "DH TRIGGER | El objeto '{item}' del actor '{actor}' ejecutó un activador '{trigger}'."
             }
         },
-        "CharacterSheet": "Hoja de personaje"
+        "CharacterSheet": "Hoja de personaje",
+        "ROLLTABLES": {
+            "FIELDS": {
+                "formulaName": {
+                    "label": "Nombre de la fórmula"
+                }
+            },
+            "formula": "Fórmula"
+        }
     },
     "SCENE": {
         "TABS": {
