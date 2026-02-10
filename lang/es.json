@@ -485,7 +485,7 @@
                         "name": "Eliminar estrés"
                     },
                     "prepare": {
-                        "description": "Describe cómo te preparas para la aventura del día siguiente y gana un punto de Esperanza. Si eliges prepararte con uno o más compañeros del grupo cada uno recibís dos puntos de esperanza.",
+                        "description": "Describe cómo te preparas para la aventura del día siguiente y gana un punto de Esperanza.",
                         "name": "Preparar"
                     },
                     "repairArmor": {
@@ -501,7 +501,7 @@
                         "name": "Trabajar en un proyecto"
                     },
                     "prepareWithFriends": {
-                        "description": "Describe cómo te estás preparando para aventurarte el día siguiente y obtén un punto de Esperanza. Si eliges prepararte con uno o más miembros del grupo cada personaje gana 2 puntos de Esperanza.",
+                        "description": "Te preparas con uno o más miembros del grupo cada personaje gana 2 puntos de Esperanza.",
                         "name": "Prepararse (con aliados)"
                     }
                 },
@@ -522,11 +522,11 @@
                     },
                     "prepare": {
                         "name": "Preparar",
-                        "description": "Describe cómo te preparas para el camino que tienes delante, luego gana 1 punto de Esperanza. Si eliges prepararte con uno o más miembros del grupo cada personaje gana 2 puntos de Esperanza."
+                        "description": "Describe cómo te preparas para el camino que tienes delante, luego gana 1 punto de Esperanza."
                     },
                     "prepareWithFriends": {
                         "name": "Prepararse (con aliados)",
-                        "description": "Describe cómo te preparas para el camino que tienes por delante y luego obtén un punto de Esperanza. Si eliges prepararte con uno o más miembros del grupo cada personaje gana 2 puntos de Esperanza."
+                        "description": "Te preparas con uno o más miembros del grupo cada personaje gana 2 puntos de Esperanza."
                     }
                 },
                 "refreshable": {
@@ -736,6 +736,11 @@
                 "remainingTitle": "Puntos restantes",
                 "clearResource": "Despejar {resource}",
                 "finalTitle": "Recursos finales del personaje"
+            },
+            "CompendiumBrowserSettings": {
+                "title": "Habilitar compendios",
+                "enableSource": "Habilitar origen",
+                "disableSource": "Deshabilitar origen"
             }
         },
         "CLASS": {
@@ -2243,7 +2248,9 @@
                 "configuration": "Configuración",
                 "base": "Base",
                 "triggers": "Activadores",
-                "deathMoves": "Movimiento de muerte"
+                "deathMoves": "Movimiento de muerte",
+                "sources": "Orígenes",
+                "packs": "Packs"
             },
             "Tiers": {
                 "1": "Rango 1",
@@ -3113,7 +3120,8 @@
                 "immune": "Inmune",
                 "middleClick": "[Click Central] Mantener vista de tooltip",
                 "tokenSize": "El tamaño del token usado en el lienzo",
-                "previewTokenHelp": "Haz clic izquierdo para colocar, haz clic derecho para cancelar."
+                "previewTokenHelp": "Haz clic izquierdo para colocar, haz clic derecho para cancelar.",
+                "_rightClickExtend": "Right-Click to extend"
             },
             "ChatLog": {
                 "rerollDamage": "Volver a tirar el daño",
@@ -3167,7 +3175,8 @@
                     "consumables": "Consumibles",
                     "loots": "Botines"
                 },
-                "missing": "<i>Falta</i>"
+                "missing": "<i>Falta</i>",
+                "browserSettings": "Configuración del explorador"
             },
             "Sidebar": {
                 "daggerheartMenu": {

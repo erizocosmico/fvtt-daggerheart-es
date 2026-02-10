@@ -352,6 +352,11 @@
                 "requestSpotlight": "Request The Spotlight",
                 "openCountdowns": "Countdowns"
             },
+            "CompendiumBrowserSettings": {
+                "title": "Enable Compendiums",
+                "enableSource": "Enable Source",
+                "disableSource": "Disable Source"
+            },
             "ContextMenu": {
                 "disableEffect": "Disable Effect",
                 "enableEffect": "Enable Effect",
@@ -452,12 +457,12 @@
                         "name": "Clear Stress"
                     },
                     "prepare": {
-                        "description": "Describe how you are preparing for the next day's adventure, then gain a Hope. If you choose to Prepare with one or more members of your party, you may each take two Hope.",
+                        "description": "Describe how you are preparing for the next day's adventure, then gain a Hope.",
                         "name": "Prepare"
                     },
                     "prepareWithFriends": {
-                        "description": "Describe how you are preparing for the next day's adventure, then gain a Hope. If you choose to Prepare with one or more members of your party, you may each take two Hope.",
-                        "name": "Prepare (with Friends)"
+                        "description": "You prepare with one or more members of your party, and you each gain 2 Hope.",
+                        "name": "Prepare (together)"
                     },
                     "repairArmor": {
                         "description": "Describe how you spend time repairing your armor and clear all of its Armor Slots. You may also do this to an ally's armor instead.",
@@ -489,11 +494,11 @@
                     },
                     "prepare": {
                         "name": "Prepare",
-                        "description": "Describe how you prepare yourself for the path ahead, then gain a Hope. If you choose to Prepare with one or more members of your party, you each gain 2 Hope."
+                        "description": "Describe how you prepare yourself for the path ahead, then gain a Hope."
                     },
                     "prepareWithFriends": {
-                        "name": "Prepare (with Friends)",
-                        "description": "Describe how you prepare yourself for the path ahead, then gain a Hope. If you choose to Prepare with one or more members of your party, you each gain 2 Hope."
+                        "name": "Prepare (together)",
+                        "description": "You prepare with one or more members of your party, and you each gain 2 Hope."
                     }
                 },
                 "refreshable": {
@@ -2177,7 +2182,9 @@
                 "configuration": "Configuration",
                 "base": "Base",
                 "triggers": "Triggers",
-                "deathMoves": "Deathmoves"
+                "deathMoves": "Deathmoves",
+                "sources": "Sources",
+                "packs": "Packs"
             },
             "Tiers": {
                 "singular": "Tier",
@@ -2846,6 +2853,7 @@
             "ItemBrowser": {
                 "title": "Daggerheart Compendium Browser",
                 "hint": "Select a Folder in sidebar to start browsing through the compendium",
+                "browserSettings": "Browser Settings",
                 "searchPlaceholder": "Search...",
                 "columnName": "Name",
                 "tooltipFilters": "Filters",
@@ -3002,7 +3010,7 @@
                 "rulesOn": "Rules On",
                 "rulesOff": "Rules Off",
                 "remainingUses": "Uses refresh on {type}",
-                "rightClickExtand": "Right-Click to extand",
+                "rightClickExtend": "Right-Click to extend",
                 "companionPartnerLevelBlock": "The companion needs an assigned partner to level up.",
                 "configureAttribution": "Configure Attribution",
                 "deleteItem": "Delete Item",
