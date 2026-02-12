@@ -128,7 +128,7 @@
         },
         "Book of Korvax": {
             "name": "Libro de Korvax",
-            "description": "<p class=\"Card-Feature\"><em><strong>Levitación:</strong></em> Realiza una <strong>Tira de Lanzamiento de Hechizos</strong> para elevar temporalmente a un objetivo visible y moverlo a un rango cercano a su posición original.</p><p class=\"Card-Feature\"><em><strong>Retractarse:</strong></em> <strong>Gasta una Esperanza</strong> para obligar a un objetivo dentro del rango cuerpo a cuerpo a realizar una Tirada de Reacción (15). Si falla, olvida el último minuto de tu conversación.</p><p class=\"Card-Feature\"><em><strong>Círculo Rúnico:</strong></em> <strong>Marca una Tensión</strong> para crear un círculo mágico temporal en el suelo donde te encuentras. Todos los adversarios dentro del rango cuerpo a cuerpo, o que entren en él, reciben <strong>2d12+4</strong> de daño mágico y son devueltos a un rango muy cercano.</p>"
+            "description": "<p class=\"Card-Feature\"><em><strong>Levitación:</strong></em> Realiza una <strong>Tira de Lanzamiento de Hechizos</strong> para elevar temporalmente a un objetivo visible y moverlo a un rango cercano a su posición original.</p><p class=\"Card-Feature\"><em><strong>Retractarse:</strong></em> <strong>Gasta una Esperanza</strong> para obligar a un objetivo dentro del rango cuerpo a cuerpo a realizar una Tirada de Reacción (15). Si falla, olvida el último minuto de tu conversación.</p><p class=\"Card-Feature\"><em><strong>Círculo Rúnico:</strong></em> <strong>Marca un Estrés</strong> para crear un círculo mágico temporal en el suelo donde te encuentras. Todos los adversarios dentro del rango cuerpo a cuerpo, o que entren en él, reciben <strong>2d12+4</strong> de daño mágico y son devueltos a un rango muy cercano.</p>"
         },
         "Book of Norai": {
             "name": "Libro de Norai",
@@ -273,6 +273,90 @@
         "Onslaught": {
 			"name": "Embate",
 			"description": "<p class=\"Body-Foundation\">Cuando realizas un ataque con éxito con tu arma, nunca infliges daño por debajo del umbral de daño mayor del objetivo (el objetivo siempre marca un mínimo de 2 Puntos de Golpe).</p><p class=\"Body-Foundation\">Además, cuando una criatura dentro del alcance de tu arma inflige daño a un aliado con un ataque que no te incluye, puedes marcar un Estrés para obligarlo a realizar una Tirada de Reacción (15). Si falla, el objetivo debe marcar un Punto de Golpe.</p>"
+		},
+        "Deft Maneuvers": {
+			"name": "Maniobras hábiles",
+			"description": "<p class=\"Body-Foundation\">Una vez por descanso, <strong>marca un Estrés</strong> para correr a cualquier lugar dentro del alcance Lejano sin hacer una Tirada de Agilidad para llegar allí.</p><p class=\"Body-Foundation\">Si finalizas este movimiento dentro del alcance cuerpo a cuerpo de un adversario e inmediatamente realizas un ataque contra él, obtienes una bonificación de +1 a la tirada de ataque.</p>"
+		},
+        "I See It Coming": {
+			"name": "Lo veo venir",
+			"description": "<p class=\"Body-Foundation\">Cuando eres el objetivo de un ataque realizado fuera del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para tirar un <strong>d4</strong> y obtener una bonificación a tu Evasión igual al resultado contra el ataque.</p>"
+		},
+        "Untouchable": {
+			"name": "Intocable",
+			"description": "<p class=\"Body-Foundation\">Obtén una bonificación a tu Evasión igual a la mitad de tu Agilidad.</p>"
+		},
+        "Ferocity": {
+			"name": "Ferocidad",
+			"description": "<p class=\"Body-Foundation\">Cuando haces que un adversario marque 1 o más Puntos de Golpe, puedes <strong>gastar 2 de Esperanza</strong> para aumentar tu Evasión en la cantidad de Puntos de Golpe que marcó. Esta bonificación dura hasta después del siguiente ataque contra ti.</p>"
+		},
+        "Strategic Approach": {
+			"name": "Enfoque estratégico",
+			"description": "<p class=\"Body-Foundation\">Tras un descanso prolongado, coloca una cantidad de fichas igual a tu Conocimiento en esta carta (mínimo 1). La primera vez que te muevas a corta distancia de un adversario y realices un ataque contra él, puedes gastar una ficha para elegir una de las siguientes opciones:</p><ul><li class=\"vertical-card-list-found\"><p>Realizas el ataque con ventaja.</p></li><li class=\"vertical-card-list-found\"><p>Eliminas un Estrés de un aliado dentro del alcance cuerpo a cuerpo del adversario.</p></li><li class=\"vertical-card-list-found\"><p>Añades un <strong>d8</strong> a tu tirada de daño.</p></li></ul><p class=\"Body-Foundation\">Al realizar un descanso prolongado, elimina todas las fichas no gastadas.</p>"
+		},
+        "Brace": {
+			"name": "Resistir",
+			"description": "<p class=\"Body-Foundation\">Cuando marcas una ranura de armadura para reducir el daño recibido, puedes <strong>marcar un Estrés</strong> para marcar una ranura de armadura adicional.</p>"
+		},
+        "Tactician": {
+			"name": "Estratega",
+			"description": "<p class=\"Body-Foundation\">Cuando <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"help-an-ally\" nexus=\"daggerheart\">ayudas a un aliado</tooltip>, este puede gastar una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\">esperanza</tooltip> para añadir una de tus <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"experience\" nexus=\"daggerheart\">experiencias</tooltip> a su tirada junto con tu dado de <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"advantage-and-disadvantage\" nexus=\"daggerheart\">ventaja</tooltip>. </p><p class=\"Body-Foundation\">Al hacer una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"tag-team-roll\" nexus=\"daggerheart\">Tirada de Equipo</tooltip>, puedes tirar un <strong>d20</strong> como Dado de Esperanza.</p>"
+		},
+        "Boost": {
+			"name": "Impulso",
+			"description": "<p class=\"Body-Foundation\"><strong>Marca un Estrés</strong> para impulsar a un aliado dispuesto a corta distancia, propulsarte por los aires y realizar un ataque aéreo contra un objetivo a larga distancia. Tienes ventaja en el ataque, sumas un <strong>d10</strong> a la tirada de daño y terminas tu movimiento dentro del alcance cuerpo a cuerpo del objetivo.</p>"
+		},
+        "Redirect": {
+			"name": "Redirigir",
+			"description": "<p class=\"Body-Foundation\">Cuando un ataque contra ti desde fuera del alcance cuerpo a cuerpo falla, tira un número de <strong>d6</strong> igual a tu Competencia. Si alguno saca un 6, puedes marcar una <strong>Estrés</strong> para redirigir el ataque y dañar a un adversario dentro del alcance muy cercano.</p>"
+		},
+        "Know Thy Enemy": {
+			"name": "Conoce a tu enemigo",
+			"description": "<p class=\"Body-Foundation-No-BOLDITALIC\">Al observar una criatura, puedes hacer una <strong>tirada de Instinto</strong> contra ella. Si tiene éxito, gasta una Esperanza y pide al DJ un conjunto de información sobre el objetivo de entre las siguientes opciones:</p><ul><li class=\"vertical-card-list-found\"><p>Sus Puntos de Golpe y Estrés sin marcar.</p></li><li class=\"vertical-card-list-found\"><p>Sus umbrales de dificultad y daño.</p></li><li class=\"vertical-card-list-found\">Sus tácticas y dados de daño de ataque estándar.</li><li class=\"vertical-card-list-found\"><p>Sus características y Experiencias.</p></li></ul><p class=\"Body-Foundation-No-BOLDITALIC\">Además, si tiene éxito, puedes marcar un Estrés para eliminar un Miedo de la Reserva de Miedo del DJ.</p>"
+		},
+        "Signature Move": {
+			"name": "Movimiento insignia",
+			"description": "<p class=\"Body-Foundation\">Nombra y describe tu movimiento de combate característico. Una vez por descanso, al realizar este movimiento característico como parte de una acción, puedes tirar un <strong>d20</strong> como tu dado de <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\">Esperanza</tooltip>. Si tienes éxito, eliminas un <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\">Estrés</tooltip>.</p>"
+		},
+        "Rapid Riposte": {
+			"name": "Respuesta rápida",
+			"description": "<p class=\"Body-Foundation\">Cuando falla un ataque realizado contra ti desde dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> y aprovechar la oportunidad para infligir el daño de arma de una de tus armas activas al atacante.</p>"
+		},
+        "Recovery": {
+			"name": "Recuperación",
+			"description": "<p class=\"Body-Foundation\">Durante un descanso corto, puedes elegir un movimiento de descanso prolongado. Puedes gastar una esperanza para que un aliado haga lo mismo.</p>"
+		},
+        "Bone-Touched": {
+			"name": "Tocado por el hueso",
+			"description": "<p class=\"Body-Foundation-No-BOLDITALIC\">Cuando 4 o más cartas de dominio en tu equipamiento son del dominio Hueso, obtienes los siguientes beneficios:</p><ul><li class=\"vertical-card-list-found\"><p>+1 bonificación a Agilidad</p></li><li class=\"vertical-card-list-found\"><p>Una vez por descanso, puedes <strong>gastar 3 puntos de Esperanza</strong> para hacer que un ataque que tuvo éxito contra ti fracase.</p></li></ul>"
+		},
+        "Cruel Precision": {
+			"name": "Precisión cruel",
+			"description": "<p class=\"Body-Foundation\">Cuando realizas un ataque exitoso con un arma, obtienes una bonificación a tu tirada de daño igual a tu Finess o Agilidad.</p>"
+		},
+        "Breaking Blow": {
+			"name": "Golpe de ruptura",
+			"description": "<p class=\"Body-Foundation\">Cuando realizas un ataque exitoso, puedes <strong>marcar un Estrés</strong> para que el siguiente ataque exitoso contra ese mismo objetivo inflija <strong>2d12</strong> de daño adicional.</p>"
+		},
+        "Wrangle": {
+			"name": "Forcejear",
+			"description": "<p class=\"Body-Foundation\">Realiza una tirada de Agilidad contra todos los objetivos a corta distancia.<strong>Gasta una Esperanza</strong> para mover a los objetivos contra los que tengas éxito, y a cualquier aliado dispuesto a corta distancia, a otro punto dentro de corta distancia.</p><p>@Template[type:emanation|range:c]</p>"
+		},
+        "On the Brink": {
+			"name": "Al borde de la muerte",
+			"description": "<p class=\"Body\">Cuando tienes 2 o menos puntos de vida sin marcar, no sufres daño menor.</p>"
+		},
+        "Splintering Strike": {
+			"name": "Golpe astillador",
+			"description": "<p><strong>Gasta una Esperanza</strong> y realiza un ataque contra todos los adversarios dentro del alcance de tu arma. Una vez por descanso largo, si tienes éxito contra cualquier objetivo, tira el daño de tu arma y distribúyelo como desees entre los objetivos contra los que tuviste éxito. Antes de infligir daño a cada objetivo, tira un dado de daño adicional y suma su resultado al daño que les infliges.</p>"
+		},
+        "Deathrun": {
+			"name": "Carrera mortal",
+			"description": "<p class=\"Body-Foundation\"><strong>Gasta 3 de Esperanza</strong> para recorrer el campo de batalla en línea recta hasta un punto dentro del alcance Lejano, atacando a todos los adversarios dentro del alcance de tu arma a lo largo de ese camino. Elige el orden en el que infliges daño a los objetivos contra los que has tenido éxito. Para el primero, tira el daño de tu arma con un bonificador de +1 a tu Competencia. Luego, retira un dado de tu tirada de daño e inflige el daño restante al siguiente objetivo. Continúa retirando un dado por cada objetivo subsiguiente hasta que no tengas más dados de daño ni adversarios.</p><p class=\"Body-Foundation\">No puedes seleccionar al mismo adversario más de una vez por ataque.</p>"
+		},
+        "Swift Step": {
+			"name": "Paso rápido",
+			"description": "<p class=\"Body-Foundation\">Cuando un ataque contra ti falla, eliminas un Estrés. Si no puedes eliminar un Estrés, obtienes una Esperanza.</p>"
 		},
     }
 }
