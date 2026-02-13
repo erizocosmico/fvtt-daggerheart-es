@@ -640,7 +640,7 @@
         },
         "Divination": {
             "name": "Adivinación",
-            "description": "<p class=\"Body-Foundation\">Una vez por descanso largo, gasta 3 puntos de Esperanza para conectar con las fuerzas del más allá y hacer una pregunta de "sí o no" sobre un evento, persona, lugar o situación del futuro cercano. Por un instante, el presente se desvanece y ves la respuesta ante ti.</p>"
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso largo, gasta 3 puntos de Esperanza para conectar con las fuerzas del más allá y hacer una pregunta de \"sí o no\" sobre un evento, persona, lugar o situación del futuro cercano. Por un instante, el presente se desvanece y ves la respuesta ante ti.</p>"
         },
         "Life Ward": {
             "name": "Protector de Vida",
@@ -694,5 +694,89 @@
             "name": "Resurrección",
             "description": "<p><p class=\"Body-Foundation\">Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tirada de Lanzamiento de Conjuros</strong></tooltip><strong> (20)</strong>. Si tiene éxito, restaura a una criatura que lleve muerta no más de 100 años a su fuerza máxima. Luego, tira un <strong>d6</strong>. Si el resultado es 5 o menor, coloca esta carta en tu <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"loadout-and-vault\" nexus=\"daggerheart\">bóveda</tooltip> permanentemente.</p><p class=\"Body-Foundation\">Si fallas, no puedes volver a lanzar Resurrección durante una semana.</p></p>"
         },
+        "Bare Bones": {
+            "name": "Piel y hueso",
+            "description": "<p class=\"Body-Foundation\">Cuando eliges no equipar armadura, tienes una puntuación de armadura base de 3 + tu fuerza y ​​usas los siguientes umbrales de daño base:</p><ul><li class=\"vertical-card-list-found\"><em><strong>Rango 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Rango 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Rango 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Rango 4:</strong></em> 15/38</li></ul><p>Equipa la siguiente armadura para usar Bare Bones Huesos.</p><p>@UUID[Compendium.daggerheart.armors.Item.ITAjcigTcUw5pMCN]{Piel y hueso}</p>"
+        },
+        "Forceful Push": {
+            "name": "Empujón Forzado",
+            "description": "<p class=\"Body-Foundation\">Realiza un ataque con tu arma principal contra un objetivo dentro del alcance de combate cuerpo a cuerpo. Si tienes éxito, le infliges daño y lo derribas a distancia corta. Si tienes éxito con Esperanza, sumas 1d6 a tu tirada de daño.</p><p class=\"Body-Foundation\">Además, puedes gastar una Esperanza para hacerlo temporalmente vulnerable.</p>"
+        },
+        "I Am Your Shield": {
+            "name": "Soy tu escudo",
+            "description": "<p class=\"Body-Foundation\">Cuando un aliado a rango muy cercano vaya a recibir daño, puedes marcar un <strong>Estrés</strong> para interponerte en su camino y convertirte en el objetivo del ataque. Cuando recibes daño de este ataque, puedes marcar cualquier número de ranuras de armadura.</p>"
+        },
+        "Body Basher": {
+            "name": "Golpe corporal",
+            "description": "<p class=\"Body-Foundation\">Usas toda la fuerza de tu cuerpo en un combate. En un ataque exitoso con un arma de alcance cuerpo a cuerpo, obtienes una bonificación a tu tirada de daño igual a tu Fuerza.</p>"
+        },
+        "Bold Presence": {
+            "name": "Presencia Fuerte",
+            "description": "<p class=\"Body-Foundation\">Cuando haces una Tirada de Presencia, puedes gastar una Esperanza para añadir tu Fuerza a la tirada.</p><p class=\"Body-Foundation\">Además, una vez por descanso, cuando vayas a obtener una condición, puedes describir cómo tu presencia fuerte te ayuda en la situación y evita que la obtengas.</p>"
+        },
+        "Critical Inspiration": {
+            "name": "Inspiración Crítica",
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso, al realizar un ataque crítico, todos los aliados en un rango muy cercano pueden eliminar un Estrés o obtener una Esperanza.</p>"
+        },
+        "Lean on Me": {
+            "name": "Apóyate en mí",
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso largo, cuando consuelas o inspiras a un aliado que falló una tirada de acción, ambos pueden eliminar 2 puntos de estrés.</p>"
+        },
+        "Atormentarlos": {
+            "name": "Atormentarlos",
+            "description": "<p class=\"Body-Foundation\">Describe cómo provocas a un objetivo a corta distancia y luego realizas una tirada de Presencia contra él. Si tiene éxito, el objetivo debe marcar una Estrés y, la próxima vez que el DJ lo enfoque, debe atacarte, lo cual realiza con desventaja.</p>"
+        },
+        "Support Tank": {
+            "name": "Tanque de Apoyo",
+            "description": "<p class=\"Body-Foundation\">Cuando un aliado a corta distancia falla una tirada, puedes gastar 2 puntos de Esperanza para que pueda repetir su Dado de Esperanza o de Miedo.</p>"
+        },
+        "Armorer": {
+            "name": "Armero",
+            "description": "<p class=\"Body-Foundation\">Mientras lleves armadura, obtienes una bonificación de +1 a tu Puntuación de Armadura.</p><p class=\"Body-Foundation\">Durante un descanso, si eliges reparar tu armadura como movimiento de tiempo de inactividad, tus aliados también liberan una ranura de armadura.</p>"
+        },
+        "Rousing Strike": {
+            "name": "Golpe Conmovedor",
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso, al realizar un ataque crítico, tú y todos los aliados que puedan verte u oírte pueden eliminar un Punto de Golpe o <strong>1d4</strong> de Estrés.</p>"
+        },
+        "Inevitable": {
+            "name": "Inevitable",
+            "description": "<p class=\"Body-Foundation\">Cuando fallas una tirada de acción, tu siguiente tirada de acción tiene ventaja.</p>"
+        },
+        "Rise Up": {
+            "name": "Levántate",
+            "description": "<p class=\"Body-Foundation\">Obtén una bonificación a tu umbral Severo igual a tu Competencia.</p><p class=\"Body-Foundation\">Cuando marcas 1 o más Puntos de Golpe con un ataque, eliminas un Estrés.</p>"
+        },
+        "Shrug It Off": {
+            "name": "Ignoralo",
+            "description": "<p class=\"Body-Foundation\">Cuando vayas a recibir daño, puedes marcar un <strong>Estrés</strong> para reducir la gravedad del daño en un umbral. Al hacerlo, tira un <strong>d6</strong>. Con un resultado de 3 o menos, guarda esta carta en tu bóveda.</p>"
+        },
+        "Valor-Touched": {
+            "name": "Tocado por el Valor",
+            "description": "<p class=\"Body-Foundation\">Cuando 4 o más cartas de dominio en tu equipamiento pertenecen al dominio del Valor, obtienes los siguientes beneficios:</p><ul><li class=\"vertical-card-list-found\"><p>+1 bonificación a tu Puntuación de Armadura</p></li><li class=\"vertical-card-list-found\"><p>Cuando marcas 1 o más Puntos de Vida sin marcar una Ranura de Armadura, liberas una Ranura de Armadura.</p></li></ul>"
+        },
+        "Full Surge": {
+            "name": "Aceleración Máxima",
+            "description": "<p class=\"Body-Foundation\">Una vez por cada descanso prolongado, marca 3 de Estrés para llevar tu cuerpo al límite. Obtienes una bonificación de +2 a todos tus rasgos de personaje hasta tu próximo descanso.</p>"
+        },
+        "Ground Pound": {
+            "name": "Golpe al Suelo",
+            "description": "<p class=\"Body-Foundation\"><strong>Gasta 2 de Esperanza</strong> para golpear el suelo donde te encuentras y realiza una <strong>Tirada de Fuerza</strong> contra todos los objetivos dentro de un alcance Muy Corto. Los objetivos contra los que tengas éxito son lanzados hacia atrás a un rango Lejano y deben realizar una Tirada de Reacción (17). Los objetivos que fallen reciben <strong>4d10+8</strong> de daño. Los objetivos que tengan éxito reciben la mitad del daño.</p><p>@Template[type:emanation|range:vc]</p>"
+        },
+        "Hold the Line": {
+            "name": "Mantén la Línea",
+            "description": "<p class=\"Body-Foundation\">Describe la postura defensiva que adoptas y gastas una Esperanza. Si un adversario se mueve a muy corta distancia, es atraído a rango de Cuerpo a Cuerpo y queda Inmovilizado.</p><p class=\"Body-Foundation\">Esta condición dura hasta que te muevas o falles una tirada con Miedo, o el DJ gasta 2 puntos de Miedo en su turno para eliminarla.</p>"
+        },
+        "Lead by Example": {
+            "name": "Predicar con el ejemplo",
+            "description": "<p class=\"Body-Foundation\">Cuando infliges daño a un adversario, puedes marcar un Estrés y describir cómo animas a tus aliados. El siguiente PJ que ataque contra ese adversario puede eliminar un Estrés o ganar una Esperanza.</p>"
+        },
+        "Unbreakable": {
+            "name": "Irrompible",
+            "description": "<p class=\"Body-Foundation\">Cuando marques tu último Punto de Golpe, en lugar de realizar un movimiento mortal, puedes tirar un <strong>d6</strong> y eliminar una cantidad de Puntos de Golpe igual al resultado. Luego, guarda esta carta en tu bóveda.</p>"
+        },
+        "Unyielding Armor": {
+            "name": "Armadura Inquebrantable",
+            "description": "<p class=\"Body-Foundation\">Cuando vayas a marcar una Ranura de Armadura, tira un número de <strong>d6</strong> igual a tu Competencia. Si alguno saca un 6, reduce la severidad en un umbral sin marcar una Ranura de Armadura.</p>"
+        }
     }
 }
