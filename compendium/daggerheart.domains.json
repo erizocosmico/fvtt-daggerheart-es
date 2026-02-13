@@ -584,7 +584,7 @@
         },
         "Wild Surge": {
             "name": "Oleada Salvaje",
-            "description": "<p class=\"Body-Foundation\">Una vez por descanso largo, marca una Estrés para canalizar el mundo natural que te rodea y potenciarte. Describe cómo cambia tu apariencia y coloca un <strong>d6</strong> sobre esta carta con el 1 hacia arriba.</p><p class=\"Body-Foundation\">Mientras el Dado de Oleada Salvaje esté activo, sumas su valor a cada tirada de acción que realices. Después de sumar su valor a una tirada, aumentas el valor del Dado de Oleada Salvaje en uno. Cuando el valor del dado supere 6 o descansas, esta forma se elimina y debes marcar una Estrés adicional.</p>"
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso largo, marca una Estrés para canalizar el mundo natural que te rodea y potenciarte. Describe cómo cambia tu apariencia y coloca un <strong>d6</strong> sobre esta carta con el valor 1 hacia arriba.</p><p class=\"Body-Foundation\">Mientras el Dado de Oleada Salvaje esté activo, sumas su valor a cada tirada de acción que realices. Después de sumar su valor a una tirada, aumentas el valor del Dado de Oleada Salvaje en uno. Cuando el valor del dado supere 6 o descansas, esta forma se elimina y debes marcar una Estrés adicional.</p>"
         },
         "Forest Sprites": {
             "name": "Duendes del Bosque",
@@ -609,6 +609,90 @@
         "Tempest": {
             "name": "Tempestad",
             "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">Elige una de las siguientes tempestades y realiza una tirada de lanzamiento de hechizos contra todos los objetivos dentro del alcance lejano. Los objetivos contra los que tengas éxito experimentan sus efectos hasta que el DJ gaste un Miedo en su turno para finalizar este hechizo.</p><ul><li class=\"vertical-card-list\"><p><em><strong>Ventisca:</strong></em> Inflige <strong>2d20+8</strong> de daño mágico y los objetivos quedan temporalmente <em>Vulnerables</em>.</p></li><li class=\"vertical-card-list\"><em><strong>Huracán:</strong></em> Inflige <strong>3d10+10</strong> de daño mágico y elige la dirección en la que sopla el viento. Los objetivos no pueden moverse contra el viento.</li><li class=\"vertical-card-list\"><p><em><strong>Tormenta de Arena:</strong></em> Inflige <strong>5d6+9</strong> de daño mágico. Los ataques fuera del alcance cuerpo a cuerpo tienen desventaja.</p><p></p></li></ul>"
+        },
+        "Bolt Beacon": {
+            "name": "Baliza de Luz",
+            "description": "<p class=\"Body-Foundation\">Realiza una tirada de lanzamiento de conjuros contra un objetivo dentro del alcance Lejano. Si tiene éxito, gasta una esperanza para enviar un rayo de luz brillante hacia él, infligiendo <strong>d8+2</strong> de daño mágico usando tu Competencia. El objetivo se vuelve temporalmente vulnerable y brilla intensamente hasta que esta condición se elimine.</p>"
+        },
+        "Mending Touch": {
+            "name": "Toque Reparador",
+            "description": "<p class=\"Body-Foundation\">Impones tus manos sobre una criatura y canalizas magia curativa para curar sus heridas. Cuando puedes dedicar unos minutos a concentrarte en el objetivo al que ayudas, puedes gastar 2 puntos de Esperanza para eliminar un punto de vida o estrés.</p><p class=\"Body-Foundation\">Una vez por cada descanso largo, cuando dedicas este tiempo de curación a aprender algo nuevo sobre la criatura o a revelar algo sobre ti mismo, puedes eliminar 2 puntos de vida o 2 puntos de estrés.</p>"
+        },
+        "Reassurance": {
+            "name": "Apoyo",
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso, después de que un aliado intente una tirada de acción, pero antes de que se produzcan las consecuencias, puedes ofrecer ayuda o palabras de apoyo. Al hacerlo, tu aliado puede volver a tirar sus dados.</p>"
+        },
+        "Final Words": {
+            "name": "Últimas palabras",
+            "description": "<p class=\"Body-Foundation\">Puedes infundir un momento de vida a un cadáver para hablar con él. Realiza una <strong>Tira de Lanzamiento de Conjuros (13)</strong>. Si tiene éxito con Esperanza, el cadáver responde hasta tres preguntas. Si tiene éxito con Miedo, responde una pregunta. El cadáver responde con la verdad, pero no puede compartir información que desconocía en vida. Si falla, o una vez que el cadáver haya terminado de responder a tus preguntas, se convierte en polvo.</p>"
+        },
+        "Healing Hands": {
+            "name": "Manos Sanadoras",
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Conjuros (13)</strong> y selecciona una criatura que no seas tú dentro del alcance de combate cuerpo a cuerpo. Si tienes éxito, marca un Estrés para eliminar 2 Puntos de Golpe o 2 Estrés del objetivo. Si fallas, marca un Estrés para eliminar un Punto de Golpe o un Estrés del objetivo. No puedes volver a curar al mismo objetivo hasta tu próximo descanso largo.</p>"
+        },
+        "Second Wind": {
+            "name": "Segundo Aire",
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso, al tener éxito en un ataque contra un adversario, puedes eliminar 3 puntos de estrés o un punto de vida. Si tienes éxito con Esperanza, también eliminas 3 puntos de estrés o un punto de vida de un aliado a corta distancia.</p>"
+        },
+        "Voice of Reason": {
+            "name": "Voz de la Razón",
+            "description": "<p class=\"Body-Foundation\">Hablas con un poder y una autoridad inigualables. Tienes ventaja en las tiradas de acción para calmar situaciones violentas o convencer a alguien de que te siga el ejemplo.</p><p class=\"Body-Foundation\">Además, te envalentonas en momentos de tensión. Cuando todas tus casillas de Estrés están marcadas, obtienes un bonificador de +1 a tu Competencia en las tiradas de daño.</p>"
+        },
+        "Divination": {
+            "name": "Adivinación",
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso largo, gasta 3 puntos de Esperanza para conectar con las fuerzas del más allá y hacer una pregunta de "sí o no" sobre un evento, persona, lugar o situación del futuro cercano. Por un instante, el presente se desvanece y ves la respuesta ante ti.</p>"
+        },
+        "Life Ward": {
+            "name": "Protector de Vida",
+            "description": "<p><p class=\"Body-Foundation\"><strong>Gasta 3</strong><tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\"><strong>Esperanza</strong></tooltip> y elige un aliado dentro del alcance de <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"close\" nexus=\"daggerheart\">Cerca</tooltip>. Está marcado con un sigilo brillante de protección. Cuando este aliado vaya a realizar un movimiento de <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"death\" nexus=\"daggerheart\">muerte</tooltip>, limpia un <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hit-points\" nexus=\"daggerheart\">Punto de golpe</tooltip> en su lugar. </p><p class=\"Body-Foundation\">Este efecto termina cuando salva al objetivo de un movimiento mortal, lanzas Protección vital a otro objetivo o tomas un <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"long-rest\" nexus=\"daggerheart\">descanso largo</tooltip>.</p></p>"
+        },
+        "Shape Material": {
+            "name": "Dar Forma a Material",
+            "description": "<p class=\"Body-Foundation\"><strong>Gasta una Esperanza</strong> para dar forma a una sección de material natural que estés tocando (como piedra, hielo o madera) para que se ajuste a tu propósito. El área del material no puede ser mayor que tú. Por ejemplo, puedes crear una herramienta rudimentaria o una puerta.</p><p class=\"Body-Foundation\">Solo puedes afectar al material dentro del radio de acción cercano al punto de contacto.</p>"
+        },
+        "Smite": {
+            "name": "Castigo",
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso, gasta 3 puntos de Esperanza para cargar tu poderoso castigo. La próxima vez que ataques con éxito con un arma, duplicas el resultado de tu tirada de daño. Este ataque inflige daño mágico independientemente del tipo de daño del arma.</p>"
+        },
+        "Restoration": {
+            "name": "Restauración",
+            "description": "<p class=\"Body-Foundation\">Tras un descanso largo, coloca en esta carta una cantidad de fichas igual a tu rasgo de Lanzamiento de Conjuros. Toca una criatura y gasta cualquier cantidad de fichas para eliminar 2 Puntos de Golpe o 2 de Estrés por cada ficha gastada.</p><p class=\"Body-Foundation\">También puedes gastar una ficha de esta carta al tocar una criatura para eliminar la condición <em>Vulnerable</em> o curar una dolencia física o mágica (el DJ podría requerir fichas adicionales según la intensidad de la dolencia).</p><p class=\"Body-Foundation\">Al tomar un descanso largo, elimina todas las fichas no gastadas.</p>"
+        },
+        "Zone of Protection": {
+            "name": "Zona de Protección",
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Hechizos (16)</strong>. Una vez por cada descanso largo, con un éxito, elige un punto dentro del alcance Lejano y crea allí una zona de protección visible para todos los aliados dentro del alcance Muy Cercano de ese punto. Al hacerlo, coloca un <strong>d6</strong> sobre esta carta con el valor 1 hacia arriba. Cuando un aliado en esta zona recibe daño, lo reduce en el valor del dado. Luego, aumentas el valor del dado en uno. Cuando el valor del dado supere 6, este efecto termina.</p><p>@Template[type:emanation|range:vc]</p>"
+        },
+        "Healing Strike": {
+            "name": "Golpe Curativo",
+            "description": "<p class=\"Body-Foundation\">Cuando infliges daño a un adversario, puedes gastar 2 puntos de Esperanza para eliminar un punto de vida de un aliado a corta distancia.</p>"
+        },
+        "Splendor-Touched": {
+            "name": "Tocado por el Esplendor",
+            "description": "<p><p class=\"Body-Foundation-No-BOLDITALIC\">Cuando 4 o más cartas de dominio en tu <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"loadout-and-vault\" nexus=\"daggerheart\">equipamiento</tooltip> sean del dominio Esplendor, obtienes los siguientes beneficios:</p><ul class=\"\"><li class=\"vertical-card-list\">+3 de bonificación a tu umbral de daño <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"severe-damage\" nexus=\"daggerheart\">Grave</tooltip></li><li class=\"vertical-card-list\">Una vez por <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"long-rest\" nexus=\"daggerheart\">descanso largo</tooltip>, cuando el daño recibido requiera marcar una cantidad de <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hit-points\" nexus=\"daggerheart\">Puntos de vida</tooltip>, puedes elegir marcar esa cantidad de <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\">Estrés</tooltip> o gastar esa cantidad de <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\">Esperanza</tooltip>.</li></ul></p>"
+        },
+        "Shield Aura": {
+            "name": "Aura de Escudo",
+            "description": "<p><p class=\"Body-Foundation\"><strong>Marca un</strong><tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\"><strong>Estrés</strong></tooltip> para lanzar un aura protectora sobre un objetivo dentro del alcance <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"very-close\" nexus=\"daggerheart\">Muy Cerca</tooltip>. Cuando el objetivo marca una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"armor-slot\" nexus=\"daggerheart\">Ranura de Armadura</tooltip>, reduce la gravedad del ataque en un umbral adicional. Si este hechizo hace que una criatura que recibiría daño no marque ningún <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hit-points\" nexus=\"daggerheart\">Puntos de golpe</tooltip>, el efecto termina.</p><p class=\"Body-Foundation\">Solo puedes mantener Aura de escudo en una criatura a la vez.</p></p>"
+        },
+        "Stunning Sunlight": {
+            "name": "Luz Solar Aturdidora",
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Conjuros</strong> para desatar poderosos rayos de luz solar abrasadora contra todos los adversarios frente a ti dentro del alcance Lejano. Si tienes éxito, gasta cualquier cantidad de Esperanza y obliga a que la misma cantidad de objetivos contra los que tuviste éxito realice una Tirada de Reacción (14).</p><p class=\"Body-Foundation\">Los objetivos que tengan éxito reciben <strong>3d20+3</strong> de daño mágico. Los objetivos que fallen reciben <strong>4d20+5</strong> de daño mágico y quedan temporalmente <em>Aturdidos</em>. Mientras estén <em>Aturdidos</em>, no pueden usar reacciones ni realizar ninguna otra acción hasta que superen esta condición.</p>"
+        },
+        "Overwhelming Aura": {
+            "name": "Aura Abrumadora",
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Conjuros (15)</strong> para potenciar mágicamente tu aura. Si tienes éxito, gasta 2 puntos de Esperanza para que tu Presencia sea igual a tu atributo de Lanzamiento de Conjuros hasta tu próximo descanso prolongado.</p><p class=\"Body-Foundation\">Mientras este conjuro esté activo, un adversario debe marcar una Estrés al atacarte.</p>"
+        },
+        "Salvation Beam": {
+            "name": "Rayo de Salvación",
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Hechizos (16)</strong>. Si tienes éxito, marca cualquier cantidad de Estrés para seleccionar una línea de aliados dentro del alcance Lejano. Puedes eliminar Puntos de Golpe de los objetivos igual a la cantidad de Estrés marcada, dividiéndolos entre ellos como prefieras.</p>"
+        },
+        "Invigoration": {
+            "name": "Vigorización",
+            "description": "<p class=\"Body-Foundation\">Cuando tú o un aliado a corta distancia hayan usado una habilidad con límite de agotamiento (como una vez por descanso o una vez por sesión), puedes gastar cualquier cantidad de Esperanza y tirar esa misma cantidad de d6. Si alguien saca un 6, la habilidad puede volver a usarse.</p>"
+        },
+        "Resurrection": {
+            "name": "Resurrección",
+            "description": "<p><p class=\"Body-Foundation\">Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tirada de Lanzamiento de Conjuros</strong></tooltip><strong> (20)</strong>. Si tiene éxito, restaura a una criatura que lleve muerta no más de 100 años a su fuerza máxima. Luego, tira un <strong>d6</strong>. Si el resultado es 5 o menor, coloca esta carta en tu <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"loadout-and-vault\" nexus=\"daggerheart\">bóveda</tooltip> permanentemente.</p><p class=\"Body-Foundation\">Si fallas, no puedes volver a lanzar Resurrección durante una semana.</p></p>"
         },
     }
 }
