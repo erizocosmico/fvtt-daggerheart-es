@@ -442,5 +442,89 @@
             "name": "Notorio",
             "description": "<p class=\"Body-Foundation\">La gente sabe quién eres y lo que has hecho, y por eso te tratan diferente. Cuando aprovechas tu notoriedad para conseguir lo que quieres, puedes marcar un Estrés antes de tirar para obtener una bonificación de +10 al resultado. Tu comida y bebida siempre son gratis dondequiera que vayas, y todo lo demás que compres tiene un descuento de una bolsa de oro (hasta un mínimo de un puñado).</p><p class=\"Body-Foundation\">Esta carta no cuenta para el máximo de 5 cartas de dominio de tu equipamiento y no se puede guardar en tu bóveda.</p>"
         },
+        "Pick and Pull": {
+            "name": "Forzar y tomar",
+            "description": "<p class=\"Body-Foundation\">Tienes ventaja en las tiradas de acción para abrir cerraduras no mágicas, desarmar trampas no mágicas o robar objetos de un objetivo (ya sea mediante sigilo o por la fuerza).</p>"
+        },
+        "Rain of Blades": {
+            "name": "Lluvia de espadas",
+            "description": "<p class=\"Body-Foundation\"><strong>Gasta una Esperanza</strong> para realizar una <strong>Tirada de Lanzamiento de Conjuros</strong> y conjurar espadas arrojadizas que impactan a todos los objetivos dentro de un alcance muy cercano. Los objetivos contra los que tengas éxito reciben <strong>d8+2</strong> de daño mágico usando tu Competencia.</p><p class=\"Body-Foundation\">Si un objetivo al que alcanzas es <em>Vulnerable</em>, recibe <strong>1d8</strong> de daño adicional.</p>"
+        },
+        "Uncanny Disguise": {
+            "name": "Disfraz Misterioso",
+            "description": "<p class=\"Body-Foundation\">Cuando tengas unos minutos para prepararte, puedes marcar una <strong>Estrés</strong> para adoptar la apariencia de cualquier humanoide que puedas visualizar con claridad. Mientras estés disfrazado, tienes ventaja en las Tiradas de Presencia para evitar ser descubierto.</p><p class=\"Body-Foundation\">Coloca una cantidad de fichas igual a tu rasgo de Lanzamiento de Conjuros en esta carta. Cuando realices una acción mientras estás disfrazado, gasta una ficha de esta carta. Tras resolverse la acción que gastó la última ficha, el disfraz se retira.</p>"
+        },
+        "Midnight Spirit": {
+            "name": "Espíritu de medianoche",
+            "description": "<p class=\"Body-Foundation\"><strong>Gasta una Esperanza</strong> para invocar un espíritu de tamaño humanoide que pueda mover o transportar objetos por ti hasta tu próximo descanso.</p><p class=\"Body-Foundation\">También puedes enviarlo a atacar a un adversario. Al hacerlo, realiza una <strong>Tirada de Lanzamiento de Conjuros</strong> contra un objetivo dentro de un alcance Muy Lejano. Si tiene éxito, el espíritu se mueve al alcance cuerpo a cuerpo con ese objetivo. Tira una cantidad de <strong>d6</strong> igual a tu atributo de Lanzamiento de Conjuros e inflige esa misma cantidad de daño mágico al objetivo. El espíritu se disipa. Solo puedes tener un espíritu a la vez.</p>"
+        },
+        "Shadowbind": {
+            "name": "Agarre sombrío",
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Conjuros</strong> contra todos los adversarios a muy corta distancia. Los objetivos contra los que tengas éxito quedan temporalmente <em>Restringidos</em>, ya que su sombra los mantiene en su lugar.</p><p>@Template[type:emanation|range:vc]</p>"
+        },
+        "Chokehold": {
+            "name": "Estrangulamiento",
+            "description": "<p class=\"Body-Foundation\">Cuando te posicionas detrás de una criatura de aproximadamente tu tamaño, puedes <strong>marcar una Estrés</strong> para estrangularla, volviéndola temporalmente <em>Vulnerable</em>.</p><p class=\"Body-Foundation\">Cuando una criatura ataca a un objetivo <em>Vulnerable</em> de esta manera, le inflige <strong>2d6</strong> de daño adicional.</p>"
+        },
+        "Veil of Night": {
+            "name": "Velo de la noche",
+            "description": "<p class=\"Body-Foundation\">Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tira de Lanzamiento de Hechizos</strong></tooltip><strong> (13)</strong>. Si tienes éxito, puedes crear una cortina temporal de oscuridad entre dos puntos dentro del alcance de <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"far\" nexus=\"daggerheart\">Lejos</tooltip>. Solo tú puedes ver a través de esta oscuridad. Los adversarios al otro lado del velo te consideran <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hidden\" nexus=\"daggerheart\"><em>Oculto</em></tooltip>, y tienes <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"advantage-and-disadvantage\" nexus=\"daggerheart\">ventaja</tooltip> en los ataques que realizas a través de la oscuridad. El velo permanece hasta que lanzas otro hechizo.</p>"
+        },
+        "Glyph of Nightfall": {
+            "name": "Glifo del anochecer",
+            "description": "<p class=\"Body-Foundation\">Realiza una tirada de lanzamiento de conjuros contra un objetivo a muy corta distancia. Si tiene éxito, gasta una esperanza para conjurar un glifo oscuro sobre su cuerpo que expone sus puntos débiles, reduciendo temporalmente la dificultad del objetivo en un valor igual a tu conocimiento (mínimo 1).</p>"
+        },
+        "Stealth Expertise": {
+            "name": "Experto en sigilo",
+            "description": "<p class=\"Body-Foundation\">Cuando tiras con Miedo mientras intentas moverte sin ser detectado por una zona peligrosa, puedes <strong>marcar un Estrés</strong> para tirar con Esperanza en su lugar.</p><p class=\"Body-Foundation\">Si un aliado dentro del alcance cercano también intenta moverse sin ser detectado y tira con Miedo, puedes <strong>marcar un Estrés</strong> para cambiar su resultado a una tirada con Esperanza.</p>"
+        },
+        "Hush": {
+            "name": "Cállate",
+            "description": "<p class=\"Body-Foundation\">Realiza una tirada de lanzamiento de hechizos contra un objetivo a corta distancia. Si tiene éxito, gasta una esperanza para conjurar magia supresora alrededor del objetivo que abarca todo lo que esté a muy corta distancia y lo sigue en movimiento.</p><p class=\"Body-Foundation\">El objetivo y todo lo que esté dentro del área quedan silenciados hasta que el DJ gaste una energía de miedo en su turno para eliminar esta condición, vuelvas a lanzar Silencio o recibas daño importante. Mientras estén silenciados, no pueden hacer ruido ni lanzar hechizos.</p>"
+        },
+        "Phantom Retreat": {
+            "name": "Retirada Fantasmal",
+            "description": "<p class=\"Body-Foundation\"><strong>Gasta una Esperanza</strong> para activar Retirada Fantasmal donde te encuentras. <strong>Gasta otra Esperanza</strong> en cualquier momento antes de tu próximo descanso para desaparecer de donde estás y reaparecer donde estabas cuando activaste Retirada Fantasmal. Este hechizo termina después de que reaparezcas.</p>"
+        },
+        "Dark Whispers": {
+            "name": "Susurros oscuros",
+            "description": "<p class=\"Body-Foundation\">Puedes hablarle a la mente a cualquier persona con la que hayas tenido contacto físico. Una vez que hayas abierto un canal con ella, podrá responderte. Además, puedes marcar una <strong>Estrés</strong> para realizar una <strong>Tirada de Lanzamiento de Conjuros</strong> contra ella. Si tienes éxito, puedes hacerle al DJ una de las siguientes preguntas y recibir una respuesta:</p><ul><li class=\"vertical-card-list-found\">¿Dónde están?</li><li class=\"vertical-card-list-found\">¿Qué están haciendo?</li><li class=\"vertical-card-list-found\">¿A qué le temen?</li><li class=\"vertical-card-list-found\">¿Qué es lo que más aprecian en el mundo?</li></ul>"
+        },
+        "Mass Disguise": {
+            "name": "Disfraz masivo",
+            "description": "<p class=\"Body-Foundation\">Cuando tengas unos minutos de silencio para concentrarte, puedes marcar una <strong>Estrés</strong> para cambiar la apariencia de todas las criaturas dispuestas a corta distancia. Sus nuevas formas deben compartir una estructura corporal y un tamaño general, y pueden ser de alguien o algo que ya hayas visto antes o completamente inventado. Una criatura disfrazada tiene ventaja en las Tiradas de Presencia para evitar el escrutinio.</p><p class=\"Body-Foundation\">Activa una Cuenta Atrás (8). Se detiene según la consecuencia que elija el DJ. Cuando se activa, el disfraz desaparece.</p>"
+        },
+        "Midnight-Touched": {
+            "name": "Tocado por la medianoche",
+            "description": "<p class=\"Body-Foundation\">Cuando 4 o más cartas de dominio en tu equipamiento son del dominio Medianoche, obtienes los siguientes beneficios:</p><ul><li class=\"vertical-card-list-found\"><p>Una vez por descanso, cuando tengas 0 Esperanza y el DJ ganaría un Miedo, puedes obtener una Esperanza en su lugar.</p></li><li class=\"vertical-card-list-found\"><p>Cuando realizas un ataque exitoso, puedes marcar un Estrés para sumar el resultado de tu Dado de Miedo a tu tirada de daño.</p></li></ul>"
+        },
+        "Vanishing Dodge": {
+            "name": "Esquive desvanecido",
+            "description": "<p class=\"Body-Foundation\">Cuando falla un ataque contra ti que inflige daño físico, puedes gastar una Esperanza para envolverte en sombras, quedar <em>Oculto</em> y teletransportarte a un punto cercano al atacante. Permaneces <em>Oculto</em> hasta la próxima tirada de acción.</p>"
+        },
+        "Shadowhunter": {
+            "name": "Cazador de sombras",
+            "description": "<p class=\"Body\">Tu destreza se potencia al amparo de la sombra. Mientras te encuentras envuelto en la penumbra o la oscuridad, obtienes un bonificador de +1 a tu Evasión y realizas tiradas de ataque con ventaja.</p>"
+        },
+        "Spellcharge": {
+            "name": "Carga de hechizo",
+            "description": "<p class=\"Body-Foundation\">Cuando recibas daño mágico, coloca fichas igual a la cantidad de Puntos de Golpe que marcaste en esta carta. Puedes almacenar una cantidad de fichas igual a tu atributo de Lanzamiento de Conjuros.</p><p class=\"Body-Foundation\">Cuando realizas un ataque exitoso contra un objetivo, puedes gastar cualquier cantidad de fichas para añadir 1d6 por cada ficha gastada a tu tirada de daño.</p>"
+        },
+        "Night Terror": {
+            "name": "Terror nocturno",
+            "description": "<p class=\"Body-Foundation\">Una vez por cada descanso largo, elige cualquier objetivo Muy Cercano para que te perciba como un horror de pesadilla. Los objetivos deben superar una Tirada de Reacción (16) o quedarán temporalmente <em>Horrorizados</em>. Mientras estén <em>Horrorizados</em>, serán <em>Vulnerables</em>. Roba al DJ una cantidad de Miedo igual a la cantidad de objetivos <em>Horrorizados</em> (hasta la cantidad de Miedo en la reserva del DJ). Tira un número de <strong>d6</strong> igual a la cantidad de Miedo robado e inflige el daño total a cada objetivo <em>Horrorizado</em>. Descarta el Miedo robado.</p><p>@Template[type:emanation|range:vc]</p>"
+        },
+        "Twilight Toll": {
+            "name": "Peaje Crepuscular",
+            "description": "<p><p class=\"Body-Foundation\">Elige un objetivo dentro del alcance Lejano. Cuando tengas éxito en una tirada de acción contra él que no resulte en una tirada de daño, coloca una ficha sobre esta carta. Cuando inflijas daño a este objetivo, gasta cualquier cantidad de fichas para añadir 1d12 por cada ficha gastada a tu tirada de daño. Solo puedes mantener el Peaje Crepuscular sobre una criatura a la vez.</p><p class=\"Body-Foundation\">Cuando elijas un nuevo objetivo o descanses, limpia todas las fichas no gastadas.</p>"
+        },
+        "Eclipse": {
+            "name": "Eclipse",
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Conjuros (16)</strong>. Una vez por cada descanso largo, con un éxito, sumerge toda el área dentro del alcance Lejano en una oscuridad total que solo tú y tus aliados pueden ver. Las tiradas de ataque tienen desventaja si te atacan a ti o a un aliado dentro de esta sombra.</p><p class=\"Body-Foundation\">Además, cuando tú o un aliado tienen éxito con Esperanza contra un adversario dentro de esta sombra, el objetivo debe marcar una Estrés.</p><p class=\"Body-Foundation\">Este conjuro dura hasta que el DJ gaste un <strong>Miedo</strong> en su turno para eliminar este efecto o recibas daño severo.</p>"
+        },
+        "Specter of the Dark": {
+            "name": "Espectro de la oscuridad",
+            "description": "<p class=\"Body-Foundation\"><strong>Marca una Estrés</strong> para volverte <em>Espectral</em> hasta que realices una tirada de acción dirigida a otra criatura. Mientras seas <em>Espectral</em>, eres inmune al daño físico y puedes flotar y atravesar objetos sólidos. Otras criaturas aún pueden verte mientras estés en esta forma.</p>"
+        },
     }
 }
