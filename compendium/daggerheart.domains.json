@@ -140,7 +140,7 @@
         },
         "Book of Grynn": {
             "name": "Libro de Grynn",
-            "description": "<p class=\"Card-Feature\"><em><strong>Desvío Arcano:</strong></em> Una vez por descanso largo, gasta una esperanza para negar el daño de un ataque que te tenga como objetivo a ti o a un aliado dentro de un rango muy cercano.</p><p class=\"Card-Feature\"><em><strong>Bloqueo Temporal:</strong></em> Selecciona un objeto dentro de un rango lejano. Ese objeto se detiene en el tiempo y el espacio exactamente donde está hasta tu próximo descanso. Si una criatura intenta moverlo, realiza una tirada de lanzamiento de hechizos contra ella para mantener este hechizo.</p><p><em><strong>Muro de Llamas:</strong></em> Realiza una tirada de lanzamiento de hechizos (15). Con un éxito, crea un muro temporal de llamas mágicas entre dos puntos dentro de un rango lejano. Todas las criaturas en su camino deben elegir un lado, y cualquier criatura que atraviese el muro recibe 4d10+3 de daño mágico.</p>"
+            "description": "<p class=\"Card-Feature\"><em><strong>Desvío Arcano:</strong></em> Una vez por descanso largo, gasta una esperanza para negar el daño de un ataque que te tenga como objetivo a ti o a un aliado dentro de un rango muy cercano.</p><p class=\"Card-Feature\"><em><strong>Bloqueo Temporal:</strong></em> Selecciona un objeto dentro de un rango lejano. Ese objeto se detiene en el tiempo y el espacio exactamente donde está hasta tu próximo descanso. Si una criatura intenta moverlo, realiza una tirada de lanzamiento de conjuros contra ella para mantener este hechizo.</p><p><em><strong>Muro de Llamas:</strong></em> Realiza una tirada de lanzamiento de conjuros (15). Con un éxito, crea un muro temporal de llamas mágicas entre dos puntos dentro de un rango lejano. Todas las criaturas en su camino deben elegir un lado, y cualquier criatura que atraviese el muro recibe 4d10+3 de daño mágico.</p>"
         },
         "Manifest Wall": {
             "name": "Muro del Manifiesto",
@@ -380,7 +380,7 @@
         },
         "Hypnotic Shimmer": {
             "name": "Brillo hipnótico",
-            "description": "<p class=\"Body-Foundation\">Realiza una tirada de lanzamiento de hechizos contra todos los adversarios frente a ti a corta distancia. Una vez por descanso, con un éxito, crea una ilusión de colores y luces centelleantes que aturde temporalmente a los objetivos contra los que tengas éxito y los obliga a marcar punto de estrés. Mientras estén aturdidos, no podrán usar reacciones ni realizar ninguna otra acción hasta que superen esta condición.</p>"
+            "description": "<p class=\"Body-Foundation\">Realiza una tirada de lanzamiento de conjuros contra todos los adversarios frente a ti a corta distancia. Una vez por descanso, con un éxito, crea una ilusión de colores y luces centelleantes que aturde temporalmente a los objetivos contra los que tengas éxito y los obliga a marcar punto de estrés. Mientras estén aturdidos, no podrán usar reacciones ni realizar ninguna otra acción hasta que superen esta condición.</p>"
         },
         "Invisibility": {
             "name": "Invisibility",
@@ -388,7 +388,7 @@
         },
         "Soothing Speech": {
             "name": "Discurso tranquilizador",
-            "description": "<p class=\"Body-Foundation\">Durante un descanso corto, al tomarte el tiempo para recomfortar a otro personaje mientras usas el movimiento de inactividad \"Atender Heridas\", le quitas un punto de vida adicional. Al hacerlo, también te quitas 2 puntos de vida a ti mismo.</p>"
+            "description": "<p class=\"Body-Foundation\">Durante un descanso corto, al tomarte el tiempo para recomfortar a otro personaje mientras usas el movimiento de inactividad \"Atender Heridas\", le quitas un punto de golpe adicional. Al hacerlo, también te quitas 2 puntos de vida a ti mismo.</p>"
         },
         "Through Your Eyes": {
             "name": "A través de tus ojos",
@@ -480,7 +480,7 @@
         },
         "Hush": {
             "name": "Cállate",
-            "description": "<p class=\"Body-Foundation\">Realiza una tirada de lanzamiento de hechizos contra un objetivo a corta distancia. Si tiene éxito, gasta una esperanza para conjurar magia supresora alrededor del objetivo que abarca todo lo que esté a muy corta distancia y lo sigue en movimiento.</p><p class=\"Body-Foundation\">El objetivo y todo lo que esté dentro del área quedan silenciados hasta que el DJ gaste una energía de miedo en su turno para eliminar esta condición, vuelvas a lanzar Silencio o recibas daño importante. Mientras estén silenciados, no pueden hacer ruido ni lanzar hechizos.</p>"
+            "description": "<p class=\"Body-Foundation\">Realiza una tirada de lanzamiento de conjuros contra un objetivo a corta distancia. Si tiene éxito, gasta una esperanza para conjurar magia supresora alrededor del objetivo que abarca todo lo que esté a muy corta distancia y lo sigue en movimiento.</p><p class=\"Body-Foundation\">El objetivo y todo lo que esté dentro del área quedan silenciados hasta que el DJ gaste una energía de miedo en su turno para eliminar esta condición, vuelvas a lanzar Silencio o recibas daño importante. Mientras estén silenciados, no pueden hacer ruido ni lanzar hechizos.</p>"
         },
         "Phantom Retreat": {
             "name": "Retirada Fantasmal",
@@ -560,7 +560,7 @@
         },
         "Healing Field": {
             "name": "Campo de Curación",
-            "description": "<p class=\"Body-Foundation\">Una vez por cada descanso largo, puedes conjurar un campo de plantas curativas a tu alrededor. Todo lo que esté a tu alcance cercano cobra vida con una naturaleza vibrante, lo que te permite a ti y a todos los aliados en el área eliminar un punto de vida.</p><p class=\"Body-Foundation\"><strong>Gasta 2 de Esperanza</strong> para que tú y todos los aliados eliminen 2 puntos de vida en su lugar.</p>"
+            "description": "<p class=\"Body-Foundation\">Una vez por cada descanso largo, puedes conjurar un campo de plantas curativas a tu alrededor. Todo lo que esté a tu alcance cercano cobra vida con una naturaleza vibrante, lo que te permite a ti y a todos los aliados en el área eliminar un punto de golpe.</p><p class=\"Body-Foundation\"><strong>Gasta 2 de Esperanza</strong> para que tú y todos los aliados eliminen 2 puntos de vida en su lugar.</p>"
         },
         "Thorn Skin": {
             "name": "Piel de Espinas",
@@ -596,7 +596,7 @@
         },
         "Fane of the Wilds": {
             "name": "Fano Silvestre",
-            "description": "<p class=\"Body-Foundation\">Tras un descanso prolongado, coloca una cantidad de fichas igual a la cantidad de cartas del dominio del Sabio en tu mano y bóveda de esta carta.</p><p class=\"Body-Foundation\">Cuando vayas a realizar una Tirada de Lanzamiento de Conjuros, puedes gastar cualquier cantidad de fichas después de la tirada para obtener una bonificación de +1 por cada ficha gastada.</p><p class=\"Body-Foundation\">Cuando tengas éxito crítico en una Tirada de Lanzamiento de Conjuros de un hechizo del dominio del Sabio, obtienes una ficha.</p><p class=\"Body-Foundation\">Al tomar un descanso largo, limpia todas las fichas no gastadas.</p>"
+            "description": "<p class=\"Body-Foundation\">Tras un descanso largo, coloca una cantidad de fichas igual a la cantidad de cartas del dominio del Sabio en tu mano y bóveda de esta carta.</p><p class=\"Body-Foundation\">Cuando vayas a realizar una Tirada de Lanzamiento de Conjuros, puedes gastar cualquier cantidad de fichas después de la tirada para obtener una bonificación de +1 por cada ficha gastada.</p><p class=\"Body-Foundation\">Cuando tengas éxito crítico en una Tirada de Lanzamiento de Conjuros de un hechizo del dominio del Sabio, obtienes una ficha.</p><p class=\"Body-Foundation\">Al tomar un descanso largo, limpia todas las fichas no gastadas.</p>"
         },
         "Plant Dominion": {
             "name": "Dominio Vegetal",
@@ -608,7 +608,7 @@
         },
         "Tempest": {
             "name": "Tempestad",
-            "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">Elige una de las siguientes tempestades y realiza una tirada de lanzamiento de hechizos contra todos los objetivos dentro del alcance lejano. Los objetivos contra los que tengas éxito experimentan sus efectos hasta que el DJ gaste un Miedo en su turno para finalizar este hechizo.</p><ul><li class=\"vertical-card-list\"><p><em><strong>Ventisca:</strong></em> Inflige <strong>2d20+8</strong> de daño mágico y los objetivos quedan temporalmente <em>Vulnerables</em>.</p></li><li class=\"vertical-card-list\"><em><strong>Huracán:</strong></em> Inflige <strong>3d10+10</strong> de daño mágico y elige la dirección en la que sopla el viento. Los objetivos no pueden moverse contra el viento.</li><li class=\"vertical-card-list\"><p><em><strong>Tormenta de Arena:</strong></em> Inflige <strong>5d6+9</strong> de daño mágico. Los ataques fuera del alcance cuerpo a cuerpo tienen desventaja.</p><p></p></li></ul>"
+            "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">Elige una de las siguientes tempestades y realiza una tirada de lanzamiento de conjuros contra todos los objetivos dentro del alcance lejano. Los objetivos contra los que tengas éxito experimentan sus efectos hasta que el DJ gaste un Miedo en su turno para finalizar este hechizo.</p><ul><li class=\"vertical-card-list\"><p><em><strong>Ventisca:</strong></em> Inflige <strong>2d20+8</strong> de daño mágico y los objetivos quedan temporalmente <em>Vulnerables</em>.</p></li><li class=\"vertical-card-list\"><em><strong>Huracán:</strong></em> Inflige <strong>3d10+10</strong> de daño mágico y elige la dirección en la que sopla el viento. Los objetivos no pueden moverse contra el viento.</li><li class=\"vertical-card-list\"><p><em><strong>Tormenta de Arena:</strong></em> Inflige <strong>5d6+9</strong> de daño mágico. Los ataques fuera del alcance cuerpo a cuerpo tienen desventaja.</p><p></p></li></ul>"
         },
         "Bolt Beacon": {
             "name": "Baliza de Luz",
@@ -616,7 +616,7 @@
         },
         "Mending Touch": {
             "name": "Toque Reparador",
-            "description": "<p class=\"Body-Foundation\">Impones tus manos sobre una criatura y canalizas magia curativa para curar sus heridas. Cuando puedes dedicar unos minutos a concentrarte en el objetivo al que ayudas, puedes gastar 2 puntos de Esperanza para eliminar un punto de vida o estrés.</p><p class=\"Body-Foundation\">Una vez por cada descanso largo, cuando dedicas este tiempo de curación a aprender algo nuevo sobre la criatura o a revelar algo sobre ti mismo, puedes eliminar 2 puntos de vida o 2 puntos de estrés.</p>"
+            "description": "<p class=\"Body-Foundation\">Impones tus manos sobre una criatura y canalizas magia curativa para curar sus heridas. Cuando puedes dedicar unos minutos a concentrarte en el objetivo al que ayudas, puedes gastar 2 puntos de Esperanza para eliminar un punto de golpe o estrés.</p><p class=\"Body-Foundation\">Una vez por cada descanso largo, cuando dedicas este tiempo de curación a aprender algo nuevo sobre la criatura o a revelar algo sobre ti mismo, puedes eliminar 2 puntos de vida o 2 puntos de estrés.</p>"
         },
         "Reassurance": {
             "name": "Apoyo",
@@ -624,7 +624,7 @@
         },
         "Final Words": {
             "name": "Últimas palabras",
-            "description": "<p class=\"Body-Foundation\">Puedes infundir un momento de vida a un cadáver para hablar con él. Realiza una <strong>Tira de Lanzamiento de Conjuros (13)</strong>. Si tiene éxito con Esperanza, el cadáver responde hasta tres preguntas. Si tiene éxito con Miedo, responde una pregunta. El cadáver responde con la verdad, pero no puede compartir información que desconocía en vida. Si falla, o una vez que el cadáver haya terminado de responder a tus preguntas, se convierte en polvo.</p>"
+            "description": "<p class=\"Body-Foundation\">Puedes infundir un momento de vida a un cadáver para hablar con él. Realiza una <strong>Tirada de Lanzamiento de Conjuros (13)</strong>. Si tiene éxito con Esperanza, el cadáver responde hasta tres preguntas. Si tiene éxito con Miedo, responde una pregunta. El cadáver responde con la verdad, pero no puede compartir información que desconocía en vida. Si falla, o una vez que el cadáver haya terminado de responder a tus preguntas, se convierte en polvo.</p>"
         },
         "Healing Hands": {
             "name": "Manos Sanadoras",
@@ -632,11 +632,11 @@
         },
         "Second Wind": {
             "name": "Segundo Aire",
-            "description": "<p class=\"Body-Foundation\">Una vez por descanso, al tener éxito en un ataque contra un adversario, puedes eliminar 3 puntos de estrés o un punto de vida. Si tienes éxito con Esperanza, también eliminas 3 puntos de estrés o un punto de vida de un aliado a corta distancia.</p>"
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso, al tener éxito en un ataque contra un adversario, puedes eliminar 3 puntos de estrés o un punto de golpe. Si tienes éxito con Esperanza, también eliminas 3 puntos de estrés o un punto de golpe de un aliado a corta distancia.</p>"
         },
         "Voice of Reason": {
             "name": "Voz de la Razón",
-            "description": "<p class=\"Body-Foundation\">Hablas con un poder y una autoridad inigualables. Tienes ventaja en las tiradas de acción para calmar situaciones violentas o convencer a alguien de que te siga el ejemplo.</p><p class=\"Body-Foundation\">Además, te envalentonas en momentos de tensión. Cuando todas tus casillas de Estrés están marcadas, obtienes un bonificador de +1 a tu Competencia en las tiradas de daño.</p>"
+            "description": "<p class=\"Body-Foundation\">Hablas con un poder y una autoridad inigualables. Tienes ventaja en las tiradas de acción para calmar situaciones violentas o convencer a alguien de que te siga el ejemplo.</p><p class=\"Body-Foundation\">Además, te envalentonas en momentos de estrés. Cuando todas tus casillas de Estrés están marcadas, obtienes un bonificador de +1 a tu Competencia en las tiradas de daño.</p>"
         },
         "Divination": {
             "name": "Adivinación",
@@ -664,7 +664,7 @@
         },
         "Healing Strike": {
             "name": "Golpe Curativo",
-            "description": "<p class=\"Body-Foundation\">Cuando infliges daño a un adversario, puedes gastar 2 puntos de Esperanza para eliminar un punto de vida de un aliado a corta distancia.</p>"
+            "description": "<p class=\"Body-Foundation\">Cuando infliges daño a un adversario, puedes gastar 2 puntos de Esperanza para eliminar un punto de golpe de un aliado a corta distancia.</p>"
         },
         "Splendor-Touched": {
             "name": "Tocado por el Esplendor",
@@ -680,7 +680,7 @@
         },
         "Overwhelming Aura": {
             "name": "Aura Abrumadora",
-            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Conjuros (15)</strong> para potenciar mágicamente tu aura. Si tienes éxito, gasta 2 puntos de Esperanza para que tu Presencia sea igual a tu atributo de Lanzamiento de Conjuros hasta tu próximo descanso prolongado.</p><p class=\"Body-Foundation\">Mientras este conjuro esté activo, un adversario debe marcar una Estrés al atacarte.</p>"
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Conjuros (15)</strong> para potenciar mágicamente tu aura. Si tienes éxito, gasta 2 puntos de Esperanza para que tu Presencia sea igual a tu atributo de Lanzamiento de Conjuros hasta tu próximo descanso largo.</p><p class=\"Body-Foundation\">Mientras este conjuro esté activo, un adversario debe marcar una Estrés al atacarte.</p>"
         },
         "Salvation Beam": {
             "name": "Rayo de Salvación",
@@ -696,7 +696,7 @@
         },
         "Bare Bones": {
             "name": "Piel y hueso",
-            "description": "<p class=\"Body-Foundation\">Cuando eliges no equipar armadura, tienes una puntuación de armadura base de 3 + tu fuerza y ​​usas los siguientes umbrales de daño base:</p><ul><li class=\"vertical-card-list-found\"><em><strong>Rango 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Rango 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Rango 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Rango 4:</strong></em> 15/38</li></ul><p>Equipa la siguiente armadura para usar Bare Bones Huesos.</p><p>@UUID[Compendium.daggerheart.armors.Item.ITAjcigTcUw5pMCN]{Piel y hueso}</p>"
+            "description": "<p class=\"Body-Foundation\">Cuando eliges no equipar armadura, tienes una puntuación de armadura base de 3 + tu fuerza y usas los siguientes umbrales de daño base:</p><ul><li class=\"vertical-card-list-found\"><em><strong>Rango 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Rango 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Rango 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Rango 4:</strong></em> 15/38</li></ul><p>Equipa la siguiente armadura para usar Bare Bones Huesos.</p><p>@UUID[Compendium.daggerheart.armors.Item.ITAjcigTcUw5pMCN]{Piel y hueso}</p>"
         },
         "Forceful Push": {
             "name": "Empujón Forzado",
@@ -756,7 +756,7 @@
         },
         "Full Surge": {
             "name": "Aceleración Máxima",
-            "description": "<p class=\"Body-Foundation\">Una vez por cada descanso prolongado, marca 3 de Estrés para llevar tu cuerpo al límite. Obtienes una bonificación de +2 a todos tus rasgos de personaje hasta tu próximo descanso.</p>"
+            "description": "<p class=\"Body-Foundation\">Una vez por cada descanso largo, marca 3 de Estrés para llevar tu cuerpo al límite. Obtienes una bonificación de +2 a todos tus rasgos de personaje hasta tu próximo descanso.</p>"
         },
         "Ground Pound": {
             "name": "Golpe al Suelo",
