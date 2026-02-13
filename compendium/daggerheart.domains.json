@@ -108,7 +108,7 @@
         },
         "Book of Ava": {
             "name": "Libro de Ava",
-            "description": "<p class=\"Card-Feature\"><em><strong>Impulso de Poder:</strong></em> Realiza una <strong>Tira de Lanzamiento de Hechizos</strong> contra un objetivo dentro del alcance cuerpo a cuerpo. Si tiene éxito, es repelido a distancia lejana y recibe <strong>d10+2</strong> de daño mágico usando tu Competencia.</p><p class=\"Card-Feature\"><em><strong>Armadura de Tava:</strong></em> <strong>Gasta una Esperanza</strong> para otorgar a un objetivo que puedas tocar un +1 a su Puntuación de Armadura hasta su próximo descanso o hasta que vuelvas a lanzar la Armadura de Tava.</p><p class=\"Card-Feature\"><em><strong>Púa de Hielo:</strong></em> Realiza una <strong>Tira de Lanzamiento de Hechizos (12)</strong> para invocar una gran Púa de Hielo dentro del alcance lejana. Si la usas como arma, realiza la Tirada de Lanzamiento de Hechizos contra la Dificultad del objetivo. Si tienes éxito, inflige <strong>d6</strong> de daño físico usando tu Competencia.</p>"
+            "description": "<p class=\"Card-Feature\"><em><strong>Impulso de Poder:</strong></em> Realiza una <strong>Tirada de Lanzamiento de Hechizos</strong> contra un objetivo dentro del alcance cuerpo a cuerpo. Si tiene éxito, es repelido a distancia lejana y recibe <strong>d10+2</strong> de daño mágico usando tu Competencia.</p><p class=\"Card-Feature\"><em><strong>Armadura de Tava:</strong></em> <strong>Gasta una Esperanza</strong> para otorgar a un objetivo que puedas tocar un +1 a su Puntuación de Armadura hasta su próximo descanso o hasta que vuelvas a lanzar la Armadura de Tava.</p><p class=\"Card-Feature\"><em><strong>Púa de Hielo:</strong></em> Realiza una <strong>Tirada de Lanzamiento de Hechizos (12)</strong> para invocar una gran Púa de Hielo dentro del alcance lejana. Si la usas como arma, realiza la Tirada de Lanzamiento de Hechizos contra la Dificultad del objetivo. Si tienes éxito, inflige <strong>d6</strong> de daño físico usando tu Competencia.</p>"
         },
         "Book of Illiat": {
             "name": "Libro de Illiat",
@@ -116,7 +116,7 @@
         },
         "Book of Tyfar": {
             "name": "Libro de Tyfar",
-            "description": "<p class=\"Card-Feature\"><em><strong>Llama Salvaje:</strong></em> Realiza una <strong>Tira de Lanzamiento de Conjuros</strong> contra hasta tres adversarios dentro del alcance cuerpo a cuerpo. Los objetivos contra los que tengas éxito reciben <strong>2d6</strong> de daño mágico y deben marcar una Estrés mientras las llamas brotan de tu mano.</p><p class=\"Card-Feature\"><em><strong>Mano Mágica:</strong></em> Conjuras una mano mágica del mismo tamaño y fuerza que la tuya dentro del alcance Lejano.</p><p class=\"Card-Feature\"><em><strong>Niebla Misteriosa:</strong></em> Realiza una <strong>Tira de Lanzamiento de Conjuros (13)</strong> para lanzar una niebla espesa temporal que se acumula en un área estacionaria dentro del alcance Muy Corto. La niebla oscurece profundamente esta área y todo lo que contiene.</p>"
+            "description": "<p class=\"Card-Feature\"><em><strong>Llama Salvaje:</strong></em> Realiza una <strong>Tirada de Lanzamiento de Conjuros</strong> contra hasta tres adversarios dentro del alcance cuerpo a cuerpo. Los objetivos contra los que tengas éxito reciben <strong>2d6</strong> de daño mágico y deben marcar una Estrés mientras las llamas brotan de tu mano.</p><p class=\"Card-Feature\"><em><strong>Mano Mágica:</strong></em> Conjuras una mano mágica del mismo tamaño y fuerza que la tuya dentro del alcance Lejano.</p><p class=\"Card-Feature\"><em><strong>Niebla Misteriosa:</strong></em> Realiza una <strong>Tirada de Lanzamiento de Conjuros (13)</strong> para lanzar una niebla espesa temporal que se acumula en un área estacionaria dentro del alcance Muy Corto. La niebla oscurece profundamente esta área y todo lo que contiene.</p>"
         },
         "Book of Sitil": {
             "name": "Libro de Sitil",
@@ -128,7 +128,7 @@
         },
         "Book of Korvax": {
             "name": "Libro de Korvax",
-            "description": "<p class=\"Card-Feature\"><em><strong>Levitación:</strong></em> Realiza una <strong>Tira de Lanzamiento de Hechizos</strong> para elevar temporalmente a un objetivo visible y moverlo a un rango cercano a su posición original.</p><p class=\"Card-Feature\"><em><strong>Retractarse:</strong></em> <strong>Gasta una Esperanza</strong> para obligar a un objetivo dentro del rango cuerpo a cuerpo a realizar una Tirada de Reacción (15). Si falla, olvida el último minuto de tu conversación.</p><p class=\"Card-Feature\"><em><strong>Círculo Rúnico:</strong></em> <strong>Marca un Estrés</strong> para crear un círculo mágico temporal en el suelo donde te encuentras. Todos los adversarios dentro del rango cuerpo a cuerpo, o que entren en él, reciben <strong>2d12+4</strong> de daño mágico y son devueltos a un rango muy cercano.</p>"
+            "description": "<p class=\"Card-Feature\"><em><strong>Levitación:</strong></em> Realiza una <strong>Tirada de Lanzamiento de Hechizos</strong> para elevar temporalmente a un objetivo visible y moverlo a un rango cercano a su posición original.</p><p class=\"Card-Feature\"><em><strong>Retractarse:</strong></em> <strong>Gasta una Esperanza</strong> para obligar a un objetivo dentro del rango cuerpo a cuerpo a realizar una Tirada de Reacción (15). Si falla, olvida el último minuto de tu conversación.</p><p class=\"Card-Feature\"><em><strong>Círculo Rúnico:</strong></em> <strong>Marca un Estrés</strong> para crear un círculo mágico temporal en el suelo donde te encuentras. Todos los adversarios dentro del rango cuerpo a cuerpo, o que entren en él, reciben <strong>2d12+4</strong> de daño mágico y son devueltos a un rango muy cercano.</p>"
         },
         "Book of Norai": {
             "name": "Libro de Norai",
@@ -152,7 +152,7 @@
         },
         "Banish": {
             "name": "Desterrar",
-            "description": "<p class=\"Body-Foundation\">Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tira de Lanzamiento de Conjuros</strong></tooltip> contra un objetivo dentro del alcance <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"close\" nexus=\"daggerheart\">Cerca</tooltip>. Si tienes éxito, lanza un número de <strong>d20</strong>s igual a tu atributo de Lanzamiento de Conjuros. El objetivo debe realizar una tirada de reacción con una dificultad igual a tu resultado más alto. Si tiene éxito, el objetivo debe marcar un estrés, pero no es desterrado. Una vez por descanso, si falla, es desterrado de este reino. </p><p class=\"Body-Foundation\">Cuando los PJ tiran con <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"fear\" nexus=\"daggerheart\">Miedo</tooltip>, la Dificultad recibe una penalización de -1 y el objetivo realiza otra tirada de reacción. Si tiene éxito, regresa del destierro.</p>"
+            "description": "<p class=\"Body-Foundation\">Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tirada de Lanzamiento de Conjuros</strong></tooltip> contra un objetivo dentro del alcance <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"close\" nexus=\"daggerheart\">Cerca</tooltip>. Si tienes éxito, lanza un número de <strong>d20</strong>s igual a tu atributo de Lanzamiento de Conjuros. El objetivo debe realizar una tirada de reacción con una dificultad igual a tu resultado más alto. Si tiene éxito, el objetivo debe marcar un estrés, pero no es desterrado. Una vez por descanso, si falla, es desterrado de este reino. </p><p class=\"Body-Foundation\">Cuando los PJ tiran con <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"fear\" nexus=\"daggerheart\">Miedo</tooltip>, la Dificultad recibe una penalización de -1 y el objetivo realiza otra tirada de reacción. Si tiene éxito, regresa del destierro.</p>"
         },
         "Sigil of Retribution": {
             "name": "Sigilo de retribución",
@@ -168,7 +168,7 @@
         },
         "Book of Vyola": {
             "name": "Libro de Vyola",
-            "description": "<p class=\"Card-Feature\"><em><strong>Explorar Memorias:</strong></em> Realiza una <strong>Tira de Lanzamiento de Conjuros</strong> contra un objetivo dentro del alcance Lejano. Si tiene éxito, penetra en la mente del objetivo y formula una pregunta al DJ. El DJ describe cualquier recuerdo que el objetivo tenga relacionado con la respuesta.</p><p class=\"Card-Feature\"><em><strong>Claridad Compartida:</strong></em> Una vez por cada descanso largo, gasta una Esperanza para elegir dos criaturas dispuestas. Cuando una de ellas vaya a marcar Estrés, puede elegir entre las dos que lo marcaron. Este conjuro dura hasta su próximo descanso.</p>"
+            "description": "<p class=\"Card-Feature\"><em><strong>Explorar Memorias:</strong></em> Realiza una <strong>Tirada de Lanzamiento de Conjuros</strong> contra un objetivo dentro del alcance Lejano. Si tiene éxito, penetra en la mente del objetivo y formula una pregunta al DJ. El DJ describe cualquier recuerdo que el objetivo tenga relacionado con la respuesta.</p><p class=\"Card-Feature\"><em><strong>Claridad Compartida:</strong></em> Una vez por cada descanso largo, gasta una Esperanza para elegir dos criaturas dispuestas. Cuando una de ellas vaya a marcar Estrés, puede elegir entre las dos que lo marcaron. Este conjuro dura hasta su próximo descanso.</p>"
         },
         "Safe Haven": {
             "name": "Cielo Seguro",
@@ -180,11 +180,11 @@
         },
         "Disintegration Wave": {
             "name": "Ola desintegradora",
-            "description": "<p class=\"Body\">Realiza una <strong>Tira de Lanzamiento de Conjuros (18)</strong>. Una vez por cada descanso largo, si tienes éxito, el DJ te indica qué adversarios dentro del alcance Lejano tienen una Dificultad de 18 o menos. Marca una <strong>Estrés</strong> por cada uno al que quieras golpear con este conjuro. Mueren y no pueden volver a la vida bajo ningún concepto.</p>"
+            "description": "<p class=\"Body\">Realiza una <strong>Tirada de Lanzamiento de Conjuros (18)</strong>. Una vez por cada descanso largo, si tienes éxito, el DJ te indica qué adversarios dentro del alcance Lejano tienen una Dificultad de 18 o menos. Marca una <strong>Estrés</strong> por cada uno al que quieras golpear con este conjuro. Mueren y no pueden volver a la vida bajo ningún concepto.</p>"
         },
         "Book of Yarrow": {
             "name": "Libro de Yarrow",
-            "description": "<p class=\"Card-Feature\"><em><strong>Atacatiempos:</strong></em> Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tira de Lanzamiento de Hechizos</strong></tooltip><strong> (18)</strong>. Si tiene éxito, el tiempo se detiene temporalmente para todos dentro del alcance <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"far\" nexus=\"daggerheart\">Lejos</tooltip>, excepto para ti. Se reanuda la próxima vez que realices una tirada de acción que tenga como objetivo a otra criatura.</p><p class=\"Card-Feature\"><em><strong>Inmunidad mágica:</strong></em> <strong>Gasta 5 </strong><tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\"><strong>Esperanza</strong></tooltip> para volverte inmune al daño mágico hasta tu próximo descanso.</p>"
+            "description": "<p class=\"Card-Feature\"><em><strong>Atacatiempos:</strong></em> Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tirada de Lanzamiento de Hechizos</strong></tooltip><strong> (18)</strong>. Si tiene éxito, el tiempo se detiene temporalmente para todos dentro del alcance <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"far\" nexus=\"daggerheart\">Lejos</tooltip>, excepto para ti. Se reanuda la próxima vez que realices una tirada de acción que tenga como objetivo a otra criatura.</p><p class=\"Card-Feature\"><em><strong>Inmunidad mágica:</strong></em> <strong>Gasta 5 </strong><tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hope\" nexus=\"daggerheart\"><strong>Esperanza</strong></tooltip> para volverte inmune al daño mágico hasta tu próximo descanso.</p>"
         },
         "Transcendent Union": {
             "name": "Unión Trascendente",
@@ -372,7 +372,7 @@
         },
         "Tell No Lies": {
             "name": "No digas mentiras",
-            "description": "<p class=\"Body-Foundation\">Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tira de Lanzamiento de Hechizos</strong></tooltip><strong> </strong>contra un objetivo dentro de un alcance <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"very-close\" nexus=\"daggerheart\">Muy Cerca</tooltip>. Si tiene éxito, no podrán mentirte mientras permanezca dentro de un alcance <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"close\" nexus=\"daggerheart\">Cerca</tooltip>, pero no estará obligado a hablar. Si les haces una pregunta y se niegan a responder, deben marcar <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\">Estrés</tooltip> y el efecto termina. El objetivo normalmente no se da cuenta de que se le ha lanzado este hechizo hasta que le hace decir la verdad."
+            "description": "<p class=\"Body-Foundation\">Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tirada de Lanzamiento de Hechizos</strong></tooltip><strong> </strong>contra un objetivo dentro de un alcance <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"very-close\" nexus=\"daggerheart\">Muy Cerca</tooltip>. Si tiene éxito, no podrán mentirte mientras permanezca dentro de un alcance <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"close\" nexus=\"daggerheart\">Cerca</tooltip>, pero no estará obligado a hablar. Si les haces una pregunta y se niegan a responder, deben marcar <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"stress\" nexus=\"daggerheart\">Estrés</tooltip> y el efecto termina. El objetivo normalmente no se da cuenta de que se le ha lanzado este hechizo hasta que le hace decir la verdad."
         },
         "Troublemaker": {
             "name": "Alborotador",
@@ -400,7 +400,7 @@
         },
         "Words of Discord": {
             "name": "Palabras de discordia",
-            "description": "<p class=\"Body-Foundation\">Susurra palabras de discordia a un adversario dentro del alcance cuerpo a cuerpo y realiza una <strong>Tira de Lanzamiento de Conjuros (13)</strong>. Si tiene éxito, el objetivo debe marcar una Estrés y atacar contra otro adversario en lugar de contra ti o tus aliados.</p><p class=\"Body-Foundation\">Una vez finalizado el ataque, el objetivo se da cuenta de lo sucedido. La próxima vez que le lances Palabras de Discordia, recibirás una penalización de -5 a la Tirada de Lanzamiento de Conjuros.</p>"
+            "description": "<p class=\"Body-Foundation\">Susurra palabras de discordia a un adversario dentro del alcance cuerpo a cuerpo y realiza una <strong>Tirada de Lanzamiento de Conjuros (13)</strong>. Si tiene éxito, el objetivo debe marcar una Estrés y atacar contra otro adversario en lugar de contra ti o tus aliados.</p><p class=\"Body-Foundation\">Una vez finalizado el ataque, el objetivo se da cuenta de lo sucedido. La próxima vez que le lances Palabras de Discordia, recibirás una penalización de -5 a la Tirada de Lanzamiento de Conjuros.</p>"
         },
         "Never Upstaged": {
             "name": "Nunca opacado",
@@ -468,7 +468,7 @@
         },
         "Veil of Night": {
             "name": "Velo de la noche",
-            "description": "<p class=\"Body-Foundation\">Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tira de Lanzamiento de Hechizos</strong></tooltip><strong> (13)</strong>. Si tienes éxito, puedes crear una cortina temporal de oscuridad entre dos puntos dentro del alcance de <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"far\" nexus=\"daggerheart\">Lejos</tooltip>. Solo tú puedes ver a través de esta oscuridad. Los adversarios al otro lado del velo te consideran <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hidden\" nexus=\"daggerheart\"><em>Oculto</em></tooltip>, y tienes <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"advantage-and-disadvantage\" nexus=\"daggerheart\">ventaja</tooltip> en los ataques que realizas a través de la oscuridad. El velo permanece hasta que lanzas otro hechizo.</p>"
+            "description": "<p class=\"Body-Foundation\">Realiza una <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"spellcast-roll\" nexus=\"daggerheart\"><strong>Tirada de Lanzamiento de Hechizos</strong></tooltip><strong> (13)</strong>. Si tienes éxito, puedes crear una cortina temporal de oscuridad entre dos puntos dentro del alcance de <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"far\" nexus=\"daggerheart\">Lejos</tooltip>. Solo tú puedes ver a través de esta oscuridad. Los adversarios al otro lado del velo te consideran <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"hidden\" nexus=\"daggerheart\"><em>Oculto</em></tooltip>, y tienes <tooltip category=\"rule\" class=\"tooltip-convert\" element=\"advantage-and-disadvantage\" nexus=\"daggerheart\">ventaja</tooltip> en los ataques que realizas a través de la oscuridad. El velo permanece hasta que lanzas otro hechizo.</p>"
         },
         "Glyph of Nightfall": {
             "name": "Glifo del anochecer",
@@ -525,6 +525,90 @@
         "Specter of the Dark": {
             "name": "Espectro de la oscuridad",
             "description": "<p class=\"Body-Foundation\"><strong>Marca una Estrés</strong> para volverte <em>Espectral</em> hasta que realices una tirada de acción dirigida a otra criatura. Mientras seas <em>Espectral</em>, eres inmune al daño físico y puedes flotar y atravesar objetos sólidos. Otras criaturas aún pueden verte mientras estés en esta forma.</p>"
+        },
+        "Gifted Tracker": {
+            "name": "Rastreador dotado",
+            "description": "<p class=\"Body-Foundation\">Al rastrear a una criatura o grupo de criaturas según las señales de su paso, puedes gastar cualquier cantidad de Esperanza y hacerle al DJ tantas preguntas de la siguiente lista.</p><ul><li class=\"vertical-card-list\">¿En qué dirección se fueron?</li><li class=\"vertical-card-list\">¿Hace cuánto tiempo que pasaron por aquí?</li><li class=\"vertical-card-list\">¿Qué hacían en este lugar?</li><li class=\"vertical-card-list\">¿Cuántos de ellos estaban aquí?</li></ul><p class=\"Body-Foundation\">Cuando te encuentres con criaturas que hayas rastreado de esta manera, obtienes una bonificación de +1 a tu Evasión contra ellas.</p>"
+        },
+        "Nature’s Tongue": {
+            "name": "Lengua de la naturaleza",
+            "description": "Puedes hablar el idioma del mundo natural. Cuando quieras hablar con las plantas y los animales que te rodean, haz una tirada de Instinto (12). Si tienes éxito, te darán la información que conocen. En una tirada con Miedo, su conocimiento podría ser limitado o tener un coste. Además, antes de hacer una tirada de Lanzamiento de Conjuros en un entorno natural, puedes gastar una Esperanza para obtener una bonificación de +2 a la tirada."
+        },
+        "Vicious Entangle": {
+            "name": "Enredo vicioso",
+            "description": "<p class=\"Body-Foundation\">Realiza una tirada de conjuro contra un objetivo a distancia. Si tienes éxito, raíces y enredaderas se extienden desde el suelo, infligiendo 1d8+1 de daño físico y conteniendo temporalmente al objetivo.</p><p class=\"Body-Foundation\">Además, si tienes éxito, puedes gastar una esperanza para contener temporalmente a otro adversario a distancia muy corta de tu objetivo.</p>"
+        },
+        "Conjure Swarm": {
+            "name": "Conjurar enjambre",
+            "description": "<p class=\"Card-Feature\"><em><strong>Escarabajos Blindados de Tekaira:</strong></em> <strong>Marca una Estrés</strong> para conjurar escarabajos blindados que te rodean. La próxima vez que recibas daño, reduce la gravedad en un umbral. Puedes <strong>gastar una Esperanza</strong> para mantener los escarabajos conjurados después de recibir daño.</p><p class=\"Card-Feature\"><em><strong>Luciérnagas:</strong></em> Realiza una <strong>Tirada de Lanzamiento de Conjuros</strong> contra todos los adversarios a Distancia Corta. <strong>Gasta una Esperanza</strong> para infligir <strong>2d8+3</strong> de daño mágico a los objetivos contra los que hayas tenido éxito.</p>"
+        },
+        "Natural Familiar": {
+            "name": "Familiar natural",
+            "description": "<p class=\"Body-Foundation\"><strong>Gasta una Esperanza</strong> para invocar un pequeño espíritu de la naturaleza o una criatura del bosque a tu lado hasta tu próximo descanso, hasta que vuelvas a lanzar Familiar Natural o hasta que el familiar sea objetivo de un ataque. Si <strong>gastas una Esperanza adicional</strong>, puedes invocar un familiar que vuela. Puedes comunicarte con él, realizar una <strong>Tirada de Lanzamiento de Conjuros</strong> para ordenarle que realice tareas sencillas y <strong>marcar una Estrés</strong> para ver a través de sus ojos.</p><p class=\"Body-Foundation\">Cuando infliges daño a un adversario dentro del alcance cuerpo a cuerpo de tu familiar, sumas un <strong>d6</strong> a tu tirada de daño.</p>"
+        },
+        "Corrosive Projectile": {
+            "name": "Proyectil Corrosivo",
+            "description": "<p class=\"Body-Foundation\">Realiza una Tirada de Lanzamiento de Conjuros contra un objetivo dentro del alcance Lejano. Si tiene éxito, inflige <strong>d6+4</strong> de daño mágico usando tu Competencia. Además, marca 2 o más de Estrés para corroerlo permanentemente. Mientras un objetivo esté corroído, recibe una penalización de -1 a su Dificultad por cada 2 de Estrés gastados. Esta condición se acumula.</p>"
+        },
+        "Towering Stalk": {
+            "name": "Tallo Imponente",
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso, puedes conjurar un tallo grueso y retorcido a corta distancia que se puede escalar fácilmente. Su altura puede alcanzar largas distancias.</p><p class=\"Body-Foundation\"><strong>Marca una Estrés</strong> para usar este hechizo como ataque. Realiza una <strong>Tirada de Lanzamiento de Conjuros</strong> contra un adversario o grupo de adversarios a corta distancia. El tallo en erupción eleva por los aires a los objetivos contra los que tengas éxito y los deja caer, infligiendo <strong>d8</strong> de daño físico usando tu Competencia.</p>"
+        },
+        "Death Grip": {
+            "name": "Agarre mortal",
+            "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">Realiza una tirada de conjuro contra un objetivo a corta distancia y elige una de las siguientes opciones:</p><ul><li class=\"vertical-card-list\"><p>Atraes al objetivo a distancia de combate cuerpo a cuerpo o te atraes a ti mismo a distancia de combate cuerpo a cuerpo.</p></li><li class=\"vertical-card-list\"><p>Constriñes al objetivo y lo obligas a marcar 2 de Estrés.</p></li><li class=\"vertical-card-list\"><p>Todos los adversarios entre tú y el objetivo deben superar una tirada de reacción (13) o serán alcanzados por enredaderas, que reciben <strong>3d6+2</strong> de daño físico.</p></li></ul><p class=\"Body-Foundation-No-BOLDITALIC\">Si tienes éxito, las enredaderas se extienden desde tus manos, causando el efecto elegido. y restringir temporalmente al objetivo.</p>"
+        },
+        "Healing Field": {
+            "name": "Campo de Curación",
+            "description": "<p class=\"Body-Foundation\">Una vez por cada descanso largo, puedes conjurar un campo de plantas curativas a tu alrededor. Todo lo que esté a tu alcance cercano cobra vida con una naturaleza vibrante, lo que te permite a ti y a todos los aliados en el área eliminar un punto de vida.</p><p class=\"Body-Foundation\"><strong>Gasta 2 de Esperanza</strong> para que tú y todos los aliados eliminen 2 puntos de vida en su lugar.</p>"
+        },
+        "Thorn Skin": {
+            "name": "Piel de Espinas",
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso, gasta una Esperanza para que te broten espinas por todo el cuerpo. Al hacerlo, coloca en esta carta una cantidad de fichas igual a tu atributo de Lanzamiento de Conjuros. Al recibir daño, puedes gastar cualquier cantidad de fichas para lanzar esa cantidad de <strong>d6</strong>. Suma los resultados y reduce el daño recibido en esa cantidad. Si estás dentro del alcance cuerpo a cuerpo del atacante, inflige esa cantidad de daño.</p><p class=\"Body-Foundation\">Al descansar, limpia todas las fichas no gastadas.</p>"
+        },
+        "Wild Fortress": {
+            "name": "Fortaleza Salvaje",
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Hechizos (13)</strong>. Si tienes éxito, gasta 2 puntos de Esperanza para crear una barricada natural con forma de cúpula en la que tú y un aliado puedan refugiarse. Mientras esté dentro de la cúpula, ninguna criatura puede ser objetivo de ataques ni realizar ataques. Los ataques contra la cúpula tienen éxito automáticamente. La cúpula tiene un umbral de daño Mayor de 15 y un umbral de daño Grave de 30, y dura hasta alcanzar 3 Puntos de Golpe. Coloca fichas en esta carta para representar la marca de Puntos de Golpe.</p>"
+        },
+        "Conjured Steeds": {
+            "name": "Conjurar Corceles",
+            "description": "<p class=\"Body-Foundation\"><strong>Gasta cualquier cantidad de Esperanza</strong> para conjurar esa cantidad de corceles mágicos (como caballos, camellos o elefantes) que tú y tus aliados podáis montar hasta vuestro próximo descanso largo o hasta que los corceles sufran daño. Los corceles duplican vuestra velocidad terrestre al viajar y, en peligro, os permiten moveros a distancia Lejana sin tener que tirar. Las criaturas que montan un corcel obtienen una penalización de -2 a las tiradas de ataque y una bonificación de +2 a las tiradas de daño.</p>"
+        },
+        "Forager": {
+            "name": "Recolector",
+            "description": "<p class=\"Domain-Ability\">Como movimiento adicional de tiempo de inactividad que puedes elegir, tira un d6 para ver qué recolectas. Trabaja con el DJ para describirlo y añadirlo a tu inventario como consumible. Tu grupo puede llevar hasta cinco consumibles recolectados a la vez.</p><ol><li><p>Un alimento único (Resuelve 2 puntos de estrés)</p></li><li><p>Una hermosa reliquia (Obtiene 2 puntos de esperanza)</p></li><li><p>Una runa arcana (+2 a una tirada de conjuro)</p></li><li>Un vial de curación (Resuelve 2 puntos de golpe)</li><li>Un amuleto de la suerte (Repite cualquier dado)</li><li>Elige una de las opciones anteriores.</li></ol>"
+        },
+        "Sage-Touched": {
+            "name": "Tocado por la Sabiduría",
+            "description": "<p class=\"Body-Foundation\">Cuando 4 o más cartas de dominio en tu equipamiento pertenecen al dominio del Sabio, obtienes los siguientes beneficios:</p><ul><li class=\"vertical-card-list\"><p>Mientras estés en un entorno natural, obtienes una bonificación de +2 a tus Tiradas de Lanzamiento de Conjuros.</p></li><li class=\"vertical-card-list\"><p>Una vez por descanso, puedes duplicar tu Agilidad o Instinto al realizar una tirada que use ese rasgo. Debes elegir esta opción antes de tirar.</p><p></p></li></ul>"
+        },
+        "Wild Surge": {
+            "name": "Oleada Salvaje",
+            "description": "<p class=\"Body-Foundation\">Una vez por descanso largo, marca una Estrés para canalizar el mundo natural que te rodea y potenciarte. Describe cómo cambia tu apariencia y coloca un <strong>d6</strong> sobre esta carta con el 1 hacia arriba.</p><p class=\"Body-Foundation\">Mientras el Dado de Oleada Salvaje esté activo, sumas su valor a cada tirada de acción que realices. Después de sumar su valor a una tirada, aumentas el valor del Dado de Oleada Salvaje en uno. Cuando el valor del dado supere 6 o descansas, esta forma se elimina y debes marcar una Estrés adicional.</p>"
+        },
+        "Forest Sprites": {
+            "name": "Duendes del Bosque",
+            "description": "<p class=\"Body\">Realiza una <strong>Tirada de Lanzamiento de Hechizos (13)</strong>. Si tienes éxito, gasta cualquier cantidad de Esperanza para crear la misma cantidad de pequeños duendes del bosque que aparecen en los puntos que elijas dentro del alcance Lejano, lo que proporciona los siguientes beneficios:</p><ul><li class=\"vertical-card-list\"><p>Tus aliados obtienen una bonificación de +3 a las tiradas de ataque contra adversarios dentro del alcance cuerpo a cuerpo de un duende.</p></li><li class=\"vertical-card-list\"><p>Un aliado que marca una Ranura de Armadura mientras está dentro del alcance cuerpo a cuerpo de un duende puede marcar una Ranura de Armadura adicional.</p></li></ul><p class=\"Body\">Un duende desaparece después de otorgar un beneficio o recibir daño.</p>"
+        },
+        "Rejuvenation Barrier": {
+            "name": "Barrera de Rejuvenecimiento",
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Conjuros (15)</strong>. Una vez por descanso, con un éxito, crea una barrera temporal de energía protectora a tu alrededor a muy corta distancia. Tú y todos los aliados dentro de la barrera eliminan <strong>1d4</strong> Puntos de Golpe al lanzar este conjuro. Mientras la barrera esté activa, tú y todos los aliados dentro tienen resistencia al daño físico proveniente del exterior.</p><p class=\"Body-Foundation\">Cuando te mueves, la barrera te sigue.</p><p>@Template[type:emanation|range:vc]</p>"
+        },
+        "Fane of the Wilds": {
+            "name": "Fano Silvestre",
+            "description": "<p class=\"Body-Foundation\">Tras un descanso prolongado, coloca una cantidad de fichas igual a la cantidad de cartas del dominio del Sabio en tu mano y bóveda de esta carta.</p><p class=\"Body-Foundation\">Cuando vayas a realizar una Tirada de Lanzamiento de Conjuros, puedes gastar cualquier cantidad de fichas después de la tirada para obtener una bonificación de +1 por cada ficha gastada.</p><p class=\"Body-Foundation\">Cuando tengas éxito crítico en una Tirada de Lanzamiento de Conjuros de un hechizo del dominio del Sabio, obtienes una ficha.</p><p class=\"Body-Foundation\">Al tomar un descanso largo, limpia todas las fichas no gastadas.</p>"
+        },
+        "Plant Dominion": {
+            "name": "Dominio Vegetal",
+            "description": "<p class=\"Body-Foundation\">Realiza una <strong>Tirada de Lanzamiento de Conjuros (18)</strong>. Una vez por cada descanso largo con un éxito, transformas el mundo natural, cambiando la vegetación circundante en cualquier lugar dentro de tu alcance lejano. Por ejemplo, puedes hacer crecer árboles al instante, abrirte camino a través de enredaderas densas o crear un muro de raíces.</p>"
+        },
+        "Force of Nature": {
+            "name": "Fuerza de la Naturaleza",
+            "description": "<p class=\"Body-Foundation-No-BOLDITALIC\"><strong>Marca un Estrés</strong> para transformarte en un espíritu de la naturaleza corpulento y obtener los siguientes beneficios:</p><ul><li class=\"vertical-card-list\"><p>Cuando tengas éxito en una tirada de ataque o de lanzamiento de conjuros, obtienes un bonificador de +10 a la tirada de daño.</p></li><li class=\"vertical-card-list\"><p>Cuando infliges suficiente daño para derrotar a una criatura a corta distancia, la absorbes y liberas una ranura de armadura.</p></li><li class=\"vertical-card-list\"><p>No puedes ser <em>Restringido</em>.</p></li></ul><p class=\"Body-Foundation\">Antes de realizar una tirada de acción, debes <strong>gastar una Esperanza</strong>. Si no puedes, vuelves a tu estado normal.</p>"
+        },
+        "Tempest": {
+            "name": "Tempestad",
+            "description": "<p class=\"Body-Foundation-No-BOLDITALIC\">Elige una de las siguientes tempestades y realiza una tirada de lanzamiento de hechizos contra todos los objetivos dentro del alcance lejano. Los objetivos contra los que tengas éxito experimentan sus efectos hasta que el DJ gaste un Miedo en su turno para finalizar este hechizo.</p><ul><li class=\"vertical-card-list\"><p><em><strong>Ventisca:</strong></em> Inflige <strong>2d20+8</strong> de daño mágico y los objetivos quedan temporalmente <em>Vulnerables</em>.</p></li><li class=\"vertical-card-list\"><em><strong>Huracán:</strong></em> Inflige <strong>3d10+10</strong> de daño mágico y elige la dirección en la que sopla el viento. Los objetivos no pueden moverse contra el viento.</li><li class=\"vertical-card-list\"><p><em><strong>Tormenta de Arena:</strong></em> Inflige <strong>5d6+9</strong> de daño mágico. Los ataques fuera del alcance cuerpo a cuerpo tienen desventaja.</p><p></p></li></ul>"
         },
     }
 }
