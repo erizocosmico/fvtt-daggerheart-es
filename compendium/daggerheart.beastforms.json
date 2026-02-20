@@ -1,7 +1,7 @@
 {
-	"label": "Formas bestiales",
+	"label": "Formas Bestiales",
 	"folders": {
-		"Beastform Features": "Rasgos de forma bestial",
+		"Beastform Features": "Características de forma bestial",
 		"Tier 1": "Rango 1",
 		"Tier 2": "Rango 2",
 		"Tier 3": "Rango 3",
@@ -80,5 +80,129 @@
 		"Terrible Lizard": {
 			"name": "Reptil terrible"
 		},
+		"Agile": {
+			"name": "Ágil",
+			"description": "<p>Tu movimiento es silencioso y puedes <strong>gastar una Esperanza</strong> para moverte hasta el rango Lejano sin hacer una tirada de dados.</p>"
+		},
+		"Aquatic": {
+			"name": "Acuático",
+			"description": "<p>Puedes respirar y moverte naturalmente bajo el agua.</p>"
+		},
+		"Armored Shell": {
+			"name": "Caparazón blindado",
+			"description": "<p>Tu exterior endurecido te otorga resistencia al daño físico. Además, <strong>marca una ranura de armadura</strong> para retraerte en tu caparazón. Mientras estés en tu caparazón, el daño físico se reduce en un número igual a tu puntuación de armadura (después de aplicar resistencia), pero no puedes realizar otras acciones sin abandonar esta forma.</p>"
+		},
+		"Bird's Eye View": {
+			"name": "Vista de pájaro",
+			"description": "<p>Puedes volar a voluntad. Una vez por descanso, mientras estás en el aire, puedes preguntarle al DJ sobre la escena que tienes debajo sin necesidad de tirar. La primera vez que un personaje tira para actuar según esta información, obtiene ventaja en la tirada.</p>"
+		},
+		"Cannonball": {
+			"name": "Bala de cañón",
+			"description": "<p><strong>Marca un Estrés</strong> para permitir que un aliado te lance contra un adversario. Para ello, el aliado realiza una tirada de ataque usando Agilidad o Fuerza (a su elección) contra un objetivo a Corta distancia. Si tiene éxito, el adversario recibe <strong>d12+2</strong> de daño físico usando la Competencia del lanzador. Puedes <strong>gastar una Esperanza</strong> para seleccionar a un adversario adicional a Muy Corta distancia del primero. El segundo objetivo recibe la mitad del daño infligido al primero.</p>"
+		},
+		"Carrier": {
+			"name": "Transportador",
+			"description": "<p>Puedes llevar hasta dos aliados voluntarios contigo cuando te mueves.</p>"
+		},
+		"Companion": {
+			"name": "Acompañante",
+			"description": "<p>Cuando ayudas a un aliado, puedes tirar un <strong>d8</strong> como dado de ventaja.</p>"
+		},
+		"Deadly Raptor": {
+			"name": "Rapaz mortal",
+			"description": "Puedes volar a voluntad y moverte a distancia lejana como parte de tu acción. Cuando te mueves en línea recta al alcance cuerpo a cuerpo de un objetivo desde al menos distancia corta y realizas un ataque contra ese objetivo en la misma acción, puedes volver a tirar todos los dados de daño que obtuvieron un resultado inferior a tu Competencia."
+		},
+		"Demolish": {
+			"name": "Demoler",
+			"description": "<p><strong>Gasta una Esperanza</strong> para moverte a Distancia Lejana en línea recta y atacar a todos los objetivos dentro del alcance cuerpo a cuerpo de la línea. Los objetivos contra los que tengas éxito reciben <strong>d8+10</strong> de daño físico usando tu Competencia y quedan temporalmente <em>Vulnerables</em>.</p><p>@Template[type:ray|range:f]</p>"
+		},
+		"Devastating Strikes": {
+			"name": "Golpes devastadores",
+			"description": "<p>Cuando infliges daño severo a un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para obligarlo a marcar un Punto de Golpe adicional.</p>"
+		},
+		"Elusive Prey": {
+			"name": "Presa elusiva",
+			"description": "<p>Cuando una tirada de ataque contra ti vaya a tener éxito, puedes <strong>marcar un Estrés</strong> y tirar un <strong>d4</strong>. Suma el resultado a tu Evasión contra este ataque.</p>"
+		},
+		"Fleet": {
+			"name": "Rápido",
+			"description": "<p><strong>Gasta una Esperanza</strong> para moverte al rango Lejano sin tirar dados.</p>"
+		},
+		"Fragile": {
+			"name": "Frágil",
+			"description": "<p>Cuando recibes daño mayor o más, sales de la forma bestial.</p>"
+		},
+		"Hobbling Strike": {
+			"name": "Golpe vulnerable",
+			"description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para hacer que el objetivo sea temporalmente <em>Vulnerable</em>.</p>"
+		},
+		"Hollow bones": {
+			"name": "Huesos huecos",
+			"description": "<p>Obtienes una penalización de -2 en tus umbrales de daño.</p>"
+		},
+		"Massive Stride": {
+			"name": "Paso masivo",
+			"description": "<p>Puedes moverte a distancia lejana sin una tirada de dados. Ignoras el terreno dificíl (a discreción del DJ) debido a tu tamaño.</p>"
+		},
+		"Ocean Master": {
+			"name": "Maestro del oceano",
+			"description": "<p>Puedes respirar y moverte con naturalidad bajo el agua. Al atacar con éxito a un objetivo dentro del alcance cuerpo a cuerpo, puedes <em>atraparlo</em> temporalmente.</p>"
+		},
+		"Pack Hunting": {
+			"name": "Cazaror de manada",
+			"description": "<p>Cuando tengas éxito en un ataque contra el mismo objetivo que un aliado que actúa inmediatamente antes que tú, añade un <strong>d8</strong> a tu tirada de daño.</p>"
+		},
+		"Physical Defense": {
+			"name": "Defensa Física",
+			"description": "<p>Obtienes una bonificación de +3 a tus umbrales de daño.</p>"
+		},
+		"Rampage": {
+			"name": "Desbocarse",
+			"description": "<p>Cuando sacas un 1 en un dado de daño, puedes tirar un d10 y sumar el resultado a la tirada de daño. Además, antes de realizar una tirada de ataque, puedes <strong>marcar un Estrés</strong> para obtener una bonificación de +1 a tu Competencia para ese ataque.</p>"
+		},
+		"Snapping Strike": {
+			"name": "Golpe mordida",
+			"description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>gastar una Esperanza</strong> para sujetar a ese oponente en tus mandíbulas, dejándolo temporalmente <em>Restringido</em> y <em>Vulnerable</em>.</p>"
+		},
+		"Takedown": {
+			"name": "Derribar",
+			"description": "<p><strong>Marca una Estrés</strong> para entrar en el alcance cuerpo a cuerpo de un objetivo y realizar una tirada de ataque contra él. Si tienes éxito, obtienes un bonificador de +2 a tu Competencia para este ataque y el objetivo debe marcar una Estrés.</p>"
+		},
+		"Thick Hide": {
+			"name": "Piel Gruesa",
+			"description": "<p>Obtienes una bonificación de +2 a tus umbrales de daño.</p>"
+		},
+		"Trample": {
+			"name": "Pisoteo",
+			"description": "<p><strong>Marcar un Estrés</strong> para moverte al rango Corto en línea recta y realizar un ataque contra todos los objetivos dentro del rango cuerpo a cuerpo de la línea. Los objetivos contra los que tengas éxito reciben <strong>d8+1</strong> de daño físico usando tu Competencia y quedan temporalmente <em>Vulnerables</em>.</p><p>@Template[type:ray|range:close]</p>"
+		},
+		"Undaunted": {
+			"name": "Impávido",
+			"description": "<p>Obtienes una bonificación de +2 a todos tus umbrales de daño.</p>"
+		},
+		"Unyelding": {
+			"name": "Firme",
+			"description": "<p>Al marcar una ranura de armadura, tira un <strong>d6</strong>. Con un resultado de 5 o superior, reduce la severidad en un umbral sin marcar una ranura de armadura.</p>"
+		},
+		"Venomous Bite": {
+			"name": "Mordida venenosa",
+			"description": "<p>Cuando un ataque contra un objetivo dentro del alcance de combate cuerpo a cuerpo tiene éxito, este queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>"
+		},
+		"Venomous Strike": {
+			"name": "Golpe venenoso",
+			"description": "<p>Realiza un ataque contra cualquier número de objetivos dentro de un rango muy cercano. Si tiene éxito, el objetivo queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>"
+		},
+		"Vicious Maul": {
+			"name": "Golpe violento",
+			"description": "<p>Cuando tienes éxito en un ataque contra un objetivo, puedes <strong>gastar una Esperanza</strong> para hacerlo vulnerable temporalmente y obtener una bonificación de +1 a tu Competencia para este ataque.</p>"
+		},
+		"Warning Hiss": {
+			"name": "Siseo de advertencia",
+			"description": "<p><strong>Marca un Estrés</strong> para forzar a cualquier número de objetivos dentro del alcance cuerpo a cuerpo a retroceder al alcance Muy Cercano.</p>"
+		},
+		"Webslinger": {
+			"name": "Lanza telarañas",
+			"description": "<p>Puedes crear una telaraña resistente, útil tanto para aventuras como para batallas. La telaraña es lo suficientemente resistente como para soportar a una criatura. Puedes <em>apresar</em> temporalmente a un objetivo a corta distancia si superas una tirada de sutileza contra él.</p>"
+		}
 	}
 }
