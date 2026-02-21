@@ -1,7 +1,7 @@
 {
 	"label": "Formas Bestiales",
 	"folders": {
-		"Beastform Features": "Características de forma bestial",
+		"Beastform Features": "Rasgos de forma bestial",
 		"Tier 1": "Rango 1",
 		"Tier 2": "Rango 2",
 		"Tier 3": "Rango 3",
@@ -157,11 +157,11 @@
 			"description": "<p>Obtienes una bonificación de +3 a tus umbrales de daño.</p>"
 		},
 		"Rampage": {
-			"name": "Desbocarse",
+			"name": "Arrasar",
 			"description": "<p>Cuando sacas un 1 en un dado de daño, puedes tirar un d10 y sumar el resultado a la tirada de daño. Además, antes de realizar una tirada de ataque, puedes <strong>marcar un Estrés</strong> para obtener una bonificación de +1 a tu Competencia para ese ataque.</p>"
 		},
 		"Snapping Strike": {
-			"name": "Golpe mordida",
+			"name": "Golpe mordedor",
 			"description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>gastar una Esperanza</strong> para sujetar a ese oponente en tus mandíbulas, dejándolo temporalmente <em>Restringido</em> y <em>Vulnerable</em>.</p>"
 		},
 		"Takedown": {
@@ -185,7 +185,7 @@
 			"description": "<p>Al marcar una ranura de armadura, tira un <strong>d6</strong>. Con un resultado de 5 o superior, reduce la severidad en un umbral sin marcar una ranura de armadura.</p>"
 		},
 		"Venomous Bite": {
-			"name": "Mordida venenosa",
+			"name": "Mordisco venenoso",
 			"description": "<p>Cuando un ataque contra un objetivo dentro del alcance de combate cuerpo a cuerpo tiene éxito, este queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>"
 		},
 		"Venomous Strike": {
