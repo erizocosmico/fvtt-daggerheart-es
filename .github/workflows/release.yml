@@ -42,3 +42,22 @@ jobs:
                   artifacts: './module.json, ./module.zip'
                   tag: ${{ github.event.release.tag_name }}
                   body: ${{ github.event.release.body }}
+
+            # Notify FoundryVTT of the new release
+            - name: Publish to FoundryVTT Package List
+              run: |
+                  curl -X POST https://foundryvtt.com/_api/packages/release_version/ \
+                    -H "Content-Type: application/json" \
+                    -H "Authorization: ${{ secrets.FVTT_API_KEY }}" \
+                    -d '{
+                      "id": "daggerheart-es",
+                      "release": {
+                        "version": "${{steps.get_version.outputs.version-without-v}}",
+                        "manifest": "https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.json",
+                        "notes": "https://github.com/${{github.repository}}/releases/tag/${{github.event.release.tag_name}}",
+                        "compatibility": {
+                          "minimum": "13",
+                          "verified": "13"
+                        }
+                      }
+                    }'
