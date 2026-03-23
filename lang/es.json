@@ -59,12 +59,20 @@
                     "tooltip": "Crear tokens en la escena.",
                     "error": "No tienes permiso para invocar tokens o no hay escena activa.",
                     "invalidDrop": "Solo puedes arrastrar entidades de tipo Actor para invocarlas.",
-                    "_chatMessageTitle": "Test2",
                     "chatMessageHeaderTitle": "Invocando"
                 },
                 "countdown": {
                     "name": "Cuenta atrás",
                     "tooltip": "Empezar una cuenta atrás"
+                },
+                "transform": {
+                    "name": "Transformar",
+                    "tooltip": "Transformar un actor en otro",
+                    "noTransformActor": "No hay ningún actor asignado en el que transformarse",
+                    "transformActorMissing": "El actor asignado para transformarse no existe. Probablemente ha sido borrado",
+                    "canvasError": "No hay escena activa.",
+                    "prototypeError": "Solo puedes usar una acción de transformación desde un token",
+                    "actorLinkError": "No puedes transformar un token con Vincular datos del personaje activado"
                 }
             },
             "Config": {
@@ -122,6 +130,12 @@
                 "criticalThreshold": "Umbral de Crítico",
                 "summon": {
                     "dropSummonsHere": "Arrastra invocaciones aquí"
+                },
+                "transform": {
+                    "dropTransformHere": "Arrastra aquí la transformación",
+                    "actorIsMissing": "El actor enlazado no existe. Deberías eliminar este enlace.",
+                    "clearHitPoints": "Limpiar puntos de golpe",
+                    "clearStress": "Limpiar estrés"
                 }
             }
         },
@@ -740,7 +754,8 @@
             "CompendiumBrowserSettings": {
                 "title": "Habilitar compendios",
                 "enableSource": "Habilitar origen",
-                "disableSource": "Deshabilitar origen"
+                "disableSource": "Deshabilitar origen",
+                "worldCompendiums": "Compendios del mundo"
             }
         },
         "CLASS": {
@@ -1068,7 +1083,8 @@
                 },
                 "vulnerable": {
                     "name": "Vulnerable",
-                    "description": "Mientras una criatura es Vulnerable todas las tiradas que la tengan como objetivo tienen ventaja.\nUna criatura que ya es Vulnerable no puede volver a recibir esta condición."
+                    "description": "Mientras una criatura es Vulnerable todas las tiradas que la tengan como objetivo tienen ventaja.\nUna criatura que ya es Vulnerable no puede volver a recibir esta condición.",
+                    "autoAppliedByLabel": "Estrés máx."
                 },
                 "deathMove": {
                     "name": "Movimiento de muerte",
@@ -1119,20 +1135,16 @@
             },
             "EnvironmentType": {
                 "exploration": {
-                    "label": "Exploración",
-                    "_description": ""
+                    "label": "Exploración"
                 },
                 "social": {
-                    "label": "Social",
-                    "_description": ""
+                    "label": "Social"
                 },
                 "traversal": {
-                    "label": "Travesía",
-                    "_description": ""
+                    "label": "Travesía"
                 },
                 "event": {
-                    "label": "Evento",
-                    "_description": ""
+                    "label": "Evento"
                 }
             },
             "Gold": {
@@ -1880,11 +1892,20 @@
                     "strangePatternsContentTitle": "Coincidió {nr} veces.",
                     "strangePatternsContentSubTitle": "Aumentar la esperanza y el estrés a un total de {nr}.",
                     "ferocityContent": "¿Gastar 2 puntos de Esperanza para obtener una bonificación de {bonus} a la Evasión hasta después del próximo ataque contra ti?",
-                    "ferocityEffectDescription": "Tu evasión aumenta en {bonus}. Esta bonificación dura hasta después del siguiente ataque que recibas."
+                    "ferocityEffectDescription": "Tu evasión aumenta en {bonus}. Esta bonificación dura hasta después del siguiente ataque que recibas.",
+                    "strangePatternsActionExplanation": "Click izquierdo para incrementar, derecho para decrementar"
                 },
                 "triggerType": "Tipo de activador",
                 "triggeringActorType": "Tipo de actor activador",
                 "triggerError": "El activador {trigger} falló para {actor}. Probablemente esté mal configurado."
+            },
+            "DaggerheartDiceAnimationEvents": {
+                "critical": {
+                    "name": "Crítico"
+                },
+                "higher": {
+                    "name": "Tirada más alta"
+                }
             }
         },
         "EFFECTS": {
@@ -2419,7 +2440,10 @@
             "summon": {
                 "single": "Invocación",
                 "plural": "Invocaciones"
-            }
+            },
+            "initial": "Inicial",
+            "preview": "Previsualizar",
+            "thingsAndThing": "{things} y {thing}"
         },
         "ITEMS": {
             "FIELDS": {
@@ -2463,7 +2487,8 @@
             },
             "Ancestry": {
                 "primaryFeature": "Rasgo principal",
-                "secondaryFeature": "Rasgo secundario"
+                "secondaryFeature": "Rasgo secundario",
+                "featuresLabel": "Rasgos de linaje"
             },
             "Armor": {
                 "baseScore": "Valor base",
@@ -2557,7 +2582,12 @@
                         "thenChoose": "Luego escoge entre",
                         "andEither": "y entre"
                     }
-                }
+                },
+                "startingEvasionScore": "Puntuación de evasión inicial",
+                "startingHitPoints": "Puntos de golpe iniciales",
+                "classItems": "Objetos de clase",
+                "hopeFeatureLabel": "Rasgo de Esperanza de {class}",
+                "classFeature": "Rasgo de clase"
             },
             "Consumable": {
                 "consumeOnUse": "Consumir al usar",
@@ -2574,12 +2604,19 @@
                 "domainTouched": "Tocado por el Dominio"
             },
             "Subclass": {
-                "spellcastingTrait": "Atributo de lanzamiento de conjuros"
+                "spellcastingTrait": "Atributo de lanzamiento de conjuros",
+                "spellcastTrait": "Atributo de lanzamiento de conjuros",
+                "foundationFeatures": "Rasgo de Base",
+                "specializationFeature": "Rasgo de Especialización",
+                "masteryFeature": "Rasgo de Maestría"
             },
             "Weapon": {
                 "weaponType": "Tipo de arma",
                 "primaryWeapon": "Arma principal",
                 "secondaryWeapon": "Arma secundaria"
+            },
+            "Community": {
+                "featuresLabel": "Rasgo de comunidad"
             }
         },
         "SETTINGS": {
@@ -2754,6 +2791,10 @@
                             "label": "Activado",
                             "hint": "Automatización avanzada, como por ejemplo, activar una ventana emergente para los Patrones Extraños de un mago."
                         }
+                    },
+                    "vulnerableAutomation": {
+                        "label": "Automatización de vulnerable",
+                        "hint": "Automáticamente aplica la condición Vulnerable cuando un actor llega a su máximo de estrés"
                     }
                 },
                 "defeated": {
@@ -2789,6 +2830,19 @@
                     },
                     "maxHope": {
                         "label": "Esperanza Máxima"
+                    },
+                    "resources": {
+                        "resources": {
+                            "value": {
+                                "label": "Icono"
+                            },
+                            "isIcon": {
+                                "label": "Icono de Font Awesome"
+                            },
+                            "noColorFilter": {
+                                "label": "Deshabilitar filtro de color"
+                            }
+                        }
                     }
                 },
                 "currency": {
@@ -2826,7 +2880,16 @@
                 },
                 "resetItemFeaturesTitle": "Reiniciar {type}",
                 "deleteItemTitle": "Borrar objeto Homebrew",
-                "deleteItemText": "¿Estás seguro de que quieres eliminar el objeto?"
+                "deleteItemText": "¿Estás seguro de que quieres eliminar el objeto?",
+                "deleteResourceTitle": "Eliminar recurso casero",
+                "deleteResourceText": "¿Seguro que quieres eliminar este recurso?",
+                "resources": {
+                    "typeTitle": "Recursos de {type}",
+                    "filledIcon": "Icono relleno",
+                    "emptyIcon": "Icono vacío",
+                    "resourceIdentifier": "Identificador de recurso",
+                    "setResourceIdentifier": "Establecer identificador de recurso"
+                }
             },
             "Menu": {
                 "title": "Configuración de Daggerheart",
@@ -2862,7 +2925,12 @@
                         "colorset": "Tema",
                         "material": "Material",
                         "system": "Preset de Dados",
-                        "font": "Fuente"
+                        "font": "Fuente",
+                        "critical": "Animación de crítico",
+                        "diceAppearance": "Apariencia de los dados",
+                        "animations": "Animaciones",
+                        "defaultAnimations": "Establecer animaciones por defecto",
+                        "previewAnimation": "Previsualizar animación"
                     }
                 },
                 "variantRules": {
@@ -2876,6 +2944,11 @@
                     "name": "Cola de Peticiones de Foco",
                     "label": "Cola de Peticiones de Foco",
                     "hint": "Añade más estructura a las peticiones de foco ordenándolas de más antigua a más nueva"
+                },
+                "metagaming": {
+                    "name": "Configuración de metajuego",
+                    "label": "Configurar metajuego",
+                    "hint": "Configuraciones para controlar el flujo de información a los jugadores"
                 }
             },
             "Resources": {
@@ -2918,6 +2991,14 @@
                 "rangeMeasurement": "Medición de Alcance",
                 "sceneEnvironments": "Entornos de escena",
                 "dragEnvironmentHere": "Arrastra los entornos aquí"
+            },
+            "Metagaming": {
+                "FIELDS": {
+                    "hideObserverPermissionInChat": {
+                        "label": "Ocultar información del chat de los jugadores",
+                        "hint": "Información como éxito/fallo en tiradas de ataque contra adversarios se ocultará"
+                    }
+                }
             }
         },
         "UI": {
@@ -3087,7 +3168,8 @@
                 "tokenActorMissing": "A {name} le falta un actor.",
                 "tokenActorsMissing": "[{names}] les faltan actores.",
                 "domainTouchRequirement": "Esta carta de dominio requiere {nr} cartas de {domain} equipadas para poder ser utilizada.",
-                "knowTheTide": "Know The Tide obtuvo un token"
+                "knowTheTide": "Know The Tide obtuvo un token",
+                "lackingItemTransferPermission": "El usuario {user} no tiene permisos para transferir objetos a {target}"
             },
             "Tooltip": {
                 "disableEffect": "Deshabilitar Efecto",
@@ -3121,7 +3203,7 @@
                 "middleClick": "[Click Central] Mantener vista de tooltip",
                 "tokenSize": "El tamaño del token usado en el lienzo",
                 "previewTokenHelp": "Haz clic izquierdo para colocar, haz clic derecho para cancelar.",
-                "_rightClickExtend": "Right-Click to extend"
+                "rightClickExtend": "Click derecho para extender"
             },
             "ChatLog": {
                 "rerollDamage": "Volver a tirar el daño",
@@ -3188,7 +3270,9 @@
                     "tier": "{type} de rango {tier}",
                     "character": "Personaje de nivel {level}",
                     "companion": "Nivel {level} - {partner}",
-                    "companionNoPartner": "Sin compañero"
+                    "companionNoPartner": "Sin compañero",
+                    "duplicateToNewTier": "Duplicar con nuevo rango",
+                    "pickTierTitle": "Escoge un nuevo rango para este adversario"
                 }
             },
             "EffectsDisplay": {
