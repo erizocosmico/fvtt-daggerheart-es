@@ -78,6 +78,54 @@
 		"Well-Read":{
 			"name":"Bien Leído",
 			"description":"<p>Tienes ventaja en tiradas que involucren la historia, cultura o política de una persona o lugar prominente.</p>"
-		}
+		},
+		"Found Family": {
+            "name": "Familia Encontrada",
+            "description": "<p>Una vez por descanso, puedes <strong>gastar una Esperanza</strong> para usar la Experiencia de un aliado como si fuera la tuya propia. Al hacerlo, describe cómo tu tiempo con ese aliado te preparó para este momento.</p><p>Cuando te unes a una nueva comunidad o redescubres la antigua, puedes cambiar permanentemente esta carta por esa otra.</p>"
+        },
+        "Duneborne": {
+            "name": "Nacido de las Dunas",
+            "description": "<p>Formar parte de una comunidad nacida de las dunas significa que has hecho tu hogar entre las arenas movedizas y el clima árido del desierto.</p>"
+        },
+        "Oasis": {
+            "name": "Oasis",
+            "description": "<p>Durante un descanso corto, tú o un aliado podéis volver a tirar un dado usado para un movimiento de descanso y conservar el resultado más alto.</p>"
+        },
+        "Brave Face": {
+            "name": "Buena Cara",
+            "description": "<p>Una vez por sesión, cuando estés obligado a marcar un Estrés, puedes <strong>gastar una Esperanza</strong> en su lugar.</p>"
+        },
+        "Reborne": {
+            "name": "Renacido",
+            "description": "<p>Antiguamente fuiste miembro de una comunidad diferente a la que ya no perteneces.</p>"
+        },
+        "Unbound": {
+            "name": "Liberado",
+            "description": "<p>Una vez por sesión, cuando hagas una tirada con Miedo, puedes cambiarla por una tirada con Esperanza en su lugar.</p>"
+        },
+        "Freeborne": {
+            "name": "Nacido Libre",
+            "description": "<p>Formar parte de una comunidad libre significa que vienes de un colectivo que en su día vivió bajo un yugo tiránico pero que ahora está liberado.</p>"
+        },
+        "Frostborne": {
+            "name": "Nacido de la Escarcha",
+            "description": "<p>Formar parte de una comunidad nacida de la escarcha significa que vienes de un lugar de nieve y hielo.</p>"
+        },
+        "Warborne": {
+            "name": "Nacido de la Guerra",
+            "description": "<p>Formar parte de una comunidad nacida de la guerra significa que vienes de un lugar que está, o estuvo, asolado por la guerra.</p>"
+        },
+        "Close-Knit": {
+            "name": "Unidos",
+            "description": "<p>Una vez por descanso largo, puedes <strong>gastar cualquier cantidad de Esperanza</strong> para otorgarle a un aliado en rango Lejano esa misma cantidad de Esperanza.</p>"
+        },
+        "Hearthborne": {
+            "name": "Nacido del Hogar",
+            "description": "<p>Formar parte de una comunidad nacida del hogar significa que procedes de orígenes humildes, habiendo vivido en un pueblo modesto o en el campo apacible.</p>"
+        },
+        "Hardy": {
+            "name": "Robusto",
+            "description": "<p>Cuando tomas un descanso, sanas un Punto de Golpe.</p>"
+        }
 	}
 }

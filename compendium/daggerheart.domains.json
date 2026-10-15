@@ -2,24 +2,25 @@
 	"label": "Dominios",
 	"folders": {
 		"Level 1": "Nivel 1",
-		"Level 2": "Nivel 2",
-		"Level 3": "Nivel 3",
-		"Level 4": "Nivel 4",
-		"Level 5": "Nivel 5",
-		"Level 6": "Nivel 6",
-		"Level 7": "Nivel 7",
-		"Level 8": "Nivel 8",
-		"Level 9": "Nivel 9",
-		"Level 10": "Nivel 10",
-		"Arcana": "Arcano",
-		"Blade": "Filo",
-		"Bone": "Hueso",
-		"Codex": "Códex",
-		"Grace": "Gracia",
-		"Midnight": "Medianoche",
-		"Sage": "Sabio",
-		"Valor": "Valor",
-		"Splendor": "Esplendor"
+        "Level 2": "Nivel 2",
+        "Level 3": "Nivel 3",
+        "Level 4": "Nivel 4",
+        "Level 5": "Nivel 5",
+        "Level 6": "Nivel 6",
+        "Level 7": "Nivel 7",
+        "Level 8": "Nivel 8",
+        "Level 9": "Nivel 9",
+        "Level 10": "Nivel 10",
+        "Arcana": "Arcano",
+        "Blade": "Filo",
+        "Bone": "Hueso",
+        "Codex": "Códex",
+        "Dread": "Pavor",
+        "Grace": "Gracia",
+        "Midnight": "Medianoche",
+        "Sage": "Sabio",
+        "Valor": "Valor",
+        "Splendor": "Esplendor"
 	},
 	"mapping": {
 		"description": "system.description",
@@ -1485,6 +1486,106 @@
 				}
 			},
 			"description": "<p class=\"Body-Foundation\">Una vez por cada descanso largo, elige cualquier objetivo Muy Cercano para que te perciba como un horror de pesadilla. Los objetivos deben superar una Tirada de Reacción (16) o quedarán temporalmente <em>Horrorizados</em>. Mientras estén <em>Horrorizados</em>, serán <em>Vulnerables</em>. Roba al DJ una cantidad de Miedo igual a la cantidad de objetivos <em>Horrorizados</em> (hasta la cantidad de Miedo en la reserva del DJ). Tira un número de <strong>d6</strong> igual a la cantidad de Miedo robado e inflige el daño total a cada objetivo <em>Horrorizado</em>. Descarta el Miedo robado.</p><p>@Template[type:emanation|range:vc]</p>"
-		}
+		},
+		"Siphon Essence": {
+            "name": "Sifon de Esencia",
+            "description": "<p>Haz una <strong>Tirada de Lanzamiento de Conjuros</strong> contra un objetivo dentro de un rango Muy cercano. Una vez por descanso largo, en un éxito, el objetivo recibe <strong>d12+4</strong> de daño mágico utilizando tu Competencia. En un éxito con Miedo, obtienes una bonificación de +1 a tu Competencia para este ataque.</p><p>Sanas una cantidad de Puntos de Golpe igual al número de Puntos de Golpe que el objetivo haya marcado por este ataque.</p>"
+        },
+        "Wall of Hunger": {
+            "name": "Muro de Hambre",
+            "description": "<p>Haz una <strong>Tirada de Lanzamiento de Conjuros (10).</strong> En un éxito, puedes gastar una Esperanza para crear un muro visible de energía necrótica retorcida entre dos puntos dentro de un rango Lejano. El muro dura hasta que marques un Punto de Golpe o vuelvas a lanzar este conjuro. Una criatura que esté dentro del muro cuando aparece o que pase a través de él debe marcar 2 de Estrés.</p>"
+        },
+        "Chains of Affliction": {
+            "name": "Cadenas de Aflicción",
+            "description": "<p><strong>Marca 2 de Estrés</strong> para <em>Encadenar</em> temporalmente a un objetivo dentro de un rango Cercano. Cuando una criatura <em>Encadenada</em> inflige daño, el objetivo de su ataque marca un Punto de Golpe menos de lo que normalmente marcaría. No puedes tener más de una criatura <em>Encadenada</em> al mismo tiempo.</p>"
+        },
+        "Damnation": {
+            "name": "Condenación",
+            "description": "<p>Haz una <strong>Tirada de Lanzamiento de Conjuros</strong> contra un objetivo dentro de un rango Lejano. En un éxito, <strong>marca cualquier cantidad de Estrés</strong> para tirar un número igual de dados <strong>d20</strong>, infligiendo daño mágico igual al resultado total. Si este ataque derrota al objetivo, todos los adversarios dentro de un rango Lejano respecto al objetivo deben marcar un Estrés.</p>"
+        },
+        "Invoke Torment": {
+            "name": "Invocar Tormento",
+            "description": "<p>Infliges el doble de daño a los objetivos que tengan marcado todo su Estrés.</p><p>Además, cuando un adversario dentro de un rango Cercano sea derrotado teniendo todo su Estrés marcado, ganas una Esperanza.</p>"
+        },
+        "Shared Trauma": {
+            "name": "Trauma Compartido",
+            "description": "<p>Puedes transferir el sufrimiento de una criatura a otra. Una vez por descanso, marca cualquier cantidad de Puntos de Golpe en una criatura voluntaria dentro de un rango Cuerpo a cuerpo para sanar un número igual de Puntos de Golpe en otra criatura voluntaria dentro de un rango Cuerpo a cuerpo.</p>"
+        },
+        "Blighting Strike": {
+            "name": "Golpe Asolador",
+            "description": "<p>Haz una <strong>Tirada de Lanzamiento de Conjuros</strong> contra un objetivo dentro de un rango Lejano. En un éxito:</p><ul><li><p>En una tirada con Esperanza, inflige <strong>d6+1</strong> de daño mágico utilizando tu Competencia. En una tirada con Miedo, inflige <strong>d10+1</strong> de daño mágico utilizando tu Competencia.</p></li><li><p>El próximo ataque exitoso del objetivo inflige la mitad de daño.</p></li></ul><p>En un fallo, debes gastar una Esperanza o marcar un Estrés.</p>"
+        },
+        "Darkfire": {
+            "name": "Fuego Oscuro",
+            "description": "<p>Una vez por escena, <strong>gasta cualquier cantidad de Esperanza</strong> para elegir como objetivo a un número igual de adversarios dentro de un rango Cercano. Cada objetivo hace una <strong>Tirada de Reacción (15)</strong>. Los objetivos que fallen reciben <strong>d8+6</strong> de daño mágico utilizando tu rasgo de Lanzamiento de Conjuros mientras son envueltos en fuego oscuro. Los objetivos que tengan éxito reciben la mitad de daño.</p>"
+        },
+        "Voice of Dread": {
+            "name": "Voz del Pavor",
+            "description": "<p>Puedes hablar mágicamente a una criatura que puedas ver, atormentándola con tus palabras. Haz una <strong>Tirada de Lanzamiento de Conjuros</strong> contra ella. En un éxito, debe marcar un Estrés y queda congelada de terror, lo que la vuelve temporalmente <em>Retenida</em>.</p>"
+        },
+        "Reaper's Strike": {
+            "name": "Golpe de la Guadaña",
+            "description": "<p>Una vez por descanso largo, <strong>gasta una Esperanza</strong> para hacer una tirada de ataque. El Director de Juego te dice contra qué objetivos dentro de rango tendría éxito. Elige uno de estos objetivos y oblígalo a marcar 5 Puntos de Golpe.</p>"
+        },
+        "Dark Army": {
+            "name": "Ejército Oscuro",
+            "description": "<p>Haz una <strong>Tirada de Lanzamiento de Conjuros (14)</strong>. Una vez por descanso largo, en un éxito, puedes invocar demonios que te rodean y se mueven contigo. Coloca 8 fichas sobre esta carta. Cuando inflijas daño a un objetivo dentro de un rango Muy cercano, puedes gastar cualquier cantidad de fichas para añadir <strong>1d8</strong> por cada ficha gastada a tu tirada de daño. Además, cuando recibas daño, puedes gastar cualquier cantidad de fichas para reducir el daño en <strong>1d8</strong> por cada ficha gastada. Cada vez que gastas una ficha, un demonio actúa en tu nombre y luego desaparece.</p><p>Cuando tomes un descanso, elimina todas las fichas no gastadas.</p>"
+        },
+        "Hideous Retribution": {
+            "name": "Retribución Espantosa",
+            "description": "<p>Cuando un aliado dentro de un rango Cercano reciba daño de un objetivo que puedas ver, puedes hacer una tirada de reacción contra el objetivo utilizando tu rasgo de Lanzamiento de Conjuros. En un éxito, <strong>marca un Estrés</strong> para infligir <strong>d6</strong> de daño mágico utilizando tu Competencia.</p>"
+        },
+        "Umbral Veil": {
+            "name": "Velo Umbrío",
+            "description": "<p>Una vez por descanso, puedes <strong>marcar un Estrés</strong> para envolverte en energía sombría. Al hacerlo, coloca en esta carta un número de fichas igual a la cantidad de Miedo en la reserva del Director de Juego. Después de que se realice una tirada de ataque contra ti, puedes gastar cualquier cantidad de fichas para aplicar un penalizador de -1 al resultado por cada ficha gastada.</p><p>Al final de la escena, elimina todas las fichas no gastadas.</p>"
+        },
+        "Eldritch Flesh": {
+            "name": "Carne Primordial",
+            "description": "<p>Obtén una bonificación de +1 a tus umbrales de daño por cada Estrés que tengas marcado.</p><p>Además, cuando tires con Miedo, puedes <strong>gastar 2 de Esperanza</strong> para limpiar una Ranura de Armadura.</p>"
+        },
+        "Summon Horror": {
+            "name": "Invocación del Horror",
+            "description": "<p>Una vez por escena, <strong>marca un Estrés</strong> para invocar una criatura de otro mundo que inflige <strong>d8+1</strong> de daño mágico utilizando tu rasgo de Lanzamiento de Conjuros a un objetivo dentro de un rango Lejano. Si el objetivo marca algún Punto de Golpe por este ataque, debe tener éxito en una <strong>Tirada de Reacción (12)</strong> para armarse de valor contra el horror o marcar un número igual de Estrés.</p><p>Después de realizar el ataque, la criatura se disipa.</p>"
+        },
+        "A Soldier's Bond": {
+            "name": "El Vínculo del Soldado",
+            "description": "<p>Una vez por descanso largo, cuando le hagas un cumplido a alguien o le preguntes sobre algo en lo que sea bueno, ambos podéis ganar 3 de Esperanza.</p>"
+        },
+        "Savor the Anguish": {
+            "name": "Saborear la Angustia",
+            "description": "<p>Cuando un adversario dentro de un rango Cercano reciba daño Grave, puedes limpiar un Estrés.</p>"
+        },
+        "Nature's Tongue": {
+            "name": "Lengua de la Naturaleza",
+            "description": "<p>Puedes hablar el idioma del mundo natural. Cuando quieras hablar con las plantas y animales que te rodean, haz una <strong>Tirada de Instinto (12)</strong>. En un éxito, te darán la información que sepan. En una tirada con Miedo, su conocimiento podría ser limitado o tener un coste.</p><p>Además, antes de hacer una Tirada de Lanzamiento de Conjuros mientras estés dentro de un entorno natural, puedes <strong>gastar una Esperanza</strong> para obtener una bonificación de +2 a la tirada.</p>"
+        },
+        "Terrify": {
+            "name": "Aterrorizar",
+            "description": "<p>Haz una <strong>Tirada de Lanzamiento de Conjuros</strong> contra un objetivo dentro de un rango Cercano. En un éxito, el objetivo marca <strong>1d4</strong> de Estrés y puedes hacer que el objetivo huya un rango más lejos de ti (como de Muy cercano a Cercano, o de Cercano a Lejano). En un éxito con Miedo, el objetivo también se vuelve temporalmente <em>Vulnerable</em>.</p>"
+        },
+        "Spectral Mist": {
+            "name": "Niebla Espectral",
+            "description": "<p><strong>Gasta 2 de Esperanza</strong> para conjurar una niebla misteriosa que os vuelve a ti y a los aliados que elijas dentro de un rango Cercano momentáneamente incorpóreos. Mientras una criatura sea incorpórea, puede moverse a través de objetos sólidos y es inmune al daño físico. Se vuelve corpórea de nuevo después de pasar a través de un objeto sólido o hacer una tirada de acción. De lo contrario, este efecto dura hasta el final de la escena.</p>"
+        },
+        "Jump Scare": {
+            "name": "Susto de Repente",
+            "description": "<p>Cuando inflijas daño mágico a un objetivo, puedes <strong>marcar un Estrés</strong> para teletransportarte a rango Cuerpo a cuerpo con él. Al hacerlo, se vuelve <em>Vulnerable</em> hasta que marque 1 o más Puntos de Golpe.</p>"
+        },
+        "Avatar of Terror": {
+            "name": "Avatar del Terror",
+            "description": "<p><strong>Marca un Estrés</strong> para transformarte en una criatura impulsada por el miedo. Mientras estés en esta forma, obtienes una bonificación de <strong>1d6</strong> a tus tiradas de daño por cada Miedo en la reserva del Director de Juego. Además, ganas una Esperanza cuando el Director de Juego gaste un Miedo para poner bajo el foco a un adversario dentro de un rango Muy cercano.</p><p>Antes de hacer una tirada de acción, debes gastar una Esperanza. Si no puedes, vuelves a tu forma normal.</p>"
+        },
+        "Champion's Edge": {
+            "name": "Filo del Campeón",
+            "description": "<p>Cuando obtengas un éxito crítico en un ataque, puedes <strong>gastar hasta 3 de Esperanza</strong> y elegir una de las siguientes opciones por cada Esperanza gastada:</p><ul><li class=\"vertical-card-list\"><p>Sanas un Punto de Golpe.</p></li><li class=\"vertical-card-list\"><p>Limpias una Ranura de Armadura.</p></li><li class=\"vertical-card-list\">El objetivo debe marcar un Punto de Golpe adicional.</li></ul><p>No puedes elegir la misma opción más de una vez.</p>"
+        },
+        "Dire Strike": {
+            "name": "Ataque Nefasto",
+            "description": "<p>Cuando un objetivo marque cualquier cantidad de Puntos de Golpe por un ataque que realices, puedes <strong>gastar una Esperanza</strong> para drenarle poder. El Director de Juego pierde un Miedo.</p>"
+        },
+        "Dread-Touched": {
+            "name": "Tocado por el Pavor",
+            "description": "<p>Cuando 4 o más de las cartas de dominio de tu equipamiento pertenezcan al dominio del Pavor, obtienes los siguientes beneficios:</p><ul><li><p>Cuando tengas éxito con Miedo, puedes <strong>marcar 2 de Estrés</strong> para evitar que el Director de Juego gane un Miedo.</p></li><li><p>Una vez por descanso, al hacer una tirada de acción, puedes obtener una bonificación a la tirada igual a la cantidad de Miedo en la reserva del Director de Juego.</p></li></ul>"
+        }
 	}
 }
