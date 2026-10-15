@@ -12,7 +12,7 @@
             "weapon": "Arma",
             "armor": "Armadura",
             "beastform": "Forma bestial",
-            "_transformation": "Transformation"
+            "transformation": "Transformación"
         },
         "ActiveEffect": {
             "beastform": "Forma bestial",
@@ -30,7 +30,7 @@
     },
     "CONTROLS": {
         "inFront": "En frente",
-        "_ChangeSceneDarknessLevel": "Change Scene Darkness Level"
+        "ChangeSceneDarknessLevel": "Cambiar nivel de oscuridad de la escena"
     },
     "DAGGERHEART": {
         "ACTIONS": {
@@ -79,33 +79,33 @@
                     "prototypeError": "Solo puedes usar una acción de transformación desde un token",
                     "actorLinkError": "No puedes transformar un token con Vincular datos del personaje activado",
                     "linkedSelectedError": "Para transformar un actor vinculado, o bien solo puede haber un único token suyo en la escena, o debes seleccionar solo uno de ellos con clic izquierdo.",
-                    "_invalidDrop": "You can only drop an Actor to transform into."
+                    "invalidDrop": "Solo puedes soltar un Actor para transformarte en él."
                 },
                 "evolution": {
-                    "_name": "Evolution",
-                    "_tooltip": "Evolve an actor, gaining new capabilities",
-                    "_tokenImage": "Token Image",
-                    "_tokenScale": "Scale",
-                    "_dynamicToken": "Dynamic Token",
-                    "_dynamicTokenImage": "Dynamic Token Image",
-                    "_dynamicTokenRing": "Dynamic Token Ring Color",
-                    "_dynamicTokenBackground": "Dynamic Token Background",
-                    "_dynamicEffects": "Dynamic Effects",
-                    "_tokenError": "You can only use a evolution action from a Token",
-                    "_actorError": "Actor missing for token. Can't restore to unevolved state.",
-                    "_deevolveConfirmationTitle": "Remove Evolution",
-                    "_deevolveConfirmationText": "Are you sure you want to remove the evolution?"
+                    "name": "Evolución",
+                    "tooltip": "Hace evolucionar a un actor, obteniendo nuevas capacidades",
+                    "tokenImage": "Imagen del token",
+                    "tokenScale": "Escala",
+                    "dynamicToken": "Token dinámico",
+                    "dynamicTokenImage": "Imagen del token dinámico",
+                    "dynamicTokenRing": "Color del anillo del token dinámico",
+                    "dynamicTokenBackground": "Fondo del token dinámico",
+                    "dynamicEffects": "Efectos dinámicos",
+                    "tokenError": "Solo puedes usar una acción de evolución desde un token",
+                    "actorError": "Falta el actor para el token. No se puede restaurar al estado sin evolucionar.",
+                    "deevolveConfirmationTitle": "Eliminar evolución",
+                    "deevolveConfirmationText": "¿Seguro que quieres eliminar la evolución?"
                 },
                 "grouped": {
-                    "_name": "Group",
-                    "_tooltip": "Groups many actions under one button. Individual actions either selected or randomized.",
+                    "name": "Grupo",
+                    "tooltip": "Agrupa varias acciones bajo un solo botón. Las acciones individuales se seleccionan o se aleatorizan.",
                     "selectionType": {
-                        "_label": "Action Selection Type"
+                        "label": "Tipo de selección de acción"
                     },
                     "groupedActions": {
-                        "_label": "Grouped Actions"
+                        "label": "Acciones agrupadas"
                     },
-                    "_missingGroupedActions": "This action has no grouped actions attached to it"
+                    "missingGroupedActions": "Esta acción no tiene acciones agrupadas adjuntas"
                 }
             },
             "Config": {
@@ -196,15 +196,15 @@
                     "label": "Ataque en grupo"
                 },
                 "fullRestore": {
-                    "_label": "Fully restore the resource.",
-                    "_inChatRoll": "Full",
-                    "_inFormula": "Full Restore"
+                    "label": "Restaura el recurso por completo.",
+                    "inChatRoll": "Completo",
+                    "inFormula": "Restauración completa"
                 },
                 "evolution": {
-                    "_featureName": "Feature Name",
-                    "_evolutionState": "Evolution State",
-                    "_clearHitPoints": "Clear Hitpoints",
-                    "_clearStress": "Clear Stress"
+                    "featureName": "Nombre del rasgo",
+                    "evolutionState": "Estado de evolución",
+                    "clearHitPoints": "Limpiar puntos de golpe",
+                    "clearStress": "Limpiar estrés"
                 }
             },
             "Reload": {
@@ -227,7 +227,7 @@
                 },
                 "targetDispositions": "Disposiciones afectadas",
                 "conditionals": {
-                    "_title": "Conditionals"
+                    "title": "Condicionales"
                 }
             },
             "RangeDependance": {
@@ -315,14 +315,14 @@
                 "adversaryReactionRoll": {
                     "headerTitle": "Tirada de Reacción del Adversario"
                 },
-                "_confirmDeleteAttack": "Are you sure you want to delete this adversary's attack?",
+                "confirmDeleteAttack": "¿Seguro que quieres eliminar el ataque de este adversario?",
                 "changeType": {
-                    "_title": "Change Adversary Type",
-                    "_content": "You are changing the adversary type, which will delete type specific data. Are you sure you want to do this?"
+                    "title": "Cambiar tipo de adversario",
+                    "content": "Estás cambiando el tipo de adversario, lo que eliminará los datos específicos del tipo. ¿Seguro que quieres hacer esto?"
                 },
                 "Embed": {
-                    "_attack": "ATK",
-                    "_thresholds": "Thresholds"
+                    "attack": "ATQ",
+                    "thresholds": "Umbrales"
                 }
             },
             "Character": {
@@ -399,8 +399,8 @@
                 "defaultAdvantageDice": "Dados de ventaja por defecto",
                 "defaultDisadvantageDice": "Dados de desventaja por defecto",
                 "comboDieIndex": {
-                    "_label": "Combo Die Index",
-                    "_hint": "The number of dice sizes your combo die has been raised from 1d4. Add +1 to increase it one size."
+                    "label": "Índice del dado combinado",
+                    "hint": "El número de tamaños de dado que se ha aumentado tu dado combinado desde el 1d4. Añade +1 para aumentarlo un tamaño."
                 }
             },
             "Companion": {
@@ -454,9 +454,9 @@
                 },
                 "newAdversary": "Nuevo adversario",
                 "Embed": {
-                    "_potentialAdversaries": "Potential Adversaries",
-                    "_any": "Any",
-                    "_special": "Special"
+                    "potentialAdversaries": "Adversarios potenciales",
+                    "any": "Cualquiera",
+                    "special": "Especial"
                 }
             },
             "Base": {
@@ -585,7 +585,7 @@
                                 "label": "Tipo de contador"
                             },
                             "hidden": {
-                                "_label": "Hidden"
+                                "label": "Oculto"
                             }
                         }
                     }
@@ -606,7 +606,7 @@
                     "increasing": "Creciente",
                     "decreasing": "Decreciente"
                 },
-                "_hiddenNullLabel": "Set To Countdown UI Default"
+                "hiddenNullLabel": "Usar el valor predeterminado de la interfaz del contador"
             },
             "DeleteConfirmation": {
                 "title": "Borrar {type} - {name}",
@@ -686,7 +686,7 @@
                 },
                 "takeDowntime": "Realizar descanso",
                 "extendedDowntime": {
-                    "_title": "Extended Downtime"
+                    "title": "Tiempo de inactividad extendido"
                 }
             },
             "HUD": {
@@ -845,15 +845,15 @@
                 "title": "Herramientas de DJ",
                 "refreshFeatures": "Refrescar Rasgos",
                 "fallingAndCollision": "Daño por caída y colisión",
-                "_gmRestMenu": "Downtime Fear",
+                "gmRestMenu": "Miedo en tiempo de inactividad",
                 "partSizePrompt": {
-                    "_inputLabel": "Party Size",
-                    "_title": "Determine Party Size",
-                    "_text": "There is no active Party actor in the world or it's empty. Manually input the number of player characters."
+                    "inputLabel": "Tamaño del grupo",
+                    "title": "Determinar el tamaño del grupo",
+                    "text": "No hay ningún actor de Grupo activo en el mundo o está vacío. Introduce manualmente el número de personajes jugadores."
                 },
-                "_chatMessageTitle": "GM Consequences",
-                "_chatMessageText": "The GM gains fear",
-                "_activeEffectPathViewer": "Active Effect Path Viewer"
+                "chatMessageTitle": "Consecuencias del DJ",
+                "chatMessageText": "El DJ obtiene Miedo",
+                "activeEffectPathViewer": "Visor de rutas de efectos activos"
             },
             "ImageSelect": {
                 "title": "Seleccionar imagen",
@@ -949,36 +949,36 @@
                 "title": "Tirada en grupo"
             },
             "ActiveEffectPathViewer": {
-                "_title": "Active Effect Path Viewer",
-                "_searchLabel": "Search Paths",
-                "_copyPathNotification": "Copied ActiveEffect path for {name} to clipboard",
-                "_macroButtonLabel": "Open Macro",
-                "_macroCopyNotification": "A macro to open the Path Viewer has been copied to your clipboard. Paste it in a macro on your hotbar."
+                "title": "Visor de rutas de efectos activos",
+                "searchLabel": "Buscar rutas",
+                "copyPathNotification": "Ruta de ActiveEffect para {name} copiada al portapapeles",
+                "macroButtonLabel": "Abrir macro",
+                "macroCopyNotification": "Se ha copiado al portapapeles una macro para abrir el Visor de rutas. Pégala en una macro de tu barra de acceso rápido."
             },
             "FolderConfig": {
-                "_defaultEntity": "Default {entity}"
+                "defaultEntity": "{entity} predeterminado"
             },
             "LevelupOptionsDialog": {
-                "_title": "Levelup Options: {name}"
+                "title": "Opciones de subida de nivel: {name}"
             },
             "CountdownPermissions": {
                 "HiddenOptions": {
-                    "_true": "Hidden",
-                    "_false": "Revealed"
+                    "true": "Oculto",
+                    "false": "Revelado"
                 },
-                "_title": "Countdown Permissions - {name}",
-                "_noPlayers": "No players to assign ownership to",
-                "_defaultPermission": "Base Visibility",
-                "_inheritLabeled": "Base ({base})"
+                "title": "Permisos del contador - {name}",
+                "noPlayers": "No hay jugadores a los que asignar la propiedad",
+                "defaultPermission": "Visibilidad base",
+                "inheritLabeled": "Base ({base})"
             },
             "MultiActionSelect": {
-                "_instructionText": "Select Which Action to Use"
+                "instructionText": "Selecciona qué acción usar"
             },
             "SettingsSidebar": {
-                "_systemLabel": "Game System",
-                "_versionLabel": "Version {version}",
-                "_wikiLink": "Wiki",
-                "_discordLink": "Discord"
+                "systemLabel": "Sistema de juego",
+                "versionLabel": "Versión {version}",
+                "wikiLink": "Wiki",
+                "discordLink": "Discord"
             }
         },
         "CLASS": {
@@ -1265,238 +1265,238 @@
                     }
                 },
                 "absorbing": {
-                    "_name": "Absorbing",
-                    "_description": "Once per scene when you take magic damage, you can clear an Armor Slot.",
+                    "name": "Absorbente",
+                    "description": "Una vez por escena, cuando recibes daño mágico, puedes eliminar un Espacio de Armadura.",
                     "actions": {
                         "heal": {
-                            "_name": "Clear Armor",
-                            "_description": "Once per scene when you take magic damage, you can clear an Armor Slot."
+                            "name": "Limpiar armadura",
+                            "description": "Una vez por escena, cuando recibes daño mágico, puedes eliminar un Espacio de Armadura."
                         }
                     }
                 },
                 "accursed": {
-                    "_name": "Accursed",
-                    "_description": "When you mark any number of Hit Points from an attack, roll a d4. On a result of 4, the attacker must mark an equal number of Stress.",
+                    "name": "Maldito",
+                    "description": "Cuando marcas cualquier cantidad de Puntos de Golpe de un ataque, tira un d4. Con un resultado de 4, el atacante debe marcar una cantidad igual de Estrés.",
                     "actions": {
                         "accursed": {
-                            "_name": "Accursed",
-                            "_description": "When you mark any number of Hit Points from an attack, roll a d4. On a result of 4, the attacker must mark an equal number of Stress."
+                            "name": "Maldito",
+                            "description": "Cuando marcas cualquier cantidad de Puntos de Golpe de un ataque, tira un d4. Con un resultado de 4, el atacante debe marcar una cantidad igual de Estrés."
                         }
                     }
                 },
                 "aquatic": {
-                    "_name": "Aquatic",
-                    "_description": "You can breathe underwater and gain advantage on Agility Rolls while submerged.",
+                    "name": "Acuático",
+                    "description": "Puedes respirar bajo el agua y obtienes ventaja en las tiradas de Agilidad mientras estás sumergido.",
                     "effects": {
                         "aquatic": {
-                            "_name": "Aquatic",
-                            "_description": "You can breathe underwater and gain advantage on Agility Rolls while submerged."
+                            "name": "Acuático",
+                            "description": "Puedes respirar bajo el agua y obtienes ventaja en las tiradas de Agilidad mientras estás sumergido."
                         }
                     }
                 },
                 "attuned": {
-                    "_name": "Attuned",
-                    "_description": "The maximum number of domain cards in your loadout is reduced by one, but you gain a bonus to your damage thresholds equal to your tier.",
+                    "name": "Sintonizado",
+                    "description": "El número máximo de cartas de dominio en tu mano se reduce en uno, pero obtienes un bonificador a tus umbrales de daño igual a tu rango.",
                     "effects": {
                         "attuned": {
-                            "_name": "Attuned",
-                            "_description": "The maximum number of domain cards in your loadout is reduced by one, but you gain a bonus to your damage thresholds equal to your tier."
+                            "name": "Sintonizado",
+                            "description": "El número máximo de cartas de dominio en tu mano se reduce en uno, pero obtienes un bonificador a tus umbrales de daño igual a tu rango."
                         }
                     }
                 },
                 "blessed": {
-                    "_name": "Blessed",
-                    "_description": "Once per long rest, you can spend any number of Hope before you make the Risk It All death move. You gain a bonus to the result of your Hope Die equal to the number of Hope spent.",
+                    "name": "Bendito",
+                    "description": "Una vez por descanso largo, puedes gastar cualquier cantidad de Esperanza antes de realizar el movimiento de muerte Arriesgarlo Todo. Obtienes un bonificador al resultado de tu Dado de Esperanza igual a la cantidad de Esperanza gastada.",
                     "actions": {
                         "blessed": {
-                            "_name": "Blessed",
-                            "_description": "Once per long rest, you can spend any number of Hope before you make the Risk It All death move. You gain a bonus to the result of your Hope Die equal to the number of Hope spent."
+                            "name": "Bendito",
+                            "description": "Una vez por descanso largo, puedes gastar cualquier cantidad de Esperanza antes de realizar el movimiento de muerte Arriesgarlo Todo. Obtienes un bonificador al resultado de tu Dado de Esperanza igual a la cantidad de Esperanza gastada."
                         }
                     }
                 },
                 "bloodthirsty": {
-                    "_name": "Bloodthirsty",
-                    "_description": "When you critically succeed on a weapon attack within Melee range, clear a Hit Point.",
+                    "name": "Sanguinario",
+                    "description": "Cuando tienes un éxito crítico en un ataque de arma a rango de Melé, elimina un Punto de Golpe.",
                     "actions": {
                         "heal": {
-                            "_name": "Clear Hitpoint",
-                            "_description": "When you critically succeed on a weapon attack within Melee range, clear a Hit Point."
+                            "name": "Limpiar punto de golpe",
+                            "description": "Cuando tienes un éxito crítico en un ataque de arma a rango de Melé, elimina un Punto de Golpe."
                         }
                     }
                 },
                 "bulky": {
-                    "_name": "Bulky",
-                    "_description": "−1 to Evasion; when you take Severe damage, you must mark a Stress.",
+                    "name": "Voluminoso",
+                    "description": "−1 a la Evasión; cuando recibes daño Severo, debes marcar un Estrés.",
                     "effects": {
                         "bulky": {
-                            "_name": "Bulky",
-                            "_description": "−1 to Evasion; when you take Severe damage, you must mark a Stress."
+                            "name": "Voluminoso",
+                            "description": "−1 a la Evasión; cuando recibes daño Severo, debes marcar un Estrés."
                         }
                     }
                 },
                 "cumbersome": {
-                    "_name": "Cumbersome",
-                    "_description": "-1 to Finesse",
+                    "name": "Engorroso",
+                    "description": "-1 a la Destreza",
                     "effects": {
                         "cumbersome": {
-                            "_name": "Cumbersome",
-                            "_description": "-1 to Finesse"
+                            "name": "Engorroso",
+                            "description": "-1 a la Destreza"
                         }
                     }
                 },
                 "divine": {
-                    "_name": "Divine",
-                    "_description": "When you mark an Armor Slot, gain a Hope.",
+                    "name": "Divino",
+                    "description": "Cuando marcas un Espacio de Armadura, ganas una Esperanza.",
                     "actions": {
                         "heal": {
-                            "_name": "Gain Hope",
-                            "_description": "When you mark an Armor Slot, gain a Hope."
+                            "name": "Ganar Esperanza",
+                            "description": "Cuando marcas un Espacio de Armadura, ganas una Esperanza."
                         }
                     }
                 },
                 "enchanted": {
-                    "_name": "Enchanted",
-                    "_description": "Gain a bonus to your damage thresholds equal to your Spellcast trait.",
+                    "name": "Encantado",
+                    "description": "Obtienes un bonificador a tus umbrales de daño igual a tu atributo de lanzamiento de conjuros.",
                     "effects": {
                         "enchanted": {
-                            "_name": "Enchanted",
-                            "_description": "Gain a bonus to your damage thresholds equal to your Spellcast trait."
+                            "name": "Encantado",
+                            "description": "Obtienes un bonificador a tus umbrales de daño igual a tu atributo de lanzamiento de conjuros."
                         }
                     }
                 },
                 "fortuneFavored": {
-                    "_name": "Fortune-Favored",
-                    "_description": "Once per scene, you can change a failure with Hope into a success with Fear.",
+                    "name": "Favorecido por la fortuna",
+                    "description": "Una vez por escena, puedes cambiar un fallo con Esperanza por un éxito con Miedo.",
                     "actions": {
                         "fortuneFavored": {
-                            "_name": "Fortune-Favored",
-                            "_description": "Once per scene, you can change a failure with Hope into a success with Fear."
+                            "name": "Favorecido por la fortuna",
+                            "description": "Una vez por escena, puedes cambiar un fallo con Esperanza por un éxito con Miedo."
                         }
                     }
                 },
                 "ghostwalker": {
-                    "_name": "Ghostwalker",
-                    "_description": "Once per rest, mark a Stress to move up to Close range through solid objects.",
+                    "name": "Caminante fantasmal",
+                    "description": "Una vez por descanso, marca un Estrés para moverte hasta rango Cerca a través de objetos sólidos.",
                     "actions": {
                         "ghostwalker": {
-                            "_name": "Ghostwalker",
-                            "_description": "Once per rest, mark a Stress to move up to Close range through solid objects."
+                            "name": "Caminante fantasmal",
+                            "description": "Una vez por descanso, marca un Estrés para moverte hasta rango Cerca a través de objetos sólidos."
                         }
                     }
                 },
                 "gliding": {
-                    "_name": "Gliding",
-                    "_description": "You can glide up to Far range and are immune to damage from falling.",
+                    "name": "Planeo",
+                    "description": "Puedes planear hasta rango Lejos y eres inmune al daño por caída.",
                     "actions": {
                         "gliding": {
-                            "_name": "Gliding",
-                            "_description": "You can glide up to Far range and are immune to damage from falling."
+                            "name": "Planeo",
+                            "description": "Puedes planear hasta rango Lejos y eres inmune al daño por caída."
                         }
                     }
                 },
                 "lined": {
-                    "_name": "Lined",
-                    "_description": "Mark a Stress to negate Minor damage.",
+                    "name": "Forrado",
+                    "description": "Marca un Estrés para negar el daño Menor.",
                     "effects": {
                         "lined": {
-                            "_name": "Lined",
-                            "_description": "Mark a Stress to negate Minor damage."
+                            "name": "Forrado",
+                            "description": "Marca un Estrés para negar el daño Menor."
                         }
                     }
                 },
                 "magnificent": {
-                    "_name": "Magnificent",
-                    "_description": "Gain a bonus to your Armor Score equal to your Presence.",
+                    "name": "Magnífico",
+                    "description": "Obtienes un bonificador a tu Puntuación de armadura igual a tu Presencia.",
                     "effects": {
                         "magnificent": {
-                            "_name": "Magnificent",
-                            "_description": "Gain a bonus to your Armor Score equal to your Presence."
+                            "name": "Magnífico",
+                            "description": "Obtienes un bonificador a tu Puntuación de armadura igual a tu Presencia."
                         }
                     }
                 },
                 "mnemonic": {
-                    "_name": "Mnemonic",
-                    "_description": "Once per scene, you can recall a domain card from your vault without paying its Recall Cost.",
+                    "name": "Mnemónico",
+                    "description": "Una vez por escena, puedes recuperar una carta de dominio de tu mazo sin pagar su Coste de Recuerdo.",
                     "actions": {
                         "mnemonic": {
-                            "_name": "Mnemonic",
-                            "_description": "Once per scene, you can recall a domain card from your vault without paying its Recall Cost."
+                            "name": "Mnemónico",
+                            "description": "Una vez por escena, puedes recuperar una carta de dominio de tu mazo sin pagar su Coste de Recuerdo."
                         }
                     }
                 },
                 "quickStriding": {
-                    "_name": "Quick-Striding",
-                    "_description": "You can't be Restrained and can move up to Far range as part of an action roll.",
+                    "name": "Zancada rápida",
+                    "description": "No puedes ser Apresado y puedes moverte hasta rango Lejos como parte de una tirada de acción.",
                     "actions": {
                         "quickStriding": {
-                            "_name": "Quick-Striding",
-                            "_description": "You can't be Restrained and can move up to Far range as part of an action roll."
+                            "name": "Zancada rápida",
+                            "description": "No puedes ser Apresado y puedes moverte hasta rango Lejos como parte de una tirada de acción."
                         }
                     }
                 },
                 "resplendent": {
-                    "_name": "Resplendent",
-                    "_description": "Once per scene when you spend Hope, you can clear an Armor Slot.",
+                    "name": "Resplandeciente",
+                    "description": "Una vez por escena, cuando gastas Esperanza, puedes eliminar un Espacio de Armadura.",
                     "actions": {
                         "heal": {
-                            "_name": "Resplendent",
-                            "_description": "Once per scene when you spend Hope, you can clear an Armor Slot."
+                            "name": "Resplandeciente",
+                            "description": "Una vez por escena, cuando gastas Esperanza, puedes eliminar un Espacio de Armadura."
                         }
                     }
                 },
                 "selfHealing": {
-                    "_name": "Self-Healing",
-                    "_description": "When you take a rest, clear an Armor Slot.",
+                    "name": "Autorregeneración",
+                    "description": "Cuando tomas un descanso, elimina un Espacio de Armadura.",
                     "actions": {
                         "heal": {
-                            "_name": "Self-Healing",
-                            "_description": "When you take a rest, clear an Armor Slot."
+                            "name": "Autorregeneración",
+                            "description": "Cuando tomas un descanso, elimina un Espacio de Armadura."
                         }
                     }
                 },
                 "stellar": {
-                    "_name": "Stellar",
-                    "_description": "Mark a Stress to gain advantage on a Spellcast roll.",
+                    "name": "Estelar",
+                    "description": "Marca un Estrés para obtener ventaja en una tirada de lanzamiento de conjuros.",
                     "actions": {
                         "stellar": {
-                            "_name": "Stellar",
-                            "_description": "Mark a Stress to gain advantage on a Spellcast roll."
+                            "name": "Estelar",
+                            "description": "Marca un Estrés para obtener ventaja en una tirada de lanzamiento de conjuros."
                         }
                     }
                 },
                 "vigilant": {
-                    "_name": "Vigilant",
-                    "_description": "+2 to Evasion.",
+                    "name": "Vigilante",
+                    "description": "+2 a la Evasión.",
                     "effects": {
                         "vigilant": {
-                            "_name": "Vigilant",
-                            "_description": "+2 to Evasion."
+                            "name": "Vigilante",
+                            "description": "+2 a la Evasión."
                         }
                     }
                 },
                 "vitreous": {
-                    "_name": "Vitreous",
-                    "_description": "When you would take Severe or greater damage, you can mark 2 Armor Slots to negate that damage. If you do, you gain a -5 penalty to your damage thresholds until you choose to repair your armor as a downtime move.",
+                    "name": "Vítreo",
+                    "description": "Cuando fueras a recibir daño Severo o superior, puedes marcar 2 Espacios de Armadura para negar ese daño. Si lo haces, obtienes una penalización de -5 a tus umbrales de daño hasta que elijas reparar tu armadura como movimiento de tiempo de inactividad.",
                     "actions": {
                         "vitreous": {
-                            "_name": "Vitreous",
-                            "_description": "When you would take Severe or greater damage, you can mark 2 Armor Slots to negate that damage. If you do, you gain a -5 penalty to your damage thresholds until you choose to repair your armor as a downtime move."
+                            "name": "Vítreo",
+                            "description": "Cuando fueras a recibir daño Severo o superior, puedes marcar 2 Espacios de Armadura para negar ese daño. Si lo haces, obtienes una penalización de -5 a tus umbrales de daño hasta que elijas reparar tu armadura como movimiento de tiempo de inactividad."
                         }
                     },
                     "effects": {
                         "vitreous": {
-                            "_name": "Vitreous",
-                            "_description": "You have a -5 penalty to your damage thresholds until you choose to repair your armor as a downtime move"
+                            "name": "Vítreo",
+                            "description": "Tienes una penalización de -5 a tus umbrales de daño hasta que elijas reparar tu armadura como movimiento de tiempo de inactividad"
                         }
                     }
                 },
                 "wallCrawling": {
-                    "_name": "Wall-Crawling",
-                    "_description": "+1 Evasion; you can walk on walls as easily as on the ground.",
+                    "name": "Trepamuros",
+                    "description": "+1 de Evasión; puedes caminar por las paredes tan fácilmente como por el suelo.",
                     "effects": {
                         "wallCrawling": {
-                            "_name": "Wall-Crawling",
-                            "_description": "+1 Evasion; you can walk on walls as easily as on the ground."
+                            "name": "Trepamuros",
+                            "description": "+1 de Evasión; puedes caminar por las paredes tan fácilmente como por el suelo."
                         }
                     }
                 }
@@ -1555,20 +1555,20 @@
                     "shortLabel": "Largo"
                 },
                 "misc": {
-                    "_label": "Miscellaneous",
-                    "_shortLabel": "Misc"
+                    "label": "Varios",
+                    "shortLabel": "Varios"
                 }
             },
             "DamageType": {
                 "physical": {
                     "name": "Físico",
                     "abbreviation": "Fís",
-                    "_lowercase": "physical"
+                    "lowercase": "físico"
                 },
                 "magical": {
                     "name": "Mágico",
                     "abbreviation": "Mág",
-                    "_lowercase": "magical"
+                    "lowercase": "mágico"
                 },
                 "direct": {
                     "name": "Daño Directo",
@@ -1647,9 +1647,9 @@
                     "inChatRoll": "Miedo"
                 },
                 "resource": {
-                    "_name": "Item Resource",
-                    "_abbreviation": "IR",
-                    "_inChatRoll": "Item Resource"
+                    "name": "Recurso del objeto",
+                    "abbreviation": "RO",
+                    "inChatRoll": "Recurso del objeto"
                 }
             },
             "ItemResourceProgression": {
@@ -1707,7 +1707,7 @@
                     "name": "Conjunto de dados"
                 },
                 "reaction": {
-                    "_name": "Reaction"
+                    "name": "Reacción"
                 }
             },
             "RuleChoice": {
@@ -2205,7 +2205,7 @@
                         }
                     },
                     "errors": {
-                        "_missingResource": "Reloading requires that the weapon has a Resource set on it with a max of 1 or higher."
+                        "missingResource": "La recarga requiere que el arma tenga un Recurso establecido con un máximo de 1 o superior."
                     }
                 },
                 "retractable": {
@@ -2299,304 +2299,304 @@
                     }
                 },
                 "accelerator": {
-                    "_name": "Accelerator",
-                    "_description": "Once per scene, mark a Stress to move to Far range then make an attack. Gain a +1 bonus to your Proficiency on this attack.",
+                    "name": "Acelerador",
+                    "description": "Una vez por escena, marca un Estrés para moverte a rango Lejos y luego realizar un ataque. Obtienes un bonificador de +1 a tu Competencia en este ataque.",
                     "actions": {
                         "accelerator": {
-                            "_name": "Accelerator",
-                            "_description": "Once per scene, mark a Stress to move to Far range then make an attack. Gain a +1 bonus to your Proficiency on this attack."
+                            "name": "Acelerador",
+                            "description": "Una vez por escena, marca un Estrés para moverte a rango Lejos y luego realizar un ataque. Obtienes un bonificador de +1 a tu Competencia en este ataque."
                         }
                     },
                     "effects": {
                         "accelerator": {
-                            "_name": "Accelerator",
-                            "_description": "Gain a +1 bonus to your Proficiency on this attack."
+                            "name": "Acelerador",
+                            "description": "Obtienes un bonificador de +1 a tu Competencia en este ataque."
                         }
                     }
                 },
                 "aimed": {
-                    "_name": "Aimed",
-                    "_description": "Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+                    "name": "Apuntado",
+                    "description": "Tu ataque tiene desventaja si el objetivo está a rango Muy cerca de ti o a rango de Melé de uno de tus aliados. Puedes marcar un Estrés para ignorar esta penalización.",
                     "actions": {
                         "aimed": {
-                            "_name": "Aimed",
-                            "_description": "Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty."
+                            "name": "Apuntado",
+                            "description": "Tu ataque tiene desventaja si el objetivo está a rango Muy cerca de ti o a rango de Melé de uno de tus aliados. Puedes marcar un Estrés para ignorar esta penalización."
                         }
                     }
                 },
                 "braced": {
-                    "_name": "Braced",
-                    "_description": "When an adversary within this weapon's range deals damage to you, you can mark 2 Stress to force them to mark a Hit Point.",
+                    "name": "Afianzado",
+                    "description": "Cuando un adversario dentro del alcance de esta arma te inflige daño, puedes marcar 2 de Estrés para obligarlo a marcar un Punto de Golpe.",
                     "actions": {
                         "braced": {
-                            "_name": "Braced",
-                            "_description": "When an adversary within this weapon's range deals damage to you, you can mark 2 Stress to force them to mark a Hit Point."
+                            "name": "Afianzado",
+                            "description": "Cuando un adversario dentro del alcance de esta arma te inflige daño, puedes marcar 2 de Estrés para obligarlo a marcar un Punto de Golpe."
                         }
                     }
                 },
                 "bolstering": {
-                    "_name": "Bolstering",
-                    "_description": "When you critically succeed on an attack, all PCs within Close range gain a Hope.",
+                    "name": "Fortalecedor",
+                    "description": "Cuando tienes un éxito crítico en un ataque, todos los PJ a rango Cerca ganan una Esperanza.",
                     "actions": {
                         "bolstering": {
-                            "_name": "Bolstering",
-                            "_description": "When you critically succeed on an attack, all PCs within Close range gain a Hope."
+                            "name": "Fortalecedor",
+                            "description": "Cuando tienes un éxito crítico en un ataque, todos los PJ a rango Cerca ganan una Esperanza."
                         }
                     }
                 },
                 "catalytic": {
-                    "_name": "Catalytic",
-                    "_description": "On a successful attack, you can mark a Stress to give an ally within Close range a +3 bonus to their next attack roll.",
+                    "name": "Catalizador",
+                    "description": "Con un ataque exitoso, puedes marcar un Estrés para dar a un aliado a rango Cerca un bonificador de +3 a su próxima tirada de ataque.",
                     "actions": {
                         "catalytic": {
-                            "_name": "Catalytic",
-                            "_description": "On a successful attack, you can mark a Stress to give an ally within Close range a +3 bonus to their next attack roll."
+                            "name": "Catalizador",
+                            "description": "Con un ataque exitoso, puedes marcar un Estrés para dar a un aliado a rango Cerca un bonificador de +3 a su próxima tirada de ataque."
                         }
                     },
                     "effects": {
                         "catalytic": {
-                            "_name": "Catalytic",
-                            "_description": "You have a +3 bonus to your next attack roll."
+                            "name": "Catalizador",
+                            "description": "Tienes un bonificador de +3 a tu próxima tirada de ataque."
                         }
                     }
                 },
                 "disturbing": {
-                    "_name": "Disturbing",
-                    "_description": "When you defeat a creature with this weapon, all adversaries within Close range must mark a Stress.",
+                    "name": "Inquietante",
+                    "description": "Cuando derrotas a una criatura con esta arma, todos los adversarios a rango Cerca deben marcar un Estrés.",
                     "actions": {
                         "disturbing": {
-                            "_name": "Disturbing",
-                            "_description": "When you defeat a creature with this weapon, all adversaries within Close range must mark a Stress."
+                            "name": "Inquietante",
+                            "description": "Cuando derrotas a una criatura con esta arma, todos los adversarios a rango Cerca deben marcar un Estrés."
                         }
                     }
                 },
                 "draining": {
-                    "_name": "Draining",
-                    "_description": "On a successful attack, you can spend a Hope to force the target to mark a Stress. If they do, you clear a Stress.",
+                    "name": "Drenante",
+                    "description": "Con un ataque exitoso, puedes gastar una Esperanza para obligar al objetivo a marcar un Estrés. Si lo hace, eliminas un Estrés.",
                     "actions": {
                         "draining": {
-                            "_name": "Draining",
-                            "_description": "On a successful attack, you can spend a Hope to force the target to mark a Stress. If they do, you clear a Stress."
+                            "name": "Drenante",
+                            "description": "Con un ataque exitoso, puedes gastar una Esperanza para obligar al objetivo a marcar un Estrés. Si lo hace, eliminas un Estrés."
                         }
                     }
                 },
                 "entangling": {
-                    "_name": "Entangling",
-                    "_description": "On a successful attack with your primary weapon against a target within Very Close range, you can spend a Hope to make the target temporarily Vulnerable.",
+                    "name": "Enredador",
+                    "description": "Con un ataque exitoso con tu arma principal contra un objetivo a rango Muy cerca, puedes gastar una Esperanza para que el objetivo quede Vulnerable temporalmente.",
                     "actions": {
                         "entangling": {
-                            "_name": "Entangling",
-                            "_description": "On a successful attack with your primary weapon against a target within Very Close range, you can spend a Hope to make the target temporarily Vulnerable."
+                            "name": "Enredador",
+                            "description": "Con un ataque exitoso con tu arma principal contra un objetivo a rango Muy cerca, puedes gastar una Esperanza para que el objetivo quede Vulnerable temporalmente."
                         }
                     },
                     "effects": {
                         "entangling": {
-                            "_name": "Entangling",
-                            "_description": ""
+                            "name": "Enredador",
+                            "description": ""
                         }
                     }
                 },
                 "ethereal": {
-                    "_name": "Ethereal",
-                    "_description": "You must mark a Stress to conjure this weapon. It lasts until the end of the scene.",
+                    "name": "Etéreo",
+                    "description": "Debes marcar un Estrés para conjurar esta arma. Dura hasta el final de la escena.",
                     "actions": {
                         "ethereal": {
-                            "_name": "Ethereal",
-                            "_description": "You must mark a Stress to conjure this weapon. It lasts until the end of the scene."
+                            "name": "Etéreo",
+                            "description": "Debes marcar un Estrés para conjurar esta arma. Dura hasta el final de la escena."
                         }
                     },
                     "effects": {
                         "ethereal": {
-                            "_name": "Ethereal",
-                            "_description": "This weapon lasts until the end of the scene."
+                            "name": "Etéreo",
+                            "description": "Esta arma dura hasta el final de la escena."
                         }
                     }
                 },
                 "extending": {
-                    "_name": "Extending",
-                    "_description": "You can increase the range of this weapon up to Very Far. You gain a -1 penalty to attack rolls for each step you increase the range by (such as Melee to Very Close, Very Close to Close, or Close to Far)."
+                    "name": "Extensible",
+                    "description": "Puedes aumentar el alcance de esta arma hasta Muy lejos. Obtienes una penalización de -1 a las tiradas de ataque por cada paso que aumentes el alcance (como Melé a Muy cerca, Muy cerca a Cerca o Cerca a Lejos)."
                 },
                 "focused": {
-                    "_name": "Focused",
-                    "_description": "+1 to primary weapon damage to targets within Very Close range.",
+                    "name": "Enfocado",
+                    "description": "+1 al daño del arma principal contra objetivos a rango Muy cerca.",
                     "effects": {
                         "focused": {
-                            "_name": "Focused",
-                            "_description": "+1 to primary weapon damage to targets within Very Close range."
+                            "name": "Enfocado",
+                            "description": "+1 al daño del arma principal contra objetivos a rango Muy cerca."
                         }
                     }
                 },
                 "followUp": {
-                    "_name": "Follow-Up",
-                    "_description": "On a successful attack with your primary weapon within Melee range, you can mark a Stress to gain a +1 bonus to your Proficiency for this attack.",
+                    "name": "Seguimiento",
+                    "description": "Con un ataque exitoso con tu arma principal a rango de Melé, puedes marcar un Estrés para obtener un bonificador de +1 a tu Competencia en este ataque.",
                     "actions": {
                         "followUp": {
-                            "_name": "Follow-Up",
-                            "_description": "On a successful attack with your primary weapon within Melee range, you can mark a Stress to gain a +1 bonus to your Proficiency for this attack."
+                            "name": "Seguimiento",
+                            "description": "Con un ataque exitoso con tu arma principal a rango de Melé, puedes marcar un Estrés para obtener un bonificador de +1 a tu Competencia en este ataque."
                         }
                     },
                     "effects": {
                         "followUp": {
-                            "_name": "Follow-Up",
-                            "_description": "You have a +1 bonus to your Proficiency for this attack."
+                            "name": "Seguimiento",
+                            "description": "Tienes un bonificador de +1 a tu Competencia en este ataque."
                         }
                     }
                 },
                 "freezing": {
-                    "_name": "Freezing",
-                    "_description": "When an attack from this weapon causes a target to mark 2 or more HP, they become temporarily Restrained.",
+                    "name": "Congelante",
+                    "description": "Cuando un ataque de esta arma hace que un objetivo marque 2 o más PG, queda Apresado temporalmente.",
                     "actions": {
                         "freezing": {
-                            "_name": "Freezing",
-                            "_description": "When an attack from this weapon causes a target to mark 2 or more HP, they become temporarily Restrained."
+                            "name": "Congelante",
+                            "description": "Cuando un ataque de esta arma hace que un objetivo marque 2 o más PG, queda Apresado temporalmente."
                         }
                     },
                     "effects": {
                         "freezing": {
-                            "_name": "Freezing",
-                            "_description": ""
+                            "name": "Congelante",
+                            "description": ""
                         }
                     }
                 },
                 "incendiary": {
-                    "_name": "Incendiary",
-                    "_description": "-1 to Agility; on a successful attack, all creatures within Very Close range of the target must mark a Hit Point.",
+                    "name": "Incendiario",
+                    "description": "-1 a la Agilidad; con un ataque exitoso, todas las criaturas a rango Muy cerca del objetivo deben marcar un Punto de Golpe.",
                     "actions": {
                         "incendiary": {
-                            "_name": "Incendiary",
-                            "_description": "On a successful attack, all creatures within Very Close range of the target must mark a Hit Point."
+                            "name": "Incendiario",
+                            "description": "Con un ataque exitoso, todas las criaturas a rango Muy cerca del objetivo deben marcar un Punto de Golpe."
                         }
                     },
                     "effects": {
                         "incendiary": {
-                            "_name": "Incendiary",
-                            "_description": "-1 to Agility."
+                            "name": "Incendiario",
+                            "description": "-1 a la Agilidad."
                         }
                     }
                 },
                 "inverted": {
-                    "_name": "Inverted",
-                    "_description": "When you roll a weapon attack with Fear, you gain a Hope.",
+                    "name": "Invertido",
+                    "description": "Cuando tiras un ataque de arma con Miedo, ganas una Esperanza.",
                     "effects": {
                         "inverted": {
-                            "_name": "Inverted",
-                            "_description": "When you roll a weapon attack with Fear, you gain a Hope."
+                            "name": "Invertido",
+                            "description": "Cuando tiras un ataque de arma con Miedo, ganas una Esperanza."
                         }
                     }
                 },
                 "magnetic": {
-                    "_name": "Magnetic",
-                    "_description": "When you make an attack with this weapon, you can spend a Hope to force all adversaries within Very Close range of the target to make a Reaction Roll (16). Creatures who fail must mark a Stress and are pulled into Melee range of the target.",
+                    "name": "Magnético",
+                    "description": "Cuando realizas un ataque con esta arma, puedes gastar una Esperanza para obligar a todos los adversarios a rango Muy cerca del objetivo a realizar una Tirada de reacción (16). Las criaturas que fallen deben marcar un Estrés y son arrastradas a rango de Melé del objetivo.",
                     "actions": {
                         "magnetic": {
-                            "_name": "Magnetic",
-                            "_description": "When you make an attack with this weapon, you can spend a Hope to force all adversaries within Very Close range of the target to make a Reaction Roll (16). Creatures who fail must mark a Stress and are pulled into Melee range of the target."
+                            "name": "Magnético",
+                            "description": "Cuando realizas un ataque con esta arma, puedes gastar una Esperanza para obligar a todos los adversarios a rango Muy cerca del objetivo a realizar una Tirada de reacción (16). Las criaturas que fallen deben marcar un Estrés y son arrastradas a rango de Melé del objetivo."
                         }
                     }
                 },
                 "nonlethal": {
-                    "_name": "Nonlethal",
-                    "_description": "When a target would mark any number of Hit Points from an attack with this weapon, they mark an equal number of Stress instead."
+                    "name": "No letal",
+                    "description": "Cuando un objetivo fuera a marcar cualquier cantidad de Puntos de Golpe de un ataque con esta arma, en su lugar marca una cantidad igual de Estrés."
                 },
                 "omnipresent": {
-                    "_name": "Omnipresent",
-                    "_description": "You can make attacks against targets within Very Far range, but must do so with disadvantage."
+                    "name": "Omnipresente",
+                    "description": "Puedes realizar ataques contra objetivos a rango Muy lejos, pero debes hacerlo con desventaja."
                 },
                 "otherwordly": {
-                    "_name": "Otherwordly",
-                    "_description": "On a successful attack, you can deal physical or magic damage."
+                    "name": "Ultramundano",
+                    "description": "Con un ataque exitoso, puedes infligir daño físico o mágico."
                 },
                 "padded": {
-                    "_name": "Padded",
-                    "_description": "Gain this weapon's tier + 1 to damage thresholds.",
+                    "name": "Acolchado",
+                    "description": "Suma el rango de esta arma + 1 a tus umbrales de daño.",
                     "effects": {
                         "padded": {
-                            "_name": "Padded",
-                            "_description": "Gain this weapon's tier + 1 to damage thresholds."
+                            "name": "Acolchado",
+                            "description": "Suma el rango de esta arma + 1 a tus umbrales de daño."
                         }
                     }
                 },
                 "piercing": {
-                    "_name": "Piercing",
-                    "_description": "Damage dealt with this weapon treats the target's Major threshold as having a -2 penalty.",
+                    "name": "Perforante",
+                    "description": "El daño infligido con esta arma trata el umbral Mayor del objetivo como si tuviera una penalización de -2.",
                     "effects": {
                         "piercing": {
-                            "_name": "Piercing",
-                            "_description": "Damage dealt with this weapon treats the target's Major threshold as having a -2 penalty."
+                            "name": "Perforante",
+                            "description": "El daño infligido con esta arma trata el umbral Mayor del objetivo como si tuviera una penalización de -2."
                         }
                     }
                 },
                 "poisonous": {
-                    "_name": "Poisonous",
-                    "_description": "When a target marks any number of Hit Points from an attack you rolled with Fear, they mark an equal number of Stress."
+                    "name": "Venenoso",
+                    "description": "Cuando un objetivo marca cualquier cantidad de Puntos de Golpe de un ataque que tiraste con Miedo, marca una cantidad igual de Estrés."
                 },
                 "rebounding": {
-                    "_name": "Rebounding",
-                    "_description": "When you throw this weapon, it returns to your hand. On a failed attack, you can reroll your attack with disadvantage."
+                    "name": "Rebotante",
+                    "description": "Cuando lanzas esta arma, regresa a tu mano. Con un ataque fallido, puedes volver a tirar tu ataque con desventaja."
                 },
                 "recursive": {
-                    "_name": "Recursive",
-                    "_description": "When you roll the maximum value on a damage die, roll an additional damage die and add the result to the total damage. This feature can trigger repeatedly.",
+                    "name": "Recursivo",
+                    "description": "Cuando obtienes el valor máximo en un dado de daño, tira un dado de daño adicional y suma el resultado al daño total. Este rasgo puede activarse repetidamente.",
                     "effects": {
                         "recursive": {
-                            "_name": "Recursive",
-                            "_description": "When you roll the maximum value on a damage die, roll an additional damage die and add the result to the total damage. This feature can trigger repeatedly."
+                            "name": "Recursivo",
+                            "description": "Cuando obtienes el valor máximo en un dado de daño, tira un dado de daño adicional y suma el resultado al daño total. Este rasgo puede activarse repetidamente."
                         }
                     }
                 },
                 "ricochet": {
-                    "_name": "Ricochet",
-                    "_description": "When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack.",
+                    "name": "Rebote",
+                    "description": "Cuando lanzas esta arma, regresa a tu mano. Cuando realizas un ataque, puedes marcar un Estrés para apuntar con ese ataque a otra criatura a rango Muy cerca del primer objetivo.",
                     "actions": {
                         "ricochet": {
-                            "_name": "Ricochet",
-                            "_description": "When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack."
+                            "name": "Rebote",
+                            "description": "Cuando realizas un ataque, puedes marcar un Estrés para apuntar con ese ataque a otra criatura a rango Muy cerca del primer objetivo."
                         }
                     }
                 },
                 "stockpiled": {
-                    "_name": "Stockpiled",
-                    "_description": "You can throw this weapon within @Lookup[@item.attack.range|type:range|adjustment:2] range. You don't have to retrieve it, as you always have another on hand."
+                    "name": "Almacenado",
+                    "description": "Puedes lanzar esta arma dentro del alcance @Lookup[@item.attack.range|type:range|adjustment:2]. No tienes que recuperarla, ya que siempre tienes otra a mano."
                 },
                 "targeted": {
-                    "_name": "Targeted",
-                    "_description": "When you fail a weapon attack, you can spend a Hope to succeed on your next weapon attack.",
+                    "name": "Dirigido",
+                    "description": "Cuando fallas un ataque de arma, puedes gastar una Esperanza para tener éxito en tu próximo ataque de arma.",
                     "actions": {
                         "targeted": {
-                            "_name": "Targeted",
-                            "_description": "When you fail a weapon attack, you can spend a Hope to succeed on your next weapon attack."
+                            "name": "Dirigido",
+                            "description": "Cuando fallas un ataque de arma, puedes gastar una Esperanza para tener éxito en tu próximo ataque de arma."
                         }
                     }
                 },
                 "trusty": {
-                    "_name": "Trusty",
-                    "_description": "+1 to attack rolls made with your primary weapon.",
+                    "name": "Fiable",
+                    "description": "+1 a las tiradas de ataque realizadas con tu arma principal.",
                     "effects": {
                         "trusty": {
-                            "_name": "Trusty",
-                            "_description": "+1 to attack rolls made with your primary weapon."
+                            "name": "Fiable",
+                            "description": "+1 a las tiradas de ataque realizadas con tu arma principal."
                         }
                     }
                 },
                 "venomous": {
-                    "_name": "Venomous",
-                    "_description": "When you deal Major or greater damage with this weapon, the target becomes temporarily Vulnerable.",
+                    "name": "Venenoso",
+                    "description": "Cuando infliges daño Mayor o superior con esta arma, el objetivo queda Vulnerable temporalmente.",
                     "actions": {
                         "venomous": {
-                            "_name": "Venomous",
-                            "_description": "When you deal Major or greater damage with this weapon, the target becomes temporarily Vulnerable."
+                            "name": "Venenoso",
+                            "description": "Cuando infliges daño Mayor o superior con esta arma, el objetivo queda Vulnerable temporalmente."
                         }
                     },
                     "effects": {
                         "venomous": {
-                            "_name": "Venomous",
-                            "_description": ""
+                            "name": "Venenoso",
+                            "description": ""
                         }
                     }
                 },
                 "volleyed": {
-                    "_name": "Volleyed",
-                    "_description": "Spend a Hope to target a group of creatures within range. Targets you succeed against take half damage."
+                    "name": "Descarga",
+                    "description": "Gasta una Esperanza para apuntar a un grupo de criaturas dentro del alcance. Los objetivos contra los que tengas éxito reciben la mitad del daño."
                 }
             },
             "TargetTypes": {
@@ -2643,7 +2643,7 @@
                 "passive": "Pasiva",
                 "action": "Acción",
                 "reaction": "Reacción",
-                "_evolution": "Evolution"
+                "evolution": "Evolución"
             },
             "TokenSize": {
                 "tiny": "Diminuto",
@@ -2766,109 +2766,109 @@
                 "damageAbility": "Habilidad de daño"
             },
             "ActiveEffectExtraPaths": {
-                "_allCategory": "All Actors",
+                "allCategory": "Todos los actores",
                 "cast": {
-                    "_label": "Spellcasting Modifier"
+                    "label": "Modificador de lanzamiento de conjuros"
                 },
                 "fear": {
-                    "_label": "Fear Amount"
+                    "label": "Cantidad de Miedo"
                 },
                 "partySize": {
-                    "_label": "Party Size"
+                    "label": "Tamaño del grupo"
                 }
             },
             "ConditionalComparator": {
-                "_less": "Less Than",
-                "_lessEquals": "Less Or Equals",
-                "_equals": "Equals",
-                "_greaterEquals": "Greater Or Equals",
-                "_greater": "Greater Than",
-                "_truthy": "Is True",
-                "_falsy": "Is False"
+                "less": "Menor que",
+                "lessEquals": "Menor o igual que",
+                "equals": "Igual a",
+                "greaterEquals": "Mayor o igual que",
+                "greater": "Mayor que",
+                "truthy": "Es verdadero",
+                "falsy": "Es falso"
             },
             "ConditionalFailureMode": {
-                "_suppress": "Suppress",
-                "_hide": "Hide"
+                "suppress": "Suprimir",
+                "hide": "Ocultar"
             },
             "ConditionalPhase": {
-                "_preparation": "Preparation",
-                "_roll": "Roll"
+                "preparation": "Preparación",
+                "roll": "Tirada"
             },
             "ConditionalType": {
-                "_dataCompare": "Data Compare",
-                "_weaponRestriction": "Weapon Restriction",
-                "_actionType": "Action Type",
-                "_damageType": "Damage Type"
+                "dataCompare": "Comparación de datos",
+                "weaponRestriction": "Restricción de arma",
+                "actionType": "Tipo de acción",
+                "damageType": "Tipo de daño"
             },
             "ConditionalWeaponRestrictionType": {
-                "_sameWeapon": "Same Weapon",
-                "_anyWeapon": "Any Weapon"
+                "sameWeapon": "Misma arma",
+                "anyWeapon": "Cualquier arma"
             },
             "DamageOnSave": {
                 "none": {
-                    "_name": "None On Success"
+                    "name": "Ninguno al tener éxito"
                 },
                 "half": {
-                    "_name": "Half On Success"
+                    "name": "Mitad al tener éxito"
                 },
                 "full": {
-                    "_name": "Full On Success"
+                    "name": "Completo al tener éxito"
                 },
                 "doubleOnFail": {
-                    "_name": "Double On Fail"
+                    "name": "Doble al fallar"
                 }
             },
             "DiceSoNice": {
                 "colorsets": {
-                    "_hope": "Hope Default",
-                    "_fear": "Fear Default",
-                    "_advantage": "Advantage Default",
-                    "_disadvantage": "Disadvantage Default"
+                    "hope": "Esperanza predeterminada",
+                    "fear": "Miedo predeterminado",
+                    "advantage": "Ventaja predeterminada",
+                    "disadvantage": "Desventaja predeterminada"
                 },
                 "diceRoles": {
-                    "_hope": "Hope Dice",
-                    "_fear": "Fear Dice",
-                    "_advantage": "Advantage Dice",
-                    "_disadvantage": "Disadvantage Dice"
+                    "hope": "Dados de Esperanza",
+                    "fear": "Dados de Miedo",
+                    "advantage": "Dados de ventaja",
+                    "disadvantage": "Dados de desventaja"
                 },
                 "triggers": {
                     "dualityRoll": {
-                        "_label": "Duality Roll",
+                        "label": "Tirada dual",
                         "results": {
-                            "_hope": "With Hope",
-                            "_fear": "With Fear",
-                            "_critical": "Critical"
+                            "hope": "Con Esperanza",
+                            "fear": "Con Miedo",
+                            "critical": "Crítico"
                         }
                     },
                     "gmRoll": {
-                        "_label": "GM Roll",
+                        "label": "Tirada del DJ",
                         "results": {
-                            "_critical": "Critical"
+                            "critical": "Crítico"
                         }
                     }
                 }
             },
             "EvolutionState": {
-                "_unevolved": "Unevolved",
-                "_evolved": "Evolved"
+                "unevolved": "Sin evolucionar",
+                "evolved": "Evolucionado"
             },
             "LevelupData": {
-                "_checkboxSelections": "Checkboxes",
-                "_minCost": "Minimum Boxes Picked"
+                "checkboxSelections": "Casillas",
+                "minCost": "Mínimo de casillas seleccionadas"
             },
             "Resources": {
                 "optionalResources": {
-                    "_favor": "Favor",
-                    "_focus": "Focus"
+                    "favor": "Favor",
+                    "focus": "Foco"
                 }
             },
             "GroupActionSelectionType": {
-                "_selected": "Selected",
-                "_randomized": "Randomized"
+                "selected": "Seleccionados",
+                "randomized": "Aleatorio"
             },
             "TraitsSpecial": {
-                "_spellcast": "Spellcast Trait",
-                "_highest": "Best Trait"
+                "spellcast": "Atributo de lanzamiento de conjuros",
+                "highest": "Mejor atributo"
             }
         },
         "EFFECTS": {
@@ -2915,43 +2915,43 @@
                         },
                         "value": {
                             "current": {
-                                "_label": "Marked Armor Slots"
+                                "label": "Espacios de armadura marcados"
                             },
                             "max": {
-                                "_label": "Armor Score"
+                                "label": "Puntuación de armadura"
                             }
                         }
                     },
-                    "_name": "Armor"
+                    "name": "Armadura"
                 },
                 "standardAttack": {
-                    "_name": "Standard Attack",
+                    "name": "Ataque estándar",
                     "FIELDS": {
-                        "_damageFormula": "Damage Formula",
-                        "_damageTypes": "Damage Types",
-                        "_attackRange": "Attack Range",
-                        "_img": "Attack Image",
-                        "_name": "Attack Name",
-                        "_trait": "Attack Trait"
+                        "damageFormula": "Fórmula de daño",
+                        "damageTypes": "Tipos de daño",
+                        "attackRange": "Alcance del ataque",
+                        "img": "Imagen del ataque",
+                        "name": "Nombre del ataque",
+                        "trait": "Atributo de ataque"
                     }
                 }
             },
             "OriginTag": "Origen: {name}",
-            "_AddChange": "Add Change",
+            "AddChange": "Añadir cambio",
             "Conditionals": {
-                "_phase": "Phase",
-                "_failureMode": "Failure Mode",
+                "phase": "Fase",
+                "failureMode": "Modo de fallo",
                 "dataCompare": {
-                    "_comparator": "Comparator"
+                    "comparator": "Comparador"
                 },
                 "weaponRestriction": {
-                    "_weaponType": "Weapon Type"
+                    "weaponType": "Tipo de arma"
                 },
                 "actionType": {
-                    "_actionTypes": "Action Types"
+                    "actionTypes": "Tipos de acción"
                 },
                 "damageType": {
-                    "_damageType": "Damage Type"
+                    "damageType": "Tipo de daño"
                 }
             }
         },
@@ -3107,8 +3107,8 @@
                     "description": "Este es el dominio de la protección. Ya sea mediante ataque o defensa, aquellos que eligen esta disciplina canalizan fuerza formidable para proteger a sus aliados en batalla. Valor ofrece gran poder a aquellos que levantan su escudo en defensa de otros."
                 },
                 "dread": {
-                    "_label": "Dread",
-                    "_description": "Dread is the domain of nightmares and fear. Those who choose this path can call forth monstrosities, enfeeble their foes, and channel terrifying magic to destroy their enemies. Dread grants its adherents power over forces most are too afraid to employ."
+                    "label": "Pavor",
+                    "description": "Este es el dominio de las pesadillas y el miedo. Aquellos que eligen este sendero pueden invocar monstruosidades, debilitar a sus enemigos y canalizar magia aterradora para destruirlos. El Pavor otorga a sus adeptos poder sobre fuerzas que la mayoría teme emplear."
                 }
             },
             "Effect": {
@@ -3290,7 +3290,7 @@
                 "deathMoves": "Movimiento de muerte",
                 "sources": "Orígenes",
                 "packs": "Packs",
-                "_conditionals": "Conditionals"
+                "conditionals": "Condicionales"
             },
             "Tiers": {
                 "1": "Rango 1",
@@ -3298,7 +3298,7 @@
                 "3": "Rango 3",
                 "4": "Rango 4",
                 "singular": "Rango",
-                "_typed": "Tier {tier} {type}"
+                "typed": "Rango {tier} {type}"
             },
             "Trait": {
                 "single": "Atributo",
@@ -3424,7 +3424,7 @@
             "player": {
                 "single": "Jugador",
                 "plurial": "Jugadores",
-                "_plural": "Players"
+                "plural": "Jugadores"
             },
             "refresh": "Refrescar",
             "spent": "Gastar",
@@ -3483,16 +3483,16 @@
             "saveSettings": "Guardar ajustes",
             "searchPlaceholder": "Buscar...",
             "Transformation": {
-                "_single": "Transformation",
-                "_plural": "Transformations"
+                "single": "Transformación",
+                "plural": "Transformaciones"
             },
-            "_immune": "Immune",
-            "_key": "Key",
-            "_missingItemDescription": "The referenced item no longer exists",
-            "_opacity": "Opacity",
-            "_resistant": "Resistant",
-            "_spellcastTrait": "Spellcast Trait",
-            "_subType": "Subtype"
+            "immune": "Inmune",
+            "key": "Clave",
+            "missingItemDescription": "El objeto referenciado ya no existe",
+            "opacity": "Opacidad",
+            "resistant": "Resistente",
+            "spellcastTrait": "Atributo de lanzamiento de conjuros",
+            "subType": "Subtipo"
         },
         "ITEMS": {
             "FIELDS": {
@@ -3533,7 +3533,7 @@
                         "label": "Artista"
                     },
                     "campaignFrame": {
-                        "_label": "Campaign Frame"
+                        "label": "Marco de campaña"
                     }
                 },
                 "identifier": {
@@ -3543,8 +3543,8 @@
                     "label": "Notas del DJ"
                 },
                 "loreReference": {
-                    "_label": "Lore Reference",
-                    "_hint": "Path or id of full description journal page"
+                    "label": "Referencia de trasfondo",
+                    "hint": "Ruta o id de la página de diario con la descripción completa"
                 }
             },
             "Ancestry": {
@@ -3607,13 +3607,13 @@
                             "label": "Bonificador de Atributo Principal"
                         },
                         "damageBonus": {
-                            "_label": "Damage Bonus"
+                            "label": "Bonificador de daño"
                         },
                         "evasionBonus": {
-                            "_label": "Evasion Bonus"
+                            "label": "Bonificador de evasión"
                         },
                         "increaseDamageDice": {
-                            "_label": "Damage Dice Size Increases"
+                            "label": "Aumentos de tamaño de dados de daño"
                         }
                     },
                     "hybrid": {
@@ -3693,32 +3693,32 @@
                     "full": "Arma secundaria",
                     "short": "Secundaria"
                 },
-                "_configureAttack": "Configure Attack"
+                "configureAttack": "Configurar ataque"
             },
             "Community": {
                 "featuresLabel": "Rasgo de comunidad"
             },
             "Base": {
                 "addGMNote": "Añadir nota del DJ",
-                "_viewReference": "View Full Details",
+                "viewReference": "Ver detalles completos",
                 "Refresh": {
-                    "_Title": "Refresh From Compendium",
-                    "_AreYouSure": "Are you sure you want to refresh this item with new contents?",
+                    "Title": "Actualizar desde el compendio",
+                    "AreYouSure": "¿Seguro que quieres actualizar este objeto con el nuevo contenido?",
                     "Error": {
-                        "_doesNotExist": "This document does not have a copy in the compendium",
-                        "_invalidTier": "This document is of a different tier than the source, and was likely re-tiered",
-                        "_invalidType": "The source document is the incorrect type"
+                        "doesNotExist": "Este documento no tiene una copia en el compendio",
+                        "invalidTier": "Este documento es de un rango diferente al de origen y probablemente se le cambió el rango",
+                        "invalidType": "El documento de origen es del tipo incorrecto"
                     }
                 }
             },
             "Feature": {
-                "_activeWhenEvolved": "Active When Evolved",
-                "_evolutionFeature": "Evolution Feature",
-                "_evolutionLocked": "Features with an evolution action must be of evolution type",
-                "_actorResources": "Actor Resources"
+                "activeWhenEvolved": "Activo al evolucionar",
+                "evolutionFeature": "Rasgo de evolución",
+                "evolutionLocked": "Los rasgos con una acción de evolución deben ser de tipo evolución",
+                "actorResources": "Recursos del actor"
             },
             "Transformation": {
-                "_featuresLabel": "Transformation Features"
+                "featuresLabel": "Rasgos de transformación"
             }
         },
         "SETTINGS": {
@@ -3779,7 +3779,7 @@
                         "label": "Posición del Miedo"
                     },
                     "tooltipCardTheme": {
-                        "_label": "Tooltip Card Theme"
+                        "label": "Tema de la tarjeta de descripción"
                     }
                 },
                 "fearDisplay": {
@@ -3962,14 +3962,14 @@
                     },
                     "domains": {
                         "color": {
-                            "_label": "Banner Color"
+                            "label": "Color del estandarte"
                         },
                         "invertText": {
-                            "_label": "Invert Text Color"
+                            "label": "Invertir color del texto"
                         }
                     },
                     "tokenSizes": {
-                        "_label": "Token Sizes"
+                        "label": "Tamaños de token"
                     }
                 },
                 "currency": {
@@ -4094,8 +4094,8 @@
                             "label": "Fichas"
                         },
                         "automation": {
-                            "_label": "Automation",
-                            "_hint": "Automatically give and take Action Points as combatants take their turns."
+                            "label": "Automatización",
+                            "hint": "Otorga y quita Puntos de Acción automáticamente a medida que los combatientes toman sus turnos."
                         }
                     },
                     "massiveDamage": {
@@ -4173,11 +4173,11 @@
                     "hitTarget": "Golpear",
                     "selectedTarget": "Seleccionado",
                     "currentTarget": "Actual",
-                    "_targetingInitial": "Targets",
-                    "_targetingSelected": "Selected",
-                    "_totalTargetedTokens": "{total} Selected",
-                    "_noTokensSelected": "No Tokens Selected",
-                    "_setSelectedAsTargets": "Set Selected As Targets"
+                    "targetingInitial": "Objetivos",
+                    "targetingSelected": "Seleccionados",
+                    "totalTargetedTokens": "{total} seleccionados",
+                    "noTokensSelected": "Ningún token seleccionado",
+                    "setSelectedAsTargets": "Establecer los seleccionados como objetivos"
                 },
                 "deathMove": {
                     "title": "Movimiento de muerte",
@@ -4218,7 +4218,7 @@
                 "damageSummary": {
                     "title": "Daño aplicado",
                     "healingTitle": "Curación aplicada",
-                    "_undoDamage": "Undo {type}"
+                    "undoDamage": "Deshacer {type}"
                 },
                 "effectSummary": {
                     "title": "Efectos aplicados",
@@ -4236,9 +4236,9 @@
                 "saveRoll": {
                     "reactionRollAllTargets": "Tirada de reacción para todos los objetivos"
                 },
-                "_clearResourceFully": "Fully Clear {resource}",
-                "_reloadWeapon": "Reload {weapon}",
-                "_restoreWeaponResource": "Restore {quantity} on {weapon}"
+                "clearResourceFully": "Limpiar por completo {resource}",
+                "reloadWeapon": "Recargar {weapon}",
+                "restoreWeaponResource": "Restaurar {quantity} en {weapon}"
             },
             "Notifications": {
                 "adversaryMissing": "El adversario vinculado no existe en el mundo.",
@@ -4323,10 +4323,10 @@
                 "behaviorRegionRequiresGM": "Crear una Región con un Comportamiento adjunto requiere un DJ conectado",
                 "comboDiceOnlyTwoDiceError": "La funcionalidad de dados combinados solo funciona con un único par de dos dados",
                 "reloadRequired": "¡El {weapon} debe recargarse para poder usarse!",
-                "_noTargetsHit": "No targets are hit",
-                "_limitedActorsInPartySheet": "You can only drag actors of type {allowedTypes} to the party sheet.",
-                "_partnerRequired": "A partner must be assigned to use this action.",
-                "_actorMissing": "The actor {actorName} could not be dealt damage as it no longer exists"
+                "noTargetsHit": "No se golpea a ningún objetivo",
+                "limitedActorsInPartySheet": "Solo puedes arrastrar actores de tipo {allowedTypes} a la hoja de grupo.",
+                "partnerRequired": "Debe asignarse un compañero para usar esta acción.",
+                "actorMissing": "No se pudo infligir daño al actor {actorName} porque ya no existe"
             },
             "Tooltip": {
                 "disableEffect": "Deshabilitar Efecto",
@@ -4360,11 +4360,11 @@
                 "previewTokenHelp": "Haz clic izquierdo para colocar, haz clic derecho para cancelar.",
                 "rightClickExtend": "Click derecho para extender",
                 "edit": "Editar",
-                "_configureLevelupOptions": "Configure Levelup Options",
+                "configureLevelupOptions": "Configurar opciones de subida de nivel",
                 "suppressedEffect": {
-                    "_general": "This effect is suppressed",
-                    "_invalid": "This effect is suppressed due to conditionals",
-                    "_unequipped": "This effect is suppressed because this item is not equipped"
+                    "general": "Este efecto está suprimido",
+                    "invalid": "Este efecto está suprimido debido a los condicionales",
+                    "unequipped": "Este efecto está suprimido porque este objeto no está equipado"
                 }
             },
             "ChatLog": {
@@ -4379,11 +4379,11 @@
                 "loop": "Repetición",
                 "decreasingLoop": "Repetición decreciente",
                 "increasingLoop": "Repetición creciente",
-                "_hidden": "This countdown is hidden to all players.",
-                "_hiddenPartial": "This countdown is hidden to players except {players}.",
-                "_reveal": "Reveal Countdown",
-                "_hide": "Hide Countdown",
-                "_inherit": "Base"
+                "hidden": "Este contador está oculto para todos los jugadores.",
+                "hiddenPartial": "Este contador está oculto para los jugadores excepto {players}.",
+                "reveal": "Revelar contador",
+                "hide": "Ocultar contador",
+                "inherit": "Base"
             },
             "ItemBrowser": {
                 "title": "Navegador de Compendio de Daggerheart",
@@ -4423,7 +4423,7 @@
                     "armors": "Armaduras",
                     "consumables": "Consumibles",
                     "loots": "Botines",
-                    "_transformations": "Transformations"
+                    "transformations": "Transformaciones"
                 },
                 "missing": "<i>Falta</i>",
                 "browserSettings": "Configuración del explorador",
@@ -4485,6 +4485,6 @@
         }
     },
     "SETTINGS": {
-        "_GridDiagonalsL": "Configure how diagonal distance is measured on square and hexagonal grids. The number in parentheses defines the length of diagonals in units of grid spaces under each option. This option has no effect on daggerheart range measurements (close/far/etc)."
+        "GridDiagonalsL": "Configura cómo se mide la distancia diagonal en cuadrículas cuadradas y hexagonales. El número entre paréntesis define la longitud de las diagonales en unidades de casillas para cada opción. Esta opción no afecta a las mediciones de distancia de Daggerheart (cerca/lejos/etc.)."
     }
 }
