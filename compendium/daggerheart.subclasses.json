@@ -1,16 +1,28 @@
 {
 	"label": "Subclases",
 	"folders": {
-		"Subclass Features": "Rasgos de subclase",
-		"Seraph": "Serafín",
+        "Tier 1": "Categoría 1",
+        "Tier 2": "Categoría 2",
+        "Tier 3": "Categoría 3",
+        "Tier 4": "Categoría 4",
 		"Bard": "Bardo",
-		"Druid": "Druida",
-		"Guardian": "Guardián",
-		"Ranger": "Explorador",
-		"Rogue": "Pícaro",
-		"Warrior": "Guerrero",
-		"Wizard": "Mago",
-		"Sorcerer": "Hechicero"
+        "Druid": "Druida",
+        "Guardian": "Guardián",
+        "Ranger": "Explorador",
+        "Rogue": "Pícaro",
+        "Warrior": "Guerrero",
+        "Seraph": "Serafín",
+        "Wizard": "Mago",
+        "Sorcerer": "Hechicero",
+        "Assassin": "Asesino",
+        "Brawler": "Peleador",
+        "Warlock": "Ocultista",
+        "Witch": "Bruja",
+        "Foundation Features": "Rasgos Fundamentales",
+        "Specialization Features": "Rasgos de Especialización",
+        "Mastery Features": "Rasgos de Maestría",
+        "Martial Stances": "Posturas Marciales",
+        "Subclass Features": "Rasgos de Subclase"
 	},
 	"entries": {
 		"Troubadour": {
@@ -66,6 +78,878 @@
 		},
 		"School of War": {
 			"name": "Escuela de la guerra"
-		}
+		},
+		"Otherworldly Ire": {
+            "name": "Ira de Otro Mundo"
+        },
+        "Accomplished": {
+            "name": "Consumado"
+        },
+        "Slayer": {
+            "name": "Aniquilador"
+        },
+        "Thrive in Chaos": {
+            "name": "Prosperar en el Caos"
+        },
+        "Backstab": {
+            "name": "Puñalada Trapera"
+        },
+        "Brilliant": {
+            "name": "Brillante"
+        },
+        "Warden's Protection": {
+            "name": "Protección del Guardián"
+        },
+        "Elemental Aura": {
+            "name": "Aura Elemental",
+            "effects": {
+                "Elemental Aura (Water)": {
+                    "name": "Aura Elemental (Agua)"
+                },
+                "Elemental Aura (Fire)": {
+                    "name": "Aura Elemental (Fuego)"
+                },
+                "Elemental Aura: Earth": {
+                    "name": "Aura Elemental: Tierra",
+                    "description": "<p>Tus aliados obtienen una bonificación de +1 a Fuerza.</p>",
+                    "changes": {
+                        "system.traits.strength.value": 1
+                    }
+                },
+                "Elemental Aura: Air": {
+                    "name": "Aura Elemental: Aire",
+                    "description": "<p>Cuando tú o un aliado recibís daño de un ataque fuera del rango Cuerpo a cuerpo, reduce el daño en 1d8.</p>"
+                }
+            }
+        },
+        "Overwhelm": {
+            "name": "Abrumar"
+        },
+        "Crushing": {
+            "name": "Aplastante",
+            "effects": {
+                "Stance: Crushing": {
+                    "name": "Postura: Aplastante",
+                    "description": "<p>Cuando infliges daño Grave, puedes <strong>gastar una Esperanza</strong> para obligar al objetivo a marcar un Punto de Golpe adicional.</p>"
+                }
+            }
+        },
+        "Vigilant": {
+            "name": "Vigilante",
+            "effects": {
+                "Stance: Vigilant": {
+                    "name": "Postura: Vigilante",
+                    "description": "<p>Cuando eres objetivo de un ataque, puedes <strong>marcar un Estrés</strong> para obtener una bonificación de <strong>d6</strong> a tu Evasión contra dicho ataque.</p>"
+                }
+            }
+        },
+        "Enchanted Talisman": {
+            "name": "Talismán Encantado"
+        },
+        "Enchanted Aid": {
+            "name": "Auxilio Encantado"
+        },
+        "Unrelenting": {
+            "name": "Implacable",
+            "effects": {
+                "Unrelenting": {
+                    "name": "Implacable",
+                    "description": "<p>Obtén una bonificación permanente de +2 a tus umbrales de daño.</p>",
+                    "changes": {
+                        "system.damageThresholds.major": 2,
+                        "system.damageThresholds.severe": 2
+                    }
+                }
+            }
+        },
+        "Poisoners Guild": {
+            "name": "Gremio de Envenenadores"
+        },
+        "School Of War": {
+            "name": "Escuela de Guerra"
+        },
+        "Eloquent": {
+            "name": "Elocuente"
+        },
+        "Lunar Phases": {
+            "name": "Fases Lunares",
+            "effects": {
+                "Waxing": {
+                    "name": "Creciente",
+                    "description": "<p>+2 a las tiradas de daño</p>",
+                    "changes": {
+                        "system.bonuses.damage.bonus": 2
+                    }
+                },
+                "Full": {
+                    "name": "Llena",
+                    "description": "<p>+3 a los umbrales de daño</p>",
+                    "changes": {
+                        "system.damageThresholds.major": 3,
+                        "system.damageThresholds.severe": 3
+                    }
+                },
+                "Waning": {
+                    "name": "Menguante",
+                    "description": "<p>+1 a la Evasión</p>",
+                    "changes": {
+                        "system.evasion": 1
+                    }
+                }
+            }
+        },
+        "Iron Will": {
+            "name": "Voluntad de Hierro",
+            "effects": {
+                "Iron Will": {
+                    "name": "Voluntad de Hierro",
+                    "description": "<p>Cuando recibes daño físico, puedes <strong>marcar una Ranura de Armadura adicional</strong> para reducir la gravedad.</p>",
+                    "changes": {
+                        "system.rules.damageReduction.maxArmorMarked.value": 1
+                    }
+                }
+            }
+        },
+        "Well-Connected": {
+            "name": "Bien Conectado"
+        },
+        "Hedge": {
+            "name": "Zarzal"
+        },
+        "Undaunted": {
+            "name": "Intrépido",
+            "effects": {
+                "Undaunted": {
+                    "name": "Intrépido",
+                    "description": "<p>Obtén una bonificación permanente de +3 a tus umbrales de daño.</p>",
+                    "changes": {
+                        "system.damageThresholds.severe": 3,
+                        "system.damageThresholds.major": 3
+                    }
+                }
+            }
+        },
+        "Draining Bane": {
+            "name": "Maldición Drenadora",
+            "effects": {
+                "Drained": {
+                    "name": "Drenado",
+                    "description": "<p>Mientras esté <em>Drenado</em>, el objetivo usa un <strong>d12</strong> en lugar de un d20 para las tiradas de ataque (incluyendo para ventaja o desventaja) hasta que falle una tirada.</p>"
+                }
+            }
+        },
+        "Have No Fear": {
+            "name": "Sin Miedo"
+        },
+        "Gifted Performer": {
+            "name": "Intérprete Dotado",
+            "effects": {
+                "Epic Song": {
+                    "name": "Canción Épica",
+                    "description": "<p>Vuelve temporalmente Vulnerable a un objetivo en rango Cercano.</p>"
+                }
+            }
+        },
+        "Juggernaut": {
+            "name": "Juggernaut"
+        },
+        "Ire of Pale Light": {
+            "name": "Ira de Luz Pálida"
+        },
+        "First Strike": {
+            "name": "Primer Golpe"
+        },
+        "Heart of a Poet": {
+            "name": "Corazón de Poeta"
+        },
+        "Elusive Predator": {
+            "name": "Depredador Elusivo",
+            "effects": {
+                "Elusive Predator": {
+                    "name": "Depredador Elusivo",
+                    "description": "<p>Cuando tu Foco te ataque, obtienes una bonificación de +2 a tu Evasión contra el ataque.</p>",
+                    "changes": {
+                        "system.evasion": 2
+                    }
+                }
+            }
+        },
+        "True Strike": {
+            "name": "Golpe Verdadero"
+        },
+        "Face Your Fear": {
+            "name": "Enfréntate a tu Miedo"
+        },
+        "Deadly Vengeance": {
+            "name": "Venganza Mortal"
+        },
+        "Nemesis": {
+            "name": "Némesis",
+            "effects": {
+                "Nemesis": {
+                    "name": "Némesis",
+                    "description": "<p>Cuando realices un ataque contra tu adversario Priorizado, puedes intercambiar los resultados de tus dados de Esperanza y Miedo. Solo puedes priorizar a un adversario a la vez.</p>"
+                }
+            }
+        },
+        "Sacred Resonance": {
+            "name": "Resonancia Sagrada"
+        },
+        "Elemental Dominion": {
+            "name": "Dominio Elemental",
+            "effects": {
+                "Elemental Dominion (Fire)": {
+                    "name": "Dominio Elemental (Fuego)",
+                    "description": "<p>Obtienes una bonificación de +1 a tu Competencia para ataques y conjuros que inflijan daño.</p>",
+                    "changes": {
+                        "system.proficiency": 1
+                    }
+                },
+                "Elemental Dominion (Water)": {
+                    "name": "Dominio Elemental (Agua)",
+                    "description": "<p>Cuando un ataque en tu contra tenga éxito, puedes marcar un Estrés para volver temporalmente Vulnerable al atacante.</p>"
+                },
+                "Elemental Dominion (Air)": {
+                    "name": "Dominio Elemental (Aire)",
+                    "description": "<p>Obtienes una bonificación de +1 a tu Evasión y puedes volar</p>",
+                    "changes": {
+                        "system.evasion": 1
+                    }
+                },
+                "Elemental Dominion (Earth)": {
+                    "name": "Dominio Elemental (Tierra)"
+                }
+            }
+        },
+        "Stance Fighter": {
+            "name": "Luchador de Posturas"
+        },
+        "Fleeting Shadow": {
+            "name": "Sombra Fugaz",
+            "effects": {
+                "Fleeting Shadow": {
+                    "name": "Sombra Fugaz",
+                    "description": "<p>Obtén una bonificación permanente de +1 a tu Evasión. Puedes usar tu característica \"Pisador de Sombras\" para moverte dentro de un rango Muy lejano.</p>",
+                    "changes": {
+                        "system.evasion": 1
+                    }
+                }
+            }
+        },
+        "Executioners Guild": {
+            "name": "Gremio de Verdugos"
+        },
+        "Partner-in-Arms": {
+            "name": "Compañero de Armas"
+        },
+        "Sparing Touch": {
+            "name": "Toque Piadoso"
+        },
+        "Weapon Specialist": {
+            "name": "Especialista en Armas"
+        },
+        "Herbal Remedies": {
+            "name": "Remedios Herbolarios"
+        },
+        "Perfect Recall": {
+            "name": "Memoria Perfecta"
+        },
+        "Devout": {
+            "name": "Devoto"
+        },
+        "Defender": {
+            "name": "Defensor"
+        },
+        "Otherwordly": {
+            "name": "Otromundano",
+            "effects": {
+                "Stance: Otherwordly": {
+                    "name": "Postura: Otromundana",
+                    "description": "<p>En un ataque exitoso, puedes infligir daño físico o mágico.</p>"
+                }
+            }
+        },
+        "Patron's Fury": {
+            "name": "Furia del Patrón",
+            "effects": {
+                "Patron's Fury": {
+                    "name": "Furia del Patrón",
+                    "description": "<p>Cuando tires daño mientras este efecto esté activo, también tiras una cantidad de dados de Patrón igual a tu rango y sumas su total al daño infligido.</p>"
+                }
+            }
+        },
+        "Regeneration": {
+            "name": "Regeneración"
+        },
+        "Wings of Light": {
+            "name": "Alas de Luz",
+            "effects": {
+                "Wings of Light": {
+                    "name": "Alas de Luz",
+                    "description": "<p>Inflige 1d8 de daño adicional en un ataque exitoso.</p>",
+                    "changes": {
+                        "system.bonuses.damage.dice": "1d8"
+                    }
+                }
+            }
+        },
+        "Moonbeam": {
+            "name": "Rayo de Luna",
+            "effects": {
+                "Moonbeam": {
+                    "name": "Rayo de Luna",
+                    "description": "<p>Mientras estéis bañados por esta luz lunar, tú y vuestros aliados obtenéis una bonificación de +1 a las <strong>tiradas de Lanzamiento de Conjuros</strong> y podéis ver a través de las ilusiones.</p>",
+                    "changes": {
+                        "system.bonuses.roll.bonus": 1
+                    }
+                }
+            }
+        },
+        "Patron's Mantle": {
+            "name": "Manto del Patrón",
+            "effects": {
+                "Patron's Mantle": {
+                    "name": "Manto del Patrón",
+                    "description": "<p>Mientras este efecto esté activo, obtienes una bonificación a tus umbrales de daño igual a tu rango y tienes ventaja en las tiradas de acción para intimidar a un objetivo.</p>",
+                    "changes": {
+                        "system.damageThresholds.major": "@system.tier",
+                        "system.damageThresholds.severe": "@system.tier",
+                        "system.advantageSources": "Tiradas de acción para intimidar a un objetivo"
+                    }
+                }
+            }
+        },
+        "Companion": {
+            "name": "Compañero"
+        },
+        "Diminish My Foes": {
+            "name": "Disminuir a mis Enemigos"
+        },
+        "Spirit Weapon": {
+            "name": "Arma Espiritual"
+        },
+        "Surrounded": {
+            "name": "Rodeado"
+        },
+        "Rousing Speech": {
+            "name": "Discurso Animador"
+        },
+        "Isolating": {
+            "name": "Aislante",
+            "effects": {
+                "Stance: Isolating": {
+                    "name": "Postura: Aislante",
+                    "description": "<p>Obtén ventaja en las tiradas de ataque cuando no haya otras criaturas en rango Muy cercano de ti o de tu objetivo.</p>",
+                    "changes": {
+                        "system.advantageSources": "Tiradas de ataque cuando no hay otras criaturas en rango Muy cercano de ti o de tu objetivo"
+                    }
+                }
+            }
+        },
+        "Reliable Backup": {
+            "name": "Respaldo Confiable"
+        },
+        "Martial Artist": {
+            "name": "Artista Marcial"
+        },
+        "Ruthless Predator": {
+            "name": "Depredador Despiadado",
+            "effects": {
+                "Ruthless Predator": {
+                    "name": "Depredador Despiadado",
+                    "description": "<p>Cuando realices una tirada de daño, puedes marcar un Estrés para obtener una bonificación de +1 a tu Competencia. Además, cuando infliges daño Grave a un adversario, este debe marcar un Estrés.</p>",
+                    "changes": {
+                        "system.proficiency": 1
+                    }
+                }
+            }
+        },
+        "Aggressive": {
+            "name": "Agresivo",
+            "effects": {
+                "Stance: Aggressive": {
+                    "name": "Postura: Agresiva",
+                    "description": "<p>Obtén un penalizador de -1 a tu Evasión. En un ataque exitoso, tira un dado de daño adicional y descarta el resultado más bajo.</p>",
+                    "changes": {
+                        "system.evasion": 1
+                    }
+                }
+            }
+        },
+        "Poison Compendium": {
+            "name": "Compendio de Venenos",
+            "effects": {
+                "Midnight Vine": {
+                    "name": "Enredadera de Medianoche",
+                    "description": "<p>El objetivo tiene desventaja en las tiradas de ataque hasta que marque un Estrés para eliminar esta condición.</p>",
+                    "changes": {
+                        "system.disadvantageSources": "Tiradas de Ataque"
+                    }
+                },
+                "Gorgon Root": {
+                    "name": "Raíz de Gorgona"
+                }
+            }
+        },
+        "Menacing Reach": {
+            "name": "Alcance Amenazante",
+            "effects": {
+                "Menacing Reach": {
+                    "name": "Alcance Amenazante",
+                    "description": "<p>El rango de tu arma principal aumenta un paso (como de Cuerpo a cuerpo a Muy cercano o de Muy cercano a Cercano) hasta un máximo de rango Muy lejano. Este efecto termina cuando realizas un ataque exitoso con esa arma.</p>"
+                }
+            }
+        },
+        "Natural Evasion": {
+            "name": "Evasión Natural"
+        },
+        "Pact of the Wrathful": {
+            "name": "Pacto del Iraundo"
+        },
+        "Manipulate Magic": {
+            "name": "Manipular Magia"
+        },
+        "Toxic Concoctions": {
+            "name": "Brebajes Tóxicos",
+            "effects": {
+                "Ghost Petal": {
+                    "name": "Pétalo Fantasmal",
+                    "description": "<p>El objetivo se vuelve temporalmente <em>Vulnerable</em>.</p>"
+                }
+            }
+        },
+        "Walk Between Worlds": {
+            "name": "Caminar entre Mundos"
+        },
+        "Circle of Power": {
+            "name": "Círculo de Poder",
+            "effects": {
+                "Circle of Power": {
+                    "name": "Círculo de Poder",
+                    "description": "<p>Mientras estéis dentro de este círculo, tú y vuestros aliados obtenéis una bonificación de +2 a los umbrales de daño, las tiradas de ataque y la Evasión. Retira una ficha cada vez que tú o un aliado dentro del círculo realicéis una tirada de acción o evadáis un ataque. Este hechizo dura hasta que se retira la última ficha o salís del círculo.</p>",
+                    "changes": {
+                        "system.damageThresholds.major": 2,
+                        "system.damageThresholds.severe": 2,
+                        "system.evasion": 2,
+                        "system.bonuses.roll.bonus": 2
+                    }
+                }
+            }
+        },
+        "Favored": {
+            "name": "Favorecido",
+            "effects": {
+                "Stance: Favored": {
+                    "name": "Postura: Favorecida",
+                    "description": "<p>Obtén una bonificación a las tiradas de daño igual a un rasgo de tu elección.</p>",
+                    "changes": {
+                        "system.bonuses.damage.bonus": "@system.traits.instinct.value"
+                    }
+                }
+            }
+        },
+        "Venomancer": {
+            "name": "Venomante",
+            "effects": {
+                "Blight Seed": {
+                    "name": "Semilla de Plaga",
+                    "description": "<p>El objetivo obtiene un penalizador de -3 a sus umbrales de daño hasta el final de la escena. Este efecto no se puede acumular.</p>",
+                    "changes": {
+                        "system.damageThresholds.major": "@stacks",
+                        "system.damageThresholds.severe": "@stacks"
+                    }
+                },
+                "Corpse Thorn": {
+                    "name": "Espina de Cadáver",
+                    "description": "<p>El objetivo obtiene desventaja en las tiradas de reacción hasta el final de la escena.</p>",
+                    "changes": {
+                        "system.disadvantageSources": "Tiradas de Reacción"
+                    }
+                }
+            }
+        },
+        "Unwavering": {
+            "name": "Inquebrantable",
+            "effects": {
+                "Unwavering": {
+                    "name": "Inquebrantable",
+                    "description": "<p>Obtén una bonificación permanente de +1 a tus umbrales de daño.</p>",
+                    "changes": {
+                        "system.damageThresholds.major": 1,
+                        "system.damageThresholds.severe": 1
+                    }
+                }
+            }
+        },
+        "Ambush": {
+            "name": "Emboscada"
+        },
+        "Battlemage": {
+            "name": "Mago de Batalla",
+            "effects": {
+                "Battlemage": {
+                    "name": "Mago de Batalla",
+                    "description": "<p>Obtén una ranura de Puntos de Golpe adicional.</p>",
+                    "changes": {
+                        "system.resources.hitPoints.max": 1
+                    }
+                }
+            }
+        },
+        "Defensive": {
+            "name": "Defensivo",
+            "effects": {
+                "Stance: Defensive": {
+                    "name": "Postura: Defensiva",
+                    "description": "<p>Las tiradas de ataque dirigidas contra ti desde el rango Cuerpo a cuerpo tienen desventaja a menos que el atacante marque un Estrés para anular la desventaja.</p>"
+                }
+            }
+        },
+        "Prepared": {
+            "name": "Preparado"
+        },
+        "Power of the Gods": {
+            "name": "Poder de los Dioses"
+        },
+        "Night's Glamour": {
+            "name": "Glamur de la Noche",
+            "effects": {
+                "Glamoured": {
+                    "name": "Glamurizado",
+                    "description": "<p>Mientras estés <em>Glamurizado</em>, tienes ventaja en las tiradas que aprovechen tu apariencia ilusoria. Además, los adversarios en rango Cercano deben marcar un Estrés para atacarte.</p><p>A menos que <strong>marques un Estrés</strong> para mantener tu <em>Glamur</em>, este se disipa cuando marcas un Punto de Golpe o infliges daño.</p>",
+                    "changes": {
+                        "system.advantageSources": "Tiradas que aprovechan tu apariencia ilusoria"
+                    }
+                }
+            }
+        },
+        "Maestro": {
+            "name": "Maestro"
+        },
+        "Honed": {
+            "name": "Pulido",
+            "effects": {
+                "Stance: Honed": {
+                    "name": "Postura: Pulida",
+                    "description": "<p><strong>Gasta un Foco</strong> antes de realizar una tirada de ataque para obtener una bonificación de +1 a tu Competencia en ese ataque.</p>"
+                },
+                "Honed": {
+                    "name": "Pulido",
+                    "description": "<p>Obtén una bonificación de +1 a tu Competencia para ese ataque.</p>",
+                    "changes": {
+                        "system.proficiency": 1
+                    }
+                }
+            }
+        },
+        "Harrowing Invocation": {
+            "name": "Invocación Desgarradora"
+        },
+        "Grappling": {
+            "name": "Agarre",
+            "effects": {
+                "Stance: Grappling": {
+                    "name": "Postura: Agarre",
+                    "description": "<p>En un ataque exitoso dentro del rango Cuerpo a cuerpo, puedes <strong>gastar un Foco</strong> o <strong>marcar un Estrés</strong> para <em>Retener</em> temporalmente al objetivo o arrojarlo hasta un rango Cercano.</p>"
+                },
+                "Grabbed": {
+                    "name": "Atrapado"
+                }
+            }
+        },
+        "Scary": {
+            "name": "Temible",
+            "effects": {
+                "Stance: Scary": {
+                    "name": "Postura: Temible",
+                    "description": "<p>En un ataque exitoso, el objetivo debe marcar un Estrés.</p>"
+                }
+            }
+        },
+        "Quick": {
+            "name": "Ágil",
+            "effects": {
+                "Stance: Quick": {
+                    "name": "Postura: Ágil",
+                    "description": "<p>Cuando realices un ataque, puedes gastar un Foco o <strong>marcar un Estrés</strong> para atacar a otra criatura dentro de rango con ese mismo ataque.</p>"
+                }
+            }
+        },
+        "Contacts Everywhere": {
+            "name": "Contactos en Todas Partes"
+        },
+        "Comaraderie": {
+            "name": "Camaradería"
+        },
+        "Martial Preparation": {
+            "name": "Preparación Marcial"
+        },
+        "Elementalist": {
+            "name": "Elementalista",
+            "effects": {
+                "Bonus to Roll": {
+                    "name": "Bonificación a la Tirada",
+                    "description": "<p>+2 a una tirada de acción</p>",
+                    "changes": {
+                        "system.bonuses.roll.bonus": 2
+                    }
+                },
+                "Bonus to Damage": {
+                    "name": "Bonificación al Daño",
+                    "description": "<p>+3 al daño</p>",
+                    "changes": {
+                        "system.bonuses.damage.bonus": 3
+                    }
+                }
+            }
+        },
+        "Rise to the Challenge": {
+            "name": "Estar a la Altura del Desafío",
+            "effects": {
+                "Rise To The Challenge": {
+                    "name": "Estar a la Altura del Desafío",
+                    "description": "<p>Te mantienes vigilante ante el peligro creciente. Mientras tengas 2 o menos Puntos de Golpe sin marcar, puedes tirar un <strong>d20</strong> como tu Dado de Esperanza.</p>",
+                    "changes": {
+                        "system.rules.dualityRoll.defaultHopeDice": 20
+                    }
+                }
+            }
+        },
+        "Epic Poetry": {
+            "name": "Poesía Épica",
+            "effects": {
+                "Rally:d10": {
+                    "name": "Reagrupación: d10",
+                    "description": "<p>El dado de reagrupación aumenta a d10.</p>",
+                    "changes": {
+                        "system.bonuses.rally": "d10"
+                    }
+                }
+            }
+        },
+        "Clarity of Nature": {
+            "name": "Claridad de la Naturaleza"
+        },
+        "Invigorating": {
+            "name": "Vigorizante",
+            "effects": {
+                "Stance: Invigorating": {
+                    "name": "Postura: Vigorizante",
+                    "description": "<p>En un ataque exitoso, tira un d4. Con un resultado de 4, obtienes un Foco.</p>"
+                }
+            }
+        },
+        "Elemental Incarnation": {
+            "name": "Encarnación Elemental",
+            "effects": {
+                "Elemental Incarnation (Earth)": {
+                    "name": "Encarnación Elemental (Tierra)",
+                    "changes": {
+                        "system.damageThresholds.major": "@system.proficiency",
+                        "system.damageThresholds.severe": "@system.proficiency"
+                    }
+                },
+                "Elemental Incarnation (Air)": {
+                    "name": "Encarnación Elemental (Aire)",
+                    "description": "<p>Puedes flotar, obteniendo ventaja en las tiradas de Agilidad.</p>",
+                    "changes": {
+                        "system.advantageSources": "Ventaja en las tiradas de Agilidad"
+                    }
+                },
+                "Elemental Incarnation (Water)": {
+                    "name": "Encarnación Elemental (Agua)"
+                },
+                "Elemental Incarnation (Fire)": {
+                    "name": "Encarnación Elemental (Fuego)"
+                }
+            }
+        },
+        "Focus Cannon": {
+            "name": "Cañón de Foco"
+        },
+        "Ascendant": {
+            "name": "Ascendente",
+            "effects": {
+                "Ascendant": {
+                    "name": "Ascendente",
+                    "description": "<p>Obtén una bonificación permanente de +4 a tu umbral de daño Grave.</p>",
+                    "changes": {
+                        "system.damageThresholds.severe": "+4"
+                    }
+                }
+            }
+        },
+        "Dark Cloud": {
+            "name": "Nube Oscura"
+        },
+        "Adder's Blessing": {
+            "name": "Bendición de la Víbora"
+        },
+        "Vexing Malison": {
+            "name": "Maldición Fastidiosa",
+            "effects": {
+                "Vexing Malison": {
+                    "name": "Maldición Fastidiosa",
+                    "description": "<p>Tienes ventaja en los ataques contra criaturas hechizadas.</p>",
+                    "changes": {
+                        "system.advantageSources": "Ataques contra criaturas hechizadas"
+                    }
+                }
+            }
+        },
+        "Shadow Stepper": {
+            "name": "Pisador de Sombras",
+            "effects": {
+                "Shadow Stepper: Cloaked": {
+                    "name": "Pisador de Sombras: Encapotado",
+                    "description": "<p>Puedes moverte de sombra en sombra. Cuando te muevas hacia un área de oscuridad o una sombra proyectada por otra criatura u objeto, puedes marcar un Estrés para desaparecer de donde estás y reaparecer dentro de otra sombra en rango Lejano. Cuando reapareces, estás Encapotado.</p>"
+                }
+            }
+        },
+        "Fueled by Fear": {
+            "name": "Alimentado por el Miedo"
+        },
+        "Battle-Bonded": {
+            "name": "Vínculo de Batalla",
+            "effects": {
+                "Battle Bonded": {
+                    "name": "Vínculo de Batalla",
+                    "description": "<p>Cuando un adversario te ataque mientras se encuentre dentro del rango Cuerpo a cuerpo de tu compañero, obtienes una bonificación de +2 a tu Evasión contra el ataque.</p>",
+                    "changes": {
+                        "system.evasion": 2
+                    }
+                }
+            }
+        },
+        "Loyal Protector": {
+            "name": "Protector Leal"
+        },
+        "Death Strike": {
+            "name": "Golpe de Muerte"
+        },
+        "Exacting": {
+            "name": "Exigente",
+            "effects": {
+                "Stance: Exacting": {
+                    "name": "Postura: Exigente",
+                    "description": "<p>Cuando saques un 1 en un dado de daño, puedes tratarlo como el valor máximo del dado en su lugar.</p>"
+                }
+            }
+        },
+        "Twin Fang": {
+            "name": "Colmillo Gemelo"
+        },
+        "Expert Training": {
+            "name": "Entrenamiento Experto",
+            "effects": {
+                "Expert Training": {
+                    "name": "Entrenamiento Experto",
+                    "description": "<p>Elige una opción de subida de nivel adicional para tu compañero.</p>",
+                    "changes": {
+                        "system.companionData.levelupChoices": 1
+                    }
+                }
+            }
+        },
+        "Moon": {
+            "name": "Luna"
+        },
+        "Flow State": {
+            "name": "Estado de Flujo"
+        },
+        "Vanishing Act": {
+            "name": "Número de Desaparición",
+            "effects": {
+                "Vanishing Act: Cloaked": {
+                    "name": "Número de Desaparición: Encapotado",
+                    "description": "<p>Cuando estás Encapotado gracias a esta característica, eliminas automáticamente la condición de Retenido si la tienes. Permaneces Encapotado de esta manera hasta que hagas una tirada con Miedo o hasta tu próximo descanso.</p>"
+                }
+            }
+        },
+        "Rugged": {
+            "name": "Resistente",
+            "effects": {
+                "Rugged": {
+                    "name": "Resistente",
+                    "description": "<p>Obtén una bonificación permanente de +3 a tu umbral de daño Grave.</p>",
+                    "changes": {
+                        "system.damageThresholds.severe": 3
+                    }
+                }
+            }
+        },
+        "Act of Reprisal": {
+            "name": "Acto de Represalia",
+            "effects": {
+                "Act of Reprisal": {
+                    "name": "Acto de Represalia"
+                }
+            }
+        },
+        "Not Done Yet": {
+            "name": "Aún No He Terminado"
+        },
+        "Virtuoso": {
+            "name": "Virtuoso"
+        },
+        "Scorpion's Poise": {
+            "name": "Postura del Escorpión",
+            "effects": {
+                "Scropion's Poise": {
+                    "name": "Postura del Escorpión",
+                    "description": "<p>Obtienes una bonificación de +2 a tu Evasión contra los ataques realizados por una criatura que hayas <em>Marcado para Morir</em>.</p>",
+                    "changes": {
+                        "system.evasion": 2
+                    }
+                }
+            }
+        },
+        "Apex Predator": {
+            "name": "Depredador Alfa"
+        },
+        "Eye for an Eye": {
+            "name": "Ojo por Ojo"
+        },
+        "Stable": {
+            "name": "Estable",
+            "effects": {
+                "Stance: Stable": {
+                    "name": "Postura: Estable",
+                    "description": "<p>Puedes gastar un Foco en lugar de una Ranura de Armadura para reducir el daño.</p>"
+                }
+            }
+        },
+        "Courage": {
+            "name": "Valor"
+        },
+        "Regenerative Reach": {
+            "name": "Alcance Regenerativo"
+        },
+        "Revenge": {
+            "name": "Venganza"
+        },
+        "Conjure Shield": {
+            "name": "Conjurar Escudo",
+            "effects": {
+                "Conjure Shield": {
+                    "name": "Conjurar Escudo",
+                    "description": "<p>Mientras tengas al menos 2 de Esperanza, sumas tu Competencia a tu Evasión.</p>",
+                    "changes": {
+                        "system.evasion": "@system.proficiency"
+                    }
+                }
+            }
+        },
+        "Deathless Embrace": {
+            "name": "Abrazo Inmortal"
+        },
+        "Keen Defenses": {
+            "name": "Defensas Agudas",
+            "effects": {
+                "Keen Defenses": {
+                    "name": "Defensas Agudas"
+                }
+            }
+        }
 	}
 }

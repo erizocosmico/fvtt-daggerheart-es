@@ -1,18 +1,22 @@
 {
 	"label":"Clases",
 	"folders":{
-		"Class Features":"Rasgos de clase",
-		"Class Items":"Objetos de clase",
-		"Seraph":"Serafín",
-		"Bard":"Bardo",
-		"Druid":"Druida",
-		"Guardian":"Guardián",
-		"Ranger":"Explorador",
-		"Rogue":"Pícaro",
-		"Warrior":"Guerrero",
-		"Wizard":"Mago",
-		"Sorcerer":"Hechicero",
-		"Standard Take":"Equipo Estándar"
+		"Seraph": "Serafín",
+        "Bard": "Bardo",
+        "Druid": "Druida",
+        "Guardian": "Guardián",
+        "Ranger": "Explorador",
+        "Rogue": "Pícaro",
+        "Warrior": "Guerrero",
+        "Wizard": "Mago",
+        "Sorcerer": "Hechicero",
+        "Assassin": "Asesino",
+        "Brawler": "Peleador",
+        "Warlock": "Ocultista",
+        "Witch": "Bruja",
+        "Class Items": "Objetos de Clase",
+		"Class Features": "Rasgos de Clase",
+        "Standard Take": "Enfoque Estándar"
 	},
 	"mapping":{
 		"description":"system.description",
@@ -373,6 +377,171 @@
 		},
 		"9AM1YsPeuWSysdDo":{
 			"name":"Orbe Susurrante"
-		}
+		},
+		"0EFzupppM47Bl6Yw": {
+            "name": "Asesino",
+            "description": "<p>Los asesinos son maestros en infligir heridas mortales con golpes precisos. A diferencia de quienes usan la violencia solo como un medio para un fin, los asesinos abordan la muerte como una profesión. Muchos miembros de esta clase creen que la suya es un oficio digno, si no sagrado, y algunos se unen a gremios para perfeccionar su arte, definir sus creencias y ganar dinero. Personas de todos los ámbitos de la vida contratan asesinos por sus habilidades: gobernantes poderosos que buscan evitar una guerra abierta, líderes empresariales que buscan eliminar a la competencia e incluso gente común que espera resolver un rencor. A menudo, un asesino es el último recurso para matar a aquellos que previamente se creían inmortales. Mientras que algunos de estos profesionales mortales destruirán a cualquiera en su camino por las razones correctas o el precio adecuado, otros mantienen estrictos códigos morales o reglas personales que dictan sus objetivos. Aquellos que terminan siendo el objetivo de un asesino deberían contarse entre los muertos.</p>",
+            "backgroundQuestions": [
+                "Una vez mataste a alguien cercano a ti. ¿Qué pasó y cómo te cambió?",
+                "¿Qué organización te entrenó en el arte de matar y cómo te convertiste en miembro?",
+                "A lo largo de tu carrera, un objetivo se te ha escapado. ¿Quién es y cómo se ha zafado de tus manos?"
+            ],
+            "connections": [
+                "He matado a alguien por ti. ¿Quién era?",
+                "¿Cómo me salvaste cuando estaba al borde de la muerte? ¿Qué te he prometido como pago?",
+                "¿Qué secreto sobre mí te conté y cómo cambió tu visión sobre mí?"
+            ]
+        },
+        "0Qw2heB75eXNV4SM": {
+            "name": "Peleador",
+            "description": "<p>Expertos en el combate sin armas, los peleadores perfeccionan sus cuerpos para convertirlos en armas letales. Ya sea que hayan aprendido mediante un entrenamiento formal, estudiado con un mentor o adquirido sus habilidades pelea a pelea, el proceso es siempre riguroso a medida que desarrollan cuerpo y mente para que funcionen como uno solo. Los peleadores son valorados por su poder y versatilidad, y típicamente se unen a un grupo o a una causa cuando surge la necesidad o el deseo. Debido a que el cuerpo de un peleador es su arma más fuerte, suelen buscar nuevos desafíos o compañeros de práctica constantes para mantener sus habilidades y añadir nuevas técnicas a su repertorio. Aunque puedan parecer poco imponentes para quienes están acostumbrados a enemigos armados hasta los dientes, los peleadores a menudo logran más con sus nudillos desnudos que un soldado promedio con una espada.</p>",
+            "backgroundQuestions": [
+                "¿Dónde pasaste tiempo durante tus años formativos que te enseñó, directa o indirectamente, a luchar en el estilo que usas?",
+                "¿Qué organización ha jurado matarte en cuanto te vea y qué hiciste para provocar su ira?",
+                "¿Con quién perdiste una pelea recientemente contra el que estés desesperado por tener una revancha?"
+            ],
+            "connections": [
+                "¿Qué es algo a lo que ambos le tenemos miedo?",
+                "¿En qué confío en ti durante nuestros viajes? ¿Cómo te sientes al respecto?",
+                "Todavía no te he perdonado por algo que me dijiste. ¿Qué fue y por qué lo dijiste?"
+            ]
+        },
+        "73XdemkRkYNFiMqN": {
+            "name": "Libro sobre tu pasatiempo secreto"
+        },
+        "7nIDpcWOGzO8Y6gq": {
+            "name": "Amuleto de la Bruja",
+            "description": "<p>Cuando tú o un aliado dentro de un rango Lejano fallen una tirada de acción, puedes <strong>gastar 3 de Esperanza</strong> para cambiarla a un éxito con Miedo en su lugar.</p>"
+        },
+        "D3hK5ub4uuZqjRDR": {
+            "name": "Entrar y Salir",
+            "description": "<p><strong>Gasta una Esperanza</strong> para pedirle al DJ una forma rápida o discreta de entrar o salir de un lugar que puedas ver. La próxima tirada que hagas que actúe sobre esta información tendrá ventaja.</p>"
+        },
+        "EFgQVcDiADsKxG3T": {
+            "name": "Maldición",
+            "description": "<p><strong>Marca un Estrés</strong> para <em>Maldecir</em> temporalmente a un objetivo dentro de un rango Lejano. Mientras esté <em>Maldecido</em>, el objetivo recibe un penalizador a sus tiradas de daño y Dificultad igual a tu rango. El número máximo de criaturas que puedes <em>Maldecir</em> a la vez es igual a tu rasgo de Lanzamiento de Conjuros.</p>",
+            "effects": {
+                "Hex": {
+                    "name": "Maldición",
+                    "description": "<p>Mientras esté <em>Maldecido</em>, el objetivo recibe un penalizador a sus tiradas de daño y Dificultad igual a tu rango.</p>",
+                    "changes": {
+                        "system.difficulty": "ORIGIN.@tier",
+                        "system.bonuses.damage.bonus": "ORIGIN.@tier"
+                    }
+                }
+            }
+        },
+        "HHAmaNZDicgkill5": {
+            "name": "Bruja",
+            "description": "<p>Las brujas son practicantes mágicas que comunican con las fuerzas de la naturaleza y entidades de reinos más allá. Estas lanzadoras de conjuros convocan poder a través de su oficio, combinando lo tangible y lo efímero mediante el lanzamiento de hechizos, el murmullo de encantamientos, la creación de talismanes, el tejido de ilusiones y el mantenimiento de otras prácticas personalizadas. Pueden proteger a sus aliados y dañar a sus enemigos invocando fuerzas poderosas más allá de sí mismas: seres sobrenaturales como ancestros, deidades o aspectos de la naturaleza. A menudo, su conocimiento mágico es transmitido por estas entidades o a través de muchas generaciones de practicantes que se reúnen en pequeños grupos conocidos como aquelarres. Las brujas con frecuencia son temidas e incomprendidas, ya que sus métodos pueden parecer misteriosos, extraños e incluso macabros para los no iniciados. Cualquiera que sea el camino que recorran, una bruja camina por el límite entre la luz y la sombra sin temor.</p>",
+            "backgroundQuestions": [
+                "¿Quién de tu comunidad temía tu arte mágico? ¿Qué rumor esparcieron sobre ti y qué verdad contenía?",
+                "Una vez usaste tu poder para ayudar a alguien en una situación desesperada. ¿Quién era y por qué acudió a ti?",
+                "Tu magia una vez abrió una puerta que era mejor dejar cerrada. ¿Quién o qué estaba al otro lado?"
+            ],
+            "connections": [
+                "¿Qué ritual o práctica única te he enseñado que ahora realizamos juntos?",
+                "Una vez me aparecí en un sueño tuyo y compartí una visión del futuro. ¿Qué te dije?",
+                "¿Para qué sueles pedirme consejo habitualmente?"
+            ]
+        },
+        "IOWBzweDFPoAHtQW": {
+            "name": "Pacto del Patrón",
+            "description": "<p>Te has comprometido con una entidad sobrenatural —como un dios, un fae o un demonio— a cambio de poder. Escribe su nombre en tu hoja de personaje y luego trabaja con tu DJ para determinar su esfera de influencia (como Naturaleza, Caos, Sabiduría, Travesura, Amor, Guerra, Justicia o Muerte). Antes de hacer una tirada de acción relacionada con la esfera de influencia de tu patrón, puedes <strong>gastar un Favor</strong> para invocar su ayuda, tirando tu Dado de Patrón y sumando el resultado al total. Tu Dado de Patrón comienza en un <strong>[[/r d6]]</strong> y aumenta a un <strong>[[/r d8]]</strong> en el nivel 5.</p>"
+        },
+        "JqqUpW7aqMuNoqXc": {
+            "name": "Una pequeña mascota inofensiva"
+        },
+        "KGnwxeMYR4V7LJVi": {
+            "name": "Anillo que no te puedes quitar"
+        },
+        "LtG3pKzd4gtfLgFJ": {
+            "name": "Ataque Combo",
+            "description": "<p>Después de tirar el daño en un ataque exitoso con un arma Cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para iniciar un ataque combo. Cuando lo hagas, tira tu Dado Combo y anota el resultado, luego continúa tirando tu Dado Combo hasta que el resultado de tu última tirada sea inferior a la tirada que la precedió. Infliges daño adicional igual al total de todos los resultados del Dado Combo tirados en este ataque. Los resultados no se pueden modificar por ningún medio.</p><p>Tu Dado Combo comienza como un <strong>d4</strong>. Una vez por rango, puedes aumentar tu Dado Combo un paso como opción de avance de nivel.</p>"
+        },
+        "OGPn7DUJoJwAXh8o": {
+            "name": "Favor",
+            "description": "<p>Comienzas con 3 de Favor. Puedes usar un movimiento de descanso para rendir tributo a tu patrón. Describe cómo y gana un Favor igual a tu rasgo de Lanzamiento de Conjuros. Además, cuando tengas éxito en una tirada de acción con Esperanza, puedes elegir ganar un Favor en lugar de una Esperanza.</p>"
+        },
+        "QmFMbJzPV7DPLvjk": {
+            "name": "Bendición del Patrón",
+            "description": "<p>Cuando falles una tirada, puedes <strong>gastar 3 de Esperanza</strong> para volver a tirar con ventaja.</p>"
+        },
+        "WgUrpNTlX92k0Xs3": {
+            "name": "Yo soy el Arma",
+            "description": "<p>Tus ataques a mano vacía son tan fuertes como cualquier hoja. Tienes un arma principal llamada Golpe de Peleador equipada mientras no tengas otras Armas Activas. Usa un rasgo de tu elección, tiene rango Cuerpo a cuerpo e inflige <strong>d8+d6</strong> de daño físico usando tu Competencia (tanto el <strong>d8</strong> como el <strong>d6</strong> escalan con tu Competencia). Mientras esta arma esté activa, obtienes una bonificación de +1 a tu Evasión.</p>",
+            "effects": {
+                "I Am the Weapon": {
+                    "name": "Yo soy el Arma",
+                    "description": "<p>Tus ataques a mano vacía son tan fuertes como cualquier hoja. Tienes un arma principal llamada Golpe de Peleador equipada mientras no tengas otras Armas Activas. Usa un rasgo de tu elección, tiene rango Cuerpo a cuerpo e inflige <strong>d8+d6</strong> de daño físico usando tu Competencia (tanto el <strong>d8</strong> como el <strong>d6</strong> escalan con tu Competencia). Mientras esta arma esté activa, obtienes una bonificación de +1 a tu Evasión.</p>",
+                    "changes": {
+                        "system.evasion": 1
+                    }
+                }
+            }
+        },
+        "XxS0Li1P6SqIho7T": {
+            "name": "Marcado para Morir",
+            "description": "<p>En un ataque exitoso con arma, puedes <strong>marcar un Estrés</strong> para hacer que el objetivo esté <em>Marcado para Morir</em>. Cuando inflijas daño a un objetivo que hayas <em>Marcado para Morir</em>, añade una cantidad de <strong>d4s</strong> igual a tu rango a la tirada de daño.</p><p>Solo puedes tener un adversario <em>Marcado para Morir</em> a la vez. Esta condición dura hasta que tomes un descanso, el adversario actualmente <em>Marcado para Morir</em> sea derrotado, o el DJ gaste una cantidad de Miedo igual a tu rango para eliminarla.</p>",
+            "effects": {
+                "Marked For Death": {
+                    "name": "Marcado para Morir",
+                    "description": "<p>Cuando inflijas daño a un objetivo que hayas <em>Marcado para Morir</em>, añade una cantidad de <strong>d4s</strong> igual a tu rango a la tirada de daño.</p><p>Solo puedes tener un adversario <em>Marcado para Morir</em> a la vez. Esta condición dura hasta que tomes un descanso, el adversario actualmente <em>Marcado para Morir</em> sea derrotado, o el DJ gaste una cantidad de Miedo igual a tu rango para eliminarla.</p>"
+                },
+                "DUy0e3sEGIzSdBWA": {
+                    "name": "Marcado para Morir",
+                    "description": "<p>Cuando inflijas daño a un objetivo que hayas <em>Marcado para Morir</em>, añade una cantidad de <strong>d4s</strong> igual a tu rango a la tirada de daño.</p>",
+                    "changes": {
+                        "system.bonuses.damage.bonus": "(@system.tier)d4"
+                    }
+                }
+            }
+        },
+        "a4MyV9MZZFY4dKCZb": {
+            "name": "Lista de nombres con varios tachados"
+        },
+        "c1jomE48GRyNeXMY": {
+            "name": "Talla que simboliza a tu patrón"
+        },
+        "cgq9QzytVs6uyaBW": {
+            "name": "Ocultista",
+            "description": "<p>Aquellos que han comerciado sus vidas —o tal vez incluso sus almas— con un patrón de otro mundo a cambio de un poder increíble son conocidos como brujos. A menudo, estos mortales han llegado a un punto de desesperación que los lleva a hacer este sacrificio: esperan protegerse a sí mismos o a un ser querido, ayudar a su comunidad, buscar venganza, elevar su estatus o promover sus ambiciones. Las poderosas entidades a las que suplican son tan variadas como los propios brujos: dioses, espíritus, demonios u otros seres desconocidos incluso para el mortal que realiza el pacto. Cada una de las entidades tiene su propia esfera de influencia que define su poder de otro mundo, y aquellas que recogen almas rara vez son conocidas por su benevolencia. Por lo tanto, el poder de un brujo se define por la relación que mantiene con su benefactor. A pesar de su magia aterradora, los brujos pueden descubrir que alguien o algo más está moviendo sus hilos.</p>",
+            "backgroundQuestions": [
+                "¿Quién de tu comunidad te rechazó después de que hiciste un pacto con tu patrón?",
+                "¿Qué situación desesperada te llevó a comprometer tu vida con tu patrón?",
+                "Tu patrón te ha encomendado una tarea que debes cumplir por encima de todo. ¿Cuál es y por qué te preocupa?"
+            ],
+            "connections": [
+                "¿Por qué crees que confío en ti sobre lo que mi patrón dice y hace?",
+                "Nuestra relación ha cambiado desde que me viste rendir tributo a mi patrón. ¿Qué viste y cómo te ha afectado?",
+                "Una vez hice algo muy tonto y nunca me has dejado olvidarlo. ¿Qué fue?"
+            ]
+        },
+        "koq6qy5n7alp7kcb": {
+            "name": "Comunión",
+            "description": "<p>Una vez por descanso largo durante un momento de calma, puedes comunicarte con un ancestro, una deidad, un espíritu o un ser de otro mundo. Hazles una pregunta y luego tira un número de <strong>[[/r d6]]{d6s}</strong> igual a tu rasgo de Lanzamiento de Conjuros. Elige uno de los resultados y consulta la tabla a continuación para el efecto.</p><ul><li><p>1–3: Saboreas un sabor, hueles un aroma o sientes una sensación relevante para la respuesta.</p></li><li><p>4–5: Escuchas sonidos o ves una visión relevante para la respuesta.</p></li><li><p>6: Experimentas psíquicamente una escena relevante para la respuesta como si estuvieras allí.</p></li></ul>"
+        },
+        "l787jY8NXcccj6GA": {
+            "name": "Piedra de adivinación"
+        },
+        "lO3Xyd21qYimrWBs": {
+            "name": "Determinación Mortal",
+            "description": "<p><strong>Gasta 3 de Esperanza</strong> para limpiar 2 de Estrés.</p>"
+        },
+        "pPP9dHHa00lekbuu": {
+            "name": "Plantarse",
+            "description": "<p><strong>Gasta 3 de Esperanza</strong> para intimidar a un objetivo dentro de un rango Cercano, volviéndolo temporalmente <em>Vulnerable</em>.</p>",
+            "effects": {
+                "Square Up": {
+                    "name": "Plantarse"
+                }
+            }
+        },
+        "wVYM6LqwYCKwwbh4": {
+            "name": "Vendas para manos de un mentor"
+        },
+        "x9H46Uwlq85bqRaU": {
+            "name": "Hoja oxidada grabada con una insignia"
+        }
 	}
 }

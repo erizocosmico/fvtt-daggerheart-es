@@ -329,6 +329,74 @@
 		"Katari": {
 			"name": "Katari",
 			"description": "<p>Los katari son humanoides felinos con garras retráctiles, pupilas verticales y orejas altas y triangulares.<br><br><p>También pueden tener colmillos pequeños y puntiagudos, pelaje suave y bigotes largos que les facilitan la percepción y la orientación. Sus orejas pueden girar casi 180 grados para detectar sonidos, lo que aumenta sus sentidos. Los katari pueden parecer más o menos felinos o humanoides, con atributos felinos como el pelo, los bigotes y el hocico. Aproximadamente la mitad de la población katari tiene cola. Su piel y pelaje presentan una amplia gama de tonos y patrones, incluyendo colores sólidos, rayas atigradas y una variedad de manchas, parches, jaspeado o bandas. Su altura oscila entre 90 y 1.95 metros, y viven unos 150 años.</p></p>"
-		}
+		},
+		"Skykin": {
+            "name": "Celeste",
+            "description": "<p>Los celestes son humanoides cuyos cuerpos están hechos de carne y aire.</p>"
+        },
+        "Immovable": {
+            "name": "Inamovible",
+            "description": "<p>Mientras estés tocando el suelo, no puedes ser levantado ni movido en contra de tu voluntad.</p>"
+        },
+        "Ignition": {
+            "name": "Ignición",
+            "description": "<p><strong>Marca un Estrés</strong> para envolver tu arma principal en llamas hasta el final de la escena. Mientras el arma esté ardiendo, emite una luz brillante y obtienes una bonificación de <strong>1d6</strong> a las tiradas de daño con esa arma.</p>"
+        },
+        "Eye of the Storm": {
+            "name": "Ojo de la Tormenta",
+            "description": "<p><strong>Gasta 2 de Esperanza</strong> para otorgarte a ti o a un aliado en rango Cuerpo a cuerpo una bonificación de +1 a la Evasión hasta que recibas daño grave o vuelvas a usar esta característica.</p>"
+        },
+        "Lifespring": {
+            "name": "Manantial Vital",
+            "description": "<p>Una vez por descanso, cuando tengas acceso a una pequeña cantidad de agua, puedes <strong>marcar un Estrés</strong> para sanar un Punto de Golpe en ti mismo o en un aliado en rango Muy cercano.</p>"
+        },
+        "Aetheris": {
+            "name": "Aetheris",
+            "description": "<p>Los aetheris son humanoides reconocibles principalmente por sus alas y marcas sagradas.</p>"
+        },
+        "Gnome": {
+            "name": "Gnomo",
+            "description": "<p>Los gnomos suelen ser humanoides pequeños con cabezas cónicas y la capacidad de teletransportarse corta distancia.</p>"
+        },
+        "Stoneskin": {
+            "name": "Piel de Piedra",
+            "description": "<p>Obtén una bonificación permanente de +1 a tu Puntuación de Armadura y umbrales de daño al crear el personaje.</p>"
+        },
+        "Earthkin": {
+            "name": "Terrestre",
+            "description": "<p>Los terrestres son humanoides cuyos cuerpos están hechos de carne y tierra.</p>"
+        },
+        "Gale Force": {
+            "name": "Fuerza de Vendaval",
+            "description": "<p><strong>Marca un Estrés</strong> para conjurar una ráfaga de viento que te lleva a ti o a un aliado muy cercano hasta un rango Muy lejano. Además, siempre puedes controlar la velocidad a la que caes.</p>"
+        },
+        "Hallowed Aura": {
+            "name": "Aura Sagrada",
+            "description": "<p>Una vez por descanso largo, cuando un aliado en rango Cercano tire con Miedo, puedes cambiarlo por una tirada con Esperanza en su lugar.</p>"
+        },
+        "Emberkin": {
+            "name": "Ígneo",
+            "description": "<p>Los ígneos son humanoides cuyos cuerpos están hechos de carne y fuego.</p>"
+        },
+        "Flicker Step": {
+            "name": "Paso Parpadeante",
+            "description": "<p>Una vez por escena, puedes teletransportarte a otro punto que puedas ver dentro de un rango Lejano.</p>"
+        },
+        "Celestial Wings": {
+            "name": "Alas Celestiales",
+            "description": "<p>Tienes alas que te permiten volar. Una vez por escena mientras vuelas, puedes <strong>gastar 1 de Esperanza</strong> en lugar de marcar una ranura de armadura.</p>"
+        },
+        "Nimble Fingers": {
+            "name": "Manos Ágiles",
+            "description": "<p>Cuando realices una tirada de Finesse (Destreza), puedes <strong>gastar 2 de Esperanza</strong> para volver a tirar tu Dado de Esperanza.</p>"
+        },
+        "Tidekin": {
+            "name": "Oceánico",
+            "description": "<p>Los oceánicos son humanoides cuyos cuerpos están hechos de carne y agua.</p>"
+        },
+        "Fireproof": {
+            "name": "Ignífugo",
+            "description": "<p>Eres inmune al daño de llamas mágicas o mundanas.</p>"
+        }
 	}
 }
